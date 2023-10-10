@@ -1,0 +1,8 @@
+{
+  "label": "SAP Business One functions",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Here you can find information on some of the general SAP Business One functions supported in ProcessForce."
+  }
+}

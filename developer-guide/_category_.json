@@ -1,0 +1,8 @@
+{
+  "label": "ProcessForce Developers's Guide",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Here you can find information about ProcessForce useful for developers, e.g., PowerShell scripts and SQL queries."
+  }
+}
