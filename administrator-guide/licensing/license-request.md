@@ -1,6 +1,6 @@
 # Request for a license
 
-To obtain a license file, please create a support ticket at [the CompuTec support portal](support.computec.pl) (Type: Information, Component: License request) and provide the following information:
+To obtain a license file, please create a support ticket at [the CompuTec support portal](https://support.computec.pl) (Type: Information, Component: License request) and provide the following information:
 
 ## License type
 
