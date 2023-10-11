@@ -22,7 +22,7 @@ Please note that 22.10.2018 updated and standardized scripts have been released.
 
 ## Required files
 
-You can use predefined PowerShell scripts. The latest versions are available from [our public git repository](https://code.computec.pl/projects/PFDEV/repos/powershell-scripts/browse).
+You can use predefined PowerShell scripts. The latest versions are available from [our public git repository](https://github.com/CompuTec/processforce-powershell).
 
 Download:
 
