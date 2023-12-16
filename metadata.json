@@ -2,5 +2,6 @@
   "label": "ProcessForce",
   "pluginId": "processforce",
   "routeBasePath": "/processforce",
-  "order": 1
+  "order": 1,
+  "currentVersion": "10.0"
 }
