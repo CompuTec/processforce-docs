@@ -32,4 +32,4 @@ Administration → Setup → Quality Control → Test Property Groups
 
 This form allows the user to define Test Property Groups that are used to group Test Properties into categories for analysis and reporting purposes.
 
-![Test Property Group](./media/test-property-group.png)
+<!-- ![Test Property Group](./media/test-property-group.png) -->

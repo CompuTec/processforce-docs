@@ -1,0 +1,6 @@
+{
+  "label": "ProcessForce",
+  "pluginId": "processforce",
+  "routeBasePath": "/processforce",
+  "order": 1
+}

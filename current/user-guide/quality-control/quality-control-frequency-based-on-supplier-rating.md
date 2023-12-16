@@ -21,11 +21,10 @@ Please note that for the correct operation of the function, the following piece 
 
 This procedure is essential to manage at which intervals the Quality Control Test is to be performed based on the predefined Counters.
 
-
-|         File type         |  MS SQL  |   HANA   |
-|:-------------------------:|:--------:|:--------:|
-| Procedure                 | [Download](./media/MSSQL_CT_PF_QC_FREQ_PROC.zip) | [Download](./media/HANA_CT_PF_QC_FREQ_PROC.zip) |
-| PostTransact modification | [Download](./media/MSSQL_SBO_SP_PostTransactionNotice_mod.zip) | [Download](./media/HANA_SBO_SP_PostTransactionNotice_mod.zip) |
+<!-- |         File type         |  MS SQL  |   HANA   | -->
+<!-- |:-------------------------:|:--------:|:--------:| -->
+<!-- | Procedure                 | [Download](./media/MSSQL_CT_PF_QC_FREQ_PROC.zip) | [Download](./media/HANA_CT_PF_QC_FREQ_PROC.zip) | -->
+<!-- | PostTransact modification | [Download](./media/MSSQL_SBO_SP_PostTransactionNotice_mod.zip) | [Download](./media/HANA_SBO_SP_PostTransactionNotice_mod.zip) | -->
 
 :::
 
@@ -40,7 +39,6 @@ Administration → System Initialization → General Settings → ProcessForce �
 :::
 
 "Enable Create Closed QC Tests from Frequency Rules" option must be checked. QC Test, which not fulfills condition defined in Counter Schema (Counter Value), with ll be created with the status Closed. The system will generate QC Test for all transactions.
-
 
 ![General Settings](./media/general-settings-qc-frequency.png)
 
@@ -80,7 +78,7 @@ Fields:
 
 **Counter Schema Name** – standard, alphanumeric field to put a bit more information about counter
 
-**Counter Type** – there are three main types of Counters: number of occurrences, amount of time (used to count down a deadline for the next event), and date (specific date, Inspection Date, Expiry Date). 
+**Counter Type** – there are three main types of Counters: number of occurrences, amount of time (used to count down a deadline for the next event), and date (specific date, Inspection Date, Expiry Date).
 
 **Occurrences** – refers to the Counting Units: Transaction, Batch, Serial Number, Inventory UoM (in the future, a few more options will be available, e.g., After Time Period, After Specific Date, Before Expiry Date, Before Inspection Date).
 
@@ -88,7 +86,7 @@ Fields:
 
 **Counting Unit** – Transaction, Batch, Serial Number, Inventory UoM, Day, Week, Month
 
-**Counters counted on Transaction's base**: Next QC Tests/QC Pool will be executed for the transaction when counted value of UoM Type >= Counter Value [UoM Type] after last: QC Test, QC Pool. For Occurrences, UoM Type can be the number of Transactions, Batches, Serial Numbers, Inventory UoM, 
+**Counters counted on Transaction's base**: Next QC Tests/QC Pool will be executed for the transaction when counted value of UoM Type >= Counter Value [UoM Type] after last: QC Test, QC Pool. For Occurrences, UoM Type can be the number of Transactions, Batches, Serial Numbers, Inventory UoM,
 
 ~~**Penalty QC Tests** – if the checked number of QC Tests defined in Penalty Counter Value will be executed if QC Test is failed (for Counter Type: Occurrences, Time Period)~~
 
@@ -108,23 +106,22 @@ Variable part consists of checked: Business Partner (value from the transaction,
 
 Examples of selectable criteria combinations:
 
-| Business Partner | Transaction Type | Item | Revision | Result: Counters will be counted for UoM Type per each: |
-|:----------------:|:----------------:|:----:|:--------:|:-------------------------------------------------------:|
-|         x        |                  |      |          | Business Partner                                        |
-|         x        |         x        |      |          | Business Partner & Transaction Type                     |
-|         x        |         x        |   x  |          | Business Partner & Transaction Type & Item              |
-|         x        |         x        |   x  |     x    | Business Partner & Transaction Type & Item & Revision   |
-|                  |                  |   x  |          | Business Partner & Item                                 |
-|                  |                  |   ~~x~~  |     ~~x~~    | ~~Item & Revision*~~                                        |
-|                  |         ~~x~~        |   ~~x~~  |     ~~x~~    | ~~Transaction Type & Item & Revision*~~                     |
-|                  |         ~~x~~        |      |          | ~~Transaction Type & TP*~~                                  |
+| Business Partner | Transaction Type | Item  | Revision | Result: Counters will be counted for UoM Type per each: |
+| :--------------: | :--------------: | :---: | :------: | :-----------------------------------------------------: |
+|        x         |                  |       |          |                    Business Partner                     |
+|        x         |        x         |       |          |           Business Partner & Transaction Type           |
+|        x         |        x         |   x   |          |       Business Partner & Transaction Type & Item        |
+|        x         |        x         |   x   |    x     |  Business Partner & Transaction Type & Item & Revision  |
+|                  |                  |   x   |          |                 Business Partner & Item                 |
+|                  |                  | ~~x~~ |  ~~x~~   |                  ~~Item & Revision\*~~                  |
+|                  |      ~~x~~       | ~~x~~ |  ~~x~~   |        ~~Transaction Type & Item & Revision\*~~         |
+|                  |      ~~x~~       |       |          |               ~~Transaction Type & TP\*~~               |
 
-'*' – options planned to be implemented in the next phase
+'\*' – options planned to be implemented in the next phase
 
 ## Business Partner Master Data
 
 In Business Partner Master Data, there is a field called QC Qualification. This field needs to be filled when we want to use QC rating. Available ratings are previously defined in Administration -> Setup -> Quality Control -> BP QC Qualification.
-
 
 ## Test Protocol
 
@@ -142,7 +139,7 @@ Frequency tab:
 
 **Counter Schema Name** – from Counter Scheme UDS
 
-**Active** – determines if the frequency rule is active  y/n
+**Active** – determines if the frequency rule is active y/n
 
 **Use For** – select from QC Code, QC Rating, None. It determines using of the TP according to the frequency rule for BP based on the BP QC Code range or BP QC Rating range.
 
@@ -150,19 +147,19 @@ Frequency tab:
 
 **BP QC Rating From, BP QC Rating To** – range based on BP QC rating
 
-**None** – frequency rule is used without consideration of BP QC qualification                                                                                
+**None** – frequency rule is used without consideration of BP QC qualification
 
 **Counter Type** – from Counter Scheme UDS
 
 ~~**Transaction Type** – type selected from transaction checked in TP/Frequency tab UDS~~
 
-**Counter Value** – from Counter Scheme Field 
+**Counter Value** – from Counter Scheme Field
 
 **Counting Unit** – from Counter Scheme UDS
 
-**BP  QC Code From,  Business Partner Qualification** – Code value 
+**BP QC Code From, Business Partner Qualification** – Code value
 
-**BP QC Code To - Business Partner Qualification** – Code value 
+**BP QC Code To - Business Partner Qualification** – Code value
 
 Close QC Tests -
 
@@ -172,14 +169,13 @@ b) If in Protocol Close QC Test = No, then tests are generated only for occurren
 
 Enable Create Closed QC Tests from Frequency Rules in GS switch on/off above functionally globally - it works like in b).
 
-
 ## ~~Counters grid for selected Rule
 
 **Counter ID** – key in counters table
 
 **Current Counter** – calculated number of UoM type
 
-**Current Penalty**  – calculated, the canter of penalty QC Tests
+**Current Penalty** – calculated, the canter of penalty QC Tests
 
 **Total Counter** – calculated
 
