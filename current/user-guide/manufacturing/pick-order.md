@@ -34,4 +34,3 @@ Note: If multiple requirements exist for the same item across several Manufactur
 
 To perform the rest of the Pick Order to Production Goods Issue cycle, visit this page: Pick Order Bin Locations and Allocations.
 
-To view video content to set this up, **ADD LINK** click here.

@@ -38,4 +38,3 @@ Production → Bill of Materials → Bill of Materials → Scrap Tab
 - Type in Remarks to a specific Scrap.
 
 ![Scrap Tab](./media/bill-of-materials-scrap.png)
-

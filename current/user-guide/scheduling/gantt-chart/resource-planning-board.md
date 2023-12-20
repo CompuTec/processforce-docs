@@ -74,7 +74,7 @@ Data displayed on the row:
 
     checked checkbox icon - a Task is closed: work on it has been recorded with the option Close Task in CompuTec PDC
 
-    lock icon - this Task is **ADD LINK** frozen
+    lock icon - this Task is frozen
 
     person icon - this task is assigned
 
@@ -94,7 +94,7 @@ Data displayed on the row:
 
 - Resource relation indicator (brown strip with a number on the far right of the Task rows on the example above) – if the chosen Resource is a Machine type, a Resource code of a related Tool Resource is displayed here. If the Resource is a Tool type, a Resource code of a related Machine Resource is shown here.
 
-You can define up to 8 columns to be displayed on a Task row related to a specific Resource. You can check **ADD LINK** here how to do this.
+You can define up to 8 columns to be displayed on a Task row related to a specific Resource.
 
 ### Scheduling
 

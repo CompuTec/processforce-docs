@@ -112,6 +112,6 @@ It is possible to set a period of validity for a Routing on a Production Process
 
 ![Production Process Validity](./media/production-process-validity.png)
 
-**Example usage**
+### Example usage
 
 A specific company in the food industry for a particular Item has defined a single Bill of Materials but different Routings based on the period of the year (which can be connected to temperature, humidity, etc.).

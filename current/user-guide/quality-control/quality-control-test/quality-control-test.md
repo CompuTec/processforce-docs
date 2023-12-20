@@ -20,7 +20,7 @@ Quality Control → Quality Control Test
 
 This form allows the user to create a Quality Control Test.
 
-1. Select and add a **ADD LINK** Test Protocol Number. All the data defined within the Test Protocol is copied into the Quality Control Test.
+1. Select and add a  [Test Protocol](./../test-protocols/test-protocol-for-operation.md) Number. All the data defined within the Test Protocol is copied into the Quality Control Test.
 
 2. Select and add a Document Series Number.
 
@@ -38,9 +38,9 @@ When the Test is complete, the Test Status can be selected (Pass/Failed), and th
 
 ## Test Properties
 
-The **ADD LINK** Test Properties tab allows the user to record the results of the Tests.
+The Test Properties tab allows the user to record the results of the Tests.
 
-Note: The Test and Item Properties are copied from the **ADD LINK** Test Protocol. Additional Properties can be added and deleted from both tabs.
+Note: The Test and Item Properties are copied from the Test Protocol. Additional Properties can be added and deleted from both tabs.
 
 Within the Tested Value and Tested Reference Code, the user enters the tested value and selects the Pass/Fail option.
 
@@ -56,7 +56,7 @@ The Item Properties tab allows the user to record the results of the Item Proper
 
 The Defects tab allows the user to view the sample size and enter the test's Passed and Defect quantity results.
 
-**ADD LINK** Defect codes can be added to categorize the failure and are used for analysis and reporting purposes. 
+Defect codes can be added to categorize the failure and are used for analysis and reporting purposes. 
 
 Note: these codes are copied to the NCMR transaction.
 
@@ -66,7 +66,7 @@ When the Quality Control Test is complete, the user can record the type of Inven
 
 ### Raising Non-Conforming Materials Report - NCMR
 
-If a Quality Control Test has failed, the user can request an NCMR to be created (click **ADD LINK** here to find out more about NCMR).
+If a Quality Control Test has failed, the user can request an NCMR to be created (click [here](./../ncmr-non-conforming-materials-report.md) to find out more about NCMR).
 
 To create an NCMR, the user has to check the NCMR checkbox and choose an NCMR Inspector Code in the Defects tab.
 
@@ -78,7 +78,7 @@ The Transaction tab provides the user with the details of the Transaction Type, 
 
 The user can also record the Batch and Serial number(s).
 
-It is possible to **ADD LINK** automatically change assigned Batches' status on passing Quality Control Test.
+It is possible to  [automatically change assigned Batches' status on passing Quality Control Test](./../../../user-guide/system-initialzation/general-settings/qc-tab.md).
 
 ![Quality Control Test Transaction](./media/quality-control-test-2.png)
 

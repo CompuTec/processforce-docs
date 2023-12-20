@@ -6,7 +6,7 @@ Test properties – the core of the Quality Control Test – can be defined and 
 Administration → Setup → Quality Control → Test Properties
 :::
 
-This form allows the user to define Test Properties and is used within **ADD LINK** the Test Protocol Template, Test Protocol and Quality Control Test forms to determine and record testing results.
+This form allows the user to define Test Properties and is used within the Test Protocol Template, Test Protocol and Quality Control Test forms to determine and record testing results.
 
 The Used Count field indicates how often the Test Property has been used and is used for reporting and analysis purposes.
 
@@ -32,4 +32,4 @@ Administration → Setup → Quality Control → Test Property Groups
 
 This form allows the user to define Test Property Groups that are used to group Test Properties into categories for analysis and reporting purposes.
 
-<!-- ![Test Property Group](./media/test-property-group.png) -->
+[Test Property Group](./media/test-property-group.png)

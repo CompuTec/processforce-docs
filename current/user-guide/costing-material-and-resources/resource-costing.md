@@ -88,7 +88,7 @@ Resource Costs are expressed as an Hourly rate, and this Hourly rate may be a co
 
 If machine and labor rates are required separately, there are two ways to do it:
 
-Adding the labor rate as fixed overhead (or variable overhead) as a specific value, e.g., 10, or as a % of the Hourly rate, e.g., 10% of 20 = 2 (you can use [Multistructure Fixed and Variable Overhead Costs option](./item-costing/multistructure-fixed-and-variable-overhead-costs.md)
+Adding the labor rate as fixed overhead (or variable overhead) as a specific value, e.g., 10, or as a % of the Hourly rate, e.g., 10% of 20 = 2 (you can use [Multistructure Fixed and Variable Overhead Costs option](./item-costing/multistructure-fixed-and-variable-overhead-costs.md))
 Create a specific resource called Labor and assign its costs and Resource Accounting codes.
 
 ## Resource Accounting

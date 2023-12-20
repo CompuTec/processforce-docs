@@ -26,4 +26,4 @@ Press the Select button to display these orders within the Gantt display.
 
 ![Deselecting Manufacturing Order](./media/scheduling-show-in-gantt.png)
 
-Clicking the arrow down on the Select button allows you to go to **ADD LINK** Scheduling Board.
+Clicking the arrow down on the Select button allows you to go to Scheduling Board.

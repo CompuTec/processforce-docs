@@ -1,3 +1,3 @@
 # Yield Based Production
 
-To view details of yield planning click **ADD LINK** here and for yield analysis click **ADD LINK** here.
+To view details of yield planning click [here](./../../user-guide/formulations-and-bill-of-materials/bill-of-materials/bom-planned-yield.md) and for yield analysis click [here](./../../user-guide/formulations-and-bill-of-materials/bill-of-materials/yield-analysis.md).

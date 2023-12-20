@@ -40,7 +40,7 @@ Quality Control → Test Protocol
 
 The left side of the header holds information on Test Protocol: Code (related Name is on the right) and Used Count – a value that indicates how many times the Test Protocol has been used (it is used for reporting and analysis purposes only). On the left side, you can also define Item related data: choose an Item, Revision (if required), default Quality Control Test Warehouse and Bin location, and Project.
 
-The right side holds information on **ADD LINK** the Test Protocol Template used for this Test Protocol (and Test Protocol name on the top). Template Name, Group, Created Date, and Update Date (the date of the last update of a template) are filled automatically upon choosing a Template Code.
+The right side holds information on the Test Protocol Template used for this Test Protocol (and Test Protocol name on the top). Template Name, Group, Created Date, and Update Date (the date of the last update of a template) are filled automatically upon choosing a Template Code.
 
 Valid from and Valid to dates are defined for a specific Test Protocol. If the current date is outside the specified range, adding a Quality Control Test based on this Test Protocol will not be possible.
 
@@ -48,7 +48,7 @@ Valid from and Valid to dates are defined for a specific Test Protocol. If the c
 
 ### Test Properties
 
-Here you can manage **ADD LINK** Test Properties: data elements representing the tests to be conducted within the Quality Control Test. Test Properties are copied from a **ADD LINK** Test Protocol Template chosen in the header. After this, you can add or remove the Properties before saving the Test Protocol.
+Here you can manage Test Properties: data elements representing the tests to be conducted within the Quality Control Test. Test Properties are copied from a Test Protocol Template chosen in the header. After this, you can add or remove the Properties before saving the Test Protocol.
 
 Note. When the user adds the Item Number to the Header, the Item Properties defined within the Item Details/Properties Tab and have the Quality Control Testing field checked are copied into the Item Property Code (bottom grid).
 
@@ -56,13 +56,13 @@ The user can enter valid from and to date details, the expression, and correspon
 
 ### Item Properties
 
-In this tab, you can define **ADD LINK** Item Properties – physical and chemical characteristics of an Item. When the user adds the Item Number to the Header, the Item Properties that are explained within the **ADD LINK** Item Details > Properties tab of a related Item and have the Quality Control Testing field checked on **ADD LINK** the Item Property form are copied into the Item table. You can now add or remove properties and edit their details.
+In this tab, you can define  Item Properties – physical and chemical characteristics of an Item. When the user adds the Item Number to the Header, the Item Properties that are explained within the  Item Details > Properties tab of a related Item and have the Quality Control Testing field checked on  the Item Property form are copied into the Item table. You can now add or remove properties and edit their details.
 
 ![Test Protocol Item Properties](./media/test-protocol-item-properties.png)
 
 ### QC Test/QC Pool Par.
 
-Click **ADD LINK** here to find out more.
+Click [here](./quality-control-tests-pool.md) to find out more.
 
 ### Frequency
 
@@ -76,7 +76,7 @@ The Frequency tab allows the user to define 'When' a test will occur.
 
  - **After No. of Batches** – you can define the number of Batches after the recording of which a test will be performed.
 
- - **Batch Record Inspection Date** – if checked, the Inspection Date on **ADD LINK** the Batch Master Data form > Date Details tab is taken under consideration.
+ - **Batch Record Inspection Date** – if checked, the Inspection Date in the Batch Master Data form > Date Details tab is taken under consideration.
 
  - **Specific date** – put a specific date manually.
 
@@ -90,7 +90,7 @@ The Frequency tab allows the user to define 'When' a test will occur.
 
  - **Refers to** – defines the base on which Test Protocol with defined quantity will be created (Lot, Batch, Document Line).
    
- - **Create QC Tests Pool** – click **ADD LINK** here to find out more.
+ - **Create QC Tests Pool** – click [here](./quality-control-tests-pool.md) here to find out more.
 
 ![Test Protocol Frequency](./media/test-protocol-frequency.png)
 
@@ -114,7 +114,7 @@ Click **ADD LINK** here to find out more.
 
 ### Resources
 
-This form allows users to add **ADD LINK** resources to the Quality Control Test.
+This form allows users to add Resources to the Quality Control Test.
 
 The required quantity can also be added.
 
@@ -124,7 +124,7 @@ Valid from and to dates may be entered, but currently, they are for informationa
 
 ### Items
 
-This form allows users to add **ADD LINK** Items used for the Quality Control Test.
+This form allows users to add Items used for the Quality Control Test.
 
 The quantity required can also be added.
 

@@ -14,11 +14,7 @@ You can reach ProcessForce Batch Traceability by:
 
 - Transaction tab on the Complaint form, right-click on a Batch.
 
-  **ADD LINK** Click here to find out more about the Complaint function.
-
 - Batch Master Data form the context menu.
-
-  **ADD LINK** Click here to find out more about Batch Master Data.
 
 ## Opening Batch Trace Visualization form
 

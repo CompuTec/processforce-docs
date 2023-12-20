@@ -6,7 +6,6 @@ General Settings
 Item Group
 Item Details
 
-Click **ADD LINK** here to check detailed information about Batch configuration (based on the example of General Settings).
 
 ---
 

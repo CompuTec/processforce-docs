@@ -7,5 +7,3 @@ The Ingredients branch is used to define ingredient characteristics associated w
 :::info Path
 Inventory → Ingredients
 :::
-
-

@@ -24,8 +24,7 @@ The option is available when Manufacturing Order is in Released, Started, or Fin
 
 To get to this option, choose Operation Relation Map from a context menu on Manufacturing Order.
 
-The chart shows information connected to each of the operations assigned to a production process for a specific Manufacturing Order. Additionally, the chart shows relations between functions that, by default, are sequential (one Operation is finished, and another starts). Operation relations can be more advanced than that. To find out more, click **ADD LINK** here.
-
+The chart shows information connected to each of the operations assigned to a production process for a specific Manufacturing Order. Additionally, the chart shows relations between functions that, by default, are sequential (one Operation is finished, and another starts). Operation relations can be more advanced than that.
 ### Operation Tile
 
 Apart from basic information (Operation Name, Sequence, Status), the Tile also holds information on the operation's times: start and end of work (both planned and actual) and period of work.

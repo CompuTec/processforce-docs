@@ -11,7 +11,7 @@ A Batch number can be allocated on creation of a manufacturing order or on its s
 - Check the Batch Number generated at the MOR checkbox and choose one of the options. When choosing one of the Status options, the batch will be generated on the appropriate status change or upon creating a Manufacturing Order with the specified status.
 
 :::caution
-Note that when the Batch Number generated at the MOR option is checked, it is impossible to use Classification and MOR Number options on a **ADD LINK** Batch Template.
+Note that when the Batch Number generated at the MOR option is checked, it is impossible to use Classification and MOR Number options on a Batch Template.
 :::
 
 ## Manufacturing Order

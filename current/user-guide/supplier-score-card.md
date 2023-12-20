@@ -88,7 +88,7 @@ Note Grade = Amount / Total and Weighted Score = Weight x Grade
 |         Quality        |                        No of weighted                       |                                              Weighted Value                                              |
 |:----------------------:|:-----------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|
 | No. of Complaints      | A = Total Number of Complaints (for this supplier)          | ( A / Total number of Complaints (for all suppliers) ) x No of Complaints (value from General Settings)  |
-| No. of Failed QC Tests | B = Number of Failed Tests (QC Test has the status = Failed | ( B / Total number of QC Tests (Passed + Failed) ) x No of Failed QC Tests (value from General Settings) |
+| No. of Failed QC Tests | B = Number of Failed Tests (QC Test has the status = Failed) | ( B / Total number of QC Tests (Passed + Failed) ) x No of Failed QC Tests (value from General Settings) |
 | No. of Returns         | C = Number of Returns                                       | ( C / Total number of GRPO's ) x No of Returns (value from General setting)                              |
 
 |  Deliveries |                                                          No of                                                         |                             Weighted Value                             |

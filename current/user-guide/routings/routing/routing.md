@@ -32,7 +32,7 @@ Data is presented to the user within the grid when the user selects the row with
 
 The properties of the selected operation are filled in by default in this tab.
 
-This grid allows the user to select and add additional properties for this operation/routing combination and change or remove the defaulted values.
+This grid allows the user to select and add additional properties for this operation/routing combination and change or remove the default values.
 
 ## Adding and Changing Resource data
 
@@ -40,7 +40,7 @@ The top grid within this tab allows the user to select, add and remove resources
 
 Drop-down box selection allows the user to choose the resource already defined on the operation.
 
-The details of the selected resources are filled in by default in this tab from the Operations **ADD LINK** definition.
+The details of the selected resources are filled in by default in this tab from the Operations definition.
 
 This grid allows the user to select and add additional resources for this operation/routing combination and remove the defaulted resources.
 
@@ -58,11 +58,10 @@ Production → Technology → Resources → Resources
 
 Data is presented to the user within the grid when the user selects the row within the top grid.
 
-The properties of the selected resource/operation are set by default in this grid based on the Resources **ADD LINK** definition.
+The properties of the selected resource/operation are set by default in this grid based on the Resource definition.
 
 This grid allows the user to select and add additional properties for this resource/operation/routing combination and change or remove the default values.
 
 ## Instructions tab
 
 This tab contains an editable text area that can hold related text information, e.g., instructions and additional notes.
-

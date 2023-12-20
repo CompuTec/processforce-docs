@@ -111,7 +111,7 @@ Example usage: the option can be used to set Inactive status to mark Resources t
 
 - You can add Remarks.
 
-Click here **ADD LINK** to find out more about Resource Properties.
+
 
 ![Resource Properties](./media/resource-properties.png)
 
@@ -119,7 +119,7 @@ Click here **ADD LINK** to find out more about Resource Properties.
 
 ![Linked Tools](./media/resource-linked-tools.png)
 
-A Linked Tool is a Resource with a Tool type assigned to the header Resource. The Linked Tools are taken under consideration during production if the parent Resource is included in the related Production Process (as an alternative Resource). The default Resource of the Operation (in the Production Process) is replaced by a Resource with a Linked Tool on Manufacturing Order based on the Resource Balancing option **ADD LINK** (it has to be checked).
+A Linked Tool is a Resource with a Tool type assigned to the header Resource. The Linked Tools are taken under consideration during production if the parent Resource is included in the related Production Process (as an alternative Resource). The default Resource of the Operation (in the Production Process) is replaced by a Resource with a Linked Tool on Manufacturing Order based on the Resource Balancing option (it has to be checked).
 
 Linked Tools are also on the Gantt chart (under the parent Resource).
 
@@ -133,7 +133,7 @@ A Resource sets up Planning Information: you can set up different settings for e
 
 ![Resource Planning Data](./media/resource-planning-data.png)
 
-Here you can define columns displayed on Scheduling Board → Resource Planning Board **ADD LINK** on Task rows for a specific Resource.
+Here you can define columns displayed on Scheduling Board → Resource Planning Board on Task rows for a specific Resource.
 
 You can define:
 
@@ -201,7 +201,7 @@ If the settings here return any result, a warning icon will appear on Scheduling
 
 ### Additional Details Panel
 
-Issue Whs Code and Receipt Whs Code are CompuTec PDC-related fields. CompuTec PDC Production Issue/Receipt options **ADD LINK** are not available if Issue/Receipt Warehouses are not assigned to a specific Resource. For a Production Issue, a Bin Location is not required (just a Warehouse has to be assigned) but **for a Production Issue, it is mandatory to choose a Bin Location**.
+Issue Whs Code and Receipt Whs Code are CompuTec PDC-related fields. CompuTec PDC Production Issue/Receipt options are not available if Issue/Receipt Warehouses are not assigned to a specific Resource. For a Production Issue, a Bin Location is not required (just a Warehouse has to be assigned) but **for a Production Issue, it is mandatory to choose a Bin Location**.
 
 <details>
  <summary>Click here to find out how to enble Bin Locations.</summary>

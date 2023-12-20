@@ -3,7 +3,7 @@
 Here you can find a description of the subcontracting process with deliveries used in Brazil.
 
 :::warning
-This workflow (along with **ADD LINK** the related General Settings option can only be used in the Brazilian localization.
+This workflow (along with the related General Settings option) can only be used in the Brazilian localization.
 :::
 
 If a Component has been sent from company stock to the Subcontractor, an additional invoice needs to be created for the Return document. This Return document is created automatically from Inventory Transfer.

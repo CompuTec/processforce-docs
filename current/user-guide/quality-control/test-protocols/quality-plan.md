@@ -17,7 +17,7 @@ The ISO 2859-1 norm contains tables with statistical data that define several te
 ## Quality Plan preparation
 
 :::info Path
-You can find a detailed description of the ISO 2859-1 (methodology, terms, etc.) on the **ADD LINK** International Organization for Standardization website.
+You can find a detailed description of the ISO 2859-1 (methodology, terms, etc.) on the [International Organization for Standardization website](https://www.iso.org/obp/ui/#iso:std:iso:2859:-1:ed-2:v1:en).
 :::
 
 ![Quality Plan Main](./media/quality-plan-main.png)

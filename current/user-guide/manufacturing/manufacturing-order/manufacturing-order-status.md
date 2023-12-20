@@ -20,11 +20,7 @@ Available statuses:
 
 **Closed** – details of the Manufacturing Order with this status cannot be changed anymore. Optionally changing to this status can also make journal entries based on Manufacturing Order variance (when option Post variance on Manufacturing Order closure is set in General Settings).
 
-:::info
-You can check possible status changes **ADD LINK** here.
-:::
-
-You can also use **ADD LINK**a mass Manufacturing Order status change tool to change the status of many Manufacturing Orders at once.
+You can also use a mass Manufacturing Order status change tool to change the status of many Manufacturing Orders at once.
 
 ## Manufacturing Order status change through CompuTec PDC
 

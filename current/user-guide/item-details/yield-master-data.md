@@ -21,4 +21,3 @@ If the Item is a Parent Item, the default Yield percentage value is copied to th
 If the Ignore Yield field is checked, the Yield field within the Items, Coproducts, and Scrap tabs will be set to 100.00.
 
 These Yield values can be changed if required.
-

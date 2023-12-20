@@ -63,4 +63,3 @@ The user can decide whether to view Production Equipment Materials shortages or 
 The Gantt Chart also has a new tab called “Shortages Report,” which displays shortages for each Item and Revision along with historical and current supply and demand transactions. A graph also shows available quantities or scarcity of the Item/Revision.
 
 ![Material Shortages Graph](./media/material-shortages-graph.png)
-

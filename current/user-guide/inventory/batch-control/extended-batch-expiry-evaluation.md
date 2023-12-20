@@ -84,4 +84,3 @@ SELECT IFNULL(MIN(T4."ExpDate"), NOW())
 An example of the result of using this formula is presented in a screenshot below:
 
 ![Item Child Expiry Date](./media/item-child-expiry-date.png)
-

@@ -1,6 +1,6 @@
 # Resource Balancing
 
-This option allows choosing the most optimal Resource (defined in Production Process / Manufacturing Order **ADD LINK** Alternative Resources) for a specific task from a Manufacturing Order.
+This option allows choosing the most optimal Resource (defined in Production Process / Manufacturing Order / Alternative Resources) for a specific task from a Manufacturing Order.
 
 :::danger
 Testing the option in a test environment before using it in a production environment is recommended.

@@ -93,4 +93,3 @@ You can reach the option by right-clicking on Routing in the following locations
 Example Operations relations chart:
 
 ![Operation Relation Chart](./media/operation-relation-map.png)
-

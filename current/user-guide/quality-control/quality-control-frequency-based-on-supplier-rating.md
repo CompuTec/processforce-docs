@@ -29,7 +29,7 @@ This procedure is essential to manage at which intervals the Quality Control Tes
 :::
 
 :::tip
-It is possible to set Auto-Creation of Test Protocol, which can be very useful in this functionality and is recommended to improve daily tasks on a customer's side. Click **ADD LINK** here to find out more.
+It is possible to set Auto-Creation of Test Protocol, which can be very useful in this functionality and is recommended to improve daily tasks on a customer's side.
 :::
 
 ## General Settings

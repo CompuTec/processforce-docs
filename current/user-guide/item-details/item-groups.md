@@ -29,4 +29,3 @@ For example, an item can belong to the group boxes and another grouping packagin
 A once-created item group can be assigned to an item in the Item Details form, Groups tab. By clicking a second column and then a circle displayed within a field, a proper Item Group can be chosen:
 
 ![Assigning](./media/groups-assigning-item-groups.png)
-

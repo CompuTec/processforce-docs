@@ -13,4 +13,3 @@ Press the Auto Select button, and based on the batch allocation rules for the it
 ![Auto](./media/auto-select.png)
 
 If the setting Manual Issue Behavior within General Settings is set to display, the Auto Select function will not pick the Batch.
-

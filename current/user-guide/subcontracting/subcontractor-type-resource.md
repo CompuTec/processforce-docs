@@ -21,4 +21,3 @@ A resource type may be set as a Subcontractor for a service performed by an exte
 - As per resources, define the operation (like here), and add the process to the route:
 
 ![Routing Subcontracting](./media/routing-subcontracting.png)
-

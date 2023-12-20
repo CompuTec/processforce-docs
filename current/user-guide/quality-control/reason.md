@@ -10,7 +10,7 @@ Administration → Setup → Quality Control → Reasons
 
 ![Reason](./media/reason.png)
 
-This form allows the user to define the Reasons why a specific **ADD LINK** Test Property and **ADD LINK** Item Property within the Quality Control Test process failed the test and is used for analysis and reporting purposes.
+This form allows the user to define the Reasons why a specific Test Property and Item Property within the Quality Control Test process failed the test and is used for analysis and reporting purposes.
 
 The Used Count field indicates how many times the Reason Code has been used and is used for reporting and analysis purposes.
 

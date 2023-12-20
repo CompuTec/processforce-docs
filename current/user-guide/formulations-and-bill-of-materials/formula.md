@@ -149,4 +149,3 @@ The formula can be modified for a specific Bill of Materials if required.
 The formulas from the Yield Formula form are also copied to the Manufacturing Order and can be modified if required.
 
 ![Manufacturing Order - Formula](./media/manufacturing-order-formula.png)
-

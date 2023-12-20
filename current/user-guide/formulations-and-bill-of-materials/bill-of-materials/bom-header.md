@@ -23,4 +23,3 @@ MRP Def. field allows the user to confirm if this Bill of Materials is the defau
 Batch Size allows the user to define the batch size of production used to determine the cost of a product, where there are fixed times such as setup, fixed runtime, stock, and queue.
 
 ![BoM](./media/bill-of-materials.png)
-

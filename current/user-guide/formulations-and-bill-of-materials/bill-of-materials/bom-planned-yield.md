@@ -62,7 +62,7 @@ Based on the [Yield Formula](./../production-process/yield-time-calculation.md)
 
 ![Others Tab](./media/manufacturing-order-others-yield.png)
 
-Changing the Manufacturing Order Planned Yield
+## Changing the Manufacturing Order Planned Yield
 
 If the Yield% value is changed, a window opens and provides a number of options:
 

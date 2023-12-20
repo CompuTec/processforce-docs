@@ -10,7 +10,7 @@ Within Pick Order, the Batch records are displayed in different colors to provid
 
 - Black – both the Expiry date and Warning Date have not been reached.
 
-- Grey – Locked and Non Accessible Batch set to DISPLAY based on **ADD LINK** configuration settings; Batch records are displayed but cannot be picked.
+- Grey – Locked and Non Accessible Batch set to DISPLAY based on General Settings settings; Batch records are displayed but cannot be picked.
 
 ![Available Batches](./media/available-batches.png)
 
