@@ -12,13 +12,13 @@ After installing ProcessForce, the following restore functions need to be run
 
 - Bill of Materials
 
-![Item Details](./media/item-master-data-costing.png)
+![Item Details](./media/item-master-data-costing.webp)
 
 ---
 
 ## Full Restore functions list
 
-![Restore List](./media/restore-list.png)
+![Restore List](./media/restore-list.webp)
 
 ## Restore Batch Details
 
@@ -44,7 +44,7 @@ Help → Support Desk → Restore → Restore Bill Of Materials
 
 :::
 
-When changing the Item description, for example, by  DTW or Powershell, use the restore function to have the new Item description available within Choose From Lists and the Bill of Materials form.
+When changing the Item description, for example, by DTW or Powershell, use the restore function to have the new Item description available within Choose From Lists and the Bill of Materials form.
 
 Bill of Materials synchronization always goes from ProcessForce to SAP B1 data: creating a PF BOM and performing synchronization will create or overwrite SAP B1 Bill of Materials.
 
@@ -54,7 +54,7 @@ Click here to find out more about General Settings.
 
 Only a Bill of Material variant with Is MRP Default check box checked on the Item Details form will be used for synchronization:
 
-![MRP Default](./media/item-details-mrp-default.png)
+![MRP Default](./media/item-details-mrp-default.webp)
 
 Please note that this functionality updates only the description in the Bill of Materials records. It does not synchronize the Production Tree and Bill of Materials. It synchronizes the ItemName from the OITM database table to the U_Description field of the CT_PF_OBOM database table.
 
@@ -86,7 +86,7 @@ When the Restore Item Costing function is chosen, Item Costing records for every
 
 Upon attempts to perform an Item Costing restore, the following system message appears:
 
-![System Message](./media/item-costing-message.png)
+![System Message](./media/item-costing-message.webp)
 
 :::
 

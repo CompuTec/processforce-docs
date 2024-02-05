@@ -16,7 +16,7 @@ Costing → Resource Costing
 
 :::
 
-![Resource Costing](./media/resource-costing.png)
+![Resource Costing](./media/resource-costing.webp)
 
 ## General information
 
@@ -26,27 +26,27 @@ During the Item Cost Roll-up for a semi-finished or finished product, these fixe
 
 ### Resource Cost Calculation
 
-![Resource Costing](./media/resource-costing-2.png)
+![Resource Costing](./media/resource-costing-2.webp)
 
 Overall Resource Cost calculation is based on three elements:
 
 1. Resource Cost – in Resource Costing is calculated for 1 hour of work. Resource cost taken under consideration in Item Costing is calculated based on two values: Resource Costing Hourly Rate and Resource Times values (default Resource Times values for a specific Resource are defined in Resource form, but it can be later changed in a particular Operation and specific Production Process):
 
-![Resource to Resource Costing](./media/resource-resource-costing.png)
+![Resource to Resource Costing](./media/resource-resource-costing.webp)
 
 Resource Cost is calculated on the following basis:
 
-|   |        Unit       |     Pattern    |
-|:-:|:-----------------:|:--------------:|
-| 1 | Fixed seconds     | V(H/36000)     |
-| 2 | Fixes minutes     | V(H/60)        |
-| 3 | Fixed hours       | V × H          |
-| 4 | Seconds per piece | V/(3600 × H)   |
-| 5 | Minutes per piece | V/(60 × H)     |
-| 6 | Hours per piece   | V × H          |
-| 7 | Pieces per second | 1/V/(3600 × H) |
-| 8 | Pieces per minute | 1/V/(60 × H)   |
-| 9 | Pieces per hour   | 1/(T × H)      |
+|     |       Unit        |    Pattern     |
+| :-: | :---------------: | :------------: |
+|  1  |   Fixed seconds   |   V(H/36000)   |
+|  2  |   Fixes minutes   |    V(H/60)     |
+|  3  |    Fixed hours    |     V × H      |
+|  4  | Seconds per piece |  V/(3600 × H)  |
+|  5  | Minutes per piece |   V/(60 × H)   |
+|  6  |  Hours per piece  |     V × H      |
+|  7  | Pieces per second | 1/V/(3600 × H) |
+|  8  | Pieces per minute |  1/V/(60 × H)  |
+|  9  |  Pieces per hour  |   1/(T × H)    |
 
 H - Hourly Rate
 
@@ -111,15 +111,15 @@ If using different time types, each type can have a separate account code.
 Note that each Resource Account (Title column) must have Accounts (Accounts Code) assigned for Resource Costing to work correctly.
 :::
 
-![Resource Accounting](./media/resource-accounting-2.png)
+![Resource Accounting](./media/resource-accounting-2.webp)
 
 ### Resource Account Definition
 
-Predefined Resource Accounting (see the previous paragraph) can be added to a Resource within the Resource form > Details tab. 
+Predefined Resource Accounting (see the previous paragraph) can be added to a Resource within the Resource form > Details tab.
 
 If financial postings are required, a Resource Accounting code has to be chosen. If financial postings are not needed, then select No Posting.
 
-![Resource Accounting](./media/resource-cccounting-3.png)
+![Resource Accounting](./media/resource-cccounting-3.webp)
 
 Click [here](./../routings/resources.md) to find out more about Resources.
 

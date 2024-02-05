@@ -8,7 +8,7 @@ In this form, specific nutrient master data can be defined. Those data describe 
 
 Nutrient Master Data specified here can be used on the Item Ingredient Master Data form.
 
-![Nutrient Master Data](./media/nutrient-master-data.png)
+![Nutrient Master Data](./media/nutrient-master-data.webp)
 
 The following data can be specified:
 

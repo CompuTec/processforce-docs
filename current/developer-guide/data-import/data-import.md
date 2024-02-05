@@ -26,11 +26,11 @@ You can use predefined PowerShell scripts. The latest versions are available fro
 
 Download:
 
-![Download](./media/scripts-download.png)
+![Download](./media/scripts-download.webp)
 
 In the following example, Ingredient Master Data scripts are used. Go to the downloaded folder and find the Ingredient Master Data folder ([...]\Inventory\Ingredients\Ingredients Master Data):
 
-![Ingredients](./media/powershell-scripts-ingredients.png)
+![Ingredients](./media/powershell-scripts-ingredients.webp)
 
 Each folder contains three types of files:
 
@@ -83,7 +83,7 @@ The filled-in file can now be used with any of the predefined PowerShell scripts
 Set required values in the CSV files (in this example Ingredient Classification Certificates) using a suitable application (e.g., Microsoft Excel). In this example, the second and the third lines are filled with data (the first line holds the fields' names. This line is provided in the CSV file.
 
 | IngredientCode | ClassificationCode | BusinessPartnerCode | CertificateNumber | CertificateDate | Status | StatusDate | Attachment  | Remarks |
-|----------------|--------------------|---------------------|-------------------|-----------------|--------|------------|-------------|---------|
+| -------------- | ------------------ | ------------------- | ----------------- | --------------- | ------ | ---------- | ----------- | ------- |
 | 2              | 2                  | 2                   | 1                 | 02.07.2015      | A      | 02.07.2015 | C:\test.pdf | remarks |
 | 2              | 2                  | 2                   | 2                 | 02.07.2015      | P      | 02.07.2015 |             | remarks |
 
@@ -101,5 +101,4 @@ After saving changes, open it in a text editor (e.g., Notepad) and check if valu
 
 Open the required script in a suitable application ( PowerShell ISE in this example). Remember to keep all the files related to one kind of data (configuration file, CSV files, script) in one folder (like in the screenshot in the required files section.
 
-![Run script](./media/run-script.png)
-
+![Run script](./media/run-script.webp)

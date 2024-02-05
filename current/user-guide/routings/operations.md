@@ -4,7 +4,7 @@ These forms allow the user to define Operations, Properties and Input/Output Pro
 
 ---
 
-![Operation Diagram](./media//operations-diagram.png)
+![Operation Diagram](./media//operations-diagram.webp)
 
 ## Operations
 
@@ -60,7 +60,7 @@ The checkbox is also available from the Manufacturing Order, Production Process,
 
 - The user can select from a number of expressions to record a specific value or a from/to value dependent upon the expression.
 
-![Operation](./media/operation.png)
+![Operation](./media/operation.webp)
 
 ### Resources
 
@@ -72,7 +72,7 @@ The checkbox is also available from the Manufacturing Order, Production Process,
 
 - The user can change these default values if required for this specific operation/resource combination.
 
-![Operation Resources](./media/operation-resources.png)
+![Operation Resources](./media/operation-resources.webp)
 
 ### Resource Properties
 
@@ -80,7 +80,7 @@ The checkbox is also available from the Manufacturing Order, Production Process,
 
 - This tab allows the user to select and add additional properties for this resource/operation combination and remove the defaulted values.
 
-![Operation Resource Properties](./media/operation-resource-properties.png)
+![Operation Resource Properties](./media/operation-resource-properties.webp)
 
 ## Properties for Operations
 
@@ -90,7 +90,7 @@ Administration → Setup → Production → Operation Properties
 
 This form allows the user to define properties for the operation, for example, consumables.
 
-![Operation Property](./media/operation-property.png)
+![Operation Property](./media/operation-property.webp)
 
 ## I/O Properties for Operations
 
@@ -102,4 +102,4 @@ This form allows the user to define an operation's input and output properties.
 
 This is additional data to describe the production process, for example, input viscosity and output viscosity.
 
-![I/O Properties for Operations](./media/i-o-property.png)
+![I/O Properties for Operations](./media/i-o-property.webp)

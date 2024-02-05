@@ -6,24 +6,24 @@ You can find the most common Bill of Materials issues on this page.
 
 ## Exception: Warehouse xx is not defined for an Item xxxxxx
 
-Example 01: Exception: Warehouse PW not defined for an  Item LM4029MC.
+Example 01: Exception: Warehouse PW not defined for an Item LM4029MC.
 
-![Warehouse not defined for an Item](./media/warehouse-not-defined-for-item.png)
+![Warehouse not defined for an Item](./media/warehouse-not-defined-for-item.webp)
 
 ### Diagnose steps (for the example)
 
 - In the BOM_Items.csv file for itemCode LM4029MC check the Warehouse value.
 
 - Then go to SAP Client and display all Warehouses
-Check that the Warehouse Code exists in SAP. If it does exist, check Example 2. If it does not, follow the instructions in the next section:
+  Check that the Warehouse Code exists in SAP. If it does exist, check Example 2. If it does not, follow the instructions in the next section:
 
 ### Solution
 
 Set the correct Warehouse code in the BOM_Items.csv file for itemCode LM4029MC or add Warehouse to SAP with Warehouse Code ex. PW.
 
-## Example 02: Exception: Warehouse 01 not defined for an  Item LM4029Mc
+## Example 02: Exception: Warehouse 01 not defined for an Item LM4029Mc
 
-![Warehouse not defined for an Item](./media/warehouse-not-defined-for-item-2.png)
+![Warehouse not defined for an Item](./media/warehouse-not-defined-for-item-2.webp)
 
 ### Diagnose steps (for the example): {### reason-2}
 
@@ -38,7 +38,7 @@ Set the correct Warehouse code in the BOM_Items.csv file for itemCode LM4029MC o
 
 ## Exception: At Least one Non-stock item must be set as Subcontracting Item
 
-![Subcontracting Item](./media/non-stock-item-subcontracting.png)
+![Subcontracting Item](./media/non-stock-item-subcontracting.webp)
 
 ### Diagnose steps: {### steps2}
 
@@ -52,7 +52,7 @@ None of the Items in BOM of type external is marked as Subcontracting Item
 
 ## Exception: At Least one Non-stock item must be set as Subcontracting Item. {### Exception}
 
-![Subcontracting Item](./media/non-stock-item-subcontracting-item-2.png)
+![Subcontracting Item](./media/non-stock-item-subcontracting-item-2.webp)
 
 ### Diagnose steps {### steps3}
 

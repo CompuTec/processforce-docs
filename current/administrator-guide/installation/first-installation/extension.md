@@ -54,7 +54,7 @@ Before starting the installation, ensure that Serial Numbers and Batches, Produc
   
   <p align="center">
 
-![Checkboxes](./media/general-settings-unchecked.png)
+![Checkboxes](./media/general-settings-unchecked.webp)
 
   </p>
 
@@ -89,32 +89,25 @@ Download installation files for it here.**ADD-LINK**
 
 ProcessForce for SAP Business One 10.0 is a lightweight deployment extension. As such to install it, log in to your SLD Extension service and import and assign the ProcessForce extension from there.
 
-1. You can access it directly by using a default URL ```HTTPS://<SERVER_NAME>:40000/ExtensionManager``` or by opening it from your SAP Business One client. Choose the highlighted option in SAP Business One:
+1. You can access it directly by using a default URL `HTTPS://<SERVER_NAME>:40000/ExtensionManager` or by opening it from your SAP Business One client. Choose the highlighted option in SAP Business One:
 
-  ![Add-on Administration](./media/addon-administration-extension.png)
-2. Log in to System Landscape Directory.
-3. Click the Import button and browse to the path with the extension installation file:
+![Add-on Administration](./media/addon-administration-extension.webp) 2. Log in to System Landscape Directory. 3. Click the Import button and browse to the path with the extension installation file:
 
-  ![Import add-on](./media/import-add-on.png)
-4. Go to the Company Assignment tab, choose the required database from the Company List and click the Assign button:
+![Import add-on](./media/import-add-on.webp) 4. Go to the Company Assignment tab, choose the required database from the Company List and click the Assign button:
 
-  ![Assing a database](./media/assign-database.png)
-5. Choose the ProcessForce option and go through the installation by clicking Next.
+![Assing a database](./media/assign-database.webp) 5. Choose the ProcessForce option and go through the installation by clicking Next.
 
-  ![Assign ProcessForce](./media/assign-processforce.png)
-6. It is recommended to set up the manual type of Startup Mode on the first run of the application. It can be changed later to Mandatory. After that click Next.
-7. Once it is done, re-log your company, run the extension manually and wait until the installation is finished.
+![Assign ProcessForce](./media/assign-processforce.webp) 6. It is recommended to set up the manual type of Startup Mode on the first run of the application. It can be changed later to Mandatory. After that click Next. 7. Once it is done, re-log your company, run the extension manually and wait until the installation is finished.
 
-  :::caution
+:::caution
 
-  Note that the first ProcessForce installation on a company where it was not installed previously may take several dozen minutes up to a few hours (depending on the system environment).
+Note that the first ProcessForce installation on a company where it was not installed previously may take several dozen minutes up to a few hours (depending on the system environment).
 
-  :::
-8. If you install the ProcessForce extension for SAP HANA, you have to create manually a specific SQL procedure during the installation process. For this purpose, click the Copy to Clip... button on the displayed System Message, paste the query into SAP HANA Studio and execute it on the corresponding schema (company database):
+::: 8. If you install the ProcessForce extension for SAP HANA, you have to create manually a specific SQL procedure during the installation process. For this purpose, click the Copy to Clip... button on the displayed System Message, paste the query into SAP HANA Studio and execute it on the corresponding schema (company database):
 
-  ![System Message - Procedure](./media/system-message-procedure.png)
+![System Message - Procedure](./media/system-message-procedure.webp)
 
-  :::caution Common query problem
+:::caution Common query problem
 
     <details>
 
@@ -128,12 +121,9 @@ ProcessForce for SAP Business One 10.0 is a lightweight deployment extension. As
 
   </details>
 
-  :::
-9. After the installation is completed, the message about the database structure modification is displayed – click Yes.
-10. Additional message – recommending the SAP Business One client restart – is displayed: click OK.
-11. At the end of the installation process the ProcessForce main menu positions appear:
+::: 9. After the installation is completed, the message about the database structure modification is displayed – click Yes. 10. Additional message – recommending the SAP Business One client restart – is displayed: click OK. 11. At the end of the installation process the ProcessForce main menu positions appear:
 
-  ![ProcessForce menu](./media/processforce%20menu.png)
+![ProcessForce menu](./media/processforce%20menu.webp)
 
 ### License assignment
 
@@ -161,6 +151,6 @@ If ProcessForce is installed on a database with existing data (Item Master Data 
 - Restore Employee Calendars
 - Restore Batch Details
 
-![Restore](./media/restore.png)
+![Restore](./media/restore.webp)
 
 Click [here](./../../../user-guide/system-initialzation/data-restore.md) to find out more about the Restore function.

@@ -6,7 +6,7 @@ Main Menu → Plant Maintenance → Work Management → Release Maintenance Orde
 
 From this window, it is possible to change the status for many Maintenance Orders (Change Status: From, To). Values for fields in the header work as filter parameters. For current field settings, you can observe the number of entries that fulfill conditions – Number of entries.
 
-![Release MO](./media/release-maintenance-orders-inspection-results-verification/release-mo.png)
+![Release MO](./media/release-maintenance-orders-inspection-results-verification/release-mo.webp)
 
 Checking of checkbox of the Show entries caused that MO's are visible in the grid.
 
@@ -16,7 +16,7 @@ Example: We want to change MOs with the status Work Request to Released:
 
 - Select the button Select/Deselect All
 
-![Release MO](./media/release-maintenance-orders-inspection-results-verification/release-mo-2.png)
+![Release MO](./media/release-maintenance-orders-inspection-results-verification/release-mo-2.webp)
 
 - Select the button Change Status
 
@@ -40,6 +40,6 @@ Example: We want to complete the selected inspection as valid.
 
 - Select the button Select/Deselect All (for all lines in the grid Confidence Rating=Valid, Completed=Yes, Update=Yes
 
-![Release MO](./media/release-maintenance-orders-inspection-results-verification/completed.png)
+![Release MO](./media/release-maintenance-orders-inspection-results-verification/completed.webp)
 
 - Select the button Update

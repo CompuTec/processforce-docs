@@ -10,7 +10,7 @@ For example, define hazard instructions, safety text, and cleaning information i
 Administration → Setup → Item Details → Item Texts
 :::
 
-![Item Text](./media/item-text.png)
+![Item Text](./media/item-text.webp)
 
 ## Item Text Groups
 
@@ -20,12 +20,12 @@ Administration → Setup → Item Details → Item Text Groups
 
 The Item Text Group function allows the user to define an Item Text Group, which is used to group similar item texts.
 
-![Item Text Group](./media/item-text-group.png)
+![Item Text Group](./media/item-text-group.webp)
 
 ## Item Text assigning
 
 A once-created item text can be assigned to an item in the Item Details form, Texts tab. By clicking a second column and then a Choose From List icon, a required Item text can be chosen:
 
-![Item Text Assigning](./media/item-text-assigning.png)
+![Item Text Assigning](./media/item-text-assigning.webp)
 
 A chosen text can be assigned to a specific type of document by checking a related checkbox.

@@ -28,7 +28,7 @@ These relationships not only document within the system where these data element
 
 To view video content to set this up, click here.
 
-![Item Details](./media/item-details-schema.png)
+![Item Details](./media/item-details-schema.webp)
 
 ## Header
 
@@ -120,9 +120,9 @@ Batch Queue Type and Default Batch / Quality Control Status for SAP / ProcessFor
 
 The Inspection date is also auto-calculated for the batch and is displayed within the Batch Master Data form (see below).
 
-![Batches tab](./media/item-details-batches-tab.png)
+![Batches tab](./media/item-details-batches-tab.webp)
 
-![Batch Master Data](./media/batch-master-data.png)
+![Batch Master Data](./media/batch-master-data.webp)
 
 To get more information on this subject, click here **ADD LINK**.
 
@@ -138,7 +138,7 @@ This form allows the user to add and remove properties for the item master. Prop
 
 The user can select from many expressions to record, for example, a specific value or a from/to value, dependent upon the expression.
 
-![Item Details Properties](./media/item-details-properties.png)
+![Item Details Properties](./media/item-details-properties.webp)
 
 ## Classifications
 
@@ -148,7 +148,7 @@ The yellow arrow leads to:
 
 This form allows the user to add and delete classification codes for the item master. Classifications categorize products, e.g., as toxic or non-toxic. By checking the required checkbox, classification can be connected to certain kinds of documents.
 
-![Classifications](./media/item-details-classifications.png)
+![Classifications](./media/item-details-classifications.webp)
 
 ## Phrases
 
@@ -156,7 +156,7 @@ The yellow arrow leads to:
 
 - Administration → Setup → Item Details → Item Phrases refer to safety or risk phrases used to create a Material safety data sheet. By checking the required checkbox, phrases can be connected to certain kinds of documents.
 
-![Phrases](./media/item-details-phrases.png)
+![Phrases](./media/item-details-phrases.webp)
 
 ## Origins
 
@@ -164,17 +164,17 @@ Country of Origin is the country of manufacture, production, or growth where the
 
 Click here **ADD LINK** to find out more.
 
-![Origins](./media/item-details-origins.png)
+![Origins](./media/item-details-origins.webp)
 
 ## Groups
 
 The yellow arrow leads to:
 
-- Administration → Setup → Item Details → Item Groups 
+- Administration → Setup → Item Details → Item Groups
 
 This form allows users to add and delete groups for the item master. Group describes similar products, e.g., acids. By checking the required checkbox, groups can connect to certain documents.
 
-![.Groups](./media/item-details-groups.png)
+![.Groups](./media/item-details-groups.webp)
 
 ## Texts
 
@@ -184,7 +184,7 @@ The yellow arrow leads to:
 
 This form allows the user to add and delete item text **ADD LINK** for the item master. Any text, e.g., hazard instructions or safety texts, may be added. Texts can be connected to certain kinds of documents by checking the required checkbox.
 
-![Text](./media/item-details-texts.png)
+![Text](./media/item-details-texts.webp)
 
 ## Attachments
 

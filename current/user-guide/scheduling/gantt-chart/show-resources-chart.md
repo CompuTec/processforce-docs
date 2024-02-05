@@ -4,7 +4,7 @@ If the Show Resource Chart checkbox is checked, a form with Resource Chart is di
 
 ## Resource Chart
 
-![Show Resource Chart](./media/show-resource-chart.png)
+![Show Resource Chart](./media/show-resource-chart.webp)
 
 Chart communicates four different kinds of time for a specific resource or a group of resources:
 
@@ -28,7 +28,7 @@ The dynamic chart changes automatically after changing data displayed, e.g., by 
 
 ### Refresh button
 
-![Refresh](./media/refresh-resource-chart.png)
+![Refresh](./media/refresh-resource-chart.webp)
 
 The capacity graphs displayed in the Gantt chart are based on the Manufacturing Orders selected and loaded into the form. The user can choose a subset of Orders in the Manufacturing Order selection screen. Therefore to get an accurate picture of the resource capacity, to include all selected and non-selected Orders, pressing the refresh button will calculate the actual capacity situation.
 
@@ -38,22 +38,22 @@ The following example helps to understand the data displayed on the resource cha
 
 The screenshots below present Manufacturing Orders used on the chart:
 
-![Manufacturing Order](./media/manufacturing-order-1.png)
+![Manufacturing Order](./media/manufacturing-order-1.webp)
 
-![Manufacturing Order](./media/manufacturing-order-2.png)
+![Manufacturing Order](./media/manufacturing-order-2.webp)
 
 Resources used on those Manufacturing Orders are:
 
 |            | Resources | Resource Group | Type | Run time | UoM |
-|:----------:|:---------:|:--------------:|:----:|:--------:|:---:|
-| Operation1 | Machine1  | Mixing         | M    | 1        | h   |
-|            | Tool-01   | Tooling        | T    | 1        | h   |
-| Operation2 | Machine2  | Mixing         | M    | 0,5      | h   |
-|            | Labor     | Tooling        | L    | 0,5      | h   |
+| :--------: | :-------: | :------------: | :--: | :------: | :-: |
+| Operation1 | Machine1  |     Mixing     |  M   |    1     |  h  |
+|            |  Tool-01  |    Tooling     |  T   |    1     |  h  |
+| Operation2 | Machine2  |     Mixing     |  M   |   0,5    |  h  |
+|            |   Labor   |    Tooling     |  L   |   0,5    |  h  |
 
 Resources and resources groups are available on the chart from the drop-down list:
 
-![Resource Group](./media/resources-group.png)
+![Resource Group](./media/resources-group.webp)
 
 ### Resource
 
@@ -61,15 +61,15 @@ The following screenshots present a resource chart with a specific resource chos
 
 Tool-01:
 
-![Tool](./media/tool-01.png)
+![Tool](./media/tool-01.webp)
 
 Machine1:
 
-![Machine](./media/machine1.png)
+![Machine](./media/machine1.webp)
 
 Machine2:
 
-![Machine](./media/machine1.png)
+![Machine](./media/machine1.webp)
 
 ### Resource Group
 
@@ -77,8 +77,8 @@ The following screenshots present a resource chart with a specific resource grou
 
 Tooling:
 
-![Tooling](./media/tooling.png)
+![Tooling](./media/tooling.webp)
 
 Mixing:
 
-![Mixing](./media/mixing.png)
+![Mixing](./media/mixing.webp)

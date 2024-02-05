@@ -10,7 +10,7 @@ You can find information on setting up and using the Orderless Production functi
 
 Define Document Series for the Orderless Production Document:
 
-![Document Numbering](./media/orderless-production-numbering.png)
+![Document Numbering](./media/orderless-production-numbering.webp)
 
 You can check here how to set up **ADD LINK** a document series.
 
@@ -26,11 +26,11 @@ This template can be selected in the Orderless Production Document, and all the 
 
 If an Item has associated CoProducts and Scrap, these are automatically added to the form.
 
-![Orderless Production Template](./media/orderless-production-template.png)
+![Orderless Production Template](./media/orderless-production-template.webp)
 
 ## Orderless Production Document
 
-![Orderless Production Document](./media/orderless-production-document.png)
+![Orderless Production Document](./media/orderless-production-document.webp)
 
 The user can select an orderless production template and manually add items to the form to record the items to be produced.
 
@@ -40,11 +40,11 @@ The user enters the posting date and quantity produced, and press add.
 
 This will create in the background a manufacturing order performing a complete manufacturing order cycle from release to close, including the following transaction:
 
-|                           | Items | Batch Traced Items (set to backflush) Based on FIFO, FEFO & FMFO rules | Non-Inventory Items (set to backflush) | CoProducts (set to backflush) | Scrap (set to backflush) | Resource Time | Finished Products |
-|:-------------------------:|:-----:|:----------------------------------------------------------------------:|:--------------------------------------:|:-----------------------------:|:------------------------:|:-------------:|:-----------------:|
-| Backflush                 |       | :heavy_check_mark:                                                                      | :heavy_check_mark:                                      | :heavy_check_mark:                             | :heavy_check_mark:                        | :heavy_check_mark:             |                   |
-| Create Batch Number       |       |                                                                        |                                        | :heavy_check_mark:                             | :heavy_check_mark:                        |               | :heavy_check_mark:                 |
-| Create Journals           | :heavy_check_mark:     | :heavy_check_mark:                                                                      | :heavy_check_mark:                                      | :heavy_check_mark:                             | :heavy_check_mark:                        | :heavy_check_mark:             | :heavy_check_mark:                 |
-| Create Scrap & ByProducts |       |                                                                        |                                        |                               | :heavy_check_mark:                        |               |                   |
-| Create CoProducts         |       |                                                                        |                                        | :heavy_check_mark:                             |                          |               |                   |
-| Create Finished Products  |       |                                                                        |                                        |                               |                          |               | :heavy_check_mark:                 |
+|                           |       Items        | Batch Traced Items (set to backflush) Based on FIFO, FEFO & FMFO rules | Non-Inventory Items (set to backflush) | CoProducts (set to backflush) | Scrap (set to backflush) |   Resource Time    | Finished Products  |
+| :-----------------------: | :----------------: | :--------------------------------------------------------------------: | :------------------------------------: | :---------------------------: | :----------------------: | :----------------: | :----------------: |
+|         Backflush         |                    |                           :heavy_check_mark:                           |           :heavy_check_mark:           |      :heavy_check_mark:       |    :heavy_check_mark:    | :heavy_check_mark: |                    |
+|    Create Batch Number    |                    |                                                                        |                                        |      :heavy_check_mark:       |    :heavy_check_mark:    |                    | :heavy_check_mark: |
+|      Create Journals      | :heavy_check_mark: |                           :heavy_check_mark:                           |           :heavy_check_mark:           |      :heavy_check_mark:       |    :heavy_check_mark:    | :heavy_check_mark: | :heavy_check_mark: |
+| Create Scrap & ByProducts |                    |                                                                        |                                        |                               |    :heavy_check_mark:    |                    |                    |
+|     Create CoProducts     |                    |                                                                        |                                        |      :heavy_check_mark:       |                          |                    |                    |
+| Create Finished Products  |                    |                                                                        |                                        |                               |                          |                    | :heavy_check_mark: |

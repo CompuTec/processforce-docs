@@ -12,7 +12,7 @@ If you experience the described issue, please collect the following data, and ra
 
 ### Network bandwidth and Latency
 
-![Hardware Requirements](./media/hardware-requirements.png)
+![Hardware Requirements](./media/hardware-requirements.webp)
 
 Download: https://www.elifulkerson.com/projects/tcping.php
 Command: tcping -t IP port
@@ -22,11 +22,9 @@ Command: tcping -t IP port
 - obligatory do a complete set of tests and do separate tests for the cases:
 
   - from the workstations/server to the SAP HANA database (default port: 30015),
-  
+
   - from the workstations/server to SAP License Server (default port: 40000),
 
   - from the workstations/server to CompuTec License Server (default port: 30002),
 
   - use proper settings IP / Server name, which is currently configured in SAP B1 Client.
-
-

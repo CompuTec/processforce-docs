@@ -1,6 +1,6 @@
 # QC tab
 
-![QC tab](./media/general-settings-qc.png)
+![QC tab](./media/general-settings-qc.webp)
 
 **QC Resource Group, QC Item** – within the Test Protocol and Quality Control Test Forms, the user can define the Resources and Items used to conduct and complete the testing activity. For example, X-ray machines, microscopes, tooling, etc. Use QC Resource Group and QC Item Group options to choose groups that will be used for Quality Control Tests.
 
@@ -25,7 +25,7 @@ Click here **ADD LINK** to find out more about the Multiple Test Results functio
 <details>
  <summary>Click here to find out more</summary>
 
-![Properties Update](./media/properties-update.png)
+![Properties Update](./media/properties-update.webp)
 
 </details>
 
@@ -44,9 +44,8 @@ Suppose during the copy process, the system finds any Item Property from the Qua
 <details>
  <summary>Click here to find out more</summary>
 
-![Properties Update](./media/qc-test-or-pool.png)
+![Properties Update](./media/qc-test-or-pool.webp)
 
 </details>
 
 **Block Batches on QC Test Fail** – self-explanatory.
-

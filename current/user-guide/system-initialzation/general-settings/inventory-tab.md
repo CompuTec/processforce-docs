@@ -4,7 +4,7 @@ This tab allows setting extended settings for many inventory values, such as Bat
 
 ---
 
-![Inventory Tab](./media/general-settings-inventory.png)
+![Inventory Tab](./media/general-settings-inventory.webp)
 
 **Batch generated when Manufacturing Order** – if checked, you can choose one of the four options from a drop-down list to allocate a batch number when creating a Manufacturing Order or changing its status:
 
@@ -80,5 +80,3 @@ Batch Queue Type – a type of queue used by default with batches:
 **Don't use corrected Fixed Backflush** – If this check box is checked, the receipt from production works correctly even if we receipt more Final Good than it is planned. If this checkbox is unchecked, if we receipt more than what is planned, it backflushes again the whole planned quantity
 
 **Use Header dimensions for backflushed inv. items**
-
-

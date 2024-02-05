@@ -16,7 +16,7 @@ The Series Number, NCMR Inspector, and Creator are copied into the form from the
 
 The user enters the required status and date, to manage the life cycle of the NCMR. (Created, Started, On-Hold, Closed).
 
-![NCMR](./media/ncmr-transaction.png)
+![NCMR](./media/ncmr-transaction.webp)
 
 ## Details
 
@@ -24,7 +24,7 @@ The QC Test number, Description, Complaint Number, Project Code, Sample Size, De
 
 The user reviews the details of the Complaint and the Quality Control Test results and adds additional Reason Codes for the Quality Control Test failure.
 
-![NCMR](./media/ncmr-transaction.png)
+![NCMR](./media/ncmr-transaction.webp)
 
 ## Action
 
@@ -34,7 +34,7 @@ The user can also select the appropriate inventory action and movement.
 
 Based on the selected action from the drop-down fields, an Alert is sent to the appropriate user to perform the inventory action and movement.
 
-![NCRM Action](./media/ncmr-action-tab.png)
+![NCRM Action](./media/ncmr-action-tab.webp)
 
 ## Notes
 
@@ -58,12 +58,8 @@ There are two ways to create this kind of document:
 
   - NCMR Inspector is chosen on the Defects form.
 
-![Use Frequency Rules](./media/use-frequency-rules.png)
+![Use Frequency Rules](./media/use-frequency-rules.webp)
 
 Then it is needed to configure the Frequency tab:
 
-![Frequency Tab](./media/freequency-tab.png)
-
-
-
-
+![Frequency Tab](./media/freequency-tab.webp)

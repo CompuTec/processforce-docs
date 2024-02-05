@@ -36,28 +36,21 @@ CompuTec License Server can be installed in a Windows environment only.
 
 1. Open: Windows Settings → Network & Internet → Windows Firewall:
 
-  ![Firewall rule](./../media/firewall-rule.png)
-2. Click the Advanced settings option:
+![Firewall rule](./../media/firewall-rule.webp) 2. Click the Advanced settings option:
 
-  ![Firewall rule - advance settings](./../media/firewall-rule-2.png)
-3. In Windows Firewall with Advanced Security window, select Inbound Rules and click New Rule... in the Actions section – this will run New Inbound Rule Wizard:
+![Firewall rule - advance settings](./../media/firewall-rule-2.webp) 3. In Windows Firewall with Advanced Security window, select Inbound Rules and click New Rule... in the Actions section – this will run New Inbound Rule Wizard:
 
-  ![New rule](./../media/new-rule.png)
-4. Choose Port as a rule type:
+![New rule](./../media/new-rule.webp) 4. Choose Port as a rule type:
 
-  ![Rule type](./../media/rule-type.png)
-5. Choose TCP protocol and specify 30002 local port:
+![Rule type](./../media/rule-type.webp) 5. Choose TCP protocol and specify 30002 local port:
 
-  ![Local port](./../media/rule-type.png)
-6. Choose the Allow the connection action:
+![Local port](./../media/rule-type.webp) 6. Choose the Allow the connection action:
 
-  ![Action](./../media/action.png)
-7. Choose all profiles:
+![Action](./../media/action.webp) 7. Choose all profiles:
 
-  ![Profile](./../media/profiles.png)
-8. Specify the rule name and click Finish:
+![Profile](./../media/profiles.webp) 8. Specify the rule name and click Finish:
 
-  ![Rule name](./../media/name.png)
+![Rule name](./../media/name.webp)
 
 ## Using CompuTec Service Manager and configuring Direct Data Access mode
 

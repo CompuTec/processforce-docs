@@ -8,8 +8,7 @@ Administration → System Initialization → Authorizations → General Authoriz
 
 :::
 
-![Path](./media/authorizations-main.png)
-
+![Path](./media/authorizations-main.webp)
 
 Click a specific username to see and change authorizations assigned to a specific user.
 
@@ -23,7 +22,7 @@ A specific authorization can have one of three values:
 
 - No Authorization – a lack of access to a specific document for a specific user
 
-![Path](./media/authorizations-options.png)
+![Path](./media/authorizations-options.webp)
 
 If the authorizations for a specific user are grayed out, the user has superuser privileges and owns all the authorizations.
 
@@ -35,7 +34,7 @@ Administration → Setup → General → Users
 
 :::
 
-![Superuser](./media/super-user.jpg)
+![Superuser](./media/super-user.webp)
 
 Only users with a Professional license assigned can change authorizations.
 
@@ -48,4 +47,3 @@ Specific authorizations are required to work with specific ProcessForce document
 - Pick Receipt and Pick Order: User Authorization → ProcessForce → Production → Inventory Transaction → Pick Receipt [and] Pick Issue
 
 - Numbering Series. This is needed for documents series management: Authorizations form → Administration → Numbering Series.
-

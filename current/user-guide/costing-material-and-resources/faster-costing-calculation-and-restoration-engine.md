@@ -12,35 +12,35 @@ To use the option, it is required to set up a Direct Data Access connection to a
 
 ## General
 
-![Faster Costing](./media/dynamic-costing.png)
+![Faster Costing](./media/dynamic-costing.webp)
 
 ## Standard Costing
 
 How does it work?
 
 1. Loading Item Costing UDO data for RM-01,
-    Calculating the actual cost of RM-01,
-    Saving changes in Item Costing UDO for RM-01.
+   Calculating the actual cost of RM-01,
+   Saving changes in Item Costing UDO for RM-01.
 2. Loading Item Costing UDO data for RM-02,
-    Calculating the actual cost of RM-03,
-    Saving changes in Item Costing UDO for RM-02.
+   Calculating the actual cost of RM-03,
+   Saving changes in Item Costing UDO for RM-02.
 3. Loading Item Costing UDO data for RM-03,
-    Calculating the actual cost of RM-03,
-    Saving changes in Item Costing UDO for RM-03.
+   Calculating the actual cost of RM-03,
+   Saving changes in Item Costing UDO for RM-03.
 4. Loading Resource Costing UDO data for RSC-01,
-    Calculating the actual cost of RSC-01,
-    Saving changes in Resource Costing UDO for RSC-01.
+   Calculating the actual cost of RSC-01,
+   Saving changes in Resource Costing UDO for RSC-01.
 5. Loading Item Costing UDO data for SG-01,
-    Loading Item Costing UDO data for RM-01,
-    Loading Item Costing UDO data for RM-02,
-    Loading Item Costing UDO data for RM-03,
-    Calculating actual cost of SG-01 based on RM-01, RM-02 i RM-03,
-    Saving changes in Item Costing UDO for SG-01.
+   Loading Item Costing UDO data for RM-01,
+   Loading Item Costing UDO data for RM-02,
+   Loading Item Costing UDO data for RM-03,
+   Calculating actual cost of SG-01 based on RM-01, RM-02 i RM-03,
+   Saving changes in Item Costing UDO for SG-01.
 6. Loading Item Costing UDO data for FG-01,
-    Loading Item Costing UDO data for SG-01,
-    Loading Resource Costing UDO data for RSC-01,
-    Calculating actual cost of FG-01 based on SG-01 i RSC-01,
-    Saving changes in Item Costing UDO for FG-01.
+   Loading Item Costing UDO data for SG-01,
+   Loading Resource Costing UDO data for RSC-01,
+   Calculating actual cost of FG-01 based on SG-01 i RSC-01,
+   Saving changes in Item Costing UDO for FG-01.
 
 Loading, calculating, and saving data took quite a lot of time in some cases.
 
@@ -54,21 +54,19 @@ How does it work?
 
 1. The following data are being loaded to RAM:
 
- - Items
+- Items
 
- - Revisions
-   
- - Bill of Materials (header, Raw Materials, Coproducts, Scraps, Technology)
+- Revisions
+- Bill of Materials (header, Raw Materials, Coproducts, Scraps, Technology)
 
- - Routings
+- Routings
 
- - Operations
+- Operations
 
- - Resources
-   
- - Item Costing
+- Resources
+- Item Costing
 
- - Resource Costing
+- Resource Costing
 
 2. A dynamic multidimensional data cube based on the data from the previous point.
 

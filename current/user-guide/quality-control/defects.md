@@ -16,7 +16,7 @@ These codes are used within the Quality Control Test Form to record the Defects 
 
 The Used Count field indicates how many times the Defect Code has been used and is used for reporting and analysis purposes.
 
-![Defect](./media/defect.png)
+![Defect](./media/defect.webp)
 
 ## Defect Groups
 
@@ -26,5 +26,4 @@ Administration → Setup → Quality Control → Defect Groups
 
 This form allows the user to define Defect Groups that are used to group Defect Codes into categories for analysis and reporting purposes.
 
-![Defect Group](./media/defect-group.png)
-
+![Defect Group](./media/defect-group.webp)

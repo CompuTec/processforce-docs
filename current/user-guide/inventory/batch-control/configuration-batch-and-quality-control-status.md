@@ -26,7 +26,7 @@ The Quality Control status provides additional details to record the quality sta
 Please note that Batches will take their default status from the setting only when a Batch is generated. The settings do not apply to Batches created manually.
 :::
 
-![General Settings](./media/general-settings-batch.jpg)
+![General Settings](./media/general-settings-batch.webp)
 
 The default values are displayed within the Batches Setup and in the Batch Number Transaction Report window (along with QC statuses).
 

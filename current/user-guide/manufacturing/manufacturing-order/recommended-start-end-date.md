@@ -1,6 +1,6 @@
 # Recommended Start/End Date
 
-![Recommended Start and End](./media/recommented-start-end.jpg)
+![Recommended Start and End](./media/recommented-start-end.webp)
 
 These two fields allow the user to enter the expected order completion dates. They allow you to record expectations as of the time frame of the order.
 

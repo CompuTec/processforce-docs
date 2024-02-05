@@ -14,7 +14,7 @@ Routings are an optional function to be used in conjunction with Bills of Materi
 Production → Routings → Routing
 :::
 
-![Diagram](./media/routes-diagram.png)
+![Diagram](./media/routes-diagram.webp)
 
 ## Adding and Changing Operation data
 
@@ -24,7 +24,7 @@ The user can also define the operation which overlays or operates parallelly to 
 
 This data will be used for scheduling purposes.
 
-![Routing](./media/routing-operations.png)
+![Routing](./media/routing-operations.webp)
 
 ## Operation Properties
 
@@ -52,7 +52,7 @@ The yellow arrow navigation to:
 
 Production → Technology → Resources → Resources
 
-![Routing](./media/routing.png)
+![Routing](./media/routing.webp)
 
 ## Resource Properties
 

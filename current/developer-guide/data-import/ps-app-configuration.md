@@ -20,17 +20,17 @@ You must use the same bitness (64-bit) of the PowerShell as SAP Business One and
 
 If you are using Windows Server, here is an example of how you can add Windows PowerShell ISE in the Server Manager:
 
-![Roles and Features](./media/roles-features-wizard.png)
+![Roles and Features](./media/roles-features-wizard.webp)
 
 ## Execution policy
 
 Set execution policy to RemoteSigned. To check which execution policy is selected, choose the Get-ExecutionPolicy command.
 
-![Get Execution Policy](./media/get-execution-policy.png)
+![Get Execution Policy](./media/get-execution-policy.webp)
 
-If the result is Restricted (as in the screenshot above), perform the ```Set-ExecutionPolicy RemoteSigned``` command and type Y on the dialog window to complete it:
+If the result is Restricted (as in the screenshot above), perform the `Set-ExecutionPolicy RemoteSigned` command and type Y on the dialog window to complete it:
 After rechecking the policy, you should see RemoteSigned communication.
 
-![PowerShell Set Execution](./media/ps-set-execution-policy.png)
+![PowerShell Set Execution](./media/ps-set-execution-policy.webp)
 
 Now you can use PowerShell scripts to import data. Check here how to do it.

@@ -4,7 +4,7 @@ Subcontracting is a method of managing the “purchase of a service.” For exam
 
 ---
 
-![Subcontracting Tab](./media/subcontracting-tab.png)
+![Subcontracting Tab](./media/subcontracting-tab.webp)
 
 **Procurement document type** – Purchase Request or Purchase Order can be picked as a default procurement document for External type Manufacturing Order.
 
@@ -19,4 +19,3 @@ Subcontracting is a method of managing the “purchase of a service.” For exam
 **Enable integration with Nota Fiscal (Brazil only)**
 
 **Drop-Ship warehouse** – This option is related to Brazilian localization and can be used only within it. Click here to find out more. Drop-ship Warehouse in the ProcessForce subcontracting context marks a virtual warehouse. Creating an Inventory Transfer document to this Warehouse represents sending materials to a Subcontractor. After that, it is possible to create Issues and Receipts from this warehouse.
-

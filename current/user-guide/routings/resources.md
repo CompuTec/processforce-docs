@@ -12,12 +12,12 @@ Production → Routings → Resources
 
 ### Resource Types
 
-| Type of Resource | Impact on Scheduling | Calendar usage | Visible on Gantt chart? | Hourly rates | Required to be connected to | Time Booking |            Times (Setup, Run)            | Number of resources |
-|:----------------:|:--------------------:|:--------------:|:-----------------------:|:------------:|:---------------------------:|:------------:|:----------------------------------------:|:-------------------:|
-| Machine          | :heavy_check_mark:   |:heavy_check_mark:       |            :heavy_check_mark:            |       :heavy_check_mark:      | N/A                         |       :heavy_check_mark:      |                     :heavy_check_mark:                    | Changeable          |
-| Labor            | :x:                    |        :x:       |            :heavy_check_mark: [^1]           |       :heavy_check_mark:      | N/A                         |       :heavy_check_mark:      |                     :heavy_check_mark:                    | Changeable          |
-| Tool             | :heavy_check_mark:                    |        :heavy_check_mark:       |            :heavy_check_mark:            |       :heavy_check_mark:      | Machine                     |       :heavy_check_mark:      | :heavy_check_mark: (copied from the related Machine data) | Always 1            |
-| Subcontracting   | :heavy_check_mark:                    |        :heavy_check_mark:       |            :heavy_check_mark:            |       :heavy_check_mark:      | N/A                         |       :heavy_check_mark:      |                     :heavy_check_mark:                    | Changeable          |
+| Type of Resource | Impact on Scheduling |   Calendar usage   | Visible on Gantt chart? |    Hourly rates    | Required to be connected to |    Time Booking    |                    Times (Setup, Run)                     | Number of resources |
+| :--------------: | :------------------: | :----------------: | :---------------------: | :----------------: | :-------------------------: | :----------------: | :-------------------------------------------------------: | :-----------------: |
+|     Machine      |  :heavy_check_mark:  | :heavy_check_mark: |   :heavy_check_mark:    | :heavy_check_mark: |             N/A             | :heavy_check_mark: |                    :heavy_check_mark:                     |     Changeable      |
+|      Labor       |         :x:          |        :x:         | :heavy_check_mark: [^1] | :heavy_check_mark: |             N/A             | :heavy_check_mark: |                    :heavy_check_mark:                     |     Changeable      |
+|       Tool       |  :heavy_check_mark:  | :heavy_check_mark: |   :heavy_check_mark:    | :heavy_check_mark: |           Machine           | :heavy_check_mark: | :heavy_check_mark: (copied from the related Machine data) |      Always 1       |
+|  Subcontracting  |  :heavy_check_mark:  | :heavy_check_mark: |   :heavy_check_mark:    | :heavy_check_mark: |             N/A             | :heavy_check_mark: |                    :heavy_check_mark:                     |     Changeable      |
 
 [^1]: Labor can be presented on the Gantt chart but Start and Finish dates (on the Manufacturing Orders tab) in some cases may be empty or has a default value (0001-01-01), as this type of Resource does not affect Manufacturing Order Scheduling.
 
@@ -83,7 +83,7 @@ Production → Routings → Resources
 
 - Number Of Resources allows defining the default number of units of resources to work on. Note that setting a Number Of Resources affects run time. E.g., if Run Time is 10 h and Number of Resources 1, Planned Run Time is 10 h. If the Number of Resources changes to 2, the planned time automatically changes to 5 h. Changing a Number of Resources affects the production process, however during cost calculation, only added-up time will be considered - in accordance with the example: 10 h work is done after 5 h using 2 resources, the cost is calculated as a cost of work of 2 resources for 5 h each (10 h).
 
-![Resource](./media/resource.png)
+![Resource](./media/resource.webp)
 
 #### Infinite checkbox
 
@@ -111,13 +111,11 @@ Example usage: the option can be used to set Inactive status to mark Resources t
 
 - You can add Remarks.
 
-
-
-![Resource Properties](./media/resource-properties.png)
+![Resource Properties](./media/resource-properties.webp)
 
 ### Linked Tools Tab
 
-![Linked Tools](./media/resource-linked-tools.png)
+![Linked Tools](./media/resource-linked-tools.webp)
 
 A Linked Tool is a Resource with a Tool type assigned to the header Resource. The Linked Tools are taken under consideration during production if the parent Resource is included in the related Production Process (as an alternative Resource). The default Resource of the Operation (in the Production Process) is replaced by a Resource with a Linked Tool on Manufacturing Order based on the Resource Balancing option (it has to be checked).
 
@@ -131,7 +129,7 @@ If you update Planning Information when Scheduling Board is opened, it is requir
 A Resource sets up Planning Information: you can set up different settings for each of the Resources in the system.
 :::
 
-![Resource Planning Data](./media/resource-planning-data.png)
+![Resource Planning Data](./media/resource-planning-data.webp)
 
 Here you can define columns displayed on Scheduling Board → Resource Planning Board on Task rows for a specific Resource.
 
@@ -142,31 +140,31 @@ You can define:
 - Type of retrieving method of data to be displayed in a specific column:
 
   - **Object**: (Enable SQL? checkbox unchecked): choose a field from three kinds of Objects (Manufacturing Order, Operation, Resource - values are taken at the start of Gantt chart) and Dynamic option (times connected to specific Operation or Resources, e.g., Operation Duration - these options are updated dynamically; they change on changes made to Gantt Chart),
-  
+
    <details>
    <summary>Example</summary>
    We want a Revision of a Manufacturing Order displayed on Tasks of Prep Resource.
 
-   Choosing the right option:
+  Choosing the right option:
 
-   ![Resource Planning Data](./media/resource-planning-information-example.png)
+  ![Resource Planning Data](./media/resource-planning-information-example.webp)
 
    </details>
-  
+
   - **Query** (Enable SQL? checkbox checked): you can create a query based on which data for the column will be retrieved.
-  
-   Parameter syntax:
 
-   ```sql
-   @[Table Name - without fixed prefixes].[Field Name]
-   ```
-   
-   **Example**
+  Parameter syntax:
 
-   ```sql
-   @OMOR.U_PlannedStartDate
-   ```
-  
+  ```sql
+  @[Table Name - without fixed prefixes].[Field Name]
+  ```
+
+  **Example**
+
+  ```sql
+  @OMOR.U_PlannedStartDate
+  ```
+
   <details>
 
   Query:
@@ -183,7 +181,7 @@ You can define:
 
   Result:
 
-  ![Result](./media/query-result.png)
+  ![Result](./media/query-result.webp)
 
   </details>
 
@@ -206,13 +204,13 @@ Issue Whs Code and Receipt Whs Code are CompuTec PDC-related fields. CompuTec P
 <details>
  <summary>Click here to find out how to enble Bin Locations.</summary>
 
-![Resource Details](./media/resource-details.png)
+![Resource Details](./media/resource-details.webp)
 
 :::info Path
 SAP B1 → Administration → Setup → Inventory → Warehouses → General tab
 :::
 
-![Warehouse Bins](./media/warehouse-bins.png)
+![Warehouse Bins](./media/warehouse-bins.webp)
 
 </details>
 
@@ -224,7 +222,7 @@ SAP B1 → Administration → Setup → Inventory → Warehouses → General tab
 
 - Click here to find out more about Calendars.
 
-![Resource Calendar](./media/resource-resource-calendar.png)
+![Resource Calendar](./media/resource-resource-calendar.webp)
 
 ## Resource Groups
 
@@ -234,9 +232,9 @@ Administration → Setup → Production → Resource Groups
 
 :::
 
-This form allows the user to define resource groups, for example mixing vessels, blenders, and ovens. 
+This form allows the user to define resource groups, for example mixing vessels, blenders, and ovens.
 
-![Resource Group](./media/resource-group.png)
+![Resource Group](./media/resource-group.webp)
 
 ## Resource Properties
 
@@ -246,13 +244,13 @@ Administration → Setup → Production → Resource Properties
 
 This form allows the user to define properties for a Resource, for example, pressure, temperature, and machine speed. A Property can have reference values assigned, e.g. White, Red for Colour, or numeric values, e.g. Temperature can be 20. Reference values can be chosen in Resource form, Properties tab from the once set up in Resource Properties form. Numeric values can be set from the Resource form, Properties tab.
 
-![Resource Properties](./media/resource-property.png)
+![Resource Properties](./media/resource-property.webp)
 
 ## Property Reference Library
 
 :::info Path
 
-Administration → Setup → Item Details →  Property Reference Library
+Administration → Setup → Item Details → Property Reference Library
 
 :::
 
@@ -264,7 +262,7 @@ For value to be available as a reference value for Resource Property, the right 
 
 Check the Resource Property checkbox for a value to be available as a reference value for Resource Property:
 
-![Resource Property Reference Library](./media/resource-property-reference-library.png)
+![Resource Property Reference Library](./media/resource-property-reference-library.webp)
 
 ## Resources Accounting
 
@@ -281,9 +279,7 @@ You can select accounts for posting for every resource time type:
 - Queue Time,
 
 - Setup Time,
-  
 - Run Time,
-  
 - Stock Time.
 
 Further, for every resource time type, you can select accounts for the type of time:
@@ -300,9 +296,9 @@ Please note that all Time Variance Accounts cannot be configured.
 
 We plan to provide functionality that will leverage them during the posting of Manufacturing Order closure in future versions.
 
-The Work In Progress Account can be added here or is based on the WIP account defined for the Document type – Production Order. 
+The Work In Progress Account can be added here or is based on the WIP account defined for the Document type – Production Order.
 
-![Resource Accounting](./media/Resource-accounting.png)
+![Resource Accounting](./media/Resource-accounting.webp)
 
 ## Resource Calendar
 
@@ -316,33 +312,33 @@ Resource Calendar is used to define the availability of a Resource for productio
 
 - On the right upper corner of this form, you can check Total Working Time in a week.
 
-![Resource Calendar Working Hours](./media/resource-calendar-working-hours.png)
+![Resource Calendar Working Hours](./media/resource-calendar-working-hours.webp)
 
 - The Exceptions tab is used to mark additional capacity of Resources for a specified date and time.
 
-![Exceptions](./media/resource-calendar-exceptions.png)
+![Exceptions](./media/resource-calendar-exceptions.webp)
 
 - In the Holidays tab you can define days on which resource is not available.
 
-![Holidays](./media/resource-calendar-holidays.png)
+![Holidays](./media/resource-calendar-holidays.webp)
 
 - You Can Also button let you perform the following tasks automatically:
 
- - Copying holidays from the holidays defined in SAP,
- 
- - Remove past exceptions – this will remove every exception before the actual date,
- 
- - Create exceptions based on current working days till date. This one adds exceptions from actual date to date defined in the Till Date field for hours and days defined in the Working Hours tab. 
+- Copying holidays from the holidays defined in SAP,
 
-![Resource Calendar](./media/resource-calendar-you-can-also.png)
+- Remove past exceptions – this will remove every exception before the actual date,
 
-- At any time you can view Resource Calendar by clicking on View calendar in a context menu of a Resource form. 
+- Create exceptions based on current working days till date. This one adds exceptions from actual date to date defined in the Till Date field for hours and days defined in the Working Hours tab.
 
-![Resource Context Menu](./media/resource-context-menu.png)
+![Resource Calendar](./media/resource-calendar-you-can-also.webp)
+
+- At any time you can view Resource Calendar by clicking on View calendar in a context menu of a Resource form.
+
+![Resource Context Menu](./media/resource-context-menu.webp)
 
 - This will open a graphical presentation of resource availability. At the bottom of the window, you will find a legend for colors on the calendar.
 
-![Resource Calendar](./media/resource-calendar.png)
+![Resource Calendar](./media/resource-calendar.webp)
 
 ## Alternative Resource
 

@@ -16,7 +16,7 @@ Checking the Quality Control Testing box implies that the Item Property will be 
 Administration → Setup → Item Details → Item Properties
 :::
 
-![General](./media/item-property-general.png)
+![General](./media/item-property-general.webp)
 
 ## Item Property Groups
 
@@ -32,19 +32,19 @@ Many subgroups with their name, code, and remarks can be defined for every group
 
 For example, chemical properties can be divided into properties related to appearance or scent.
 
-![Group](./media/item-property-group-general.png)
+![Group](./media/item-property-group-general.webp)
 
 ## Property Reference Library
 
 :::note Path
-Administration → Setup → Item Details →  Property Reference Library
+Administration → Setup → Item Details → Property Reference Library
 :::
 
 This form allows the user to create a library of valid values to be used in conjunction with properties.
 
 These valid values can be available for a single or several property types relating to items, resources, operations, and operation inputs and outputs.
 
-![Property Reference](./media/property-reference-library.png)
+![Property Reference](./media/property-reference-library.webp)
 
 ## Propery Assigning
 
@@ -52,11 +52,11 @@ These valid values can be available for a single or several property types relat
 
 Once created, the property can be assigned to an item in the Item Details form, Properties tab. By clicking a second column and then a circle displayed within a field, a property can be chosen:
 
-![CFL](./media/item-details-cfl.png)
+![CFL](./media/item-details-cfl.webp)
 
 A chosen item group can be assigned to a specific type of document by checking a proper check-box:
 
-![Assign to document](./media/item-groups-assigned-to-documents.png)
+![Assign to document](./media/item-groups-assigned-to-documents.webp)
 
 ## Batch Master Data
 
@@ -64,6 +64,6 @@ A chosen item group can be assigned to a specific type of document by checking a
 Inventory → Item Management → Batches → Batch Master Data
 :::
 
-Predefined properties can be assigned to a specific batch of a  product.
+Predefined properties can be assigned to a specific batch of a product.
 
-![Batch](./media/batch-master-data-properties.png)
+![Batch](./media/batch-master-data-properties.webp)

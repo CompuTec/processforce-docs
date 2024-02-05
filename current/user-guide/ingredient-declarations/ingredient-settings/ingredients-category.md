@@ -8,5 +8,4 @@ This data is used within [Ingredient Master Data](./../ingredient-master-data.md
 Administration → Setup → Ingredients → Ingredient Categories
 :::
 
-![Ingredients Category](./media/ingredient-category.png)
-
+![Ingredients Category](./media/ingredient-category.webp)

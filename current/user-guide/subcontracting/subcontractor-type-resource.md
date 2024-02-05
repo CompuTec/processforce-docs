@@ -6,18 +6,18 @@ Subcontracting can be taken into the production process by creating subcontracto
 
 ## Resources
 
-A resource type may be set as a Subcontractor for a service performed by an external organization. 
+A resource type may be set as a Subcontractor for a service performed by an external organization.
 
 - Select the resource type Subcontractor. After a selection, several additional fields are displayed.
 
-![Resource Subcontracting](./media/resource-subcontractor.png)
+![Resource Subcontracting](./media/resource-subcontractor.webp)
 
 - Select the supplier performing the service (Vendor Code and Vendor Name fields),
 
 - Select the item (defined as a non-inventory item and purchased).
 
-![Resource Item Master Data](./media/resource-item-master-data.png)
+![Resource Item Master Data](./media/resource-item-master-data.webp)
 
 - As per resources, define the operation (like here), and add the process to the route:
 
-![Routing Subcontracting](./media/routing-subcontracting.png)
+![Routing Subcontracting](./media/routing-subcontracting.webp)

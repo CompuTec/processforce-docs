@@ -6,4 +6,4 @@ This data is used within the [Ingredient Master Data](./../ingredient-master-dat
 
 :::info Path
 
-![Ingredient Classification](./media/ingredient-classification.png)
+![Ingredient Classification](./media/ingredient-classification.webp)

@@ -18,8 +18,8 @@ The type field determines if a product is Internal (produced in the company) or 
 
 If required, the user can enter a Distribution Rule and a Project.
 
-MRP Def. field allows the user to confirm if this Bill of Materials is the default for MRP and which revision of the item is the default for MRP. If this field is not checked, the ProcessForce Bill of Materials is not synchronized with the SAP Business One Bill of Materials. 
+MRP Def. field allows the user to confirm if this Bill of Materials is the default for MRP and which revision of the item is the default for MRP. If this field is not checked, the ProcessForce Bill of Materials is not synchronized with the SAP Business One Bill of Materials.
 
 Batch Size allows the user to define the batch size of production used to determine the cost of a product, where there are fixed times such as setup, fixed runtime, stock, and queue.
 
-![BoM](./media/bill-of-materials.png)
+![BoM](./media/bill-of-materials.webp)

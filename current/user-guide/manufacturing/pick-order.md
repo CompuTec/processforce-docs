@@ -16,7 +16,7 @@ If Distribution Rules or Cost Dimensions and Projects are defined at an Item lin
 
 If blank, they can be manually added.
 
-![Pick Order](./media/pick-order.png)
+![Pick Order](./media/pick-order.webp)
 
 ## Employee field
 
@@ -30,7 +30,6 @@ This Copy From function can also be used when a Pick Order has been created for 
 
 You can then generate a consolidated Pick List.
 
-Note: If multiple requirements exist for the same item across several Manufacturing orders, the Pick Order will display a separate row for each condition. 
+Note: If multiple requirements exist for the same item across several Manufacturing orders, the Pick Order will display a separate row for each condition.
 
 To perform the rest of the Pick Order to Production Goods Issue cycle, visit this page: Pick Order Bin Locations and Allocations.
-

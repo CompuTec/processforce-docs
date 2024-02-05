@@ -2,7 +2,7 @@
 
 In many instances, the Ingredient itself is an Item. For example, if the company makes fruit and nut chocolate bars, the cocoa, milk, raisins, hazel, and peanuts will be specific Items that are part of the product's Bill of Materials. Therefore, the user has the flexibility to define an Item and its detailed ingredient data.
 
-Ingredient-defining functionality provides an extension to product Master Data giving the possibility to define information necessary to create declaration statements or ingredient listings needed on product labels. 
+Ingredient-defining functionality provides an extension to product Master Data giving the possibility to define information necessary to create declaration statements or ingredient listings needed on product labels.
 
 This form allows the user to define and modify information on ingredients that are a part of products and materials and their attributes.
 
@@ -10,7 +10,7 @@ This form allows the user to define and modify information on ingredients that a
 Inventory → Ingredients → Ingredient Master Data
 :::
 
-![Ingredient Master Data](./media/ingredient-master-data.png)
+![Ingredient Master Data](./media/ingredient-master-data.webp)
 
 ## Form header
 
@@ -30,19 +30,19 @@ Here the following information can be defined:
 
 ### Allergens
 
-![Allergents](./media/ingredient-master-data.png)
+![Allergents](./media/ingredient-master-data.webp)
 
 A possibility to add predefined allergens contained by a specific ingredient. A code and a description of allergens can be displayed. To get more information on defining allergens, click [here](./../ingredient-declarations/ingredient-settings/allergen.md).
 
 ### Classification/Certificates
 
-![Certificates](./media/ingredient-master-data-%20classification-certificates.png)
+![Certificates](./media/ingredient-master-data-%20classification-certificates.webp)
 
 A possibility to add predefined classifications and set details of certificates confirming that classification. For more information about refining classifications, click [here](./../ingredient-declarations/ingredient-settings/classifications.md).
 
 ### Specifications
 
-![Specifications](./media/ingredient-master-data-specifications.png)
+![Specifications](./media/ingredient-master-data-specifications.webp)
 
 A possibility to create and modify a vendor or industry specification for an ingredient. The following information can be set:
 
@@ -56,11 +56,11 @@ A possibility to create and modify a vendor or industry specification for an ing
 
 - Status – one of three options may be set for a specification:
 
- - Not Approved,
+- Not Approved,
 
- - Pending,
+- Pending,
 
- - Approved,
+- Approved,
 
 - Status Date – a status posting date,
 

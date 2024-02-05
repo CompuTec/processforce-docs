@@ -12,7 +12,7 @@ The ProcessForce log files are kept in the following location: C:\ProgramData\Co
 
 Choose the file that is related by time and date to the issue you are reporting:
 
-![Time Date](./media/time-date.jpg)
+![Time Date](./media/time-date.webp)
 
 ### CompuTec License Server
 
@@ -44,6 +44,6 @@ Once the following step is done, all database queries will be logged by default 
 
 By default, log files are saved in this location with the current date as the name, e.g., 2023-12-15.log. After enabling the option, additional files will be held: with the 'queries' prefix, e.g., queries 2023-12-15.log.
 
-![Log Files](./media/log-files.png)
+![Log Files](./media/log-files.webp)
 
 To disable the option, comment out the previously uncommented line (add '<!--' and '-->' to it) in Nlog.config.

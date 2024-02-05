@@ -10,7 +10,7 @@ This form allows the user to define Test Properties and is used within the Test
 
 The Used Count field indicates how often the Test Property has been used and is used for reporting and analysis purposes.
 
-[Test Property](./media/test-property.png)
+[Test Property](./media/test-property.webp)
 
 ## Reference
 
@@ -22,7 +22,7 @@ Test Property on Quality Control Test can have numeric or reference values. Nume
 
 Property can be defined in Property Reference Library. By checking a specific checkbox, you can choose for which Property type this reference is available.
 
-[Property Reference Library](./media/property-reference-library-general.png)
+[Property Reference Library](./media/property-reference-library-general.webp)
 
 ## Test Property Group
 
@@ -32,4 +32,4 @@ Administration → Setup → Quality Control → Test Property Groups
 
 This form allows the user to define Test Property Groups that are used to group Test Properties into categories for analysis and reporting purposes.
 
-[Test Property Group](./media/test-property-group.png)
+[Test Property Group](./media/test-property-group.webp)

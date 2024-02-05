@@ -20,7 +20,7 @@ The ISO 2859-1 norm contains tables with statistical data that define several te
 You can find a detailed description of the ISO 2859-1 (methodology, terms, etc.) on the [International Organization for Standardization website](https://www.iso.org/obp/ui/#iso:std:iso:2859:-1:ed-2:v1:en).
 :::
 
-![Quality Plan Main](./media/quality-plan-main.png)
+![Quality Plan Main](./media/quality-plan-main.webp)
 
 ### Header
 
@@ -74,7 +74,7 @@ To use the option, check the Create QC Tests Pool checkbox and then the Paramete
 
 Then, choose a Quality Plan in the Quality Plan tab.
 
-![Quality Control Plan Tab](./media/quality-plan-qualit-plan-tab.png)
+![Quality Control Plan Tab](./media/quality-plan-qualit-plan-tab.webp)
 
 You can then choose if the Quality Plan is active.
 

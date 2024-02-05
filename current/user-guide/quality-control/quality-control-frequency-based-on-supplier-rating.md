@@ -40,7 +40,7 @@ Administration → System Initialization → General Settings → ProcessForce �
 
 "Enable Create Closed QC Tests from Frequency Rules" option must be checked. QC Test, which not fulfills condition defined in Counter Schema (Counter Value), with ll be created with the status Closed. The system will generate QC Test for all transactions.
 
-![General Settings](./media/general-settings-qc-frequency.png)
+![General Settings](./media/general-settings-qc-frequency.webp)
 
 ## BP QC Qualifications
 
@@ -54,7 +54,7 @@ The first thing is to fill BP QC Qualification with data – levels that you wan
 
 Below you have an example of how to use functionality in the company.
 
-![Frequency](./media/frequency.png)
+![Frequency](./media/frequency.webp)
 
 ## Counter Scheme
 
@@ -70,7 +70,7 @@ Milestones for counters are QC Documents: QC Tests, QC Poll.
 
 A particular Counter is created on the definition described in Counter Scheme. All Counters are stored in a separate table.
 
-![Open](./media/open-counter-scheme.png)
+![Open](./media/open-counter-scheme.webp)
 
 Fields:
 

@@ -34,21 +34,19 @@ Use this form to determine where the Item Cost value will come from for calculat
 
 - Select where the cost will come from:
 
- - Price List – choose which Price List where the value will come from, and the value will populate the Item Cost field (grayed out).
- 
- - Price List (no roll-up) – an item that has an inventory value, included within the bill of materials, but the cost is not considered in the cost calculation of the semi-finished and finished product.
-   
- - Manual – enter a value into the Item Cost field.
-   
- - Manual (no roll-up) – an item that has an inventory value included within the bill of materials, but the cost is not considered in the cost calculation of the semi-finished and finished product.
+- Price List – choose which Price List where the value will come from, and the value will populate the Item Cost field (grayed out).
 
-![Item Costing](./media/item-costing.png)
+- Price List (no roll-up) – an item that has an inventory value, included within the bill of materials, but the cost is not considered in the cost calculation of the semi-finished and finished product.
+- Manual – enter a value into the Item Cost field.
+- Manual (no roll-up) – an item that has an inventory value included within the bill of materials, but the cost is not considered in the cost calculation of the semi-finished and finished product.
+
+![Item Costing](./media/item-costing.webp)
 
 - Select the Price List where the Item Cost will come from.
 
 - For Moving Average and FIFO, use the Last Evaluated Price.
 
-![Item Costing Price List](./media/item-costing-price-list.png)
+![Item Costing Price List](./media/item-costing-price-list.webp)
 
 For Fixed and Variable overhead values, amounts can be added as a value or a % of the Item Cost:
 
@@ -66,11 +64,11 @@ For Fixed and Variable overhead values, amounts can be added as a value or a % o
 
 - Press the Update button to save the data.
 
-![Item costing Total](./media/item-costing-total.png)
+![Item costing Total](./media/item-costing-total.webp)
 
 - Within the Rolled Cost tab, all the values are displayed, and the value in the TC Total column is copied to the Item Costing field within SAP Business One Item Master Details, Inventory Data tab.
 
-![Item Costing Price Rolled Cost](./media/item-costing-price-rolled-cost.png)
+![Item Costing Price Rolled Cost](./media/item-costing-price-rolled-cost.webp)
 
 ## Semi-Finished Products
 
@@ -84,17 +82,17 @@ This form also calculates the costs of a semi-finished and finished product by p
 
 - Select where the cost will come from.
 
- - Automatic – system will calculate the cost.
+- Automatic – system will calculate the cost.
 
- - Automatic (no roll-up) – an item that has an inventory value, included within the bill of material of a higher-level bill of materials, but the cost is not considered in the cost calculation.
+- Automatic (no roll-up) – an item that has an inventory value, included within the bill of material of a higher-level bill of materials, but the cost is not considered in the cost calculation.
 
- - Price List – choose which Price List where the value will come from, and the value will populate the Item Cost field (grayed out).
+- Price List – choose which Price List where the value will come from, and the value will populate the Item Cost field (grayed out).
 
- - Price List (no roll-up) – an item that has an inventory value, included within the bill of materials, but the cost is not considered in the cost calculation of the semi-finished and finished product.
+- Price List (no roll-up) – an item that has an inventory value, included within the bill of materials, but the cost is not considered in the cost calculation of the semi-finished and finished product.
 
- - Manual – enter a value into the Item Cost field.
+- Manual – enter a value into the Item Cost field.
 
- - Manual (no roll-up) – an item with an inventory value included within the bill of materials. Still, the cost is not considered in calculating the semi-finished and finished products.
+- Manual (no roll-up) – an item with an inventory value included within the bill of materials. Still, the cost is not considered in calculating the semi-finished and finished products.
 
 - Rolled Cost Tab displays a summary of the calculated costs.
 

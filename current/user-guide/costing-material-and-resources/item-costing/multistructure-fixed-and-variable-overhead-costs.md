@@ -12,7 +12,7 @@ Administration → System Initialization → General Settings → ProcessForce t
 
 Multi-structure Fixed and Variable Overhead Costs option is available after checking the check box in the General Settings form, ProcessForce tab, Costing tab:
 
-![Multi tructure](./media/multi-structure.png)
+![Multi tructure](./media/multi-structure.webp)
 
 ### Overhead Types definition
 
@@ -28,7 +28,7 @@ In this form, Costs types can be set. After its definition, Cost types can be us
 
 - Type – Fixed or Variable.
 
-![Overhead variable](./media/overhead-variable.png)
+![Overhead variable](./media/overhead-variable.webp)
 
 ## Usage of the option
 
@@ -50,14 +50,14 @@ Predefined Overhead Types can be used on the Costing Details tab on the Item Cos
 
 - Variable O/H Other.
 
-![Item Costing Overhead](./media/item-costing-overheads-2.png)
+![Item Costing Overhead](./media/item-costing-overheads-2.webp)
 
 After choosing the option, you can select desired costs and set a value for it (only cost marked as fixed are available to choose for fixed costs):
 
-![Actual Overhead](./media/actual-overheads.png)
+![Actual Overhead](./media/actual-overheads.webp)
 
 A costs sum will be added to the corresponding grid after clicking the OK button:
 
-![Added Up](./media/added-up-overheads.png)
+![Added Up](./media/added-up-overheads.webp)
 
 Choosing the Multistructure Overhead Costs option again displays previously saved costs and their values and allows one to change them.

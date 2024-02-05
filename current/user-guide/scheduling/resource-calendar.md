@@ -14,19 +14,19 @@ Resource Calendar is created automatically when a Resource is added.
 
 You can access Resource Calendar by the path above or by clicking a yellow arrow next to the Resource Calendar field.
 
-![Resource Calendar Yellow Arrow](./media/resource-calendar-yellow-arrow.png)
+![Resource Calendar Yellow Arrow](./media/resource-calendar-yellow-arrow.webp)
 
 ## Resource Calendar tabs
 
 ### Working Hours
 
-![Resource Calendar Working Hours](./media/resource-calendar-working-hours.png)
+![Resource Calendar Working Hours](./media/resource-calendar-working-hours.webp)
 
 In this tab, you can define working hours for a specific resource for every day of the week (you can specify many separate periods for each day). After setting From Time and To Time, Total Time is calculated automatically. In the Total Working Time field, a total of set hours for a whole week is displayed.
 
 ### Exceptions
 
-![Resource Calendar Exceptions](./media/resource-calendar-exceptions.png)
+![Resource Calendar Exceptions](./media/resource-calendar-exceptions.webp)
 
 The exception is additional work/capacity. It extends the Resource's abilities. You can use this for overwork scenarios to increase capacity.
 
@@ -38,13 +38,13 @@ Click the You Can Also button and Create exceptions based on current working day
 
 ### Holidays
 
-![Resource Calendar Holidays](./media/resource-calendar-holidays.png)
+![Resource Calendar Holidays](./media/resource-calendar-holidays.webp)
 
 Here you can define one-day time-offs and Remarks connected to them.
 
 By clicking the You Can Also button and then Copying a list of Holidays defined in the system, you can automatically fill in the Holidays list with predefined data.
 
-![Resource Calendar Holidays Update](./media/resource-calendar-holidays-update.png)
+![Resource Calendar Holidays Update](./media/resource-calendar-holidays-update.webp)
 
 The Holiday dates assign to a company are available in the following main menu path: Administration, System Initialization, Company Details, Accounting tab, Holidays. From there, you can also define a new set of dates, available later to assign. It is SAP Business One function.
 
@@ -68,5 +68,4 @@ You can create a Resource Calendar Template that can later be assigned to a spec
 
 Choose a predefined Resource Calendar Template in the header of the form and define a list of Resource Calendars that you want to update with the data from the template:
 
-![Resource Calendar Update Tool](./media/resource-calendar-update-tool-resource.png)
-
+![Resource Calendar Update Tool](./media/resource-calendar-update-tool-resource.webp)

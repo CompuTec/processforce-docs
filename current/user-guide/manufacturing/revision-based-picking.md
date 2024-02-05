@@ -14,19 +14,19 @@ General Setting → ProcessForce → Inventory → Revision based picking (manua
 
 Revision code for the Item and Batch record:
 
-![Item Details](./media/item-details-revision.png)
+![Item Details](./media/item-details-revision.webp)
 
 ## Batch Master Data
 
 Revision Code is recorded on the batch record.
 
-![Batch Master Data](./media/batch-master-data-revision.png)
+![Batch Master Data](./media/batch-master-data-revision.webp)
 
 ## Bill of Material
 
 Revision Code for the Item is displayed in the bill of material form.
 
-![Bill of Materials](./media/bill-of-materials-revision.png)
+![Bill of Materials](./media/bill-of-materials-revision.webp)
 
 ## Pick Issue
 

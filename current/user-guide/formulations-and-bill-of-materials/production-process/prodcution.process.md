@@ -26,13 +26,13 @@ If the Routing is the default Routing to be used with Manufacturing Orders, chec
 
 If the Routing is the default Routing used for Product Costing, check the box.
 
-![Production Process defaults](./media/production-process-defaults.png)
+![Production Process defaults](./media/production-process-defaults.webp)
 
 ## Operation Overlay
 
 If the production process allows overlapping operations, the user can enter an Operation Overlay Code (Operation Code) and a Quantity, after which the next operation starts.
 
-![Production Overlay](./media/production-process-overlay-operation.png)
+![Production Overlay](./media/production-process-overlay-operation.webp)
 
 ## Resources
 
@@ -42,7 +42,7 @@ If required, for this specific combination of Item Code, Revision, Routing, Oper
 
 If there are alternative resources for the Operation, you can add several Resources and select one as the 'Default.'
 
-![Production Process Default Resource](./media/production-process-default-resource.png)
+![Production Process Default Resource](./media/production-process-default-resource.webp)
 
 ## Tooling
 
@@ -50,7 +50,7 @@ To add Tool, select the related 'Machine Code.'
 
 This example shows which machine the tool can be used for making the specific product.
 
-![Tool](./media/production-process-tool.png)
+![Tool](./media/production-process-tool.webp)
 
 ## Operation Bind
 
@@ -58,7 +58,7 @@ Operation Bind allows users to link Items from the related Bill of Materials to 
 
 The window is divided into four parts:
 
-![Operation Bind](./media/production-process-operation-bind.png)
+![Operation Bind](./media/production-process-operation-bind.webp)
 
 1. Items that are available to be linked with the selected operation as an input to this operation.
 
@@ -70,15 +70,15 @@ The window is divided into four parts:
 
 To bind an Item to an Operation, choose a Routing and then Operation within it:
 
-![Production Routing](./media/production-process-bind-routing.png)
+![Production Routing](./media/production-process-bind-routing.webp)
 
 In Operation Binding, you can specify that you want to change the quantity used to calculate the selected operation time. In ProcessForce, an operation's time is calculated based on a planned quantity of a final product. The resulting quantity of the selected Item is taken under consideration during Operation time calculation. You can change the item chosen for considered by selecting the Time Calc checkbox.
 
-![Production Process Bind Time](./media/production-process-bind-time.png)
+![Production Process Bind Time](./media/production-process-bind-time.webp)
 
 To bind Items to a specific Operation, click the Item row and use the arrow to move it from the upper to the lower part of the form:
 
-![Example](./media/production-process-bind-example.png)
+![Example](./media/production-process-bind-example.webp)
 
 ### Operation Bind Ratio
 
@@ -88,11 +88,11 @@ You can check the Automatically Calculate Ratio on Operations checkbox (General 
 
 Suppose you uncheck the Automatically Calculate Ratio on Operations checkbox. You bind an Item to multiple Operations. In that case, you have to manually set Quantity or Ratio for Ratio to sum up to 1.
 
-![Ratio](./media/production-process-ratio.png)
+![Ratio](./media/production-process-ratio.webp)
 
 You can check all the Operations bound to a Component and set the values by right-clicking on a Ratio field and choosing the Show all operations for component option:
 
-![All Operations Bind to Component](./media/all-operations-bind-to-component.png)
+![All Operations Bind to Component](./media/all-operations-bind-to-component.webp)
 
 ### Manufacturing Order Operation Bind
 
@@ -100,7 +100,7 @@ Operation Bind can be defined or changed individually for a specific Manufacturi
 
 Click an Operation row and Item row and use arrows to bind both elements:
 
-![Manufacturing Order Operation Bind](./media/operation-bind-from-manufacturing-order.png)
+![Manufacturing Order Operation Bind](./media/operation-bind-from-manufacturing-order.webp)
 
 ## Instructions tab
 
@@ -110,7 +110,7 @@ Instructions tab is available from the Production Process form, Routing tab. It 
 
 It is possible to set a period of validity for a Routing on a Production Process:
 
-![Production Process Validity](./media/production-process-validity.png)
+![Production Process Validity](./media/production-process-validity.webp)
 
 ### Example usage
 

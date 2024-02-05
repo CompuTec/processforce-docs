@@ -24,5 +24,4 @@ This form allows the user to perform the following:
 
 - Enter the Project code for reporting and analysis purposes.
 
-![CoProducts tab](./media/bill-of-materials-coproducts.png)
-
+![CoProducts tab](./media/bill-of-materials-coproducts.webp)

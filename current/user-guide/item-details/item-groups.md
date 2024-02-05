@@ -10,7 +10,7 @@ The Item Group function allows the user to create groups of similar products, fo
 Administration → Setup → Item Details → Item Groups
 :::
 
-![Item Group](./media/item-group.png)
+![Item Group](./media/item-group.webp)
 
 ## Item Group Groups
 
@@ -22,10 +22,10 @@ The Item Group Group function allows the user to define a grouping of a grouping
 
 For example, an item can belong to the group boxes and another grouping packaging.
 
-![Item Group Groups](./media/item-group-groups.png)
+![Item Group Groups](./media/item-group-groups.webp)
 
 ## Item Group assigning
 
 A once-created item group can be assigned to an item in the Item Details form, Groups tab. By clicking a second column and then a circle displayed within a field, a proper Item Group can be chosen:
 
-![Assigning](./media/groups-assigning-item-groups.png)
+![Assigning](./media/groups-assigning-item-groups.webp)

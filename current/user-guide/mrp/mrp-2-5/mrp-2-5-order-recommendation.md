@@ -2,19 +2,19 @@
 
 You can select MRP 2.5 – Order Recommendation from the SAP B1 menu.
 
-![Order Recommendations](./media/mrp-2-5-order-recommendation/mrp-order-recommendation-01.png)
+![Order Recommendations](./media/mrp-2-5-order-recommendation/mrp-order-recommendation-01.webp)
 
 Or, after logging in directly to AE, you should select the Order Recommendation tile.
 
-![Order Recommendations](./media/mrp-2-5-order-recommendation/mrp-order-recommendation-02.png)
+![Order Recommendations](./media/mrp-2-5-order-recommendation/mrp-order-recommendation-02.webp)
 
 First, the view with selection criteria for filtering recommendations is visible.
 
-![Order Recommendations](./media/mrp-2-5-order-recommendation/mrp-order-recommendation-03.png)
+![Order Recommendations](./media/mrp-2-5-order-recommendation/mrp-order-recommendation-03.webp)
 
-First, you must determine a scenario to filter the recommendation with which you want to work. For selected scenario you can determine additional recommendation's parameters for example related to Vendors and Items to narrow filtering. Then, use the button Apply Filter. Recommendations that meet the criteria appear in the table. 
+First, you must determine a scenario to filter the recommendation with which you want to work. For selected scenario you can determine additional recommendation's parameters for example related to Vendors and Items to narrow filtering. Then, use the button Apply Filter. Recommendations that meet the criteria appear in the table.
 
-![Order Recommendations](./media/mrp-2-5-order-recommendation/mrp-order-recommendation-04.png)
+![Order Recommendations](./media/mrp-2-5-order-recommendation/mrp-order-recommendation-04.webp)
 
 In this view, you can:
 

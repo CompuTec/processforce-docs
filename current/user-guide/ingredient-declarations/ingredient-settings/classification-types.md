@@ -8,5 +8,4 @@ This data is used within [the Ingredient Master Data](./../ingredient-master-dat
 Administration → Setup → Ingredients → Classification Types
 :::
 
-![Ingredient Classification Type](./media/ingredient-classification-type.png)
-
+![Ingredient Classification Type](./media/ingredient-classification-type.webp)

@@ -12,7 +12,7 @@ The concept of planned Yield is to:
 
 Within the Item Details form, the planned yield value is within the Yield % field for the parent item in the bill of materials.
 
-![Yield](./media/item-details-yield-fields.png)
+![Yield](./media/item-details-yield-fields.webp)
 
 ## Bill of Materials 
 
@@ -22,9 +22,9 @@ If using planned yield, it is recommended to modify the default Item, CoProduct,
 
 The result is an increase in the material quantity required to be consumed in production.
 
-If using Scrap%, this will be a cumulative value to the material quantity. 
+If using Scrap%, this will be a cumulative value to the material quantity.
 
-![Bill of Materials](./media/bill-of-materials-yield-fields.png)
+![Bill of Materials](./media/bill-of-materials-yield-fields.webp)
 
 ## Production Process
 
@@ -32,7 +32,7 @@ To ignore the increase in production time for the operation/resource, check the 
 
 NOTE: The additional time based on yield has not been implemented into costing.
 
-![Production Process Yield](./media/production-process-yield.png)
+![Production Process Yield](./media/production-process-yield.webp)
 
 ## Changing the Bill of Material Planned Yield
 
@@ -44,23 +44,23 @@ If the Yield % value is changed, a window opens and provides a number of options
 
 - Where Yield is not 100%: copy the value and update all rows where yield % is not 100%.
 
-![Bill of Materials Yield options](./media/bill-of-materials-yield-options.png)
+![Bill of Materials Yield options](./media/bill-of-materials-yield-options.webp)
 
 ## Manufacturing Order
 
 When the Manufacturing Order is created, the Planned Quantity is increased by the planned Yield % to increase the number of items issued and the required resource time.
 
-![Column](./media/manufacturing-order-yield-column.png)
+![Column](./media/manufacturing-order-yield-column.webp)
 
 Checked the Ignore Yield check box not to increase the operation/resource total time.
 
-![Ignore Yield](./media/manufacturing-order-ignore-yield.png)
+![Ignore Yield](./media/manufacturing-order-ignore-yield.webp)
 
 ## Planned vs. Actual Yield
 
 Based on the [Yield Formula](./../production-process/yield-time-calculation.md), the Actual Yield is calculated when materials receipts and issues are created.
 
-![Others Tab](./media/manufacturing-order-others-yield.png)
+![Others Tab](./media/manufacturing-order-others-yield.webp)
 
 ## Changing the Manufacturing Order Planned Yield
 
@@ -72,4 +72,4 @@ If the Yield% value is changed, a window opens and provides a number of options:
 
 - Where Yield is not 100%: copy the value and update all rows where yield % is not 100%.
 
-![Others Update](./media/manufacturing-order-others-update-yield.png)
+![Others Update](./media/manufacturing-order-others-update-yield.webp)

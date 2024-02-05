@@ -8,7 +8,7 @@ Upper menu → Help → Support Desk → Health Check.
 
 Example Health Check results:
 
-![Health Check](./media/health-check.png)
+![Health Check](./media/health-check.webp)
 
 The Health Check results table contains the following:
 

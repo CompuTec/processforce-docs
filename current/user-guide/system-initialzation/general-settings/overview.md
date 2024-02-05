@@ -20,4 +20,4 @@ Administration → System Initialization → General Settings → ProcessForce t
 
 :::
 
-![General Tab](./media/general-settings-general-tab.png)
+![General Tab](./media/general-settings-general-tab.webp)

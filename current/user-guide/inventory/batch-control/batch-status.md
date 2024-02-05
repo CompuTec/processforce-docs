@@ -12,7 +12,7 @@ Within Pick Order, the Batch records are displayed in different colors to provid
 
 - Grey – Locked and Non Accessible Batch set to DISPLAY based on General Settings settings; Batch records are displayed but cannot be picked.
 
-![Available Batches](./media/available-batches.png)
+![Available Batches](./media/available-batches.webp)
 
 ## SAP Business One Documents
 

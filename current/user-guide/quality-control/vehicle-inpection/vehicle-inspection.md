@@ -12,7 +12,7 @@ Purchasing - AP → Vehicle Inspection
 
 or from the context menu on Goods Receipt PO (with the already chosen document):
 
-![Goods Receipt PO](./media/vehicle-inspection.png)
+![Goods Receipt PO](./media/vehicle-inspection.webp)
 
 This option is available for Goods Receipt PO in any Status.
 
@@ -20,7 +20,7 @@ This option is available for Goods Receipt PO in any Status.
 
 ## Vehicle Inspection document
 
-![Vehicle Inspection](./media/vehicle-inspection-2.png)
+![Vehicle Inspection](./media/vehicle-inspection-2.webp)
 
 ### Header
 

@@ -10,7 +10,7 @@ Administration → Setup → Item Details → Item Phrases
 
 You can choose on what kind of document a specific Item Phrase can be used (by checking a corresponding checkbox).
 
-![Item Phrase](./media/item-details-phrases.png)
+![Item Phrase](./media/item-details-phrases.webp)
 
 ## Item Phrase Groups
 
@@ -20,7 +20,7 @@ Administration → Setup → Item Details → Item Phrase Group
 
 The Item Phrase Group functions allow users to create groups of standard phrases, for example, EU Risk and EU Safety Phrases.
 
-![Item Phrase Groups](./media/item-phrase-groups.png)
+![Item Phrase Groups](./media/item-phrase-groups.webp)
 
 ## Item Phrase Group assigning
 
@@ -30,7 +30,7 @@ Administration → Setup → Item Details → Item Phrases
 
 The user can assign an Item Phrase Group to an Item Phrase by clicking a Group field and then the Choose From List icon:
 
-![Assigning](./media/assigning-phrase-group.png)
+![Assigning](./media/assigning-phrase-group.webp)
 
 ## Item Phrase assigning
 

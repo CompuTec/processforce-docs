@@ -16,7 +16,7 @@ Administration → System Initialization → Company Details
 
 - Manage Item Cost per Warehouse – it is optional, but it should be decided before costings recreation.
 
-![company Details](./media/company-details.png)
+![company Details](./media/company-details.webp)
 
 ### Document Settings
 
@@ -52,7 +52,7 @@ Click [here](./../costing-material-and-resources.md) to get more information.
 
 If you have added items to the Item Master Data form when ProcessForce is not installed and running, select Restore Item Costing and Resource Costing to populate the corresponding costing objects.
 
-![Restore Functions](./media/restore-costing.png)
+![Restore Functions](./media/restore-costing.webp)
 
 Click [here](./../../system-initialzation/data-restore.md) to find out more about Restore Function.
 
@@ -62,7 +62,7 @@ Click [here](./../../system-initialzation/data-restore.md) to find out more abou
 Administration → Setup → Financials → Cost Categories
 :::
 
-![Cost Categories](./media/cost-categories.png)
+![Cost Categories](./media/cost-categories.webp)
 
 ### Default Overhead Rates
 
@@ -74,11 +74,11 @@ By Item Group default, fixed and variable overhead rates can be added.
 
 When a new Item is created as part of the Item Group, these values will be automatically added to the corresponding fields within the Item Costing form.
 
-![Overheads](./media/overheads.png)
+![Overheads](./media/overheads.webp)
 
-Default fixed and overhead values are automatically added to the item costing record for all defined cost categories, except 000 
+Default fixed and overhead values are automatically added to the item costing record for all defined cost categories, except 000
 
-![Item Costing Overheads](./media/item-costing-overheads.png)
+![Item Costing Overheads](./media/item-costing-overheads.webp)
 
 ### Changing Default Overhead Values
 

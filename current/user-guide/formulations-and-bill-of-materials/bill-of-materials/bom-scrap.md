@@ -21,12 +21,13 @@ Production → Bill of Materials → Bill of Materials → Scrap Tab
 - Enter the UoM; the default value is defined within the Item Master Data/Inventory Data Tab
 
 - Select the scrap Type:-
+
   - The valid options are Scrap and ByProduct.
-  
+
   - Both types of scrap create inventory transactions.
-  
+
   - ByProducts can be reused in future production processes or sold to customers.
-  
+
   - Scrap cannot be reused.
 
 - Select the Issue Type, Backflush, or Manual. The default value is defined within the Item Master Data/General Tab.
@@ -37,4 +38,4 @@ Production → Bill of Materials → Bill of Materials → Scrap Tab
 
 - Type in Remarks to a specific Scrap.
 
-![Scrap Tab](./media/bill-of-materials-scrap.png)
+![Scrap Tab](./media/bill-of-materials-scrap.webp)

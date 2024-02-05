@@ -38,14 +38,14 @@ In the examples used in this section, adding UDF to the Bill of Materials is use
 
 - To add a UDF, go to the upper menu Tools → Customization Tools → User-Defined Fields - Management. You can reach ProcessForce tables in User Tables:
 
-  ![User Tables](./media/udf-tables.png)
+  ![User Tables](./media/udf-tables.webp)
 
   UDF can be added either to a form's header or a row.
 
   <details>
   <summary>Header and Row</summary>
-  
-  ![Header and rows](./media/bom-header-rows.png)
+
+  ![Header and rows](./media/bom-header-rows.webp)
 
   </details>
 
@@ -53,11 +53,11 @@ In the examples used in this section, adding UDF to the Bill of Materials is use
 
 - Choose the place that you want to add UDF to and click Add (Bill of Materials, Items in this example):
 
-  ![Add UDF](./media/udf-add.png)
+  ![Add UDF](./media/udf-add.webp)
 
 - Fill in all desired fields (check [the respective SAP Business One documentation entry](http://help.sap.com/saphelp_sboh92/helpdata/en/45/10ff7bcf465d7be10000000a11466f/content.htm) for more information) and click Add.
 
-  ![Fields](./media/field-data-add.png)
+  ![Fields](./media/field-data-add.webp)
 
   Note that Title, Type, and Structure fields cannot be edited once the field is added. You can remove UDF and add it again.
 
@@ -77,19 +77,19 @@ In the examples used in this section, adding UDF to the Bill of Materials is use
 
 UDFs added to a header are not displayed on it. You can check it on a side panel (you can reach it by using the View → User-Defined Fields menu or pressing Ctrl+Shift+U):
 
-![Header UDFs](./media/udfs-header.png)
+![Header UDFs](./media/udfs-header.webp)
 
 ### Row UDFs
 
 UDFs added to a row are displayed as another column in the row table:
 
-![Row UDF](./media/udf-row-test.png)
+![Row UDF](./media/udf-row-test.webp)
 
-### *Flat* forms
+### _Flat_ forms
 
 Some forms do not have tables (rows), e.g., Downtime Reason. In this case, you can add UDF only in the same manner as header UDFs: it will not be available on a form. It will be available on a side panel:
 
-![Downtime Reson UDFs](./media/udfs-downtime-reason.png)
+![Downtime Reson UDFs](./media/udfs-downtime-reason.webp)
 
 ### Form Settings
 
@@ -97,12 +97,12 @@ You can manage the visibility and activity of a UDF by standard SAP Business One
 
 Note that only row UDFs are available in Form Settings.
 
-![Form Settings](./media/udfs-form-settings.png)
+![Form Settings](./media/udfs-form-settings.webp)
 
 ## ProcessForce UDFs on SAP Business One forms: recommended Form Settings
 
 Installing ProcessForce causes adding ProcessForce UDFs to some of the SAP Business One forms, e.g., Revision on Sales Order:
 
-![Sales Order UDF](./media/udfs-sales-order.png)
+![Sales Order UDF](./media/udfs-sales-order.webp)
 
 Keeping ProcessForce UDFs placed on SAP B1 forms visible in Form Settings is recommended. Turning off the option leads to a blockage of the fields update during transactions and may lead to data inconsistency.

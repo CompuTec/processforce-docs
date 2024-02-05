@@ -6,7 +6,6 @@ The yield value from the Bill of Materials header is default included in the pla
 
 The default setting will be copied to the manufacturing order.
 
-![Ignore Yield](./media/production-process-ignore-yield.png)
+![Ignore Yield](./media/production-process-ignore-yield.webp)
 
-![Yield Checkbox](./media/manufacturing-order-yield-checkbox.png)
-
+![Yield Checkbox](./media/manufacturing-order-yield-checkbox.webp)

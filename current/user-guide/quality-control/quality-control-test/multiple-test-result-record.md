@@ -16,7 +16,7 @@ If the *Enable Multiple Test Results* is checked, a user can define multiple te
 
 To define multiple test results for a Test Property, right-click on a specific Test Property row on the QC Test form and choose Record Multiple Test Results from the context menu:
 
-![Multiple Test Result Record](./media/multiple-test-results.png)
+![Multiple Test Result Record](./media/multiple-test-results.webp)
 
 To define multiple test results for an Item Property, right-click on a specific Item Property row on the QC Test form and choose Record Multiple Test Results:
 
@@ -24,7 +24,7 @@ To define multiple test results for an Item Property, right-click on a specific 
 
 After one of the activities described in the paragraph above is performed, the Multiple Test Results form displays:
 
-![Multiple Test](./media/record-multiple-test-results.png)
+![Multiple Test](./media/record-multiple-test-results.webp)
 
 ### Header
 
@@ -78,7 +78,7 @@ Transfer the data according to the percentage of passed/failed entries:
 
 Checking causes loading to the Property field on Quality Control Test, a result that is presented the most often on the Record Multiple Test Results form. The option is available for properties with dictionary values only.
 
-![Multiple Results Copied](./media/multiple-results-copied.png)
+![Multiple Results Copied](./media/multiple-results-copied.webp)
 
 #### Numeric value property
 
@@ -91,4 +91,3 @@ Checking it causes loading to the Property field on Quality Control Test, a resu
 ### Deleting Rows
 
 To delete a row, right-click on it and choose Delete row from the context menu:
-

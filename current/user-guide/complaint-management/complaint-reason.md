@@ -8,4 +8,4 @@ This form allows the user to define Reason Codes, record why a complaint has bee
 
 The Reason Code can be used for customer, supplier, and internal purposes and is used within the Complaint form.
 
-![Complaint Reason](./media/complaint-reason.png)
+![Complaint Reason](./media/complaint-reason.webp)

@@ -10,7 +10,7 @@ SAP Business One Activities can be used on ProcessForce documents. Activity in S
 
 To create an activity for a manufacturing order, select the Create Activity menu option:
 
-![Activities](./media/manufacturing-order-new-activity.png)
+![Activities](./media/manufacturing-order-new-activity.webp)
 
 The Activity form opens.
 
@@ -24,13 +24,13 @@ To use Activities related to Manufacturing Orders, it is required to create an i
 
 Note: The document type and document number are copied into the activity form
 
-![Activity Document Number](./media/activity-document-number.png)
+![Activity Document Number](./media/activity-document-number.webp)
 
 ### Manufacturing Order Activity Report
 
 Select the Reports menu and click Related Activities:
 
-![Related Activities](./media/manufacturing-order-related-activities.png)
+![Related Activities](./media/manufacturing-order-related-activities.webp)
 
 All related Activities are displayed within the Activity Report.
 
@@ -58,7 +58,7 @@ To create an Activities for a Complaint, select the New Activity menu option (to
 
 - When a QC test includes the BP Code, for example, a test for Goods Receipt PO, the BP Code is copied into the Activity.
 
-![Quality Control Business Partner](./media/quality-control-business-partner.png)
+![Quality Control Business Partner](./media/quality-control-business-partner.webp)
 
 ### Non-Conforming Materials Report
 

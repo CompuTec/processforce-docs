@@ -14,7 +14,7 @@ Please check the [Configuration section](./configuration/configuration.md) befor
 Administration → Setup → Financials → Cost Categories
 :::
 
-![Cost Categories](./media/cost-categories.png)
+![Cost Categories](./media/cost-categories.webp)
 
 Cost Categories are different sets of cost data (Item Costing) for the same Items and Bill of Materials. Similarly, it allows the creation of multiple costing data sets for a specific Resource (Resource Costing).
 
@@ -38,7 +38,7 @@ Any other Cost Category can be used for a costing simulation. Still, to make it 
 Costing → Cost Roll-Up
 :::
 
-![Cost Roll-Up](./media/cost-roll-up.png)
+![Cost Roll-Up](./media/cost-roll-up.webp)
 
 The Cost Roll-Up function calculates or re-calculates the costs of one or several items. These items would be semi-finished or finished products.
 
@@ -71,19 +71,19 @@ FG-01:
 
 - SG-01:
 
- - RM-01
+- RM-01
 
 **If the checkbox mentioned above is checked**, then:
 
 1. First, the costs will be refreshed and calculated for the RM-01 raw material.
 2. Then, the costs of the SG-01 semi-good product will be calculated based on the RM-01 data (calculated during the 1st step) and its costing configuration (fixed, variable, etc.).
 3. At the end, the costs of the FG-01 final-good product will be calculated based on the SG-01 data (which was calculated during the 2nd step) and its costing data (fixed, variable, etc.)
- 
- ``RM-01 recalculation (saving) → SG-01 recalculation (saving) → FG-01 recalculation (saving)``
+
+`RM-01 recalculation (saving) → SG-01 recalculation (saving) → FG-01 recalculation (saving)`
 
 **If this checkbox is not checked**, only the 2nd and 3rd steps are performed – and the costs are not refreshed/recalculated for the lowest level (Raw Materials, in this case: RM-01). The expenses are recalculated/restored only for the FG-01 final-good product and SG-01 semi-finished product based on the data saved for the RM-01 during the previous roll-up performance.
 
-``SG-01 recalculation → (recalculation) FG-01 (saving)``
+`SG-01 recalculation → (recalculation) FG-01 (saving)`
 
 ### Use final goods batch size value for semi-goods calculations
 
@@ -96,8 +96,7 @@ We have the following product structure:
 FG-01:
 
 - SG-01:
-  
- - RM-01
+- RM-01
 
 The batch Size for Item FG-01 is set up to 10.
 
@@ -119,7 +118,7 @@ The Cost Roll-Over function is used in the following:
 
 - To update the Cost Category 000 record for Resource Costs.
 
-![Cost Roll-Over](./media/cost-roll-over.png)
+![Cost Roll-Over](./media/cost-roll-over.webp)
 
 To perform Cost Roll-Over:
 
@@ -139,6 +138,6 @@ An Inventory Revaluation transaction is automatically generated if there is a di
 
 Inventory Revaluation is generated only for the revision with the **Default for Costing** checkbox checked:
 
-![Default for Costing](./media/default-for-costing.png)
+![Default for Costing](./media/default-for-costing.webp)
 
 This applies to Standard Costing valuation only.

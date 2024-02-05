@@ -1,37 +1,37 @@
 # Basic Settings
 
-To enable the MRP 2.5 function in the SAP Business One menu, you have to allow AppEngine. It enables integration between the SAP Business One client and AppEngine to see AppEngine plugins inside SAP Business One. The Form and Web Browser option will allow you to work with MRP inside SAP Business One (Form) and in Web Browser. Web browser means the application will open in a separate browser window outside SAP Business One. 
+To enable the MRP 2.5 function in the SAP Business One menu, you have to allow AppEngine. It enables integration between the SAP Business One client and AppEngine to see AppEngine plugins inside SAP Business One. The Form and Web Browser option will allow you to work with MRP inside SAP Business One (Form) and in Web Browser. Web browser means the application will open in a separate browser window outside SAP Business One.
 Note: in the Web browser mode, yellow arrows do not work.
 
-![Enable](./media/basic-settings/mrp-enable.png)
+![Enable](./media/basic-settings/mrp-enable.webp)
 
 Then, you will see the following option in the MRP menu.
 
-![Menus](./media/basic-settings/mrp-menu.png)
+![Menus](./media/basic-settings/mrp-menu.webp)
 
 ## Forecasts 2.5
 
 To prepare forecasts for MRP 2.5, use Forecast 2.5. This form is like the old Forecast but with the possibility to define a forecast per Item/Revision.
 
-![Forecasts](./media/basic-settings/forecasts-1.png)
+![Forecasts](./media/basic-settings/forecasts-1.webp)
 
 You can use the Create Forecast button to add many forecast lines according to the selection criteria.
 
-![Forecasts](./media/basic-settings/forecasts-2.png)
+![Forecasts](./media/basic-settings/forecasts-2.webp)
 
 ## Forecast Consumption in General Settings
 
-![General Settings](./media/basic-settings/mrp-general-settings.png)
+![General Settings](./media/basic-settings/mrp-general-settings.webp)
 
 In MRP 2.5, these settings are used as default. Consumption Method Days Backward/Forward can be modified per scenario. Consume Forecast is a global parameter determined by default settings in sales documents lines, column Consume Forecast.
 
-![Sales Order](./media/basic-settings/mrp-sales-order.png)
+![Sales Order](./media/basic-settings/mrp-sales-order.webp)
 
 ## Item/Revision planning data
 
 Planning data are defined in Item Master Data and separately for Item Revision in Item Details.
 
-![Item Master Data](./media/basic-settings/mrp-item-master-data.png)
+![Item Master Data](./media/basic-settings/mrp-item-master-data.webp)
 
 **Planning Method** – MRP works like the standard SAP Business One.
 
@@ -41,7 +41,7 @@ Planning data are defined in Item Master Data and separately for Item Revision i
 
 **Order Interval** – Select one of the defined intervals or select Define New to open the Order Interval - Setup window. In MRP calculations, the application automatically groups the recommended orders into interval periods and arranges orders within the same period into the first working day of that period.
 
-**Checking Rule** – not ready for tests. 
+**Checking Rule** – not ready for tests.
 
 **Tolerance Days** – not ready for tests
 
@@ -63,44 +63,44 @@ If the lead time is for three days, the MRP will issue the purchase or productio
 
 Procurement MethodILT ScopeOutcome1aMakeSaleILT added to Sales document1bMakePurch. / Prod.ILT added to MOR document/recommendation (Supply)1cMakeBothILT added to Sales document and MOR document/recommendation (Secondary Demand)2aBuySaleILT added to Sales document2bBuyPurch. / Prod.ILT added to Purchase document/recommendation2cBuyBothILT added to Sales document and Purchase document/recommendation.
 
-|    | Procurement Method | ILT Scope      | Outcome                                                                        |
-|----|--------------------|----------------|--------------------------------------------------------------------------------|
-| 1a | Make               | Sale           | ILT added to Sales document                                                    |
-| 1b | Make               | Purch. / Prod. | ILT added to MOR document/recommendation (Supply)                              |
-| 1c | Make               | Both           | ILT added to Sales document and MOR document/recommendation (Secondary Demand) |
-| 2a | Buy                | Sale           | ILT added to Sales document                                                    |
-| 2b | Buy                | Purch. / Prod. | ILT added to Purchase document/recommendation                                  |
-| 2c | Buy                | Both           | ILT added to Sales document and Purchase document/recommendation               |
+|     | Procurement Method | ILT Scope      | Outcome                                                                        |
+| --- | ------------------ | -------------- | ------------------------------------------------------------------------------ |
+| 1a  | Make               | Sale           | ILT added to Sales document                                                    |
+| 1b  | Make               | Purch. / Prod. | ILT added to MOR document/recommendation (Supply)                              |
+| 1c  | Make               | Both           | ILT added to Sales document and MOR document/recommendation (Secondary Demand) |
+| 2a  | Buy                | Sale           | ILT added to Sales document                                                    |
+| 2b  | Buy                | Purch. / Prod. | ILT added to Purchase document/recommendation                                  |
+| 2c  | Buy                | Both           | ILT added to Sales document and Purchase document/recommendation               |
 
 ### Example
 
 1. Item with Procurement Method = Make, Lead Time = 3, Internal Lead Time = 1,
 
    a. ILT Scope = Sale
-    If it is an Item ordered by the customer, ILT will be added to the Sales Order. After three days of MOR’s Release Date, the Item will be available in stock (Lead Time=3), and one day of Internal Lead Time will be added before the Item will be ready to send to the Customer (for example, packing time, quality control before packing, etc.). ILT will not be added to the finished MOR.
+   If it is an Item ordered by the customer, ILT will be added to the Sales Order. After three days of MOR’s Release Date, the Item will be available in stock (Lead Time=3), and one day of Internal Lead Time will be added before the Item will be ready to send to the Customer (for example, packing time, quality control before packing, etc.). ILT will not be added to the finished MOR.
 
    b. ILT Scope = Purch. / Prod.
 
-    ILT will be added only to the finished MOR. After three days of MOR’s Release Date, the Item will be available in stock (Lead Time=3), and one day of Internal Lead Time will be added after finishing MOR (for example, quality control activities).
-    ILT will not be added to the Sales Order if it is an Item ordered by a customer.
+   ILT will be added only to the finished MOR. After three days of MOR’s Release Date, the Item will be available in stock (Lead Time=3), and one day of Internal Lead Time will be added after finishing MOR (for example, quality control activities).
+   ILT will not be added to the Sales Order if it is an Item ordered by a customer.
 
    c. ILT Scope = Both
-    After three days of MOR’s Release Date, the Item will be available in stock (Lead Time=3), and one day of Internal Lead Time will be added:
+   After three days of MOR’s Release Date, the Item will be available in stock (Lead Time=3), and one day of Internal Lead Time will be added:
 
-      i. to Sales Order if it is an Item ordered by the customer, like in a. In such a case, ILT will not be added to MOR.
+   i. to Sales Order if it is an Item ordered by the customer, like in a. In such a case, ILT will not be added to MOR.
 
-      ii. to MOR if it is not an Item ordered by the Customer. For example, it is planned based on demand from the higher BOM level (secondary demand), Like in b.
+   ii. to MOR if it is not an Item ordered by the Customer. For example, it is planned based on demand from the higher BOM level (secondary demand), Like in b.
 
 2. Item with Procurement Method = Buy, Lead Time = 10, Internal Lead Time = 1
 
-  a. ILT Scope = Sale
-    If it is an Item ordered by the customer, ILT will be added to the Sales Order. After ten days of the Purchase Order Release Date, the Item will be available in stock (Lead Time=10), and one day of Internal Lead Time will be added before the Item will be ready to send to the Customer (for example, packing time, final quality control, etc.). ILT will not be added to the PO.
+a. ILT Scope = Sale
+If it is an Item ordered by the customer, ILT will be added to the Sales Order. After ten days of the Purchase Order Release Date, the Item will be available in stock (Lead Time=10), and one day of Internal Lead Time will be added before the Item will be ready to send to the Customer (for example, packing time, final quality control, etc.). ILT will not be added to the PO.
 
-  b. ILT Scope = Purch. / Prod.
-    ILT will be added to the Purchase Order. After ten days from the Purchase Order’s Release Date, the item will be available in stock (Lead Time=10). One day of Internal Lead Time will be added before the item is available for production or sale (for example, quality control activities for the purchased item). ILT will not be added to the Sales Order if it is an Item ordered by a customer.
+b. ILT Scope = Purch. / Prod.
+ILT will be added to the Purchase Order. After ten days from the Purchase Order’s Release Date, the item will be available in stock (Lead Time=10). One day of Internal Lead Time will be added before the item is available for production or sale (for example, quality control activities for the purchased item). ILT will not be added to the Sales Order if it is an Item ordered by a customer.
 
-  c. ILT Scope = Both.
-    After ten days of the Purchase Order’s Release Date, the Item will be available in stock (Lead Time=10), and one day of Internal Lead Time will be added:
+c. ILT Scope = Both.
+After ten days of the Purchase Order’s Release Date, the Item will be available in stock (Lead Time=10), and one day of Internal Lead Time will be added:
 
     i.  only to Purchase Order If it is an Item not ordered by a customer.
 
@@ -119,24 +119,24 @@ Examples of order Qty calculations:
 
 **Example 1**
 
- Parameters:
- Order Quantity = 103
- Order Multiple = 3
- Minimum Order Qty = 5
- Maximum Order Qty = 10
- Outcome:
- The first ten recommendations with quantity 10
- Rest of division = 3 (Order Quantity/Maximum Order Qty)
- Last (11) recommendation with quantity 5 (effect of Minimum Oder Quantity, Rest of division < Minimum Order Qty)
+Parameters:
+Order Quantity = 103
+Order Multiple = 3
+Minimum Order Qty = 5
+Maximum Order Qty = 10
+Outcome:
+The first ten recommendations with quantity 10
+Rest of division = 3 (Order Quantity/Maximum Order Qty)
+Last (11) recommendation with quantity 5 (effect of Minimum Oder Quantity, Rest of division < Minimum Order Qty)
 
 **Example 2**
 
- Parameters:
- Minimum Order Qty = 2 (other parameters unchanged)
- Outcome:
- The first ten recommendations with quantity 10
- Rest of division = 3 (Order Quantity/Maximum Order Qty)
- Last (11) recommendation with quantity 6 (effect of Order Multiply, Rest of division < Minimum Order Qty)
+Parameters:
+Minimum Order Qty = 2 (other parameters unchanged)
+Outcome:
+The first ten recommendations with quantity 10
+Rest of division = 3 (Order Quantity/Maximum Order Qty)
+Last (11) recommendation with quantity 6 (effect of Order Multiply, Rest of division < Minimum Order Qty)
 
 ## Item/Revision stock data
 
@@ -144,5 +144,4 @@ For Items managed by Batches, Serial Numbers in Item Details are visible stock i
 
 In MRP 2.5, you can work with Inventory Level parameters per revision and per Item.
 
-![Example](./media/basic-settings/mrp-2-5-example.png)
-
+![Example](./media/basic-settings/mrp-2-5-example.webp)

@@ -10,6 +10,4 @@ Routing is a sequence of specific operations performed on particular Resources w
 Production → Routings
 :::
 
-
-![Routing](./media/routing.png)
-
+![Routing](./media/routing.webp)

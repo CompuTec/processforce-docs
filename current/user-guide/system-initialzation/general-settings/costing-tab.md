@@ -10,7 +10,7 @@ Administration > System Initialization > General Settings > ProcessForce tab > C
 
 :::
 
-![Costing Tab](./media/costing-tab.png)
+![Costing Tab](./media/costing-tab.webp)
 
 **Post resource confirmation** – check this box if you wish to have financial postings for resources (Machines and Labor). Once a financial journal has been posted, this field is grayed out and cannot be unchecked.
 
@@ -40,15 +40,15 @@ Administration > System Initialization > General Settings > ProcessForce tab > C
 
 - **Save cost roll-up calculation results and Item Costing restored data in CSV files** – the setting determines whether the data calculated during the new Cost Roll-up process is saved to CSV files (for some analysis or testing purposes) or not. If the option is checked, CSV files are saved to C:\ProgramData. The information is saved in the following name format:
 
-    - CT_PF_OITC_YYYYMMDD_HHmmss_ProcessId.csv
+  - CT_PF_OITC_YYYYMMDD_HHmmss_ProcessId.csv
 
-    - CT_PF_ITC1_YYYYMMDD_HHmmss_ProcessId.csv
+  - CT_PF_ITC1_YYYYMMDD_HHmmss_ProcessId.csv
 
-    - CT_PF_ITC2_YYYYMMDD_HHmmss_ProcessId.csv
+  - CT_PF_ITC2_YYYYMMDD_HHmmss_ProcessId.csv
 
-    - CT_PF_ITC3_YYYYMMDD_HHmmss_ProcessId.csv
+  - CT_PF_ITC3_YYYYMMDD_HHmmss_ProcessId.csv
 
-    - CT_PF_ITC5_YYYYMMDD_HHmmss_ProcessId.csv
+  - CT_PF_ITC5_YYYYMMDD_HHmmss_ProcessId.csv
 
 **Save data in LOG tables during the Item Costing restoration process**
 
@@ -57,4 +57,3 @@ Administration > System Initialization > General Settings > ProcessForce tab > C
 **Default type of Costing determination**
 
 **Default price list of Costing**
-

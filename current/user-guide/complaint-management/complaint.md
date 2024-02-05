@@ -30,11 +30,11 @@ The form header allows the user to manage the following:
 
 - An Alert can be generated to be sent to the Complaint Manager to allocate the Owner.
 
-![Complaint](./media/complaint-1.png)
+![Complaint](./media/complaint-1.webp)
 
 ## Transaction
 
-![Transactions](./media/complaint-transactions.png)
+![Transactions](./media/complaint-transactions.webp)
 
 This Tab allows the user to record Item related and Non-Item related Complaints.
 
@@ -50,7 +50,7 @@ Multiple Reason Codes can be added and deleted for recording and analysis purpos
 
 A remark can also be added.
 
-![Complaint](./media/complaint-2.png)
+![Complaint](./media/complaint-2.webp)
 
 ## Action
 
@@ -66,7 +66,7 @@ When the sample is received at the warehouse, based on a Return document, an ale
 
 - The alert is based on the following query, Status = Started, Complaint No, Business Partner Code and Name, Item Number, Batch/Serial Number, Received Date, Warehouse Code, and Complaint Owner.
 
-![Complaint Action](./media/complaint-action.png)
+![Complaint Action](./media/complaint-action.webp)
 
 ## Notes
 

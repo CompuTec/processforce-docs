@@ -16,13 +16,13 @@ Production → Manufacturing Order → Scheduling
 
 From here, choosing a single Manufacturing Order or a bigger number is possible.
 
-![Scheduling Selection Criteria](./media/scheduling-selection-criteria.png)
+![Scheduling Selection Criteria](./media/scheduling-selection-criteria.webp)
 
 You can select/deselect all the Warehouses by double-clicking on the top of the Select column.
 
 Use Scheduling Selection Criteria to choose information about which Manufacturing Orders are to be displayed and click OK (if no criteria are determined, all of the Manufacturing Orders in the system are preferred). This leads you to a list of selected Manufacturing Orders. Choose the Scheduling Board option from the Select button:
 
-![Scheduling Select](./media/scheduling-select.png)
+![Scheduling Select](./media/scheduling-select.webp)
 
 ### Sales Order
 
@@ -32,7 +32,7 @@ Sales A/R → Sales Order
 
 It is possible to create semi-finished Items Manufacturing Orders from a Sales Order context menu by choosing to Create Manufacturing Orders:
 
-![Scheduling Sales Order](./media/scheduling-sales-order.png)
+![Scheduling Sales Order](./media/scheduling-sales-order.webp)
 
 Note that there are two similar options:
 
@@ -44,7 +44,7 @@ Note that there are two similar options:
 
 You can create semi-finished products from a context menu of a final good Manufacturing Order:
 
-![Manufacturing Order Create Semi-Finished](./media/manufacturing-order-create-semi-finished.png)
+![Manufacturing Order Create Semi-Finished](./media/manufacturing-order-create-semi-finished.webp)
 
 After creating semi-finished product Manufacturing Orders here, another option is available from the context menu: Scheduling → Recalculate Semi-finished Products Lead Time. This option also leads to Semi-finished Product Scheduling Board and allows changing the Manufacturing Order dates and recalculating the Lead Time.
 
@@ -56,7 +56,7 @@ MRP → Order Recommendation
 
 You can also reach the for from the Order Recommendation form:
 
-![Order Recommendation Scheduling Board](./media/order-recommnedation-scheduling-board.png)
+![Order Recommendation Scheduling Board](./media/order-recommnedation-scheduling-board.webp)
 
 ## Scheduling Board / Semi-finished Product Scheduling
 
@@ -94,7 +94,7 @@ The checkbox is not checked: if there are Manufacturing Orders with errors, the 
 
 #### Direction
 
-Production can be planned in two ways: 
+Production can be planned in two ways:
 
 - Forward - the system automatically plans forward the start and end of the day, absolute time, and required date.
 
@@ -116,13 +116,13 @@ Available routing can be chosen from the Scheduling Board.
 
 The option allows filtering Manufacturing Orders based on the standard SAP Business One option.
 
-![Scheduling Filter Table](./media/scheduling-filter-table.png)
+![Scheduling Filter Table](./media/scheduling-filter-table.webp)
 
 #### Visualize
 
 Clicking this option opens a visual representation of relations between Manufacturing Orders:
 
-![Visualize](./media/visualiaze.png)
+![Visualize](./media/visualiaze.webp)
 
 #### Copy row, Copy multiple rows.
 
@@ -136,7 +136,7 @@ This tab summarizes Set Up Time, Run Time Machine, and Labor type Resources for 
 
 Load Report considers all data calculated in the Schedule tab (even before saving/creating documents from the Schedule tab).
 
-![Load Report](./media/scheduling-load-report-tab.png)
+![Load Report](./media/scheduling-load-report-tab.webp)
 
 Values in the time columns (proper from the Resource Type column), e.g., 1:25 / 168:00, shows aggregated already scheduled time and total availability calculated based on a related Resource Calendar.
 
@@ -158,7 +158,7 @@ Periods - aggregate data either in days, weeks, or months (in the columns right 
 
 By Resource/ By Group - displays either a list of Resources (the screenshot above) or Resources grouped by the Resource Group, with a total for each group:
 
-![Load Report](./media/scheduling-load-report-by-group.png)
+![Load Report](./media/scheduling-load-report-by-group.webp)
 
 ## Example
 
@@ -176,7 +176,7 @@ Let's consider two possibilities:
 
 The delivery date is copied to Scheduling Board. It is checked if it is possible to make this Item on time.
 
-In this screenshot, we can see that to meet the need for delivery on 30.11.17, 0:00; the production has to be finished on 28.11.17, 12:00. Green row indicates that it is possible. The Manufacturing Orders can be scheduled to be delivered on time. 
+In this screenshot, we can see that to meet the need for delivery on 30.11.17, 0:00; the production has to be finished on 28.11.17, 12:00. Green row indicates that it is possible. The Manufacturing Orders can be scheduled to be delivered on time.
 
 2.  'Delivery date' is not possible to realize.
 

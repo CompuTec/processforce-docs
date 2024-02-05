@@ -52,7 +52,7 @@ The information needed for generating the license placed on:
 
   :::
 
-  ![About ProcessForce](./media/about-processforce.png)
+  ![About ProcessForce](./media/about-processforce.webp)
 
 - License Administration form
 
@@ -64,7 +64,7 @@ The information needed for generating the license placed on:
 
   - SAP Business One license localization
 
-  ![Localization](./media/localization.png)
+  ![Localization](./media/localization.webp)
 
 :::info
 

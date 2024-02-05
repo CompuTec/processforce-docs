@@ -16,4 +16,4 @@ You can also:
 
 - Use the default Formula (as defined on the General Settings → ProcessForce tab) or change the expression format to calculate the Coproduct quantity (result). See [Formula](./../formula.md) for additional information.
 
-![WIP Tab](./media/bill-of-materials-wip-tab.png)
+![WIP Tab](./media/bill-of-materials-wip-tab.webp)

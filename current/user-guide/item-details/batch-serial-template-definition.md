@@ -18,7 +18,7 @@ Administration → Setup → Inventory → Serial Template Definition
 
 The Batch Template form is used to define the Batch number for products that are Batch traceable. The formula is based on TSQL statements, providing a flexible Batch Number creation.
 
-![Batch Diagram](./media/batch-diagram.png)
+![Batch Diagram](./media/batch-diagram.webp)
 
 Batch templates (as well as Serial templates) can be set on three different levels:
 
@@ -38,7 +38,7 @@ Administration → System Initialization → General Settings → ProcessFor
 
 :::
 
-![General Settings Template](./media/general-settings-templates.png)
+![General Settings Template](./media/general-settings-templates.webp)
 
 You can decide when a Batch number is created considering the Manufacturing Order status. To do this, check the Batch Number generated at the MOR checkbox and choose one of the options. When selecting one of the Status options, the Batch will be generated on the appropriate status change or creation of a Manufacturing Order with the specified status.
 
@@ -60,7 +60,7 @@ When checkboxes are unchecked, it is possible to set a Batch or Serial template 
 
 When checkboxes are checked, General Settings Batch or Serial template is used.
 
-![Item Groups](./media/item-groups.png)
+![Item Groups](./media/item-groups.webp)
 
 ## Item Level
 
@@ -74,7 +74,7 @@ When checkboxes are unchecked, it is possible to set a Batch or Serial template 
 
 Item Group Settings Batch or Serial template is used when checkboxes are checked.
 
-![Item Group Inherit](./media/item-details-batches-inherit.png)
+![Item Group Inherit](./media/item-details-batches-inherit.webp)
 
 ## Defining Batch Template
 
@@ -86,7 +86,7 @@ Administration → Setup → Inventory → Batch Template Definition
 
 It is possible to define a Batch Template as a distribution number or a Batch Template assigned for suppliers. To do that, pick the desired category: Dist Number (for distribution Batches) or Suppl Batch (for Supplier Batches) tab.
 
-![Batch Tempate](./media/batch-template.png)
+![Batch Tempate](./media/batch-template.webp)
 
 It is possible to define a Serial Number Template as a distribution number, a number for manufacturing items, or a Lot Number. To do that, pick the desired category (Dist Number, Manufacturing, or Lot Number tab).
 
@@ -96,7 +96,7 @@ Administration → Setup → Inventory → Serial Template Definition
 
 :::
 
-![Serial Template](./media/serial-template.png)
+![Serial Template](./media/serial-template.webp)
 
 When adding a new Batch/Serial template, the date and counter fields have the following default values:
 
@@ -114,12 +114,12 @@ Please remember that the Formula field is planned for 255 signs. More extended f
 
 :::
 
-![Batch Graph 2](./media/batch-graf-2.png)
+![Batch Graph 2](./media/batch-graf-2.webp)
 
 <details>
  <summary> How to reach Batch Number Transation Report from Goods Receipt PO </summary>
 
-![Batch Number Transactions Report](./media/batch-number-transactions-report.png)
+![Batch Number Transactions Report](./media/batch-number-transactions-report.webp)
 
 </details>
 
@@ -137,7 +137,7 @@ Please remember that the Formula field is planned for 255 signs. More extended f
 
 - Click the Add button.
 
-![Batch Template: Counter, Date](./media/batch-template-date-counter.png)
+![Batch Template: Counter, Date](./media/batch-template-date-counter.webp)
 
 ### Example 2: Date and Time
 
@@ -169,24 +169,23 @@ Please remember that the Formula field is planned for 255 signs. More extended f
 
 - Click the Add button.
 
-![Prefix](./media/batch-template-prefix.png)
+![Prefix](./media/batch-template-prefix.webp)
 
 ### Example 4: Embedding Item number
 
 - To add the two first letters of the Item number:
 
   - enter left,
- 
+
   - followed by (
-    
   - select the item code function
-  
+
   - followed by a ,
-  
+
   - followed by the number of item code digits
-  
+
   = followed by )
-  
+
 - To string another element of data enter the + sign for MS SQL version and || for HANA version
 
 - Select the date function
@@ -199,7 +198,7 @@ Please remember that the Formula field is planned for 255 signs. More extended f
 
 - Click the Add button.
 
-![Item Number](./media/batch-template-item-number.png)
+![Item Number](./media/batch-template-item-number.webp)
 
 ### Example 5: Incremental Batch Number starting with five zeros, and a maximum length of 6
 
@@ -210,15 +209,15 @@ Please remember that the Formula field is planned for 255 signs. More extended f
 - To add an increasing number starting with five leading zeros
 
   - enter right,
-  
+
   - followed by (
 
   - enter five zeros
 
   - followed by a ,
-  
+
   - followed by the length of the total batch number
-  
+
   - followed by )
 
 - To string another element of data, enter + sign
@@ -229,7 +228,7 @@ Please remember that the Formula field is planned for 255 signs. More extended f
 
 - Click the Add button.
 
-![Counter Template](./media/batch-template-template.png)
+![Counter Template](./media/batch-template-template.webp)
 
 ### Example 6: Using a specific value from a document in the Batch generation template
 
@@ -237,29 +236,29 @@ You can use others than specified in the Batch Template form fields to be incorp
 
 1. Create a new query in Query Generator (Tools → Queries → Query Generator), and type in $[PDN1,WhsCode] (the name of the warehouse field) in the Select field.
 
- ![Query Generator](./media//query-generator.png)
+![Query Generator](./media//query-generator.webp)
 
  <details>
   <summary>Click here to check how to chech a fild name</summary>
 
- a) go to Upper Menu → View → System Information and check the option (or click Ctrl + Shift + I):
+a) go to Upper Menu → View → System Information and check the option (or click Ctrl + Shift + I):
 
- b) point the field with a cursor – the name of the field will be displayed in System Messages Log:
+b) point the field with a cursor – the name of the field will be displayed in System Messages Log:
 
- ![Result](./media/field-name-check.png)
- 
+![Result](./media/field-name-check.webp)
+
  </details>
 
- Choose the name and Query Category and click Save:
+Choose the name and Query Category and click Save:
 
- ![Save](./media/save-query.png)
+![Save](./media/save-query.webp)
 
 2. Click the Classification field on Goods Receipt PO and go to Tools → Customization Tools → User-Defined Values - Setup:
 
 Choose the previously created query, set other values, and click Update.
 
 3. From now on Classification field will be set on the Whse value on every change on the Whse field. Now, if you use Classification in Batch Template, a value for a warehouse will be incorporated in the template.
-In the same way, you can set values from a different field in the classification field and use them in a batch template.
+   In the same way, you can set values from a different field in the classification field and use them in a batch template.
 
 ### Example 7: Current date + shelf interval
 
@@ -287,4 +286,3 @@ The result of the formula has to be a text value (NVARCHAR type, 36 characters; 
 ## Defining Serial Template
 
 Serial Template defining process looks the same as the Batch Template defining process shown in the examples above.
-

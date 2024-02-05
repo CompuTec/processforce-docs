@@ -9,7 +9,7 @@ Production → Time Bookings → Time Bookings
 
 To create a Time Booking, click a circle in Resource Code or Resource Name on the Time Bookings form. Data Selection form will be displayed: Resources connected to Manufacturing Orders in Scheduled, Released, or Finished status. You can choose more than one element. Choose records you want to add Time Bookings for by clicking the first field in the desired row.
 
-![Creating Time Bookings](./media/time-booking-list-of-resources.png)
+![Creating Time Bookings](./media/time-booking-list-of-resources.webp)
 
 Set document dates in the form header and then details of Time Booking in the table.
 
@@ -17,11 +17,11 @@ The time to be recorded is calculated from left to right, meaning that setting t
 
 Click the Add button after setting up all the details.
 
-![Time Bookings](./media/time-booking-added.png)
+![Time Bookings](./media/time-booking-added.webp)
 
 Time Booking function is also available from the context menu on Manufacturing Order, the Recording Time submenu, Time Bookings option. When a context menu is called from the header, the open Time Booking document will have all the Resources and their times copied. Choosing the option from a context menu from a specific Resource line copies only this Resource times (Time Bookings for Operation).
 
-![Manufacturing Order Recording Time](./media/manufacturing-order-recording-time-timebookings.png)
+![Manufacturing Order Recording Time](./media/manufacturing-order-recording-time-timebookings.webp)
 
 ## Working with multiple resources
 
@@ -29,7 +29,7 @@ It is possible to set multiple resources of the same kind, e.g., two machines. Y
 
 Number Of Resources allows defining the default number of resource units to work on. Note that setting a Number Of Resources affects run time. E.g., if Run Time is ten h and the Number of Resources 1, Planned Run Time is ten h. If the Number of Resources changes to 2, the planned time automatically changes to 5 h. Changing a Number of Resources affects the production process; however, during cost calculation, only added-up time will be considered - by example: 10 of h work is done after five h using two resources, the cost is calculated as a cost of work of 2 resources for five h each (10 h).
 
-![Time Bookings](./media/time-bookings-no-of-resources.png)
+![Time Bookings](./media/time-bookings-no-of-resources.webp)
 
 ## The Use Resource Calendar checkbox
 

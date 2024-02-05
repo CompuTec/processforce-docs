@@ -20,7 +20,7 @@ This form allows the user to perform the following:
 
 - Use the default Formula (as defined on the General Settings/ProcessForce Tab) or change the expression format to calculate the item quantity (result). See [Formula](./../formula.md) for additional information.
 
-![Items Tab](./media/bill-of-materials-item-tab.png)
+![Items Tab](./media/bill-of-materials-item-tab.webp)
 
 - UoM is the unit of measure for the item, and the default value is defined within the Item Master Data/Inventory Tab (see image below).
 

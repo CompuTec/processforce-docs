@@ -2,7 +2,7 @@
 
 You can select MRP 2.5 - Wizard from the SAP B1 menu.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-01.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-01.webp)
 
 Or, if you log in directly to AppEngine, the following tiles are visible.
 
@@ -12,12 +12,11 @@ If you are logged in directly to AppEngine, the yellow arrows don't work.
 
 :::
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-02.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-02.webp)
 
 After the selection of MRP 2.5, three options are available.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-03.png)
-
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-03.webp)
 
 After selecting the MRP 2.5 Wizard, you will see the MRP Scenarios list. From the MRP scenario list, you can:
 
@@ -31,13 +30,13 @@ After selecting the MRP 2.5 Wizard, you will see the MRP Scenarios list. From th
 
 - Select a scenario to work.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-04.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-04.webp)
 
 Scenario's data settings.
 
 ## Planning horizon tab
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-05.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-05.webp)
 
 Scenario Name – obligatory.
 
@@ -81,17 +80,17 @@ Advanced Settings, Processing Method:
 
 - Synchronous – Bill of Materials trees are processed one after another.
 
-## Item Selection tab 
+## Item Selection tab
 
 This tab is designated to add items to the scenario. For added items, it is possible to edit planning parameters. Edited and saved parameters wouldn't modify values in master data. It is obligatory only for the current scenario. To edit parameters, please select the checkbox by the parameter value.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-06.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-06.webp)
 
 All Items – includes all items with the Planning Method of MRP in the MRP run. When you select this radio button, the application does not display items chosen in the table below.
 
 Selected Items – Select items to be included in the MRP run. Choose Add Items to open the Items List — Selection Criteria window. You can filter items by item number, group, and properties. If required, select the Expanded Selection criteria checkbox; you can then further filter items by the Preferred Vendor and UDFs defined in the Item Master Data window.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-07.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-07.webp)
 
 Include Revision – if selected, MRP works accurately to Item's revisions. Planning data for revisions are read from Item Details. If not selected, Planning Data are read from Item Master Data.
 Remove Selected Items - Removes all selected items.
@@ -102,9 +101,7 @@ Active/Deactivate All – Active or deactivate all the items displayed in the ta
 Notes:
 
 1. If you have added an item and then deactivated it in an MRP run, the next time you run this scenario, you can still see the deactivated item displayed in the table. You can include this item in the MRP run by activating it. If you removed this item from an MRP run, the next time you run this scenario, you cannot view it in the table of the selected items. If you want to include it in the MRP run, you must add it again.
-    
 2. It is possible to edit planning parameters for the Item. To do this, please select the checkbox by the parameter. The edited value is valid only for the scenario.
-    
 3. To plan primary demands for coproducts and scraps, they must have Procurement Method = Make (without BOM) and be listed and active on the item list. MOR recommendations for the produced item will be proposed to cover demands for coproducts and scraps. If there is more than one BOM with the coproduct or scrap, a more effective BOM will be chosen.
 
 Default Vendor - click here to find out more. <!-- TODO: Link -->
@@ -127,7 +124,7 @@ This tab is designated to add a warehouse to the scenario. For added warehouses,
 
 - Using of Inventory Transfer Request.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-07.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-07.webp)
 
 Run by Company: Consolidate existing inventory, demand, and supply into default warehouse only.
 To run the MRP calculations on the company level, select this option. MRP calculates demands and supplies jointly for all the selected warehouses. To do so, the application sums up all the selected warehouses' initial inventory quantities, needs, and supplies. Then, it consolidates all the quantities into the default warehouse for requirements calculation.
@@ -145,7 +142,6 @@ Select the checkbox to consider all sources of demand from this warehouse, inclu
 Note:
 
 - Supplies with negative quantities are regarded as demands. For example, a purchase order is typically a source of supply. However, if the purchase order has a line with a negative quantity, then this line is included as a demand.
-  
 - If you deselect the checkbox, the MRP does not consider inventory level requirements for this warehouse, regardless of your inventory level definition in MRP Wizard.
 
 Include Supply
@@ -170,7 +166,7 @@ Statuses/Released/Not Accessible/Locked: The initial stock is limited to batches
 
 ## Document Data tab
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-08.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-08.webp)
 
 Time Range
 
@@ -192,7 +188,7 @@ When you select the checkbox in the MRP Results, MRP displays open purchase quot
 Purchase Orders
 When you select the checkbox in the MRP Results, MRP displays open purchase orders as supplies.
 
-Blanket Purchase Agreements 
+Blanket Purchase Agreements
 When you select the checkbox in the MRP Results, MRP displays blanket purchase agreements with the status of Approved as supplies. The blanket agreements with a vendor code are considered blanket purchase agreements.
 
 Note: MRP considers only the blanket agreements of type Specific.
@@ -231,7 +227,7 @@ Recommendations are extracted per marker combination down in the production tree
 
 ## Forecast & Recommendations tab
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-09.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-09.webp)
 
 Select Documents - Forecast
 
@@ -260,7 +256,6 @@ Consumption Method
 Default settings are read from General Settings/Inventory/Planning. Choose how forecast consumption is performed:
 
 - Backward-Forward
-  
 - Forward-Backward
 
 Days Backward
@@ -290,13 +285,13 @@ Note: After the Run of the scenario, consumption of forecast is possible to chec
 
 To receive the MRP scenario's outcome, select the button Run. The outcome is presented in tab Results and Recommendation. If there are messages regarding the outcome, you can see the icon with an exclamation mark on the right of the button Run.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-10.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-10.webp)
 
 ### Results tab
 
 The main elements of this Tab are described in the screenshot below.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-11.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-11.webp)
 
 Column History – Demand/Supply before the scenario start date. Visible if the option Include Historical Data is selected in Tab Documents Data.
 
@@ -316,19 +311,19 @@ Note:
 
 2. Future recommendations' bars on the Gantt are marked with color.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-12.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-12.webp)
 
 3. Initial stock information. Please select the cell in the column Past Due Date and row Stock.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-13.png)
-  
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-13.webp)
+
 Initial Quantity - base quantity for MRP calculation.
 
 Excluded Quantity - excluded quantity according to Batches' parameters (Expiration Date, Batch Status) or Serial Numbers' parameters (Expiration Date).
 
 Pegging information is available when you select supply, demand, or recommendation bar on Gantt.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-14.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-14.webp)
 
 Due Date – the date for which the quantity is required.
 
@@ -338,17 +333,17 @@ Document Date – Posting date for supply/demand documents. Creating dates for M
 
 This tab presents
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-15.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-15.webp)
 
 You can call Consumed Forecast information from Pegging Information.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-16.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-16.webp)
 
 ## Recommendations tab
 
 The main elements of this Tab are described in the screenshot below.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-17.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-17.webp)
 
 Display selected Items only - if you select this icon, you will see recommendation only for Items selected in Tab Item Selection.
 
@@ -363,6 +358,6 @@ Display Relation Map – if you select this icon, a new window, Document Details
 Document Details
 In this window, relations between source documents, recommendations, and outcome documents are displayed starting from a given recommendation. Types of documents are marked with colors, the meaning of which is described in the legend.
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-18.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-18.webp)
 
-![MRP Wizard](./media/mrp-wizard/mrp-wizard-19.png)
+![MRP Wizard](./media/mrp-wizard/mrp-wizard-19.webp)

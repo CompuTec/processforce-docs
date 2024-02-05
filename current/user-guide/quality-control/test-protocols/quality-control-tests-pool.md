@@ -6,7 +6,7 @@ The pass/Failed status of the Quality Control Tests Pool is based on a predefine
 
 ## Configuration
 
-![Test Protocol Test Pools](./media/test-protocol-test-pools.png)
+![Test Protocol Test Pools](./media/test-protocol-test-pools.webp)
 
 - **Create QC Tests Pool** – determines whether QC Tests Pool will be created for this Test Protocol.
 
@@ -14,9 +14,9 @@ The pass/Failed status of the Quality Control Tests Pool is based on a predefine
 
 - **Test Pool Pass/Fail Quantity Condition** – conditions on which QC Tests Pool will be passed or failed. Filling one field with a value automatically fills the other one with the rest value (for the field to be summed up to the Number of Samples value.
 
- - **Acceptance Number (Ac)** – the highest number of nonconforming units or defects in the sample that still allows the lot to be accepted.
+- **Acceptance Number (Ac)** – the highest number of nonconforming units or defects in the sample that still allows the lot to be accepted.
 
- - **Rejection Number (Re)** – the lowest number of nonconforming units or defects in a sample that leads to the rejection of the lot.
+- **Rejection Number (Re)** – the lowest number of nonconforming units or defects in a sample that leads to the rejection of the lot.
 
 - **Ac. Re Obligatory** – defines if Acceptance number and Rejection number are required to decide about QC order releasing (if not checked, the final result of the test can be changed manually).
 
@@ -28,7 +28,7 @@ Parameters from Quality Plan – click here to find out more about Quality Plan.
 Quality Control → Quality Control Test Pool
 :::
 
-![Quality Control Test Pool](./media/quality-control-test-pool.png)
+![Quality Control Test Pool](./media/quality-control-test-pool.webp)
 
 To use the function, Open Quality Control Test Pool form and choose the previously configured Test Protocol. Choose the required Transaction Type (to mark a moment in inventory flow when the tests are to be performed), then a required document (based on Series and Document Number). Item details and Required Acceptance and Rejection Number fields will be filled in automatically and a list of individual tests will be created (note that tests on the list will be created upon adding Quality Control Test Pool).
 

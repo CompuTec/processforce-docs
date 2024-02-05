@@ -8,7 +8,7 @@ In this section, you can check how to set Alternative Resources.
 
 Within the Production Process form > Routings tab, define Resources assigned to a specific Operation:
 
-![List of Resources](./media/list-of-resources.png)
+![List of Resources](./media/list-of-resources.webp)
 
 Checking Is Default checkbox causes the chosen Resources to be displayed in the corresponding table on Manufacturing Order.
 
@@ -18,7 +18,7 @@ The default Resource is displayed within the Resource Grid of the Operations Tab
 
 Click Choose From List button to open the list of alternative resources previously defined in a corresponding Production Process.
 
-![Manufacturing Order Alternative Resource](./media/manufactruing-order-alternative-resource.png)
+![Manufacturing Order Alternative Resource](./media/manufactruing-order-alternative-resource.webp)
 
 ## Selecting Alternative Resources
 
@@ -28,11 +28,11 @@ Click Choose From List button to open the list of alternative resources previous
 
 - Press "Choose."
 
-![Gantt Alternative Resources](./media/gantt-alternative-resources.png)
+![Gantt Alternative Resources](./media/gantt-alternative-resources.webp)
 
 - The select resources are now displayed within the Resources Tab of the Gantt.
 
-![Gantt Alternative Resources](./media/gantt-alternative-resources-2.png)
+![Gantt Alternative Resources](./media/gantt-alternative-resources-2.webp)
 
 ## Highlighting the Alternative
 
@@ -44,9 +44,9 @@ Click Choose From List button to open the list of alternative resources previous
 
 - Gray vertical lines will highlight the alternative resources.
 
-![Gantt Alternative Resource](./media/gantt-alternative-resources-3.png)
+![Gantt Alternative Resource](./media/gantt-alternative-resources-3.webp)
 
-## Moving to the Alternative 
+## Moving to the Alternative
 
 - Continue to Press the right mouse button.
 
@@ -56,11 +56,11 @@ Click Choose From List button to open the list of alternative resources previous
 
 - Drop, Un-Press the right mouse button.
 
-![Gantt Alternative Resource](./media/gantt-alternative-resources-4.png)
+![Gantt Alternative Resource](./media/gantt-alternative-resources-4.webp)
 
 - The resource block is now placed on the alternative.
 
-![GanttAlternative Resource](./media/gantt-alternative-resources-5.png)
+![GanttAlternative Resource](./media/gantt-alternative-resources-5.webp)
 
 - To view these resources alternative, use the same navigation as above.
 

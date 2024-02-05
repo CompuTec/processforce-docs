@@ -12,4 +12,4 @@ Note: when adding User-Defined Fields to the SAP Business One Batch Details Tabl
 Inventory → Item Management → Batches
 :::
 
-![Batch Master Data](./media/batch-master-data-general.png)
+![Batch Master Data](./media/batch-master-data-general.webp)

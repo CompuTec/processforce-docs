@@ -8,4 +8,4 @@ This form is used to define the list of nutrients that are used as the basis for
 
 Data set in this tab are used on Item Ingredient Master Data form, Nutrient tab.
 
-![Recommended Daily Intake](./media/recommended-daily-intake.png)
+![Recommended Daily Intake](./media/recommended-daily-intake.webp)

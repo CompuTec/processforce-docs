@@ -40,7 +40,6 @@ Scheduling Direction: Forward (from date 01/01)
 
     M5 needs ten h to run and is available from 10.01 to 7 p.m. and would finish this work on 11.01 at 5 a.m.
 
-
 **The system will choose M3 for this work**
 
 ## Prerequisites
@@ -51,11 +50,11 @@ To use this option, it is required Run Time to be greater than 0 for all Resourc
 
 Production Process:
 
-![Production Process Runtime](./media/production-process-runtime.png)
+![Production Process Runtime](./media/production-process-runtime.webp)
 
 Manufacturing Order:
 
-![Manufacturing Order Run Time](./media/manufacturing-order-runtime.png)
+![Manufacturing Order Run Time](./media/manufacturing-order-runtime.webp)
 
 ### General Settings option
 
@@ -69,7 +68,7 @@ Check the Use Resource Balancing check box to use the option.
 
 Suppose any Machine type Resource in the system has Run Time set to zero in any Production Process configuration. In that case, the Resource balancing blockage form is displayed upon attempts to check the Use Resource Balancing checkbox. The form holds information pointing to these Resources. Change their Run Time to activate the option.
 
-![Resource Balancing Blockage](./media/resource-balancing-blockage.png)
+![Resource Balancing Blockage](./media/resource-balancing-blockage.webp)
 
 ## Usage
 
@@ -95,9 +94,10 @@ To activate the option perform the following steps:
 
 3. Change the value from "false" to "true" in the following line:
 
-    ```
-    <add key="SchedulingBalancingEnabled" value="false" />
-    ```
-    From now on, the log files will be saved in the following path: default path: C:\ProgramData\CompuTec\ProcessForce\ResourceBalancing.
+   ```
+   <add key="SchedulingBalancingEnabled" value="false" />
+   ```
 
-    A separate file is saved for changes made for each Operation.
+   From now on, the log files will be saved in the following path: default path: C:\ProgramData\CompuTec\ProcessForce\ResourceBalancing.
+
+   A separate file is saved for changes made for each Operation.

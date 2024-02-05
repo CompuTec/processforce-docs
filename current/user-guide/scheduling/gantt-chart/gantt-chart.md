@@ -15,13 +15,13 @@ The Gantt Chart option can be used only when **ADD LINK** the Direct Data Access
 :::caution
 Please note that it is required for a user to have Gantt Authorizations assigned to use this option.
 
-![Gantt Chart Authorization](./media/gantt-chart-authorization.png)
+![Gantt Chart Authorization](./media/gantt-chart-authorization.webp)
 
 :::
 
 ## Header
 
-![Scheduling Header](./media/scheduling-header.png)
+![Scheduling Header](./media/scheduling-header.webp)
 
 Go to Today – shows the current date and time.
 
@@ -45,7 +45,7 @@ Reschedule on the drop – automatically reschedules on a drag & drop action wit
 
 Sort – sets a queue for Manufacturing Orders based on defined parameters (this is Resource Planning Board tab related option. Click here to find out more).
 
-Hide Duration – it hides duration on Manufacturing Order rows in Resource Planning Board. 
+Hide Duration – it hides duration on Manufacturing Order rows in Resource Planning Board.
 
 Shortages, Production Equipment, Materials – Material Shortages report related options. Click here to find out more.
 
@@ -55,7 +55,7 @@ Shortages, Production Equipment, Materials – Material Shortages report related
 
 Displays a view of the realization of Manufacturing Orders in time.
 
-![Manufacturing Order tab](./media/manufacturing-order-tab.png)
+![Manufacturing Order tab](./media/manufacturing-order-tab.webp)
 
 It is possible to expand Manufacturing Orders to check all their Operations and to expand Operations to check all their Resources.
 
@@ -63,21 +63,21 @@ It is possible to expand Manufacturing Orders to check all their Operations and 
 
 Presents a view of the execution of Manufacturing Orders broken down into resources.
 
-![Gantt chart Resources](./media/gantt-chart-resources.png)
+![Gantt chart Resources](./media/gantt-chart-resources.webp)
 
 Slider – on the top of a Gantt chart, there is a bar representing a specific period with activities displayed. The slider is the highlighted part of the bar. Moving it over the bar (by left-clicking and dragging it) displays different parts of a Gantt chart in a main tab:
 
-![Slider](./media/slider.png)
+![Slider](./media/slider.webp)
 
 You can expand or shrink the slider by clicking, holding, and moving its left or right edge. This will affect the range of the Gantt chart part displayed in the main tab.
 
 Columns filtering – click one of the icons next to each of the column headers to filter rows in this column:
 
-![Filter Columns](./media/filter-columns.png)
+![Filter Columns](./media/filter-columns.webp)
 
 Find related Manufacturing Order – right-click on a Resource row, choose Show on Chart, and then the required Manufacturing Order number. Now the chart will move to the beginning of the pointed Manufacturing Order.
 
-![Find Manufacturing Order](./media/find-manufacturing-order.png)
+![Find Manufacturing Order](./media/find-manufacturing-order.webp)
 
 Colors of a Taskbar:
 
@@ -93,18 +93,18 @@ Red exclamation mark – red exclamation mark means that the marked Manufacturin
 
 Resource context menu – right-click on a Taskbar to get more options:
 
-![Resource Context Menu](./media/resource-context-menu-2.png)
+![Resource Context Menu](./media/resource-context-menu-2.webp)
 
 - Reschedule – allows rescheduling the Task to another Resource. Rescheduling requires an adequately configured Production Process. Define the Resource and its Alternative. Click here to check how to do this.
 
 - Divide – you can set to use more Resources to complete a Task.
-Choosing the option leads to a new form. Right-click on a Resource row and click Add Resource:
+  Choosing the option leads to a new form. Right-click on a Resource row and click Add Resource:
 
-![Divide](./media/divide-add-resource.png)
+![Divide](./media/divide-add-resource.webp)
 
 Use sliders to set the quantity for each of the Resources:
 
-![Divide Sliders](./media/divide-sliders.png)
+![Divide Sliders](./media/divide-sliders.webp)
 
 :::caution
 Please remember that the remaining quantity must be 0 (all sliders on the far right position) to proceed with the division.
@@ -114,7 +114,7 @@ Please remember that the remaining quantity must be 0 (all sliders on the far ri
 
 - Freeze – blocks this Task scheduling (on a Resource assigned to a specific Manufacturing Order). When you use Freeze for a Task, its time constraints stay the same, even when the whole Manufacturing Order is rescheduled to some other time.
 
- Since ProcessForce 10.0 R6 version, it is possible to freeze a specific Resource from the Manufacturing Order level (Production → Manufacturing Order → Manufacturing Order → Operations tab) → Operations tab → Freeze column).
+Since ProcessForce 10.0 R6 version, it is possible to freeze a specific Resource from the Manufacturing Order level (Production → Manufacturing Order → Manufacturing Order → Operations tab) → Operations tab → Freeze column).
 
 - Lock – works the same way as the Freeze option but affects a whole Manufacturing Order, all related Tasks (instead of just one Task)
 

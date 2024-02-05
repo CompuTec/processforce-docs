@@ -10,22 +10,20 @@ Production → Time Booking → Downtime
 
 ## Downtime creation
 
-![Downtime](./media/downtime.png)
+![Downtime](./media/downtime.webp)
 
 In the Downtime form header, you can define the following:
 
 - Resource data: Code and Name
 
 - Manufacturing Order and Operation to which a specific Resource is assigned
-  
 - Start and end date and time
-    
 - Employees connected to the downtime:
-        
+
   - Reporter
-  
+
   - Technician – the person responsible for the defect removal. Click here to find out more.
-  
+
   - Employee who can check and end downtime
 
 - Document Series
@@ -48,7 +46,7 @@ In the form's main table, Downtime Reason can be chosen.
 Administration → Setup → Production → Downtime Reason
 :::
 
-![Downtime Reason](./media/downtime-reason.png)
+![Downtime Reason](./media/downtime-reason.webp)
 
 You can define Code, Name, and Remarks for a Down Time Reason. A predefined group can be chosen from a list.
 
@@ -58,6 +56,6 @@ You can define Code, Name, and Remarks for a Down Time Reason. A predefined grou
 Administration → Setup → Service → Down Time Groups
 :::
 
-![Downtime Reason Group](./media/downtime-reason-group.png)
+![Downtime Reason Group](./media/downtime-reason-group.webp)
 
 You can define Group Code and Name. Downtime Group can be chosen on Downtime Reason.

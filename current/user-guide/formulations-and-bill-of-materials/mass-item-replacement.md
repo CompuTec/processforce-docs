@@ -10,7 +10,7 @@ The user selects the Item that needs to be replaced chooses which Bill of Materi
 
 It is possible to set a quantity ratio. The current quantity value set for a replacing material will be multiplied by the entered quantity value (which is by default set as 1.000). The same can be done for scrap value using the Scrap Ratio field.
 
-![Mass Item Replace](./media/mass-item-replace.png)
+![Mass Item Replace](./media/mass-item-replace.webp)
 
 :::info
 For mass changes in the Bill of Materials, check the dedicated AppEngine plugin: Bulk Change.

@@ -52,7 +52,7 @@ The expiry date Validation form will be displayed after clicking Validate Formul
 
 The following formula allows an Expiry Date of a Finished Item equal to the earliest expiry date of a Child Item batch (in case of different expiry dates on additional Child Items).
 
-*MS SQL*
+_MS SQL_
 
 ```sql
 select
@@ -67,7 +67,7 @@ where
  t0.DocNum = %MORDN% and t4.ExpDate is not null, and t1.U_OperType='60'
 ```
 
-*HANA*
+_HANA_
 
 ```sql
 SELECT IFNULL(MIN(T4."ExpDate"), NOW())
@@ -83,4 +83,4 @@ SELECT IFNULL(MIN(T4."ExpDate"), NOW())
 
 An example of the result of using this formula is presented in a screenshot below:
 
-![Item Child Expiry Date](./media/item-child-expiry-date.png)
+![Item Child Expiry Date](./media/item-child-expiry-date.webp)

@@ -6,5 +6,4 @@ The Time Booking function allows registering time and cost of a specific resourc
 Production → Time Booking
 :::
 
-![Time Booking](./media/time-booking.png)
-
+![Time Booking](./media/time-booking.webp)

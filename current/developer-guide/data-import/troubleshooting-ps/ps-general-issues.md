@@ -36,7 +36,7 @@ PowerShell 2.0 script
 $PSVersionTable
 ```
 
-![Version](./media/clr-version.png)
+![Version](./media/clr-version.webp)
 
 ### Solution steps - 01 (example for PowerShell ISE x86)
 
@@ -44,11 +44,11 @@ $PSVersionTable
 
 - see **the Configuration files** section in [the PowerShell application configuration](./../../data-import/ps-app-configuration.md).
 
-    ![Version compare](./media/clr-version-compare.png)
+  ![Version compare](./media/clr-version-compare.webp)
 
 - restart PowerShell ISE and check CRLVersion
 
-    ![Restart](./media/restart.jpg)
+  ![Restart](./media/restart.webp)
 
 ### Solution steps - 02 - ProcessForce 10.0 & newer
 
@@ -58,7 +58,7 @@ $PSVersionTable
 
 ## Exception: PF Database Version is not supported. Please update the Database or Reinstall API.Setup
 
-![Incorrect Version](./media/database-version-not-supported.png)
+![Incorrect Version](./media/database-version-not-supported.webp)
 
 ### Reason {#reason-2}
 
@@ -66,13 +66,13 @@ ProcessForce, PowerShell ISE, and PF.API versions vary.
 
 ## Diagnose actions {##diagnose-actions-2}
 
-![Different Version]Check the ProcessForce version and platform. You can do this in SAP Client  > Administration > Add-On Manager (see a screenshot above).
+![Different Version]Check the ProcessForce version and platform. You can do this in SAP Client > Administration > Add-On Manager (see a screenshot above).
 
 - Check what architecture PowerShell ISE is working on (on example screenshot is x86 = 32-bits) and check if this platform is the same as ProcessForce one.
 
 - Check In Windows > Programs & Features installed PF.API version and compare it to SAP Client > Add-on Manager – ProcessForce version & platform.
 
-![Final](./media/pc-corresponding-versions.png)
+![Final](./media/pc-corresponding-versions.webp)
 
 - Check if PowerShell ISE is using the correct PF API library version.
 
@@ -93,7 +93,7 @@ Use PowerShell ISE 32-bit if ProcessForce add-on x86 is installed on your databa
 
 ## Exception: Unable to access SBO-Common database
 
-![Database Mismatch](./media/ps-db-mismatch.png)
+![Database Mismatch](./media/ps-db-mismatch.webp)
 
 ### Reason {#reason-3}
 
@@ -101,7 +101,7 @@ Mismatch of DBServerType.
 
 ### Exception: Database server type not supported
 
-![Server Type Mismatch](./media/ps-db-server-type-mismatch.png)
+![Server Type Mismatch](./media/ps-db-server-type-mismatch.webp)
 
 Mismatch of DBServerType.
 
@@ -109,10 +109,8 @@ Mismatch of DBServerType.
 
 ### Diagnose steps
 
-1. 
-    ![Resource Name](./media/ps-resource-name-1.png)  
-2. 
-    ![Resource Name 2](./media/ps-resource-name-2.jpg)
+1.  ![Resource Name](./media/ps-resource-name-1.webp)
+2.  ![Resource Name 2](./media/ps-resource-name-2.webp)
 
 ### Solution {##solution-2}
 
@@ -122,11 +120,11 @@ It should be the same as in the SAP Client Choose Company form/window.
 
 ## Exception: Login SLD Failed; make sure the server, company, and user credentials are correct
 
-![Incorrect Port Number](./media/ps-incorrect-port-number.jpg)
+![Incorrect Port Number](./media/ps-incorrect-port-number.webp)
 
 ### Solution {##solution-3}
 
-- Check  SQLServer & LicenceServer IP address or name.
-- Check  SQLServer & LicenceServer port numbers (they should be used only for HANA connection).
+- Check SQLServer & LicenceServer IP address or name.
+- Check SQLServer & LicenceServer port numbers (they should be used only for HANA connection).
 - Be sure about lower & upper cases in login or password.
 - Check if SLD is working - try to log in using SAP B1 Client to the target database.

@@ -1,6 +1,6 @@
 # General Tab
 
-![General Tab](./media/general-settings-general-tab.png)
+![General Tab](./media/general-settings-general-tab.webp)
 
 **Enable standard functionality of SAP Business One's Production menu** – in enabled status all the SAP Business One menu entries are visible
 
@@ -39,27 +39,27 @@ You can use the Resource Remarks field to display any text on Gantt work progres
   
   **Pick Issue**
 
-  Perform the usual steps of picking non-trace and batch-traced Items.
+Perform the usual steps of picking non-trace and batch-traced Items.
 
-  Click Update on the Pick Issue Form.
+Click Update on the Pick Issue Form.
 
-  The Issue to Production transaction is automatically created.
+The Issue to Production transaction is automatically created.
 
-  Pick Order is updated and set to Close status.
+Pick Order is updated and set to Close status.
 
-  Documents are visible within the Manufacturing Order > Document tab.
+Documents are visible within the Manufacturing Order > Document tab.
 
-  **Pick Receipt**
-  
-  Record the quantity of the Items received from production.
+**Pick Receipt**
 
-  Click Update.
+Record the quantity of the Items received from production.
 
-  Receipt from Production is automatically created.
-  
-  Pick Receipt is closed.
+Click Update.
 
-  Documents are visible within the Manufacturing Order Document tab.
+Receipt from Production is automatically created.
+
+Pick Receipt is closed.
+
+Documents are visible within the Manufacturing Order Document tab.
 
   </details>
 
@@ -74,7 +74,7 @@ You can use the Resource Remarks field to display any text on Gantt work progres
 <details>
   <summary>Click here to find out more</summary>
 
-![Screenshot](./media/scheduling-board-auto-create.png)
+![Screenshot](./media/scheduling-board-auto-create.webp)
 
 </details>
 
@@ -87,7 +87,7 @@ You can use the Resource Remarks field to display any text on Gantt work progres
 <details>
   <summary>Click here to find out more</summary>
 
-![ProcessForce Fields](./media/sales-order-processforce-fields.png)
+![ProcessForce Fields](./media/sales-order-processforce-fields.webp)
 
 </details>
 
@@ -96,7 +96,7 @@ You can use the Resource Remarks field to display any text on Gantt work progres
 <details>
   <summary>Click here to find out more</summary>
 
-![ProcessForce Fields](./media/resource-information.png)
+![ProcessForce Fields](./media/resource-information.webp)
 
 </details>
 

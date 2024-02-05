@@ -10,7 +10,7 @@ Quality Control Test → Quality Control Tests Creation Wizard
 
 ## Step 1. Document Types and dates
 
-![Wizard](./media/quality-control-tests-wizard.png)
+![Wizard](./media/quality-control-tests-wizard.webp)
 
 Choose the document type(s) for which Quality Control Tests documents will be created and the date range (of base documents).
 

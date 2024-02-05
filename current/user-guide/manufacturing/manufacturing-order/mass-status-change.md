@@ -8,29 +8,29 @@ This function allows to change status of many Manufacturing Orders in the same t
 Production > Manufacturing Order > Document Status Change Wizard
 :::
 
-![Mass Status Change](./media/manufacturing-order-status-change.png)
+![Mass Status Change](./media/manufacturing-order-status-change.webp)
 
 ## Possible Status Changes
 
-|                      From                      |                      To                     |
-|:----------------------------------------------:|:-------------------------------------------:|
+|                      From                      |                     To                      |
+| :--------------------------------------------: | :-----------------------------------------: |
 |                    Released                    | Not Scheduled, Scheduled, Started, Finished |
 |                    Finished                    |               Closed, Started               |
-|                    Scheduled                   |      Not Scheduled, Released, Finished      |
-|                  Not Scheduled                 |        Scheduled, Released, Finished        |
-|                     Started                    |               Finished, Closed              |
-|            Scheduled + Not Scheduled           |              Released, Finished             |
+|                   Scheduled                    |      Not Scheduled, Released, Finished      |
+|                 Not Scheduled                  |        Scheduled, Released, Finished        |
+|                    Started                     |              Finished, Closed               |
+|           Scheduled + Not Scheduled            |             Released, Finished              |
 |            Released + Not Scheduled            |             Finished, Scheduled             |
 |              Released + Scheduled              |           Finished, Not Scheduled           |
-|               Released + Finished              |                   Started                   |
-|               Released + Started               |                   Finished                  |
-|               Started + Finished               |                    Closed                   |
-|             Started + Not Scheduled            |                   Finished                  |
-|       Started + Scheduled + Not Scheduled      |                   Finished                  |
-|       Started + Released + Not Scheduled       |                   Finished                  |
-|         Started + Released + Scheduled         |                   Finished                  |
-|      Released + Scheduled + Not Scheduled      |      Released, Scheduled, Not Scheduled     |
-| Started + Released + Not Scheduled + Scheduled |                   Finished                  |
+|              Released + Finished               |                   Started                   |
+|               Released + Started               |                  Finished                   |
+|               Started + Finished               |                   Closed                    |
+|            Started + Not Scheduled             |                  Finished                   |
+|      Started + Scheduled + Not Scheduled       |                  Finished                   |
+|       Started + Released + Not Scheduled       |                  Finished                   |
+|         Started + Released + Scheduled         |                  Finished                   |
+|      Released + Scheduled + Not Scheduled      |     Released, Scheduled, Not Scheduled      |
+| Started + Released + Not Scheduled + Scheduled |                  Finished                   |
 
 There are three steps in the process of mass Manufacturing Order status change:
 

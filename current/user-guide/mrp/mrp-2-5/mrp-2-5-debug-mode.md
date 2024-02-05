@@ -7,7 +7,7 @@ and Enter
 You can recognize that you are in debug mode by:
 Load icon over the list of scenarios (designated for CompuTec) and Download icon above the scenario (designated for you):
 
-![Load](./media/mrp-2-5-debug-mode/load.png)
+![Load](./media/mrp-2-5-debug-mode/load.webp)
 
 How to use debug mode?
 
@@ -17,7 +17,7 @@ How to use debug mode?
 
 3. Open the Recommendation tab and enter correct data in place of wrong data:
 
-![Connections](./media/mrp-2-5-debug-mode/corrections.png)
+![Connections](./media/mrp-2-5-debug-mode/corrections.webp)
 
 1. Select the Download icon. JSON is downloaded to your disc.
 

@@ -1,12 +1,12 @@
 # Maintenance Order
 
-![Maintenance Order](./media/maintenance-order/maintenance-order.png)
+![Maintenance Order](./media/maintenance-order/maintenance-order.webp)
 
 :::info Path
 Main Menu/Plant Maintenance/Work Management/Maintenance Order
 :::
 
-![MO](./media/maintenance-order/mo.png)
+![MO](./media/maintenance-order/mo.webp)
 
 ## Header
 
@@ -24,7 +24,7 @@ Main Menu/Plant Maintenance/Work Management/Maintenance Order
 
 ## Details Tab
 
-![MO Details](./media/maintenance-order/mo-details.png)
+![MO Details](./media/maintenance-order/mo-details.webp)
 
 **Parent MI Code** – the parent MI in the hierarchy
 
@@ -68,43 +68,43 @@ Notes:
 
 ### Meter Reading
 
-![Meter Reading](./media/maintenance-order/meter-reading.png)
+![Meter Reading](./media/maintenance-order/meter-reading.webp)
 
 RMBM options: Meter Reading – The meter Reading document is opened. Obligatory is that user enters Reading (value related to Effective Meter/Physical Meter, check here) and optional information in the Checkpoint Details tab.
 
 ### Inspection
 
-![Inspection Reading](./media/maintenance-order/inspection-reading.png)
+![Inspection Reading](./media/maintenance-order/inspection-reading.webp)
 
 RMBM options: Inspection Reading – Inspection Reading document is opened. Obligatory is that the user enters Value (related to Aspect-Point) and optional information in the Checkpoint Details tab.
 
 ### Quantitative
 
-![Quantitive](./media//maintenance-order/quantitative-inspection-reading.png)
+![Quantitive](./media//maintenance-order/quantitative-inspection-reading.webp)
 
 RMBM options: Inspection Reading – Inspection Reading document is opened. Obligatory is that user enters Value (quantitative rating as an answer for a question from Check Scope) and optional information in the tab Checkpoint Details.
 
 ### Qualitative
 
-![Qualitive](./media/maintenance-order/qualitative-inspection-reading.png)
+![Qualitive](./media/maintenance-order/qualitative-inspection-reading.webp)
 
 RMBM options: Inspection Reading – Inspection Reading document is opened. Obligatory is that user enters Finding (qualitative rating as an answer for a question from Check Scope) and optional information in the tab Checkpoint Details.
 
 ### Question
 
-![Question](./media/maintenance-order/question-inspection-reading.png)
+![Question](./media/maintenance-order/question-inspection-reading.webp)
 
 RMBM options: Inspection Reading – Inspection Reading document is opened. Obligatory is that user enters Finding (answer for a question from Check Scope) and optional information in the tab Checkpoint Details.
 
 ### Checklist Item
 
-![Checklist](./media/maintenance-order/checklist.png)
+![Checklist](./media/maintenance-order/checklist.webp)
 
 RMBM options: Inspection Reading – Inspection Reading document is opened. There are no obligatory fields. When the user selects the button Close Document checkpoint is marked as Done.
 
 ## Material List Tab
 
-![Material List](./media/maintenance-order/mo-material-list.png)
+![Material List](./media/maintenance-order/mo-material-list.webp)
 
 **Material List Code** – you can compose the Material List using a predefined Material List here or manually, item by item.
 
@@ -130,7 +130,7 @@ RMBM options: Inspection Reading – Inspection Reading document is opened. Ther
 
 **Hours** – the number of hours estimated to use the tool to complete the MO
 
-**Total Hours** – equal to Quantity * Hours
+**Total Hours** – equal to Quantity \* Hours
 
 **Safety** – if checked, special safety conditions are required
 
@@ -138,7 +138,7 @@ It is possible to Issue Items from the Material List. RMBM option in Header – 
 
 ## Tools Tab
 
-![Tools](./media/maintenance-order/MO-Tools.png)
+![Tools](./media/maintenance-order/MO-Tools.webp)
 
 **Item Code** – enter the Item Code to add to Material List. The system automatically populates Item parameters.
 
@@ -162,15 +162,15 @@ It is possible to Issue Items from the Material List. RMBM option in Header – 
 
 **Hours** – enter the number of hours estimated to use the tool to complete the MO
 
-**Total Hours** – equal to Quantity * Hours
+**Total Hours** – equal to Quantity \* Hours
 
 **Safety** – if checked, special conditions are required
 
 ## Closing Details Tab
 
-![Closing](./media/maintenance-order/mo-closing.png)
+![Closing](./media/maintenance-order/mo-closing.webp)
 
-When an object needs work, you need to know a few things about that work.  You can define four types of closing Codes for objects to help in the reporting and fixing of problems:
+When an object needs work, you need to know a few things about that work. You can define four types of closing Codes for objects to help in the reporting and fixing of problems:
 
 - Problem codes
 
@@ -182,25 +182,25 @@ When an object needs work, you need to know a few things about that work.  You c
 
 ### Problem Codes
 
-Problem Codes identify the observed problem that requires correction: a leak from a tap, an overheating pump, or a cracked pipe. 
+Problem Codes identify the observed problem that requires correction: a leak from a tap, an overheating pump, or a cracked pipe.
 
 ### Failure Codes
 
-Failure Codes identify the actual difficulty with an object that needs work; the Problem Code notes the reason for the problem.  If a pump is overheating (Problem Code), the associated Failure Code could be that the pump was not receiving adequate lubrication.
+Failure Codes identify the actual difficulty with an object that needs work; the Problem Code notes the reason for the problem. If a pump is overheating (Problem Code), the associated Failure Code could be that the pump was not receiving adequate lubrication.
 
 ### Cause Codes
 
-  Our pump overheated (Problem) because it received inadequate lubrication (Failure). It was receiving inadequate lubrication because there was a blockage in the lubrication piping received (Cause Code). Cause Codes identify why an object requires work, the ultimate source of the problem noted in the Failure Code, and the root cause for concern.
+Our pump overheated (Problem) because it received inadequate lubrication (Failure). It was receiving inadequate lubrication because there was a blockage in the lubrication piping received (Cause Code). Cause Codes identify why an object requires work, the ultimate source of the problem noted in the Failure Code, and the root cause for concern.
 
 ### Action Codes
 
-Action Codreceivedhat measures are taken to fix a problem.  In our continuing pump example, the most obvious Action Code is cleaning the lubrication piping.
+Action Codreceivedhat measures are taken to fix a problem. In our continuing pump example, the most obvious Action Code is cleaning the lubrication piping.
 
 **Note**: The use of "Downtime Reason" requires the assumption that the only problem and very general is "Downtime." Combining this with "Reason" forces the cause for "Downtime." It is better to use, e.g., Problem Code = "Power failure," Failure Code = "Downtime," and Cause Code = "Burning collateral." If the Problem Code is unclear, just give Problem Code = "Downtime" and specify the rest in the Closing Details at the end of MO.
 
 ## Route’s MOs
 
-![Route](./media/maintenance-order/mo-routes-mo.png)
+![Route](./media/maintenance-order/mo-routes-mo.webp)
 
 You cannot edit or report MO from Route’s MO tab in Parent MO.
 
@@ -208,14 +208,14 @@ For each child MO, you can find a link to the child MO document in column MO Doc
 
 ## Documents
 
-![Documents](./media/maintenance-order/mo-documents.png)
+![Documents](./media/maintenance-order/mo-documents.webp)
 
 Like MOR uses use functionality of Pick Order. To issue materials for MO, an RMBM option is available on the white header: Issue for Production. The status of MO must be set to "Released" or "Started."Pick Order.
 
-![Issue materials](./media/maintenance-order/issue-materials.png)
+![Issue materials](./media/maintenance-order/issue-materials.webp)
 
 Rollback for the whole 567pxquantity (Goods Issue document) is possible by the RMBM option Rollback Document.
 
-![Issue Materials Rollback](./media/maintenance-order/issue-materials-rollback.png)
+![Issue Materials Rollback](./media/maintenance-order/issue-materials-rollback.webp)
 
 You can still use all the standard stock transactions, e.g., Goods Receipt.

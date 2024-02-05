@@ -10,7 +10,7 @@ Here you can find an example usage of Transaction Notification.
 
 It is required to block the Manufacturing Order status change to Scheduled or Not Scheduled when the current Manufacturing Order status is in the Released status.
 
-![Example](./media/manufactruing-order-example.png)
+![Example](./media/manufactruing-order-example.webp)
 
 #### For HANA
 
@@ -37,7 +37,7 @@ if :cnt>=1
 end if;
 ```
 
-#### MS SQL 
+#### MS SQL
 
 ```sql
 -- PF Manufacturing Order (MOR) - Custom restriction for MOR status update 

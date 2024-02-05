@@ -4,13 +4,13 @@ Here you can check the general settings required for the Quality Test: Document 
 
 ## General Settings
 
-Click  [here](./../../user-guide/system-initialzation/general-settings/qc-tab.md) to find out more.
+Click [here](./../../user-guide/system-initialzation/general-settings/qc-tab.md) to find out more.
 
 ## Document Series Number
 
 The Quality Control Test form and NCMR Transaction and Quality Control Pool forms use the SAP Business One Document Numbering functions.
 
-![Settings](./media/quality-control-numbering.png)
+![Settings](./media/quality-control-numbering.webp)
 
 ## Resources
 
@@ -24,9 +24,9 @@ These forms filter the Item Master Data based on the following criteria:
 
 - Select the Item Group within the QC Resource Group, ProcessForce tab, within General Settings.
 
-[General Settings QC Groups](./media/general-settings-qc-groups.png)
+[General Settings QC Groups](./media/general-settings-qc-groups.webp)
 
-[Item Master Data Item Group](./media/item-master-data-item-group.png)
+[Item Master Data Item Group](./media/item-master-data-item-group.webp)
 
 ## Items
 
@@ -40,4 +40,4 @@ These forms filter the Item Master Data based on the following criteria:
 
 - Select the Item Group within the QC Item Group, ProcessForce tab, within General Settings.
 
-[Item Master QC Item](./media/item-master-qc-item.png)
+[Item Master QC Item](./media/item-master-qc-item.webp)

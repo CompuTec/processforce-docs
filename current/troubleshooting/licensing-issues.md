@@ -20,16 +20,18 @@ In some cases CompuTec Key field on the About ProcessForce form is empty. It can
 2. Restart SAP Business One client.
 3. Open Administration > License > ProcessForce License Administration.
 4. Check if the specified License server is correct and click the Test button. The following communication on the AP status should be displayed: Test the connection to the CompuTec License Server completed successfully.
-    - If any other communication is displayed, please check if the name / IP address of the server where CompuTec License Service is installed is correct.
 
-    - If yes, then on this server, go to Services and check if the CompuTec License Server service is running.
+   - If any other communication is displayed, please check if the name / IP address of the server where CompuTec License Service is installed is correct.
+
+   - If yes, then on this server, go to Services and check if the CompuTec License Server service is running.
+
 5. Click Update after making any changes.
 6. Open Help > About ProcessForce. You should now see the Installation Number and CompuTec Key.
 
 ## Error message: The server was unable to process the request...
 
 ```
-Error message: The server could not process the request due to an internal error. For more information about the error, turn on IncludeExceptionDetailInFaults (either from ServiceBehaviorAttribute or the <serviceDebug> configuration behavior) on the server to send the exception information back to the client or turn on tracing as per the Microsoft .NET Framework SDK documentation and inspect the server trace log. 
+Error message: The server could not process the request due to an internal error. For more information about the error, turn on IncludeExceptionDetailInFaults (either from ServiceBehaviorAttribute or the <serviceDebug> configuration behavior) on the server to send the exception information back to the client or turn on tracing as per the Microsoft .NET Framework SDK documentation and inspect the server trace log.
 ```
 
 ```
@@ -65,7 +67,7 @@ In some cases, it is not possible to assign all of the licenses available in a l
 
 Administration > ProcessForce License Administration:
 
-![Available Licenses](./media/available-licenses.png)
+![Available Licenses](./media/available-licenses.webp)
 
 In this example, we have a license file with 60 Professional Users loaded, 28 users assigned on the Allocation tab, and 31 licenses still available to be assigned; therefore, one professional user license is missing.
 
@@ -81,7 +83,7 @@ The issue will be fixed in one of the future ProcessForce releases. Until then, 
 
 ### Issue
 
-In the SAP Business One Cloud environment (managed by Cloud Control Center), the known defect is causing the closure of the SAP Business One client without any message when logged in as Partner Support User (_PSU_1 or _PSU_2 User Code) while trying to assign a user a ProcessForce license.
+In the SAP Business One Cloud environment (managed by Cloud Control Center), the known defect is causing the closure of the SAP Business One client without any message when logged in as Partner Support User (\_PSU_1 or \_PSU_2 User Code) while trying to assign a user a ProcessForce license.
 
 ### Investigating the cause of the problem
 
@@ -160,7 +162,7 @@ An exemplary content of the file is presented below:
               <ModuleType>CT_IndirectAccess</ModuleType>
             </UserLicence>
           </UserLicences>
-        </User>      
+        </User>
       </Users>
     </Licence>
   </Licences>
@@ -179,7 +181,7 @@ C:\ProgramData\CompuTec\License Server\Licenses
 
 To another location, changing its extension to .xml, and opening it:
 
-![UID](./media/pf-license-uid.png)
+![UID](./media/pf-license-uid.webp)
 
 The prepared cache.xml file should be saved in the following location:
 

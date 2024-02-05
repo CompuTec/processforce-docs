@@ -24,5 +24,4 @@ You can use Quality Control to manage the following processes:
 Main Menu → Quality Control
 :::
 
-[Quality Control](./media/quality-control-test.png)
-
+[Quality Control](./media/quality-control-test.webp)

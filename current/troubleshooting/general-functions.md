@@ -6,7 +6,7 @@
 There was a problem with the document series.
 ```
 
-In an attempt to open Manufacturing Order, some users get an error communication (There was a problem with the document series). 
+In an attempt to open Manufacturing Order, some users get an error communication (There was a problem with the document series).
 
 ### Solution {#01}
 
@@ -51,7 +51,6 @@ The problem can be solved in many ways, depending on the system, therefore pleas
 - Remove the ProcessForce add-on from the Add-on Administration level.
 
 - Log into the company again to the add-on uninstalling process finishes.
-  
 - Close SAP Business One client.
 
 - Open Windows Programs and Features and remove CompuTec ProcessForce API.
@@ -64,7 +63,7 @@ Synchronization error. Code: An error occurred during the synchronization with t
 
 One of the reasons for the error in the incorrect Production Order document numbering series definition:
 
-![MOR to WOR Error](./media/mor-por-sync-error.jpg)
+![MOR to WOR Error](./media/mor-por-sync-error.webp)
 
 ## PF Manufacturing Order & SAP Production Order Synchronization error during Pick Order
 
@@ -110,7 +109,7 @@ Assign an Account to each of the Times on Resource Accounting. Click here to fin
 
 ## Gantt chart does not open
 
-![Gantt Chart Error](./media/gantt-chart-error.png)
+![Gantt Chart Error](./media/gantt-chart-error.webp)
 
 Please open Windows Registry and find the following keys: 7B3C32C6-2876-4AB9-A132-CA5FBCC90113 CompuTec.ProcessForce.Gantt.GantXControl64.
 Check the screenshot above and take the same in your environment. Also, please check if the file path is correct: find the CompuTec.ProcessForce.Gantt.dll file in your system, and then check if the file path in the registry is valid. Please take a screenshot too. Then create a support ticket on support.computec.pl with the problem description and the screenshots.
@@ -119,7 +118,7 @@ Check the screenshot above and take the same in your environment. Also, please c
 
 ### Issue
 
-In the SAP Business One Cloud environment (managed by Cloud Control Center), there is a known defect causing the closure of SAP Business One client without any message when logged in as Partner Support User (_PSU_1 or _PSU_2 User Code) while opening a ProcessForce window after at least 15 minutes of inactivity or after re-logging – without closing SAP Business One client – into the company database.
+In the SAP Business One Cloud environment (managed by Cloud Control Center), there is a known defect causing the closure of SAP Business One client without any message when logged in as Partner Support User (\_PSU_1 or \_PSU_2 User Code) while opening a ProcessForce window after at least 15 minutes of inactivity or after re-logging – without closing SAP Business One client – into the company database.
 
 ### Log content
 
@@ -134,7 +133,7 @@ Exception message: The remote procedure call failed. (Exception from HRESULT: 0x
 
 The issue is being investigated and planned to be fixed in a future ProcessForce version.
 
-## Database Test Before Upgrade results with the following error:  Undefined Table and Fields (@CT_PF_MOR5_OLD, @CT_PF_AMOR5_OLD)
+## Database Test Before Upgrade results with the following error: Undefined Table and Fields (@CT_PF_MOR5_OLD, @CT_PF_AMOR5_OLD)
 
 ### Prerequisite
 
@@ -143,14 +142,12 @@ ProcessForce version equal to or later than 10.0 RL11.
 ### Scenario
 
 - Running SAP Business One Setup Wizard and testing DB(s) before an upgrade.
-    
 - During the test, the system detects warnings similar to 'Undefined UDF and UDT' and refers to SAP Note: 1079098.
-  
 - Executing the check queries from the note one by one. The below queries from the note return some lines related to '@CT_PF_MOR5_OLD' and '@CT_PF_AMOR5_OLD'
 
-    - UDT is not registered:
+  - UDT is not registered:
 
-    -  UDF exists but is not defined:
+  - UDF exists but is not defined:
 
 ### Reason
 

@@ -8,13 +8,13 @@ In this section, you can check how to set Master Data for a Pick Issue and Recei
 
 - Note the Item Number and Description are "Grey." This indicates the items have been linked to an Operation.
 
-![Bill of Materials](./media/bill-of-materials-2.png)
+![Bill of Materials](./media/bill-of-materials-2.webp)
 
 ## Production Process
 
 Define the Production Process as usual. You can reach this form by Main Menu (Production → Bill of Materials → Production Process) or by the context menu from the Bill of Materials form.
 
-![Production Process](./media/production-process-main.png)
+![Production Process](./media/production-process-main.webp)
 
 ## Operation Binding
 
@@ -26,8 +26,8 @@ Define the Production Process as usual. You can reach this form by Main Menu (Pr
 
 - In this example, Active-Item-03 and Non-Active 04 are linked as an Input to the Prep operation.
 
-![Operation Bind](./media/operation-bind.png)
+![Operation Bind](./media/operation-bind.webp)
 
 In this example, CoProduct Item Co-Product-01 and Scrap Item Scrap-01 are linked as an Output from the Mixing operation.
 
-![Operation Bind](./media/operation-bind-2.png)
+![Operation Bind](./media/operation-bind-2.webp)

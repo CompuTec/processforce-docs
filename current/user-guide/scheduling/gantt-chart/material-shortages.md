@@ -18,7 +18,7 @@ This functionality aims to:
 
 There are two related checkboxes in the Item Master Data form:
 
-![Material shortage Item Master Data](./media/material-shortage-item-master-data.png)
+![Material shortage Item Master Data](./media/material-shortage-item-master-data.webp)
 
 **Production Equipment** (tool, set) – items on the Gantt chart can be filtered according to this qualification. If this checkbox is selected by default, the Shortages Tracking checkbox is selected automatically.
 
@@ -32,25 +32,24 @@ The user can decide whether to view Production Equipment Materials shortages or 
 
 1. The floating Panel is visible if the Shortages checkbox is checked:
 
-    a. By default, the Production Equipment and Materials checkboxes are selected. In the Floating Panel, all shortage items for all Manufacturing Orders are visible with a shortage marker according to the setting in General Settings (Only Items with Shortages Tracking).
+   a. By default, the Production Equipment and Materials checkboxes are selected. In the Floating Panel, all shortage items for all Manufacturing Orders are visible with a shortage marker according to the setting in General Settings (Only Items with Shortages Tracking).
 
-    b. If the Production Equipment checkbox is not checked and Materials is selected, Production Equipment is not visible in Floating Panel.
+   b. If the Production Equipment checkbox is not checked and Materials is selected, Production Equipment is not visible in Floating Panel.
 
-    c. If the Production Equipment checkbox is selected and Materials is not selected, only Production Equipment is visible in Floating Panel.
-    
-    d. Always one of them (Production Equipment or Materials) has to be selected.
+   c. If the Production Equipment checkbox is selected and Materials is not selected, only Production Equipment is visible in Floating Panel.
+
+   d. Always one of them (Production Equipment or Materials) has to be selected.
 
 2. Upon start, Floating Panel contains information for all Manufacturing Orders with shortage marker. Users can select a particular Manufacturing Order on Gantt; then, the floating panel is constrained to the specified Manufacturing Order.
-   
 3. The Floating panel is dynamic – changes on Gantt are on the fly and considered in the panel calculations.
 
-![Material Shortages Floating Panel](./media/material-shartages-floating-panel.png)
+![Material Shortages Floating Panel](./media/material-shartages-floating-panel.webp)
 
 ## Shortages Report
 
 ### Configuration {#4}
 
-![General Settings Shortage Report](./media/general-settings-shortage-report.png)
+![General Settings Shortage Report](./media/general-settings-shortage-report.webp)
 
 **Only Item with Shortage Tracking** – determines whether in the Gantt and the shortage report all Items are visible or only those marked as Shortages Tracking in Item Master Data.
 
@@ -62,4 +61,4 @@ The user can decide whether to view Production Equipment Materials shortages or 
 
 The Gantt Chart also has a new tab called “Shortages Report,” which displays shortages for each Item and Revision along with historical and current supply and demand transactions. A graph also shows available quantities or scarcity of the Item/Revision.
 
-![Material Shortages Graph](./media/material-shortages-graph.png)
+![Material Shortages Graph](./media/material-shortages-graph.webp)

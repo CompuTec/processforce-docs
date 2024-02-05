@@ -25,15 +25,15 @@ Upper table: Item's revisions and their substitutes:
 - Valid From; Valid To – time range of a Substitute validity
 
 - Ratio – value expressed in decimal setting a ratio of replacement, e.g.:
-    1.00 = 100%,
-    0.5 = 50%,
-    1.50 = 150%.
+  1.00 = 100%,
+  0.5 = 50%,
+  1.50 = 150%.
 
 - Replace with Items/Coproducts/Scraps – determines whether a specific Substitute Item can be used to replace Items/Coproducts/Scraps
 
 By default, Substitute is available for all Bill of Materials where substituted Item (2) / Revision (3) is used – checkbox For all Bill of Materials (1) selected:
 
-![Item Substitutes](./media/substitutes-general.png)
+![Item Substitutes](./media/substitutes-general.webp)
 
 Suppose you want to exclude substitution for a specific Bill of Materials or use different parameters than in the upper table only for a specific Bill of Materials. In that case, exclude substitution for a particular Bill of Materials or use other parameters than in the upper table only for specific Bill of Materials; it is possible in the bottom one – List of BOMs where the substitution is excluded or parameters are changed.
 
@@ -45,29 +45,29 @@ Suppose you want to exclude substitution for a specific Bill of Materials or use
 
 4. To use different substitution parameters for selected BOM, leave checkbox (3) not selected.
 
-![Bill of Materials](./media/substitutes-bill-of%20materials.png)
+![Bill of Materials](./media/substitutes-bill-of%20materials.webp)
 
 ## Item Master Data
 
 You can also reach Substitutes form the Item Master Data context menu:
 
-![Item Master Data option](./media/substitutes-item-master-data-options.png)
+![Item Master Data option](./media/substitutes-item-master-data-options.webp)
 
 ## Bill of Materials
 
 You can also reach related Substitutes from the Bill of Materials context menu: right-click on the first column of a selected Item and choose 'Edit Substitutes':
 
-![Substitutes Edit](./media/substitutes-edit.png)
+![Substitutes Edit](./media/substitutes-edit.webp)
 
 ## Manufacturing Order
 
 There are two options available from the Manufacturing Order context menu. Right-click on a selected item's first column and choose 'Substitutes.' The first option works the same way described in the previous paragraph (1). The second displays a report of available quantities by Substitutes (2).
 
-![Manufacturing Order options](./media/substitutes-manufacturing-order-options.png)
+![Manufacturing Order options](./media/substitutes-manufacturing-order-options.webp)
 
 ### Substitute Report
 
-![Substitutes Report](./media/substitutes-report.png)
+![Substitutes Report](./media/substitutes-report.webp)
 
 Please note that the following Substitutes are not listed in the Report:
 
@@ -77,12 +77,10 @@ Please note that the following Substitutes are not listed in the Report:
 
 - Substitutes not defined for a given Warehouse,
 
-- Substitutes excluded from a *BOM _used for creating a _Manufacturing Order*.
-
+- Substitutes excluded from a _BOM \_used for creating a \_Manufacturing Order_.
 
 ## Usage
 
 You can change a specific Item for its Substitute on Pick Order by using Choose From List option for an Item:
 
-![Substitutes Pick Order](./media/substitutes-pick-order.png)
-
+![Substitutes Pick Order](./media/substitutes-pick-order.webp)

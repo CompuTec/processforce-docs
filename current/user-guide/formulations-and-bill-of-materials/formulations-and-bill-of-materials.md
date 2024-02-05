@@ -28,5 +28,4 @@ This function supports the following elements:
 
 - Formulas.
 
-![Chart](./media/bill-of-materials-chart.png)
-
+![Chart](./media/bill-of-materials-chart.webp)

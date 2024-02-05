@@ -10,7 +10,7 @@ Administration → Setup → Quality Control → Inspectors
 
 ## Inspectors
 
-![Inspector](./media/inspector.png)
+![Inspector](./media/inspector.webp)
 
 This form allows the user to define the Inspectors used to conduct the Quality Control Tests and the Warehouse they are allocated to.
 
@@ -22,7 +22,7 @@ This data is used within the Quality Control Test Form.
 Administration → Setup → Quality Control → Inspector Groups
 :::
 
-![Inspector Group](./media/inspector-group.png)
+![Inspector Group](./media/inspector-group.webp)
 
 This form allows the user to define Inspector Group codes, to categorize Inspectors, and is used within the Inspector and NCMR Inspector definition forms.
 

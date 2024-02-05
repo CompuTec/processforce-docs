@@ -12,16 +12,14 @@ Administration → System Initialization → Document Numbering
 
 This form sets up the document numbering series for the following transactions.
 
-![Document Numbering Transactions](./media/document-numbering-transctions.png)
+![Document Numbering Transactions](./media/document-numbering-transctions.webp)
 
 Multiple document numbering series for a transaction can be defined by double-clicking on the first column of a specific document type, e.g., Complaint.
 
-![New Series](./media/adding-new-series.png)
+![New Series](./media/adding-new-series.webp)
 
 To add a new series for a specific document type, in the form, right-click on the first column on the first row and choose 'Add Row'. Then set the first number of a series.
 
 A specific series can be chosen for a particular document during its creation, causing filling up the document number field with a predefined next number.
 
-![Adding New Series](./media/choosing-series.png)
-
-
+![Adding New Series](./media/choosing-series.webp)

@@ -2,7 +2,7 @@
 
 You can define Bill of Materials and Manufacturing Orders settings on this tab, e.g., default formulas for Items.
 
-![Bill of Materials and MAnufacturing Orders tab](./media/general-settings-bill-of-materials-and-manufacturing-orders.png)
+![Bill of Materials and MAnufacturing Orders tab](./media/general-settings-bill-of-materials-and-manufacturing-orders.webp)
 
 ## Default formula for Bill of Materials
 
@@ -12,7 +12,7 @@ When creating a Bill of Material, these default formats are automatically added 
 
 The formula as displayed is added to this tab during the ProcessForce installation process.
 
-![Formulas](./media/general-settings-bill-of-materials-and-manufacturing-orders-formulas.png)
+![Formulas](./media/general-settings-bill-of-materials-and-manufacturing-orders-formulas.webp)
 
 ### Default formulas
 
@@ -29,27 +29,29 @@ Coproducts:
 ```
 
 Scrap:
+
 ```sql
 =U_Quantity()*U_Factor()*Scraps.U_Factor(<sequence>)*Scraps.U_Quantity(<sequence>)
 ```
 
 Phantom
+
 ```sql
 =U_Quantity()*U_Factor()*Phantoms.U_Factor(<sequence>)*Phantoms.U_Quantity(<sequence>)
 ```
 
 Naming:
 
-|                         Items Tab                        |                        Coproducts Tab                        |                         Scrap Tab                        |                        Phantoms Tab                       |
-|:--------------------------------------------------------:|:------------------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
-| ```U_Quantity = Quantity field value within the form header | U_Quantity = Quantity field value within the form header     | U_Quantity = Quantity field value within the form header | U_Quantity = Quantity field value within the form header  |
-| U_Factor = Factor field value within the form header     | U_Factor = Factor field value within the form header         | U_Factor = Factor field value within the form header     | U_Factor = Factor field value within the form header      |
-| Items.U_Factor = Factor field value                      | CoProducts.U_Factor = Factor field value                     | Scrap.U_Factor = Factor field value                      | Phantom.U_Factor = Factor field value                     |
-| Items.U_Quantity = Quantity field value                  | CoProducts.U_Quantity = Quantity field value                 | Scrap.U_Quantity = Quantity field value                  | Phantom.U_Quantity = Quantity field value                 |
-| Items.U_ScrapPercentage = Scrap Percentage field value   | CoProducts.U_ScrapPercentage = Scrap Percentage field value  | Scrap.U_ScrapPercentage = Scrap Percentage field value   | Phantom.U_ScrapPercentage = Scrap Percentage field value  |
-| `<sequence>` = sequence number of the item master          | `<sequence>` = sequence number of the item master              | `<sequence>` = sequence number of the item master          | `<sequence>` = sequence number of the item master           |
+|                          Items Tab                          |                       Coproducts Tab                        |                        Scrap Tab                         |                       Phantoms Tab                       |
+| :---------------------------------------------------------: | :---------------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------------: |
+| ```U_Quantity = Quantity field value within the form header |  U_Quantity = Quantity field value within the form header   | U_Quantity = Quantity field value within the form header | U_Quantity = Quantity field value within the form header |
+|    U_Factor = Factor field value within the form header     |    U_Factor = Factor field value within the form header     |   U_Factor = Factor field value within the form header   |   U_Factor = Factor field value within the form header   |
+|             Items.U_Factor = Factor field value             |          CoProducts.U_Factor = Factor field value           |           Scrap.U_Factor = Factor field value            |          Phantom.U_Factor = Factor field value           |
+|           Items.U_Quantity = Quantity field value           |        CoProducts.U_Quantity = Quantity field value         |         Scrap.U_Quantity = Quantity field value          |        Phantom.U_Quantity = Quantity field value         |
+|   Items.U_ScrapPercentage = Scrap Percentage field value    | CoProducts.U_ScrapPercentage = Scrap Percentage field value |  Scrap.U_ScrapPercentage = Scrap Percentage field value  | Phantom.U_ScrapPercentage = Scrap Percentage field value |
+|      `<sequence>` = sequence number of the item master      |      `<sequence>` = sequence number of the item master      |    `<sequence>` = sequence number of the item master     |    `<sequence>` = sequence number of the item master     |
 
-![Formulas](./media/bill-of-materials-formulas.png)
+![Formulas](./media/bill-of-materials-formulas.webp)
 
 There are no default formulas set up for Yield. Click here to find out more about defining formulas for Yield.
 
@@ -67,7 +69,7 @@ There are no default formulas set up for Yield. Click here to find out more abou
 
 - The key data sync to SAP Business One is the values from the Result Column.
 
-![Result](./media/bill-of-materials-result.png)
+![Result](./media/bill-of-materials-result.webp)
 
 ### Manufacturing Orders
 
@@ -81,13 +83,13 @@ To enable synchronization, the same document numbering series must be set for SA
 
 - The key data sync to SAP Business One is the values from the planned and Actual Quantity
 
-![Synchronization](./media/manufacturing-order-synchronization-2.png)
+![Synchronization](./media/manufacturing-order-synchronization-2.webp)
 
 ### Due Date Synchronization
 
 SAP Production Order has a Due Date on it. On ProcessForce Manufacturing Order, you can set the Required Date and Planned Start Date. You can choose which ProcessForce Manufacturing Order date synchronizes SAP Production Order Due Date.
 
-![Date Synchronization](./media/manufacturing-order-sync-dates.png)
+![Date Synchronization](./media/manufacturing-order-sync-dates.webp)
 
 ## Default priority for production
 
@@ -105,7 +107,7 @@ Suppose Default Priority is set on Business Partner Master Data level (considere
 
 :::
 
-![Priority](./media/business-partner-master-data-priority.png)
+![Priority](./media/business-partner-master-data-priority.webp)
 
 If Default Priority is set up to "0" on Business Partner Master Data, it is taken from General Settings.
 
@@ -119,7 +121,7 @@ Production → Manufacturing Order → Manufacturing Orders → Others tab
 
 :::
 
-![Manufacturing Order Priority](./media/manufacturing-order-priority.png)
+![Manufacturing Order Priority](./media/manufacturing-order-priority.webp)
 
 ## Use MRP Minimum Quantity and Order Multiple for Semi Manufacturing Order Quantities checkbox
 
@@ -134,7 +136,6 @@ By default, a separate Manufacturing Order is created for the same Semi Finished
 **Example:**
 
 When the same semi-finished material is listed as two sequence steps on a Manufacturing Order to allow binding to different operation steps, two Manufacturing Orders are created for the semi-finished product.
-
 
 When the checkbox is unchecked, the default behavior is realized.
 

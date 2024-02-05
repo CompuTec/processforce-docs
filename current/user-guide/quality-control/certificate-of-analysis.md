@@ -1,6 +1,6 @@
 # Certificate of Analysis
 
-A Certificate of Analysis (CoA) is a document that confirms that a product meets its specification. 
+A Certificate of Analysis (CoA) is a document that confirms that a product meets its specification.
 
 It usually presents the results of tests performed as a part of the quality control of an individual batch of a product.
 
@@ -14,39 +14,39 @@ Currently, ProcessForce CoA function allows assigning Business Partners to a spe
 
 You can assign Business Partner to Test Property by choosing Business Partners Relations option from the context menu on the Test Property form (Business Partner will be assigned to a property displayed on the form):
 
-![Test Property Business Partners Relations](./media/test-property-business-partners-relations.png)
+![Test Property Business Partners Relations](./media/test-property-business-partners-relations.webp)
 
 on Test Protocol form, Test Properties tab (by clicking Test Property row) and Item Properties:
 
-![Test Protocol Business Relations](./media/test-protocol-business-partners-relations.png)
+![Test Protocol Business Relations](./media/test-protocol-business-partners-relations.webp)
 
 on Test Protocol Template form:
 
-![Test Protocol Template](./media/test-property-business-partners-relations.png)
+![Test Protocol Template](./media/test-property-business-partners-relations.webp)
 
 and on Quality Control Test form:
 
-![Quality Control Test](./media/quality-control-test-business-partners-relations.png)
+![Quality Control Test](./media/quality-control-test-business-partners-relations.webp)
 
 ## Item Property assigning
 
 You can assign Business Partner to Item Property by choosing Business Partners Relations option from the context menu on the Item Property form (Business Partner will be assigned to a property displayed on the form):
 
-![Item Properties](./media/item-property-business-partners-relations.png)
+![Item Properties](./media/item-property-business-partners-relations.webp)
 
 on Item Details form, Properties tab (by clicking Item Property row):
 
-![Item Details](./media/item-details-business-partners-relations.png)
+![Item Details](./media/item-details-business-partners-relations.webp)
 
 or on Quality Control Test form:
 
-![Quality Control Test](./media/quality-control-test-item-properties-business-partners-relations.png)
+![Quality Control Test](./media/quality-control-test-item-properties-business-partners-relations.webp)
 
 ## Certificate of Analysis Business Partners
 
 After Clicking Business Partners Relations option, the Certificate of Analysis Business Partners form will be displayed:
 
-![Certificate of Analysis](./media/certificate-of-analysis-business-partners.png)
+![Certificate of Analysis](./media/certificate-of-analysis-business-partners.webp)
 
 You can pick Business Partner and a period during which it will be assigned to a specific Property.
 

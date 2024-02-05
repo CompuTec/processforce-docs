@@ -24,11 +24,11 @@ Administration → System Initialization → Company Details → Basic Initializ
 
 Check the Multi-Language Support checkbox:
 
-![Company](./media/company-details-multi-language.png)
+![Company](./media/company-details-multi-language.webp)
 
 Go to the upper menu → Within View → Indicator Display, select Translatable Fields:
 
-![Translatable Fields](./media/translatable-fields.png)
+![Translatable Fields](./media/translatable-fields.webp)
 
 The Phrases form is used to define the EU Phrases lists. The code is the same in all countries, but the name is different in each language. Data source: http://schoolscout24.de/cgi-bin/rsp/rspinput.cgi
 
@@ -38,4 +38,4 @@ The Phrases form is used to define the EU Phrases lists. The code is the same in
 
 *Dutch* **R1** In droge toestand ontplofbaar.
 
-![Phrase Translation](./media/phrase-translation.png)
+![Phrase Translation](./media/phrase-translation.webp)

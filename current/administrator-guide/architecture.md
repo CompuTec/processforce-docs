@@ -22,4 +22,4 @@ We support the same functionalities both SAP HANA and Microsoft SQL Server. The 
 
 Here is the overview of ProcessForce architecture:
 
-![ProcessForce architecture](./media/processforce-architecture.png)
+![ProcessForce architecture](./media/processforce-architecture.webp)

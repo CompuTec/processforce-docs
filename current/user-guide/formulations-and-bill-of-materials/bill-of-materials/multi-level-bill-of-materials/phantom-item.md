@@ -14,7 +14,7 @@ Phantom Item is an alternative to Semi-Finished products. You can use a Bill of 
 Inventory → Item Master Data → Production Data tab
 :::
 
-![General](./media/phantom-item-general.png)
+![General](./media/phantom-item-general.webp)
 
 To use a specific Item as Phantom, be sure to check the following settings:
 
@@ -30,13 +30,13 @@ Also, note that a Phantom (as every Non-Inventory Item) cannot be managed by Bat
 
 We have a beverage – Product-A. One piece consists of packaging (Bottle-01, Label-01, Top-01) and actual drink (Recipe-01), a separate Bill of Materials. Packaging elements can be bought or produced and taken from inventory during production. But drink (as a Phantom Item) can never be used on a separate Manufacturing Order (just for Recipe-01) nor goes into stock - it can only be produced during the Product-A production process and be a part of it. It also means that the drink is not received at Warehouse and then issued for the Product-A production process. Still, all the elements enter the manufacturing process together, which results in Product-A:
 
-![Manufacturing Order](./media/phantom-item-manufacturing-order.png)
+![Manufacturing Order](./media/phantom-item-manufacturing-order.webp)
 
 As seen in the screenshot above, the Phantom from the master Bill of Materials exploded on connected a Manufacturing Order: every Item from Recipe-01 was added to the Manufacturing Order → Items tab. Because of it, there is no need to create a separate Manufacturing Order for the Recipe-01 Bill of Materials (as we would have to do if it was a Semi-finished Product). Note that Operations defined for the Phantom in its Production Process are also added to the Operations tab.
 
 You can check what Phantom Items were used on a specific Manufacturing Order in the WIP Items tab:
 
-![WIP Item](./media/phantom-item-WIP-tab.png)
+![WIP Item](./media/phantom-item-WIP-tab.webp)
 
 You can also add a Phantom manually to a Manufacturing Order. On adding a document after this, a communication form will pop up with information about Phantoms being present on a record and that it will be expanded automatically. It is required to confirm the communication before adding a document.
 
@@ -56,7 +56,7 @@ Material Phantom option can be set up for specific revisions in Item Details:
 Inventory → Item Details
 :::
 
-![Material Phantom](./media/material-phantom.png)
+![Material Phantom](./media/material-phantom.webp)
 
 ### Usage
 
@@ -73,4 +73,3 @@ If a specific Item is required to be used on the Bill of Materials as a regular 
 ## Related Videos
 
 ### Phantom Production Logic
-
