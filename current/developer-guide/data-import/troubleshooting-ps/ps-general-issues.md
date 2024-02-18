@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # General Issues
 
 The most common issues concerning PowerShell script management will be published on this page.
@@ -15,12 +19,10 @@ Please also use this SAP Note to diagnose the problem with the connection:
 [2029714 - Troubleshooting Integration Framework SLD DI Connection](https://launchpad.support.sap.com/#/notes/2029714)
 
 :::note
-
-Despite this SAP Note relating to Integration Framework, many DI connection issues are common, regardless of the application that uses DI API.
-
+    Despite this SAP Note relating to Integration Framework, many DI connection issues are common, regardless of the application that uses DI API.
 :::
 
-## Exception: Unable to find type [CompuTec.ProcessForce.API.ProcessForceCompanyInitializator]: make sure that the assembly that contains this type is loaded.
+## Exception: Unable to find type [CompuTec.ProcessForce.API.ProcessForceCompanyInitializator]: make sure that the assembly that contains this type is loaded
 
 ### Reason {###reason-1}
 
@@ -30,13 +32,11 @@ You are probably using PowerShell 2.0 with CLRVersion 2.0.
 
 Check if the CLR Version is 2.0 or lower.
 
-PowerShell 2.0 script
-
-```powershell
+```powershell title="PowerShell 2.0 script"
 $PSVersionTable
 ```
 
-![Version](./media/clr-version.webp)
+![Version](./media/ps-general-issues/clr-version.webp)
 
 ### Solution steps - 01 (example for PowerShell ISE x86)
 
@@ -44,11 +44,11 @@ $PSVersionTable
 
 - see **the Configuration files** section in [the PowerShell application configuration](./../../data-import/ps-app-configuration.md).
 
-  ![Version compare](./media/clr-version-compare.webp)
+    ![Version compare](./media/ps-general-issues/clr-version-compare.webp)
 
 - restart PowerShell ISE and check CRLVersion
 
-  ![Restart](./media/restart.webp)
+    ![Restart](./media/ps-general-issues/restart.webp)
 
 ### Solution steps - 02 - ProcessForce 10.0 & newer
 
@@ -58,7 +58,7 @@ $PSVersionTable
 
 ## Exception: PF Database Version is not supported. Please update the Database or Reinstall API.Setup
 
-![Incorrect Version](./media/database-version-not-supported.webp)
+![Incorrect Version](./media/ps-general-issues/database-version-not-supported.webp)
 
 ### Reason {#reason-2}
 
@@ -66,24 +66,26 @@ ProcessForce, PowerShell ISE, and PF.API versions vary.
 
 ## Diagnose actions {##diagnose-actions-2}
 
-![Different Version]Check the ProcessForce version and platform. You can do this in SAP Client > Administration > Add-On Manager (see a screenshot above).
+![Different Version](./media/ps-general-issues/ps-bit-versions.webp)
+
+- Check the ProcessForce version and platform. You can do this in SAP Client > Administration > Add-On Manager (see a screenshot above).
 
 - Check what architecture PowerShell ISE is working on (on example screenshot is x86 = 32-bits) and check if this platform is the same as ProcessForce one.
 
 - Check In Windows > Programs & Features installed PF.API version and compare it to SAP Client > Add-on Manager – ProcessForce version & platform.
 
-![Final](./media/pc-corresponding-versions.webp)
+    ![Final](./media/ps-general-issues/pc-corresponding-versions.webp)
 
 - Check if PowerShell ISE is using the correct PF API library version.
 
-```powershell
-# Check PF.API version used by current PowerShell ISE
-clear
-[System.Reflection.Assembly]::LoadWithPartialName("CompuTec.ProcessForce.API")
-[System.Reflection.Assembly]::LoadWithPartialName("CompuTec.Core")
-$version = [CompuTec.Core.CoreConfiguration+DatabaseSetup]::AddonVersion
-write-host $version
-```
+    ```powershell
+    # Check PF.API version used by current PowerShell ISE
+    clear
+    [System.Reflection.Assembly]::LoadWithPartialName("CompuTec.ProcessForce.API")
+    [System.Reflection.Assembly]::LoadWithPartialName("CompuTec.Core")
+    $version = [CompuTec.Core.CoreConfiguration+DatabaseSetup]::AddonVersion
+    write-host $version
+    ```
 
 ### Solution
 
@@ -93,7 +95,7 @@ Use PowerShell ISE 32-bit if ProcessForce add-on x86 is installed on your databa
 
 ## Exception: Unable to access SBO-Common database
 
-![Database Mismatch](./media/ps-db-mismatch.webp)
+![Database Mismatch](./media/ps-general-issues/ps-db-mismatch.webp)
 
 ### Reason {#reason-3}
 
@@ -101,7 +103,7 @@ Mismatch of DBServerType.
 
 ### Exception: Database server type not supported
 
-![Server Type Mismatch](./media/ps-db-server-type-mismatch.webp)
+![Server Type Mismatch](./media/ps-general-issues/ps-db-server-type-mismatch.webp)
 
 Mismatch of DBServerType.
 
@@ -109,8 +111,8 @@ Mismatch of DBServerType.
 
 ### Diagnose steps
 
-1.  ![Resource Name](./media/ps-resource-name-1.webp)
-2.  ![Resource Name 2](./media/ps-resource-name-2.webp)
+1. ![Resource Name](./media/ps-general-issues/ps-resource-name-1.webp)
+2. ![Resource Name 2](./media/ps-general-issues/ps-resource-name-2.webp)
 
 ### Solution {##solution-2}
 
@@ -120,7 +122,7 @@ It should be the same as in the SAP Client Choose Company form/window.
 
 ## Exception: Login SLD Failed; make sure the server, company, and user credentials are correct
 
-![Incorrect Port Number](./media/ps-incorrect-port-number.webp)
+![Incorrect Port Number](./media/ps-general-issues/ps-incorrect-port-number.webp)
 
 ### Solution {##solution-3}
 

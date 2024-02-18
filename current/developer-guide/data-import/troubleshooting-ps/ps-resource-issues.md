@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Resource Issues
 
 On this page, all PowerShell Resource data import-related issues will be described. The page will be subsequently updated based on issues raised on the support portal and recognized CompuTec consultants.
@@ -14,19 +18,19 @@ Please follow the instructions on the following screenshots:
 
 ### Step 1
 
-![Incorrect Data](./media/ps-resource-incorrect-data-1.webp)
+![Incorrect Data](./media/ps-resource-issues/ps-resource-incorrect-data-1.webp)
 
 ### Step 2
 
-![Incorrect Data](./media/ps-resource-incorrect-data-2.webp)
+![Incorrect Data](./media/ps-resource-issues/ps-resource-incorrect-data-2.webp)
 
 ### Step 3
 
-![Incorrect Data](./media/ps-resource-incorrect-data-3.webp)
+![Incorrect Data](./media/ps-resource-issues/ps-resource-incorrect-data-3.webp)
 
 ### Step 4
 
-![Incorrect Data](./media/ps-resource-incorrect-data-4.webp)
+![Incorrect Data](./media/ps-resource-issues/ps-resource-incorrect-data-4.webp)
 
 ## Summary
 

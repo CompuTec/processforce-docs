@@ -1,8 +1,4 @@
 {
   "label": "ProcessForce API Tips & Tricks",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "Here you can find solutions for the most encountered problems"
-  }
+  "position": 3
 }

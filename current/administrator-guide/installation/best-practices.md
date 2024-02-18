@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Best Practices
 
 Here you can find notes on best practices for setting up an SAP Business One environment, which plays a crucial role in CompuTec product performance.
@@ -10,7 +14,7 @@ SAP Business One's performance is highly dependent on the overall hardware perfo
 
 It would be best if you use the latest available hardware platform.
 
-In the case of SAP HANA, only Intel CPUs are supported. You can find all the supported hardware configurations in the Certified and Supported SAP HANA Hardware Directory. Unfortunately, there is a long delay when a hardware vendor certifies its newest platform in many cases. Therefore, it's a widespread practice to choose the latest available hardware platform which matches the certified hardware, and the CPU has the same or higher specification (cores, frequency, and cache).
+In the case of SAP HANA, only Intel CPUs are supported. You can find all the supported hardware configurations in the [Certified and Supported SAP HANA Hardware Directory](https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/#/solutions?filters=appliance;v:at4). Unfortunately, there is a long delay when a hardware vendor certifies its newest platform in many cases. Therefore, it's a widespread practice to choose the latest available hardware platform which matches the certified hardware, and the CPU has the same or higher specification (cores, frequency, and cache).
 
 ### Disks
 

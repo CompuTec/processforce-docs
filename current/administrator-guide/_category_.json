@@ -1,8 +1,4 @@
 {
   "label": "ProcessForce Administration's Guide",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Get to know how to administrate CompuTec ProcessForce."
-  }
+  "position": 2
 }

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Example 2: Creating simple objects
 
 How to add a simple object using the ProcessForce API
@@ -8,7 +12,7 @@ How to add a simple object using the ProcessForce API
 
 - All document objects can be found in CompuTec.ProcessForce.API.Documents namespace.
 
-*The example below illustrates how to create a Resource Group object*
+The example below illustrates how to create a Resource Group object
 
 ```csharp
 try

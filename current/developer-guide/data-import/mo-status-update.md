@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Tutorial: Manufacturing Order Status Update
 
 Here you can find a complete description of the Manufacturing Order status update script.

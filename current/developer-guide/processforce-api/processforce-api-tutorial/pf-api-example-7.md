@@ -1,9 +1,12 @@
+---
+sidebar_position: 8
+---
+
 # Example 7: Create Time Bookings Document
 
 This sample creates an Entry in a Time Booking document for each Resource and Resource type from a Manufacturing Order.
 
 ```csharp
-
 IManufacturingOrder mor = pfCompany.CreatePFDocument(ObjectTypes.ManufacturingOrder);
 mor.GetByKey("14");
 IOperationTimeRecording ttr = pfCompany.CreatePFDocument(ObjectTypes.OperationTimeRecording);
@@ -84,5 +87,4 @@ if (item.U_StockTotal > TimeSpan.Zero)
     }
 }
 tt.Add();
-
 ```

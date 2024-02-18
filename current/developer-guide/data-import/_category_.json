@@ -1,8 +1,4 @@
 {
   "label": "Data import and update using PowerShell's scripts",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "This section provides information on executing PowerShell scripts to import or update data in databases."
-  }
+  "position": 1
 }

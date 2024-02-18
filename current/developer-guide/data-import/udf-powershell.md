@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # UDFs in PowerShell scripts
 
 On this page, you can check how to set the value for a User Defined Field (UDF) that was added to a ProcessForce object.
@@ -6,7 +10,7 @@ On this page, you can check how to set the value for a User Defined Field (UDF) 
 
 When you want to set a value on UDF that was added to the ProcessForce object, you need to use the following syntax:
 
-```powershell 
+```powershell
 $PFObject.UDFItems.Item("U_UDF1").Value =  'some value';
 ```
 

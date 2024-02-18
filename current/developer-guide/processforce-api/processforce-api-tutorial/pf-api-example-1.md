@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Example 1: Connecting to database
 
 How to connect to the database using the ProcessForce API:

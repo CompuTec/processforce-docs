@@ -44,17 +44,17 @@ Dictionary<string, CompuTec.ProcessForce.API.Documents.BillOfMaterials.IBillOfMa
 
 for (int i = 0; i < howManyRows; i++)
 {
-	string itemcode = dataTable.GetValue("ItemCode", i);
-	string revision = dataTable.GetValue("Revision", i);
+    string itemcode = dataTable.GetValue("ItemCode", i);
+    string revision = dataTable.GetValue("Revision", i);
 
-	if (!string.IsNullOrEmpty(itemcode) & !string.IsNullOrEmpty(revision))
-	{
-		Tuple<string, string> itemCodeAndRevision = new Tuple<string, string>(itemcode, revision);
-		if (!bomCodes.ContainsKey(itemCodeAndRevision))
-		{
-			bomCodes.Add(itemCodeAndRevision), GetBomCode(itemCodeAndRevision.Item1, itemCodeAndRevision.Item2);
-		}
-	}
+    if (!string.IsNullOrEmpty(itemcode) & !string.IsNullOrEmpty(revision))
+    {
+        Tuple<string, string> itemCodeAndRevision = new Tuple<string, string>(itemcode, revision);
+        if (!bomCodes.ContainsKey(itemCodeAndRevision))
+        {
+            bomCodes.Add(itemCodeAndRevision), GetBomCode(itemCodeAndRevision.Item1, itemCodeAndRevision.Item2);
+        }
+    }
 }
 
 var boms = BulkUdoConverter.GetBulkObjects<string, IBillOfMaterial>("", ObjectTypes.BillOfMaterial, bomCodes.Values.Distinct().ToList());
@@ -63,16 +63,16 @@ ReferenceDictionary.Add(bom.Code, bom);
 
 for (int i = 0; i < howManyRows; i++)
 {
-	CompuTec.ProcessForce.API.Documents.ManufacturingOrder.ManufacturingOrder udo = UdoFactoryClass.CreateDocument(string.Empty, ObjectTypes.ManufacturingOrder);
+    CompuTec.ProcessForce.API.Documents.ManufacturingOrder.ManufacturingOrder udo = UdoFactoryClass.CreateDocument(string.Empty, ObjectTypes.ManufacturingOrder);
 
-	udo.ReferenceDictionary = ReferenceDictionary;
+    udo.ReferenceDictionary = ReferenceDictionary;
 
-	//udo.U_ItemCode = itemCode;
-	//if (!string.IsNullOrEmpty(revision))
-	//{
-	//	udo.U_Revision = revision;
+    //udo.U_ItemCode = itemCode;
+    //if (!string.IsNullOrEmpty(revision))
+    //{
+    //udo.U_Revision = revision;
 
-	udo.U_BOMCode = bomCodes[new Tuple<string, string>(itemCode, revision)]
+    udo.U_BOMCode = bomCodes[new Tuple<string, string>(itemCode, revision)]
 };
 
 ```

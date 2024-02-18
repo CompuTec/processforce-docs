@@ -1,8 +1,4 @@
 {
     "label": "ProcessForce Releases",
-    "position": 4,
-    "link": {
-      "type": "generated-index",
-      "description": "Get the latest CompuTec ProcessForce version and check the history of releases."
-    }
+    "position": 5
   }

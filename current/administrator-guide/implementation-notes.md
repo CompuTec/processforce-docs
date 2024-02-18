@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Implementation Notes
 
 On this page, information vital for the implementation process will be published.

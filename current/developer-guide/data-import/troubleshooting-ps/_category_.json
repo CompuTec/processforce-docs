@@ -1,8 +1,4 @@
 {
   "label": "PowerShell Troubleshooting",
-  "position": 3,
-  "link": {
-    "type": "generated-index",
-    "description": "On this page, all PowerShell data import-related issues will be described. The page will be subsequently updated based on the issue raised on the support portal and recognized CompuTec consultants."
-  }
+  "position": 7
 }

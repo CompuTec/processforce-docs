@@ -1,8 +1,4 @@
 {
   "label": "ProcessForce User's Guide",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "This user's guide contains information on how to use ProcessForce, the most integrated manufacturing add-on for SAP Business One."
-  }
+  "position": 4
 }

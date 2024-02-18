@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # System Requirements
 
 Here you can find the system environment settings that ProcessForce requires to work properly.
@@ -5,7 +9,7 @@ Here you can find the system environment settings that ProcessForce requires to 
 ---
 
 :::note
-You can download the latest release of the application from the [ProcessForce Downloads site](../processforce-releases/downloads).
+    You can download the latest release of the application from the [ProcessForce Downloads site](../processforce-releases/downloads).
 :::
 
 ProcessForce is an SAP Business One lightweight extension (add-on).

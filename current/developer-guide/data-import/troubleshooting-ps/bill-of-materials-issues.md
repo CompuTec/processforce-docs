@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Bill of Materials Issues
 
 You can find the most common Bill of Materials issues on this page.
@@ -8,7 +12,7 @@ You can find the most common Bill of Materials issues on this page.
 
 Example 01: Exception: Warehouse PW not defined for an Item LM4029MC.
 
-![Warehouse not defined for an Item](./media/warehouse-not-defined-for-item.webp)
+![Warehouse not defined for an Item](./media/bill-of-materials-issues/warehouse-not-defined-for-item.webp)
 
 ### Diagnose steps (for the example)
 
@@ -23,7 +27,7 @@ Set the correct Warehouse code in the BOM_Items.csv file for itemCode LM4029MC o
 
 ## Example 02: Exception: Warehouse 01 not defined for an Item LM4029Mc
 
-![Warehouse not defined for an Item](./media/warehouse-not-defined-for-item-2.webp)
+![Warehouse not defined for an Item](./media/bill-of-materials-issues/warehouse-not-defined-for-item-2.webp)
 
 ### Diagnose steps (for the example): {### reason-2}
 
@@ -38,7 +42,7 @@ Set the correct Warehouse code in the BOM_Items.csv file for itemCode LM4029MC o
 
 ## Exception: At Least one Non-stock item must be set as Subcontracting Item
 
-![Subcontracting Item](./media/non-stock-item-subcontracting.webp)
+![Subcontracting Item](./media/bill-of-materials-issues/non-stock-item-subcontracting.webp)
 
 ### Diagnose steps: {### steps2}
 
@@ -52,7 +56,7 @@ None of the Items in BOM of type external is marked as Subcontracting Item
 
 ## Exception: At Least one Non-stock item must be set as Subcontracting Item. {### Exception}
 
-![Subcontracting Item](./media/non-stock-item-subcontracting-item-2.webp)
+![Subcontracting Item](./media/bill-of-materials-issues/non-stock-item-subcontracting-item-2.webp)
 
 ### Diagnose steps {### steps3}
 

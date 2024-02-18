@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # ProcessForce Architecture
 
 ProcessForce is a 64-bit .NET application that can be run inside SAP Business One as an extension (add-on) by publishing the lightweight deployment package.
@@ -22,4 +26,4 @@ We support the same functionalities both SAP HANA and Microsoft SQL Server. The 
 
 Here is the overview of ProcessForce architecture:
 
-![ProcessForce architecture](./media/processforce-architecture.webp)
+![ProcessForce architecture](./media/architecture/processforce-architecture.webp)

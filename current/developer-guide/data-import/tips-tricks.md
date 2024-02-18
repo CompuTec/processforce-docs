@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Tips & Tricks
 
 ## SAP Business One objects access from ProcessForce API

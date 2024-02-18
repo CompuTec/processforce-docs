@@ -1,8 +1,4 @@
 {
   "label": "System Initialization",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Information on the action to be taken at the beginning of using ProcessForce"
-  }
+  "position": 2
 }

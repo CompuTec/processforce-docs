@@ -1,33 +1,45 @@
+---
+sidebar_position: 4
+---
+
 # License import and assignment
 
 :::info
-
-Assigning the ProcessForce license works similarly to the SAP Business One license assignment.
-
+    Assigning the ProcessForce license works similarly to the SAP Business One license assignment.
 :::
 
 1. After successful installation, the system message appears:
 
-![System Message](./media/system-message-installation.webp) 2. Ask your ProcessForce provider for a license file.
+    ![System Message](./media/license-import-assignment/system-message-installation.webp)
 
-:::info
+2. Ask your ProcessForce provider for a license file.
 
-All information required for generating a license key is described on [the Request for a license page](./license-request.md).
+    :::info
+        All information required for generating a license key is described on [the Request for a license page](./license-request.md).
+    :::
 
-::: 3. Open the ProcessForce License Administration form:
+3. Open the ProcessForce License Administration form:
 
-![License Administration](./media/license-administration.webp) 4. To test whether CompuTec License Service is up and running, click the Test button:
+    ![License Administration](./media/license-import-assignment/license-administration.webp)
 
-![License connection](./media/license-connection-test.webp) 5. If it is OK – click the Import License File button to load a valid license. You will be asked for a license file.
+4. To test whether CompuTec License Service is up and running, click the Test button:
 
-:::caution
+    ![License connection](./media/license-import-assignment/license-connection-test.webp)
 
-Note that a license file should have a .xml extension. In some cases, a file downloaded from a license request issue ([support.computec.pl](https://support.computec.pl)) can have changed its type (e.g., on downloading the file by Safari browser), which may cause an error when trying to load it.
+5. If it is OK – click the Import License File button to load a valid license. You will be asked for a license file.
 
-::: 6. After the successful importation of a license, the message: ProcessForce license has been imported appears:
+    :::caution
+        Note that a license file should have a .xml extension. In some cases, a file downloaded from a license request issue ([support.computec.pl](https://support.computec.pl)) can have changed its type (e.g., on downloading the file by Safari browser), which may cause an error when trying to load it.
+    :::
 
-![System Message](./media/license-assignment-message.webp) 7. Press the Change button to assign/change the license to/in the company. You will be asked to select a proper row from imported licenses. Select a license row and click the Select button:
+6. After the successful importation of a license, the message `ProcessForce license has been imported` appears:
 
-![License change](./media/license-assignment.webp) 8. Assign users to the appropriate license type and click the Update button to save the changes:
+    ![System Message](./media/license-import-assignment/license-assignment-message.webp)
 
-![License assignment](./media/license-user-assign.webp)
+7. Press the Change button to assign/change the license to/in the company. You will be asked to select a proper row from imported licenses. Select a license row and click the Select button:
+
+    ![License change](./media/license-import-assignment/license-assignment.webp)
+
+8. Assign users to the appropriate license type and click the Update button to save the changes:
+
+    ![License assignment](./media/license-import-assignment/license-user-assign.webp)

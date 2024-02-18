@@ -1,19 +1,20 @@
+---
+sidebar_position: 3
+---
+
 # Inventory tab
 
 This tab allows setting extended settings for many inventory values, such as Batch and Serial Numbers management, issue method, or quality control settings.
 
 ---
 
-![Inventory Tab](./media/general-settings-inventory.webp)
+![Inventory Tab](./media/inventory-tab/general-settings-inventory.webp)
 
 **Batch generated when Manufacturing Order** – if checked, you can choose one of the four options from a drop-down list to allocate a batch number when creating a Manufacturing Order or changing its status:
 
 - on creating MOR (not possible to use %MORDN% parameter in a template due to performance issues)
-
 - on changing status to Scheduled
-
 - on changing status to Released
-
 - on changing status to Started.
 
 **Default template for batches, Default templates for serial numbers** – it can be chosen from a list. Click here to check how to create a new Batch or Serial Number template.
@@ -27,7 +28,7 @@ Note that only one of these options can be active at a time: either Expiry Date 
 
 **Inspection interval** – a period between consecutive inspections. After each period, an alert about the Inspection is activated.
 
-**Manual Issue Type, Backflush Issue Type** – consumption rules during manual picking and backflushing when the Batch status is locked and/or non-accessible. You can find information about it here **ADD LINK**.
+**Manual Issue Type, Backflush Issue Type** – consumption rules during manual picking and backflushing when the Batch status is locked and/or non-accessible. You can find information about it here <!-- TODO: Add Link -->.
 
 **Default Batch Status for SAP Business One and ProcessForce receipt documents**:
 
@@ -35,20 +36,18 @@ Note that only one of these options can be active at a time: either Expiry Date 
 
 - If the status for a Batch is set to Not Accessible or Locked, a system message about this will be displayed before issuing this batch for production.
 
-- Click here **ADD LINK** to find out more.
+- Click here <!-- TODO: Add Link --> to find out more.
 
 **Default Quality Control Status for SAP Business One ProcessForce receipt-based documents:**
 
 Failed, On Hold, Inspection, Passed, and Quality Control Testing options are available.
 
-Click here **ADD LINK** to find out more.
+Click here <!-- TODO: Add Link --> to find out more.
 
 Batch Queue Type – a type of queue used by default with batches:
 
 - FIFO – First In, First Out
-
 - FEFO – First Expired First Out
-
 - FMFO – First Manufactured First Out.
 
 **Manual Issue Behavior**
@@ -59,18 +58,15 @@ Batch Queue Type – a type of queue used by default with batches:
 
 **Default Quality Control Status for ProcessForce Receipt Documents**
 
-**Revision Based Picking and Backflushing** **ADD LINK**
+**Revision Based Picking and Backflushing** <!-- TODO: Add Link -->
 
 **Issue Residual Quantity on next Good Receipts when possible** – if the option is checked, then during the following Goods Receipt for the same Manufacturing Order, the system will try to issue again all of the rows with the Backflush issue type set for which Residual Quantity is higher than zero and have a quantity to issue (because it was not on the stock during the previous receipts)
 
 **AutoAllocate Batches on Pick Order Include**: defines on which documents Batch Allocation should be analyzed when using Auto Select and Auto Select All actions:
 
 - **None** – no documents are taken under consideration
-
 - **On other document** – takes under consideration allocations from Pick Orders
-
 - **Allocated** – takes under consideration allocations from Sales Orders
-
 - **Both** – takes under consideration allocations from Pick Orders and Sales Orders
 
 **On Material Selection Overwrite Action** – related to the previous point. Determines the system’s reaction on exceeding available not allocated quantity with manual Batch/Serials choosing. Options: Allow, Warn, Block
