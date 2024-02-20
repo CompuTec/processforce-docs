@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Manufacturing Orders Relations
 
 This option allows you to create advanced Manufacturing Orders relations and relate a Child Manufacturing Order with multiple Parent Manufacturing Orders.
@@ -6,7 +10,7 @@ This option allows you to create advanced Manufacturing Orders relations and rel
 
 ## Purpose
 
-![Advanced Manufacturing Orders Relations](./media/advanced-manufacturing-orders-relations.webp)
+![Advanced Manufacturing Orders Relations](./media/manufacturing-orders-relations/advanced-manufacturing-orders-relations.webp)
 
 ## Activating the option
 
@@ -14,13 +18,13 @@ This option allows you to create advanced Manufacturing Orders relations and rel
 Production → Manufacturing Order → Manufacturing Order → Others tab
 :::
 
-![Checkbox](./media/manufacturing-orders-relations-checkbox.webp)
+![Checkbox](./media/manufacturing-orders-relations/manufacturing-orders-relations-checkbox.webp)
 
 Click the highlighted button to open the Manufacturing Orders Relations form.
 
 ## Manufacturing Orders Relations form
 
-![Form](./media/manufacturing-orders-relations-form.webp)
+![Form](./media/manufacturing-orders-relations/manufacturing-orders-relations-form.webp)
 
 ### Creating relation
 
@@ -28,7 +32,7 @@ Click the highlighted button to open the Manufacturing Orders Relations form.
 
 ##### Assigning child Manufacturing Orders
 
-![List](./media/list-of-manufacturing-order-child-candidates.webp)
+![List](./media/manufacturing-orders-relations/list-of-manufacturing-order-child-candidates.webp)
 
 Clicking the Assign Child button leads to the list of all Manufacturing Orders in Scheduled, Released, and Started status for an Item and Revision of a component of the Manufacturing Order. Choose one or more and click Select. This will add lines to the main form.
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 11
+---
+
 # Quality Control frequency based on Supplier's rating
 
 Here you can find information on the Quality Control process based on the Supplier's rating (an evaluation of the level of trust toward a Supplier based on past collaboration). Quality Control Tests generation can be bound to and defined by the level of trust.
@@ -11,41 +15,35 @@ Using Quality Control Supplier Scorecards helps with the following:
 Quality issues, errors, and mistakes aligned with certified testing lab Internal, pre-ship inspection system in place.
 
 :::warning
-The current implementation allows using this functionality only for one type of transaction: Goods Receipt PO and Counter Type = Occurrences.
+    The current implementation allows using this functionality only for one type of transaction: Goods Receipt PO and Counter Type = Occurrences.
 
-It works only for "Enable Create Closed QC Tests from Frequency Rules" = Yes (Administration → System Initialization → General Settings → ProcessForce → QC)
+    It works only for "Enable Create Closed QC Tests from Frequency Rules" = Yes (Administration → System Initialization → General Settings → ProcessForce → QC)
 :::
 
 :::caution
-Please note that for the correct operation of the function, the following piece of code has to be added to the PostTransactNotification database.
+    Please note that for the correct operation of the function, the following piece of code has to be added to the PostTransactNotification database.
 
-This procedure is essential to manage at which intervals the Quality Control Test is to be performed based on the predefined Counters.
-
-<!-- |         File type         |  MS SQL  |   HANA   | -->
-<!-- |:-------------------------:|:--------:|:--------:| -->
-<!-- | Procedure                 | [Download](./media/MSSQL_CT_PF_QC_FREQ_PROC.zip) | [Download](./media/HANA_CT_PF_QC_FREQ_PROC.zip) | -->
-<!-- | PostTransact modification | [Download](./media/MSSQL_SBO_SP_PostTransactionNotice_mod.zip) | [Download](./media/HANA_SBO_SP_PostTransactionNotice_mod.zip) | -->
-
+    This procedure is essential to manage at which intervals the Quality Control Test is to be performed based on the predefined Counters.
 :::
 
 :::tip
-It is possible to set Auto-Creation of Test Protocol, which can be very useful in this functionality and is recommended to improve daily tasks on a customer's side.
+    It is possible to set Auto-Creation of Test Protocol, which can be very useful in this functionality and is recommended to improve daily tasks on a customer's side.
 :::
 
 ## General Settings
 
 :::info Path
-Administration → System Initialization → General Settings → ProcessForce → QC
+    Administration → System Initialization → General Settings → ProcessForce → QC
 :::
 
 "Enable Create Closed QC Tests from Frequency Rules" option must be checked. QC Test, which not fulfills condition defined in Counter Schema (Counter Value), with ll be created with the status Closed. The system will generate QC Test for all transactions.
 
-![General Settings](./media/general-settings-qc-frequency.webp)
+![General Settings](./media/quality-control-frequency-based-on-supplier-rating/general-settings-qc-frequency.webp)
 
 ## BP QC Qualifications
 
 :::info Path
-Administration → Setup → Quality Control → BP QC Qualifications
+    Administration → Setup → Quality Control → BP QC Qualifications
 :::
 
 To start working with Supplier Scorecard, you need to define a dictionary.
@@ -54,12 +52,12 @@ The first thing is to fill BP QC Qualification with data – levels that you wan
 
 Below you have an example of how to use functionality in the company.
 
-![Frequency](./media/frequency.webp)
+![Frequency](./media/quality-control-frequency-based-on-supplier-rating/frequency.webp)
 
 ## Counter Scheme
 
 :::info Path
-Administration → Setup → Quality Control → Counter Scheme
+    Administration → Setup → Quality Control → Counter Scheme
 :::
 
 The next thing is to define the Counter Scheme dictionary.
@@ -70,7 +68,7 @@ Milestones for counters are QC Documents: QC Tests, QC Poll.
 
 A particular Counter is created on the definition described in Counter Scheme. All Counters are stored in a separate table.
 
-![Open](./media/open-counter-scheme.webp)
+![Open](./media/quality-control-frequency-based-on-supplier-rating/open-counter-scheme.webp)
 
 Fields:
 
@@ -92,7 +90,7 @@ Fields:
 
 ~~**Penalty Counter Value** – number of penalty QC Tests~~
 
-~~**QC Document** – types of results document (milestones): QC Test, ~~
+~~**QC Document** – types of results document (milestones): QC Test,~~
 
 **Business Partner** – if selected, will be included in created Counter ID and will determine the distinction of counters for a given Frequency Rule
 
@@ -117,7 +115,7 @@ Examples of selectable criteria combinations:
 |                  |      ~~x~~       | ~~x~~ |  ~~x~~   |        ~~Transaction Type & Item & Revision\*~~         |
 |                  |      ~~x~~       |       |          |               ~~Transaction Type & TP\*~~               |
 
-'\*' – options planned to be implemented in the next phase
+\* – options planned to be implemented in the next phase
 
 ## Business Partner Master Data
 
@@ -161,15 +159,14 @@ Frequency tab:
 
 **BP QC Code To - Business Partner Qualification** – Code value
 
-Close QC Tests -
+**Close QC Tests** -
 
-a) If in Protocol Close QC Test = Yes, then tests are generated for all occurrences. Tests that are not a multiple of the Counter Value are closed with Status = Closed and Test Status = Passed.
+    1. If in Protocol Close QC Test = Yes, then tests are generated for all occurrences. Tests that are not a multiple of the Counter Value are closed with Status = Closed and Test Status = Passed.
+    2. If in Protocol Close QC Test = No, then tests are generated only for occurrences that are a multiple of the Counter Value.
 
-b) If in Protocol Close QC Test = No, then tests are generated only for occurrences that are a multiple of the Counter Value.
+    Enable Create Closed QC Tests from Frequency Rules in GS switch on/off above functionally globally - it works like in 2.
 
-Enable Create Closed QC Tests from Frequency Rules in GS switch on/off above functionally globally - it works like in b).
-
-## ~~Counters grid for selected Rule
+## ~~Counters grid for selected Rule~~
 
 **Counter ID** – key in counters table
 

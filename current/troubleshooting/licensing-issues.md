@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Licensing Issues
 
 The most common issue connected to ProcessForce licensing will be noted on this page.
@@ -21,35 +25,34 @@ In some cases CompuTec Key field on the About ProcessForce form is empty. It can
 3. Open Administration > License > ProcessForce License Administration.
 4. Check if the specified License server is correct and click the Test button. The following communication on the AP status should be displayed: Test the connection to the CompuTec License Server completed successfully.
 
-   - If any other communication is displayed, please check if the name / IP address of the server where CompuTec License Service is installed is correct.
-
-   - If yes, then on this server, go to Services and check if the CompuTec License Server service is running.
-
+    - If any other communication is displayed, please check if the name / IP address of the server where CompuTec License Service is installed is correct.
+    - If yes, then on this server, go to Services and check if the CompuTec License Server service is running.
 5. Click Update after making any changes.
 6. Open Help > About ProcessForce. You should now see the Installation Number and CompuTec Key.
 
-## Error message: The server was unable to process the request...
+## Error message: The server was unable to process the request
 
-```
+```text
 Error message: The server could not process the request due to an internal error. For more information about the error, turn on IncludeExceptionDetailInFaults (either from ServiceBehaviorAttribute or the <serviceDebug> configuration behavior) on the server to send the exception information back to the client or turn on tracing as per the Microsoft .NET Framework SDK documentation and inspect the server trace log.
 ```
 
-```
+```text
 Response status code does not indicate success: 500 (The given key was not present in the dictionary.)
 ```
 
-### Solution {#Solution_1}
+### Solution {#solution_1}
 
 1. Stop Computec Licence Server service.
 2. Perform a backup and remove the content of the following folders:
-3. C:\ProgramData\CompuTec\License Server\CacheFolder\
-4. C:\ProgramData\CompuTec\License Server\Licenses\
-5. Start Computec Licence Server service.
-6. Import ProcessForce license in SAP Business One client again.
+
+    - `C:\ProgramData\CompuTec\License Server\CacheFolder\`
+    - `C:\ProgramData\CompuTec\License Server\Licenses\`
+3. Start Computec Licence Server service.
+4. Import ProcessForce license in SAP Business One client again.
 
 ## Error message: Not authorized license assignment
 
-```
+```text
 Response status code does not indicate success: 500 (Not authorized license assignment)
 ```
 
@@ -57,7 +60,7 @@ Response status code does not indicate success: 500 (Not authorized license assi
 
 The error occurs on an attempt to load and assign a license file.
 
-### Solution {#Solution_2}
+### Solution {#solution_2}
 
 Be sure to run SAP Business One with administrator privileges before loading and assigning a license file.
 
@@ -65,9 +68,9 @@ Be sure to run SAP Business One with administrator privileges before loading and
 
 In some cases, it is not possible to assign all of the licenses available in a license file:
 
-Administration > ProcessForce License Administration:
+`Administration > ProcessForce License Administration`:
 
-![Available Licenses](./media/available-licenses.webp)
+![Available Licenses](./media/licensing-issues/available-licenses.webp)
 
 In this example, we have a license file with 60 Professional Users loaded, 28 users assigned on the Allocation tab, and 31 licenses still available to be assigned; therefore, one professional user license is missing.
 
@@ -75,7 +78,7 @@ In this example, we have a license file with 60 Professional Users loaded, 28 us
 
 Similarly, as with SAP Business One user removal, it is necessary to unpin a ProcessForce license from the user first. Otherwise, the license will still be reserved for the removed user without the possibility to unpin it.
 
-### Solution {#Solution_3}
+### Solution {#solution_3}
 
 The issue will be fixed in one of the future ProcessForce releases. Until then, please contact CompuTec support in case of getting this problem.
 
@@ -83,7 +86,7 @@ The issue will be fixed in one of the future ProcessForce releases. Until then, 
 
 ### Issue
 
-In the SAP Business One Cloud environment (managed by Cloud Control Center), the known defect is causing the closure of the SAP Business One client without any message when logged in as Partner Support User (\_PSU_1 or \_PSU_2 User Code) while trying to assign a user a ProcessForce license.
+In the SAP Business One Cloud environment (managed by Cloud Control Center), the known defect is causing the closure of the SAP Business One client without any message when logged in as Partner Support User (`_PSU_1` or `_PSU_2` User Code) while trying to assign a user a ProcessForce license.
 
 ### Investigating the cause of the problem
 
@@ -91,13 +94,13 @@ Two aspects can cause the issue, and they can be identified by a related message
 
 #### Reason 1
 
-```
+```text
 No connection could be made because the target machine actively refused it 127.0.0.1:40000
 ```
 
 The above message may indicate that the b1-local-machine.xml file is located in the following folder on the system where used SAP Business One client is installed:
 
-```
+```text
 C:\Program Files\SAP\SAP Business One DI API\Conf
 ```
 
@@ -112,13 +115,13 @@ includes the incorrect name – localhost – of SAP Business One License Server
 
 That value is set by default by SAP software during the installation of a related component.
 
-##### Solution {#solution-04}
+##### Solution {#solution_4}
 
 Please set the correct name of the corresponding SAP Business One License Server in the b1-local-machine.xml file, save the change, and check again.
 
 #### Reason 2
 
-```
+```text
 The request was aborted: Could not create SSL/TLS secure channel.
 ```
 
@@ -169,23 +172,23 @@ An exemplary content of the file is presented below:
 </LicenceCache>
 ```
 
-USER-CODE-A and USER-CODE-B are User Codes of existing SAP Business One user.
+`USER-CODE-A` and U`SER-CODE-B` are User Codes of existing SAP Business One user.
 
-SAP-B1-LICENSE-INSTALLATION-NUMBER you can find on About SAP Business One or About CompuTec ProcessForce window.
+`SAP-B1-LICENSE-INSTALLATION-NUMBER` you can find on About SAP Business One or About CompuTec ProcessForce window.
 
-PF-LICENSE-UID value you can read by copying the imported ProcessForce license file located in the following location:
+`PF-LICENSE-UID` value you can read by copying the imported ProcessForce license file located in the following location:
 
-```
+```text
 C:\ProgramData\CompuTec\License Server\Licenses
 ```
 
 To another location, changing its extension to .xml, and opening it:
 
-![UID](./media/pf-license-uid.webp)
+![UID](./media/licensing-issues/pf-license-uid.webp)
 
 The prepared cache.xml file should be saved in the following location:
 
-```
+```text
 C:\ProgramData\CompuTec\License Server\CacheFolder
 ```
 

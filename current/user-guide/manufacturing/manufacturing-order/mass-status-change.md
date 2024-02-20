@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Mass Manufacturing Order Status Change
 
 This function allows to change status of many Manufacturing Orders in the same time.
@@ -5,10 +9,10 @@ This function allows to change status of many Manufacturing Orders in the same t
 ---
 
 :::note Path
-Production > Manufacturing Order > Document Status Change Wizard
+    Production > Manufacturing Order > Document Status Change Wizard
 :::
 
-![Mass Status Change](./media/manufacturing-order-status-change.webp)
+![Mass Status Change](./media/mass-status-change/manufacturing-order-status-change.webp)
 
 ## Possible Status Changes
 
@@ -60,11 +64,15 @@ Click the Next button after setting up desired criteria.
 
 ### Step 2. Manufacturing Order Selection
 
+![Output Status](./media/mass-status-change/output-status.webp)
+
 In the second step, you have a list of Manufacturing Orders filtered using the criteria in the previous step. You can choose which document status will be changed (by checkboxes in the Select column).
 
 #### Filtering
 
 It is possible to additionally filter the results by clicking the Filtering button and setting up filtering criteria to get specific values from chosen fields:
+
+![Filter Table](./media/mass-status-change/filter-table.webp)
 
 You can define rules (e.g., equal, not equal, contains, is empty) and values that will be affected by the rule. A list of rules.
 
@@ -73,5 +81,7 @@ Choose output status (you can find available options in the Possible Status Chan
 Click the Run button after setting up the above details.
 
 ### Step 3. Results
+
+![Results](./media/mass-status-change/results.webp)
 
 In this step, you can see the mass document status change results. If the status of a specific document cannot be changed, a message will be displayed in the Processed Result column, e.g., Please fill required date first.

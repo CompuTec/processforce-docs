@@ -1,16 +1,20 @@
+---
+sidebar_position: 2
+---
+
 # Maintainable Item
 
 ## Maintainable Item (MI)
 
 :::info
-Main Menu → Plant Maintenance → Maintainable Item
+    Main Menu → Plant Maintenance → Maintainable Item
 :::
 
-[Diagram](./media/diagram-mi.webp)
+[Diagram](./media/maintainable-item/diagram-mi.webp)
 
 You can define MI as a stand-alone or associated object. In the second case, you have to link existing object in the system.
 
-[Maintainable Item](./media/maintainable-item-checkbox-2.webp)
+[Maintainable Item](./media/maintainable-item/maintainable-item-checkbox-2.webp)
 
 ### Header
 
@@ -22,43 +26,28 @@ You can define MI as a stand-alone or associated object. In the second case, you
 
 - Location – locations are physical locations of systems, positions, and assets. A location is a place. Hierarchy rules:
 
-  An asset CAN NOT be a parent for a location
-
-  A position CAN NOT be a parent for a location
-
-  A system CAN NOT be a parent for a location
-
-  A location can only have one location as a parent
-
+  - An asset CAN NOT be a parent for a location
+  - A position CAN NOT be a parent for a location
+  - A system CAN NOT be a parent for a location
+  - A location can only have one location as a parent
 - System – a collection of positions and/or assets that work together so that all parts are affected when one part goes down. Hierarchy rules:
 
-  An asset CAN NOT be a parent for a system
-
-  A position CAN NOT be a parent for a system
-
-  A system can have only one system as a parent
-
-  A system can have only one location as a parent
-
+  - An asset CAN NOT be a parent for a system
+  - A position CAN NOT be a parent for a system
+  - A system can have only one system as a parent
+  - A system can have only one location as a parent
 - Position – functional positions for assets. Used for tracking maintenance to specific positions within a structure. Hierarchy rules:
 
-  A position can have only one parent that is an asset
-
-  A position can have only one parent that is a position
-
-  A position can have only one parent that is a system
-
-  A position can have only one location as a parent
-
+  - A position can have only one parent that is an asset
+  - A position can have only one parent that is a position
+  - A position can have only one parent that is a system
+  - A position can have only one location as a parent
 - Asset – equipment is entities where you store data and create work orders. An asset is a base unit of equipment. They are the smallest tracking unit. Hierarchy rules:
 
-  An asset can have only one parent that is an asset
-
-  An asset can have only one parent that is in a position
-
-  An asset can have only one parent that is a system
-
-  An asset can have only one location as a parent
+  - An asset can have only one parent that is an asset
+  - An asset can have only one parent that is in a position
+  - An asset can have only one parent that is a system
+  - An asset can have only one location as a parent
 
 **MI Class** – the system allows you to separate entities into groups. For example, you can assign classes to Maintainable Items and then give all air conditioning units a class of "HVAC." Please see here
 
@@ -82,47 +71,47 @@ You can define MI as a stand-alone or associated object. In the second case, you
 
 - **Resource link**
 
-  ![Resource Link](./media/resource-link.webp)
+    ![Resource Link](./media/maintainable-item/resource-link.webp)
 
-  **Resource Code** – a resource code and Type (Machine, Tool)
+    **Resource Code** – a resource code and Type (Machine, Tool)
 
-  **Resource Name** – description form the resource record
+    **Resource Name** – description form the resource record
 
-  ![Resource Name](./media/mi-resource-name.webp)
+    ![Resource Name](./media/maintainable-item/mi-resource-name.webp)
 
 - **Item link** – Item managed by Serial numbers with defined Equipment Card (option)
 
-  ![MI PM](./media/mi-pm.webp)
+    ![MI PM](./media/maintainable-item/mi-pm.webp)
 
-  **Item Code/Revision** – when you select Item Code from the list system automatically populates Revision and Item Name.
+    **Item Code/Revision** – when you select Item Code from the list system automatically populates Revision and Item Name.
 
-  **Item Name** – Item name
+    **Item Name** – Item name
 
-  **Apparatus Type** – you can select one of the three types: Meter, Tool, Part
+    **Apparatus Type** – you can select one of the three types: Meter, Tool, Part
 
-  **Equipment Card** – equipment card associated with a serial number (Main Menu/Service/Equipment Card)
+    **Equipment Card** – equipment card associated with a serial number (Main Menu/Service/Equipment Card)
 
-  ![EQ Card](./media/eq-card.webp)
+    ![EQ Card](./media/maintainable-item/eq-card.webp)
 
 - **Item defined as Fixed Asset**
 
-  **Fixed Asset** – ProcessForce Fixed Asset Code
+    **Fixed Asset** – ProcessForce Fixed Asset Code
 
-  **Description** – description from Fixed Asset record
+    **Description** – description from Fixed Asset record
 
-  ![MI-EQ](./media/mi-fa.webp)
+    ![MI-EQ](./media/maintainable-item/mi-fa.webp)
 
 #### Classification – Classes and Categories
 
 ##### Classes
 
 :::info
-Main Menu/Administration/Setup/Plant Maintenance/Classes
+    Main Menu/Administration/Setup/Plant Maintenance/Classes
 :::
 
 You can define classes for different entities type, for example: Maintainable Item, Maintenance Order Template, Material List, etc.
 
-![Classes](./media/classes.webp)
+![Classes](./media/maintainable-item/classes.webp)
 
 **Code** – class code
 
@@ -172,7 +161,7 @@ Description – category name
 
 **Example**: MI is inactive (Inactive=Yes) – reserved for maintenance each month (Occurrence) from 10th (Inactive Start) to 12th (Inactive End)
 
-**Meter Characteristics** – fields active if MI is defined as Apparatus Type = Meter. Please see **ADD LINK** here.
+**Meter Characteristics** – fields active if MI is defined as Apparatus Type = Meter. Please see <!-- TODO: Add Link --> here.
 
 **Meter Unit** – a meter unit of measure (Main Menu/Administration/Setup/Stock Management)
 
@@ -198,9 +187,9 @@ Description – category name
 
 ## TAB Effective Meters
 
-Effective Meter is a relationship between a Meter Unit and an Object and is described by Effective Meter Type. This relationship is defined to record the cumulative usage of an object throughout its operational life, regardless of how many times a corresponding physical meter resets or is replaced. This cumulative usage or effective meter reading, updated from readings taken from a physical meter, always increases over time – it never resets (e.g., in physical physical meter, always increases over time – it never resets (e.g., like in a meter that counts up to 999 that resets to 000 after reaching one unit more than 999). A physical meter can only be linked to one effective meter at a time.
+Effective Meter is a relationship between a Meter Unit and an Object and is described by Effective Meter Type. This relationship is defined to record the cumulative usage of an object throughout its operational life, regardless of how many times a corresponding physical meter resets or is replaced. This cumulative usage or effective meter reading, updated from readings taken from a physical meter, always increases over time – it never resets (e.g., in physical physical meter, always increases over time – it never resets (e.g., like in a meter that counts up to 999 that resets to 000 after reaching one unit more than 999)). A physical meter can only be linked to one effective meter at a time.
 
-![Diagram](./media/mi-diagram-2.webp)
+![Diagram](./media/maintainable-item/mi-diagram-2.webp)
 
 **EM Type** – a type of effective meter here
 
@@ -218,7 +207,7 @@ Effective Meter is a relationship between a Meter Unit and an Object and is desc
 Difference – user enters the difference between the last reading and the current reading
 
 :::note
-After the first reading, it is impossible to change this type. If a physical meter is linked, only Reading mode is available.
+    After the first reading, it is impossible to change this type. If a physical meter is linked, only Reading mode is available.
 :::
 
 **Last Reading** – previous reading value
@@ -244,7 +233,7 @@ After the first reading, it is impossible to change this type. If a physical met
 ### Definition of EM Type and Physical Meter
 
 :::note Path
-Main Menu/Administration/Setup/Plant Maintenance/EM Types
+    Main Menu/Administration/Setup/Plant Maintenance/EM Types
 :::
 
 You can define the Effective Meter Type (EM Type), then assign this EM Type to the MI. The same EM Type you can use many times for different MIs.
@@ -276,13 +265,9 @@ In general, it is possible to open a Meter Reading document as an RMBM option fr
 **MI Master Data** (RMBM Option on the line in tab Effective Meters)
 
 - Meter Reading
-
 - Effective Meter Reading Correction (for EM without assigned PM)
-
 - Physical Meter/Effective Meter Reading Correction (for EM with assigned PM)
-
 - Physical Meter Disconnection
-
 - Physical Meter Connection
 
 **Maintenance Order** (RMBM Option in tab Task/Checklist on Checkpoint with Type=Meter Reading)
@@ -297,9 +282,8 @@ In general, it is possible to open a Meter Reading document as an RMBM option fr
 
 **Entry Type** – choose one of the following entry types:
 
-**Reading** – enter the current meter value
-
-**Difference** – enter the difference between the last reading and the current reading value
+- **Reading** – enter the current meter value
+- **Difference** – enter the difference between the last reading and the current reading value
 
 **Reading** – enter the meter reading value or difference
 
@@ -351,7 +335,7 @@ In general, it is possible to open a Meter Reading document as an RMBM option fr
 
 **Checkpoint Details**
 
-Please check the Checkpoint Template definition **ADD LINK** here.
+Please check the Checkpoint Template definition <!-- TODO: Add Link --> here.
 
 **Buttons**
 
@@ -365,32 +349,28 @@ Please check the Checkpoint Template definition **ADD LINK** here.
 
 ##### Meter Readings Process
 
-![Diagram](./media/meter%20readings-logic.webp)
+![Diagram](./media/maintainable-item/meter%20readings-logic.webp)
 
-1.      Reading the value of the Meter for EM Type with Inherited=No:
+1. Reading the value of the Meter for EM Type with Inherited=No:  
     Save in Meter Reading header reading value with other information about the Reading.
 
-1.1. If Physical Meter is not assigned to EM Type: Calculate: Derived Reading, Total Usage, and Usage Since Install for Effective Meter.
-Save information about reading and calculated values to Effective Meter Reading History (Report)
+    1. If Physical Meter is not assigned to EM Type: Calculate: Derived Reading, Total Usage, and Usage Since Install for Effective Meter.  
+        Save information about reading and calculated values to Effective Meter Reading History (Report)
 
-1.1.1. Save information about reading and calculated values in Meter Readings/tab Reading's Inheritance (0 Level).
+        1. Save information about reading and calculated values in Meter Readings/tab Reading's Inheritance (0 Level).
+        2. Update information in MI Master Data/tab Effective Meters for proper EM Type: Reading, Derived Reading, Total Usage, Usage Since Install, Last Reading Date
+    2. If Physical Meter is assigned to MI-EM Type: Calculate: Derived Reading, Total Usage, and Current Usage for Physical Meter.  
+        Save information about reading and calculated values to Physical Meter Reading History (Report)
 
-1.1.2. Update information in MI Master Data/tab Effective Meters for proper EM Type: Reading, Derived Reading, Total Usage, Usage Since Install, Last Reading Date
+        1. Calculate Derived Reading, Total Usage, and Usage Since Install for Effective Meter.  
+            Save information about reading to Effective Meter Reading History (Report)
+        2. Save Derived Reading, Total Usage, and Current Usage for Physical Meter in MI Master Data (Physical Meter/Meter Characteristics)
+        3. Save information about reading and calculated values in Meter Readings/tab Reading's Inheritance (0 Level)
+2. For each child EM with Inherited=Yes spread down in MI hierarchy Derived Reading  
+    Calculate Total Usage and Usage Since Install for each EM Type. Save information about reading and calculated values to Effective Meter Reading History (Report)
 
-1.2. If Physical Meter is assigned to MI-EM Type: Calculate: Derived Reading, Total Usage, and Current Usage for Physical Meter.
-Save information about reading and calculated values to Physical Meter Reading History (Report)
-
-1.2.1. Calculate Derived Reading, Total Usage, and Usage Since Install for Effective Meter.
-Save information about reading to Effective Meter Reading History (Report)
-1.2.2. Save Derived Reading, Total Usage, and Current Usage for Physical Meter in MI Master Data (Physical Meter/Meter Characteristics)
-1.2.3. Save information about reading and calculated values in Meter Readings/tab Reading's Inheritance (0 Level)
-
-2. For each child EM with Inherited=Yes spread down in MI hierarchy Derived Reading
-
-Calculate Total Usage and Usage Since Install for each EM Type. Save information about reading and calculated values to Effective Meter Reading History (Report)
-
-2.1.1. Save information about reading and calculated values to Meter Readings/tab Reading's Inheritance (other Levels than 0)
-2.1.2. Update information in MI Master Data/tab Effective Meters for proper EM Type: Reading, Derived Reading, Total Usage, Usage Since Install, Last Reading Date
+    1. Save information about reading and calculated values to Meter Readings/tab Reading's Inheritance (other Levels than 0)
+    2. Update information in MI Master Data/tab Effective Meters for proper EM Type: Reading, Derived Reading, Total Usage, Usage Since Install, Last Reading Date
 
 A – Meter Readings header's lines with Reading's Inheritances
 
@@ -398,17 +378,17 @@ B – Maintainable Item Master Data header's (tab Effective Meters) lines with E
 
 #### Reading’s Calculation
 
-![Calculation](./media/reading-calculation.webp)
+![Calculation](./media/maintainable-item/reading-calculation.webp)
 
 #### Reading's Inheritance
 
-![Reading Inheritance](./media/reading-inheritance.webp)
+![Reading Inheritance](./media/maintainable-item/reading-inheritance.webp)
 
 ## Inspection Points Tab
 
 ### Points tab
 
-![Points](./media/points-tab.webp)
+![Points](./media/maintainable-item/points-tab.webp)
 
 **Point** – the inspection point ID
 
@@ -423,12 +403,12 @@ B – Maintainable Item Master Data header's (tab Effective Meters) lines with E
 #### Point Type
 
 :::info Path
-Main Menu/Administration/Plant Maintenance/Inspection Setup/Points
+    Main Menu/Administration/Plant Maintenance/Inspection Setup/Points
 :::
 
 Inspection Point Type is a group of similar inspection points. Example: for a vehicle, there are tires, brakes, headlights, etc.; for a pipe, the point type could be a tee or a weld.
 
-![Inspection Points Types](./media/inspection-points-types.webp)
+![Inspection Points Types](./media/maintainable-item/inspection-points-types.webp)
 
 **Code** – code for Inspection Point Type
 
@@ -439,7 +419,7 @@ Inspection Point Type is a group of similar inspection points. Example: for a ve
 #### MES Inspection Point
 
 :::info Path
-Main Menu/Administration/Plant Maintenance/Inspection Setup/MES Inspection Points
+    Main Menu/Administration/Plant Maintenance/Inspection Setup/MES Inspection Points
 :::
 
 **MES Inspection Point Code** – agreed on the ID of the Inspection Point between MES and ProcessForce (during the integration process)
@@ -476,7 +456,7 @@ NUMERIC [(p[,s])]
 
 ### Aspects tab
 
-![Aspect](./media/aspects-tab.webp)
+![Aspect](./media/maintainable-item/aspects-tab.webp)
 
 **Aspect** – the Inspection Aspect to associate the monitored data object with. The system automatically populates the aspect's parameters: Description, A. Class, A. Class Description, UoM. Please check here.
 
@@ -515,10 +495,10 @@ NUMERIC [(p[,s])]
 #### Aspect
 
 :::info Path
-Main Menu/Plant Maintenance/Inspection Setup/Aspects
+    Main Menu/Plant Maintenance/Inspection Setup/Aspects
 :::
 
-![Inspection Aspects](./media/inspection-aspects.webp)
+![Inspection Aspects](./media/maintainable-item/inspection-aspects.webp)
 
 **Code** – inspection aspect's code
 
@@ -533,10 +513,10 @@ Main Menu/Plant Maintenance/Inspection Setup/Aspects
 #### Method
 
 :::info Path
-Main Menu/Plant Maintenance/Inspection Setup/Methods
+    Main Menu/Plant Maintenance/Inspection Setup/Methods
 :::
 
-![Inspection Methods](./media/inspection-methods.webp)
+![Inspection Methods](./media/maintainable-item/inspection-methods.webp)
 
 **Code** – code method
 
@@ -546,7 +526,7 @@ Main Menu/Plant Maintenance/Inspection Setup/Methods
 
 #### Aspect Points
 
-![Aspect Point Tab](./media/aspect-point-tab.webp)
+![Aspect Point Tab](./media/maintainable-item/aspect-point-tab.webp)
 
 **Aspect Point** – ID for Aspect Point
 
@@ -590,7 +570,7 @@ When the inspection is performed, the following logic for Aspect Point's measure
 
 #### Condition
 
-![Condition](./media/condition-tab.webp)
+![Condition](./media/maintainable-item/condition-tab.webp)
 
 **Point** – the inspection point. The system automatically populates the point definition; please see here.
 
@@ -603,10 +583,10 @@ When the inspection is performed, the following logic for Aspect Point's measure
 ##### Condition {#01}
 
 :::info Path
-Main Menu/Administration/Plant Maintenance/Inspection Setup/Conditions
+    Main Menu/Administration/Plant Maintenance/Inspection Setup/Conditions
 :::
 
-![Inspection Conditions](./media/inspection-conditions.webp)
+![Inspection Conditions](./media/maintainable-item/inspection-conditions.webp)
 
 **Code** – Inspection Condition code
 
@@ -618,49 +598,49 @@ Main Menu/Administration/Plant Maintenance/Inspection Setup/Conditions
 
 The physical place on the piece of equipment to inspect. The inspection points are the front left tire, the front right tire, the rear left tire, and the rear right tire. Example: examine tires on a van every three months for tread wear.
 
-![Aspect Example](./media/example-aspect.webp)
+![Aspect Example](./media/maintainable-item/example-aspect.webp)
 
 **Point** (the physical location of the piece of equipment to inspect):
 
-    Tire: Front left, Front right, back left, back right
+Tire: Front left, Front right, back left, back right
 
-    Headlight: left, right
+Headlight: left, right
 
-![Example Aspect](./media/example-aspect-01.webp)
+![Example Aspect](./media/maintainable-item/example-aspect-01.webp)
 
 **Aspect** (what kind of parameter is checked):
 
-    Pressure
+Pressure
 
-    Tread wear height
+Tread wear height
 
-    Mirror quality
+Mirror quality
 
-![Example Aspect](./media/example-aspect-02.webp)
+![Example Aspect](./media/maintainable-item/example-aspect-02.webp)
 
 **Aspect-Point** (what kind of parameter is checked on which point):
 
-    Pressure – Tire front left
+Pressure – Tire front left
 
-    Pressure – Tire front right
+Pressure – Tire front right
 
-    Pressure – Tire back left
+Pressure – Tire back left
 
-    Pressure – Tire back right
+Pressure – Tire back right
 
-    Tread wear height – Tire front left
+Tread wear height – Tire front left
 
-    Tread wear height – Tire front right
+Tread wear height – Tire front right
 
-    Tread wear height – Tire back left
+Tread wear height – Tire back left
 
-    Tread wear height – Tire back right
+Tread wear height – Tire back right
 
-    Mirror quality – Headlight front left
+Mirror quality – Headlight front left
 
-    Mirror quality – Headlight front right
+Mirror quality – Headlight front right
 
-![Example](./media/example-aspect-03.webp)
+![Example](./media/maintainable-item/example-aspect-03.webp)
 
 **Note:** It is possible to choose a finding from the ones assigned to MI (modifying Point Type selection)
 
@@ -672,4 +652,4 @@ Assignment of inspection method to Aspect and Aspect-Point
 
 Assignment of inspection conditions to Point or Point Type - Aspect
 
-![Example](./media/example-aspect-04.webp)
+![Example](./media/maintainable-item/example-aspect-04.webp)

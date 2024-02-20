@@ -1,8 +1,11 @@
+---
+sidebar_position: 4
+---
+
 # Maintenance Order Template
 
-:::note
-**Path**
-Main Menu → Plant Maintenance → Work Setup → Maintenance Order Template
+:::note Path
+        Main Menu → Plant Maintenance → Work Setup → Maintenance Order Template
 :::
 
 ![Scheme](./media/maintenance-order-template/schemat.webp)
@@ -67,10 +70,10 @@ The PM contains four types of closing codes – action codes, cause codes, failu
 
 When an object needs work, you need to know a few things about that work. You can define four types of closing Codes for objects to help in the reporting and fixing of problems:
 
-    Problem codes
-    Failure Codes
-    Cause Codes
-    Action codes
+- Problem codes
+- Failure Codes
+- Cause Codes
+- Action codes
 
 #### Problem Codes
 
@@ -118,19 +121,13 @@ Main Menu/Administration/Plant Maintenance/Work Setup/Task Template
 
 Header
 
-    Task Code – a unique code identifying the task, and then enter a description of the task in the Task Scope field
-
-    Task Scope – descriptive information of the Task Scope (brief explanation of the problem)
-
-    Class – a class of the task here
-
-    Trade – a trade with which to associate the task here
-
-    Estimated Duration –the number of hours estimated to complete the task
-
-    People Required – several people are required to complete the task
-
-    Out of Service – select to indicate the task should not be displayed in lookups, e.g., on Template MO.
+- Task Code – a unique code identifying the task, and then enter a description of the task in the Task Scope field
+- Task Scope – descriptive information of the Task Scope (brief explanation of the problem)
+- Class – a class of the task here
+- Trade – a trade with which to associate the task here
+- Estimated Duration –the number of hours estimated to complete the task
+- People Required – several people are required to complete the task
+- Out of Service – select to indicate the task should not be displayed in lookups, e.g., on Template MO.
 
 #### Trade
 

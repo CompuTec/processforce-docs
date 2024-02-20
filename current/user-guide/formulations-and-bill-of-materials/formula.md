@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Formula
 
 ## Overview
@@ -16,7 +20,7 @@ Values from other Tabs can be used within a formula to calculate a value. For ex
 
 ---
 
-![General Settings](./media/general-settings-formula.webp)
+![General Settings](./media/formula/general-settings-formula.webp)
 
 ### Default formulas
 
@@ -38,31 +42,31 @@ Phantom:
 =U_Quantity()*U_Factor()*Phantoms.U_Factor(<sequence>)*Phantoms.U_Quantity(<sequence>)
 ```
 
-## Formula Nomenclature 
+## Formula Nomenclature
 
 | Yield Type |                            Default Description                            |                                                                                    Default Formula                                                                                    |
-| :--------: | :-----------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ---------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |   Yield    |     Item Parent Actual Quantity / Item Parent Planned Quantity \* 100     |                                                                           =U_ActualQty()/U_Quantity()\*100                                                                            |
 | CoProduct  | Total CoProduct Actual Quantity / Total CoProduct Planned Quantity \* 100 |                                            =Coproducts.U_ActualQty.Sum()/if(Coproducts.U_Result.Sum()=0;1;Coproducts.U_Result.Sum())\*100                                             |
 | ByProduct  | Total ByProduct Actual Quantity / Total ByProduct Planned Quantity \* 100 | =Scraps.U_ActualQty.Sum(equals(Scraps.U_Type();"Usefull"))/if(Scraps.U_Result.Sum(equals(Scraps.U_Type();"Usefull"))=0;1;Scraps.U_Result.Sum(equals(Scraps.U_Type();"Usefull")))\*100 |
 |   Scrap    |     Total Scrap Actual Quantity / Total Scrap Planned Quantity \* 100     |                                                  =Scraps.U_ActualQty.Sum()/if(Scraps.U_Result.Sum()=0;1;Scraps.U_Result.Sum())\*100                                                   |
 
 |                                                                               Scraps                                                                               |                                                                                 Phantoms                                                                                 |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Scraps.U_Factor() = Factor Value within Scraps Tab Scraps.U_Quantity() = Quantity Value within Scraps Tab Scraps.U_Results() = Results value within the Scraps Tab | Phantoms.U_Factor() = Factor Value within Phantoms Tab Phantoms.U_Quantity() = Factor Value within Phantoms Tab Phantoms.U_Results() = Results value within Phantoms Tab |
 
 |                                          Other Variables                                          |
-| :-----------------------------------------------------------------------------------------------: |
+| ------------------------------------------------------------------------------------------------- |
 | U_Factor() = Factor Value within form Header U_Quantity() = Quantity value within the form Header |
 
-![Elements](./media/bill-of-materials-elements.webp)
+![Elements](./media/formula/bill-of-materials-elements.webp)
 
 ## Formula Functions
 
 The following functions can be used within formulas:
 
 |        Syntax         |                                                                                                                                                          Description                                                                                                                                                           |    As in Excel     |
-| :-------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------: |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------ |
 |        ABS(x)         |                                                                                                                                                Returns the absolute value of x.                                                                                                                                                | :heavy_check_mark: |
 |        ACOS(x)        |                                                                                                                                            Returns the arc cosine of x in radians.                                                                                                                                             | :heavy_check_mark: |
 |        ASIN(x)        |                                                                                                                                             Returns the arc sine of x in radians.                                                                                                                                              | :heavy_check_mark: |
@@ -117,34 +121,31 @@ To be able to calculate Yield in the Bill Of Material and Manufacturing Order, y
 
 - Scrap
 
-```sql
-=U_Quantity()*U_Factor()*Scraps.U_Factor(<sequence>)*Scraps.U_Quantity(<sequence>)*100/Scraps.U_Yield(<sequence>)
-```
+  ```sql
+  =U_Quantity()*U_Factor()*Scraps.U_Factor(<sequence>)*Scraps.U_Quantity(<sequence>)*100/Scraps.U_Yield(<sequence>)
+  ```
 
 - Phantoms
 
-```sql
-=U_Quantity()*U_Factor()*Phantoms.U_Factor(<sequence>)*Phantoms.U_Quantity(<sequence>)
-```
+  ```sql
+  =U_Quantity()*U_Factor()*Phantoms.U_Factor(<sequence>)*Phantoms.U_Quantity(<sequence>)
+  ```
 
 Four new formula fields have been added to calculate the actual yield within the Manufacturing Order:
 
 - Yield – this relates to the actual yield of the parent item.
-
 - CoProduct – this relates to the yield of the coproducts (Coproduct Tab) produced in production.
-
 - ByProduct – this relates to the yield of the ByProducts (Scrap Tab) produced in production.
-
 - Scrap – this relates to the yield of the Scrap (Scrap Tab) produced in production.
 
-![Yield](./media/general-settings-formula-yield.webp)
+![Yield](./media/formula/general-settings-formula-yield.webp)
 
 As with standard formula behavior, the standard formula is copied to the Bills of Materials form and can be displayed by clicking the yellow button.
 
 The formula can be modified for a specific Bill of Materials if required.
 
-![Bill of Materials - Formula](./media/bill-of-materials-formula.webp)
+![Bill of Materials - Formula](./media/formula/bill-of-materials-formula.webp)
 
 The formulas from the Yield Formula form are also copied to the Manufacturing Order and can be modified if required.
 
-![Manufacturing Order - Formula](./media/manufacturing-order-formula.webp)
+![Manufacturing Order - Formula](./media/formula/manufacturing-order-formula.webp)

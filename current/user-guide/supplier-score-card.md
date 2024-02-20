@@ -1,3 +1,7 @@
+---
+sidebar_position: 15
+---
+
 # Supplier Score Card
 
 ProcessForce Supplier Score Card is a reporting function based on a weighted supplier scorecard. It helps to evaluate Suppliers' performance based on information about quality, quantity accuracy, and punctuality of deliveries.
@@ -5,33 +9,30 @@ ProcessForce Supplier Score Card is a reporting function based on a weighted sup
 ---
 
 :::warning
-
-- Delivery and Quantity calculations on Supplier Score Card are made based on Purchase Order and Goods Receipt PO documents. A specific Purchase Order and Goods Receipt PO must be linked for the function to work correctly. It can be done by creating a Goods Receipt PO by using Copy To option on a Purchase Order or connecting the Purchase Order by Copy From Option on Goods Receipt PO.
-
-- Dates are compared between lines of documents (not document header dates).
-  :::
+    - Delivery and Quantity calculations on Supplier Score Card are made based on Purchase Order and Goods Receipt PO documents. A specific Purchase Order and Goods Receipt PO must be linked for the function to work correctly. It can be done by creating a Goods Receipt PO by using Copy To option on a Purchase Order or connecting the Purchase Order by Copy From Option on Goods Receipt PO.
+    - Dates are compared between lines of documents (not document header dates).
+:::
 
 ## Settings
 
 ### General Settings
 
 :::info Path
-Administration → System Initialization → General Settings → ProcessForce tab → Supplier Score Card tab
+    Administration → System Initialization → General Settings → ProcessForce tab → Supplier Score Card tab
 :::
 
-![Supplier Score Card](./media/supplier-score-card.webp)
+![Supplier Score Card](./media/supplier-score-card/supplier-score-card.webp)
 
 Here you can define a number of values connected to Supplier (which have to add up to 100%), which defines a rank of specific value. These settings are created based on the weighted Supplier scorecard idea.
 
 ## Supplier Score Card
 
 :::info Path
+    - Business Partners → Supplier Score Card,
+    - You can also reach the form for a specific Business Partner from the Business Partner form header context menu (available only when the BP type is set to Supplier for this Business Partner).
+:::
 
-- Business Partners → Supplier Score Card,
-
-- You can also reach the form for a specific Business Partner from the Business Partner form header context menu (available only when the BP type is set to Supplier for this Business Partner).
-
-![Supplier Score Card](./media/supplier-score-card-card.webp)
+![Supplier Score Card](./media/supplier-score-card/supplier-score-card-card.webp)
 
 ### Header
 
@@ -39,45 +40,38 @@ Here you can define additional settings for a specific Supplier related to deliv
 
 - No of Days Early and No of Days Late define a period before and after the order date in which delivery is still acceptable,
 
-  Example
+    **Example**
 
-  The order date is 16.11.2016
-
-  No of Days Early: 2
-
-  No of Days Late: 2
-
-  Every delivery before 14.11.2016 will be deemed as early, and every delivery after 18.11.2016 will be considered late.
-
+      - The order date is 16.11.2016
+      - No of Days Early: 2
+      - No of Days Late: 2
+      - Every delivery before 14.11.2016 will be deemed as early, and every delivery after 18.11.2016 will be considered late.
 - Quantity Over % and Quantity Under % define a range of quantity of delivery that is still acceptable.
 
-  Example
+    **Example**
 
-  The ordered quantity is 100.
-
-  Quantity Over %: 10
-
-  Quantity Under %: 10
-
-  Everything delivery less than 90 will be deemed too small, and delivery bigger than 110 will be considered too big.
+      - The ordered quantity is 100.
+      - Quantity Over %: 10
+      - Quantity Under %: 10
+      - Everything delivery less than 90 will be deemed too small, and delivery bigger than 110 will be considered too big.
 
 ### Summary
 
-Weighted Values - are defined for each weight in General Settings, e.g., No. Of Complaints, No. of Failed QC Tests, No of Returns, etc.
+**Weighted Values** - are defined for each weight in General Settings, e.g., No. Of Complaints, No. of Failed QC Tests, No of Returns, etc.
 
-Month to Date - the total of transactions for the current month; e.g., if now is 15th October, transactions from 1st October until 15th October are considered.
+**Month to Date** - the total of transactions for the current month; e.g., if now is 15th October, transactions from 1st October until 15th October are considered.
 
 Month to date relates to the weighted values calculated in the current month.
 
-The previous month - the weighted values calculated in the last month.
+**The previous month** - the weighted values calculated in the last month.
 
-Year to Date - relates to the total of each month's weighted values to the current month, e.g., January to May, where May is the current month.
+**Year to Date** - relates to the total of each month's weighted values to the current month, e.g., January to May, where May is the current month.
 
-The previous year - relates to the total of each month's weighted value for an entire 12-month period, i.e., January to December.
+**The previous year** - relates to the total of each month's weighted value for an entire 12-month period, i.e., January to December.
 
 ### Details
 
-![Supplier Score Card Details](./media/supplier-score-card-details.webp)
+![Supplier Score Card Details](./media/supplier-score-card/supplier-score-card-details.webp)
 
 On this tab, three values from the Summary tab are Summary tab broken down into specific weighted scorecard positions.
 
@@ -109,20 +103,15 @@ Note Grade = Amount / Total and Weighted Score = Weight x Grade
 
 You can put any written notes connected to Score Card in this form.
 
-Attachment
+### Attachment
 
 Here you can add, display or delete files connected to Score Card.
 
 ## Usage
 
 1. Activate the Supplier Score Card form.
-
 2. Select a requested Supplier.
-
 3. Fill in your exceptions like No of Days Late.
-
 4. Add document.
-
 5. Find/load created Supplier's Score Card.
-
 6. Review Summary and Details.

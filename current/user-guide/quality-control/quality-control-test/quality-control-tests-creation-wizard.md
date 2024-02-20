@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Quality Control Tests Creation Wizard
 
 This option allows the mass creation of Quality Control Tests documents. It can be helpful, e.g., for creating needed documents that any automatic option still needs to create.
@@ -5,12 +9,12 @@ This option allows the mass creation of Quality Control Tests documents. It can 
 ---
 
 :::info Path
-Quality Control Test → Quality Control Tests Creation Wizard
+    Quality Control Test → Quality Control Tests Creation Wizard
 :::
 
 ## Step 1. Document Types and dates
 
-![Wizard](./media/quality-control-tests-wizard.webp)
+![Wizard](./media/quality-control-tests-creation-wizard/quality-control-tests-wizard.webp)
 
 Choose the document type(s) for which Quality Control Tests documents will be created and the date range (of base documents).
 

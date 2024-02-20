@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Orderless Production
 
 You can find information on setting up and using the Orderless Production function on this page.
@@ -10,9 +14,9 @@ You can find information on setting up and using the Orderless Production functi
 
 Define Document Series for the Orderless Production Document:
 
-![Document Numbering](./media/orderless-production-numbering.webp)
+![Document Numbering](./media/orderless-production/orderless-production-numbering.webp)
 
-You can check here how to set up **ADD LINK** a document series.
+You can check here how to set up <!-- TODO: Add Link --> a document series.
 
 ### Bill of Material
 
@@ -26,11 +30,11 @@ This template can be selected in the Orderless Production Document, and all the 
 
 If an Item has associated CoProducts and Scrap, these are automatically added to the form.
 
-![Orderless Production Template](./media/orderless-production-template.webp)
+![Orderless Production Template](./media/orderless-production/orderless-production-template.webp)
 
 ## Orderless Production Document
 
-![Orderless Production Document](./media/orderless-production-document.webp)
+![Orderless Production Document](./media/orderless-production/orderless-production-document.webp)
 
 The user can select an orderless production template and manually add items to the form to record the items to be produced.
 

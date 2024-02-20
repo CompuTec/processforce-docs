@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Multiple Test Result Record
 
 On this page, you can find information on how to set up and record multiple test results for a specific Quality Control Test. This function allows to group and manage many test records for the same Item or Test Property.
@@ -6,8 +10,7 @@ On this page, you can find information on how to set up and record multiple test
 
 ## Setting Up
 
-- Check to **ADD LINK** Enable Multiple Test Results checkbox in Administration → System Initialization → General Settings → ProcessForce tab → QC tab to allow to perform Multiple QC Test Results. Click here to check how to do that.
-
+- Check to <!-- TODO: Add Link --> Enable Multiple Test Results checkbox in Administration → System Initialization → General Settings → ProcessForce tab → QC tab to allow to perform Multiple QC Test Results. Click here to check how to do that.
 - The Quality Control Test form has to be in confirmation or update mode (indicated by the OK or Update button on the lower left corner of the form).
 
 ## The quality Control Test form
@@ -16,7 +19,7 @@ If the *Enable Multiple Test Results* is checked, a user can define multiple te
 
 To define multiple test results for a Test Property, right-click on a specific Test Property row on the QC Test form and choose Record Multiple Test Results from the context menu:
 
-![Multiple Test Result Record](./media/multiple-test-results.webp)
+![Multiple Test Result Record](./media/multiple-test-result-record/multiple-test-results.webp)
 
 To define multiple test results for an Item Property, right-click on a specific Item Property row on the QC Test form and choose Record Multiple Test Results:
 
@@ -24,7 +27,7 @@ To define multiple test results for an Item Property, right-click on a specific 
 
 After one of the activities described in the paragraph above is performed, the Multiple Test Results form displays:
 
-![Multiple Test](./media/record-multiple-test-results.webp)
+![Multiple Test](./media/multiple-test-result-record/record-multiple-test-results.webp)
 
 ### Header
 
@@ -37,13 +40,9 @@ The header label on the form indicates for which Test Property or Item Property 
 The following data can be set:
 
 - the tested value,
-
 - the tested reference code,
-
 - date of the test,
-
 - time of the test,
-
 - the inspector code.
 
 #### Color Marking
@@ -55,17 +54,13 @@ The row colors indicate the entered tested value and the expression along with t
 The form has also its statistics section, which presents the following:
 
 - the percentage of the passed tests,
-
 - the percentage of the failed tests,
-
 - and the bar chart.
 
 This statistics section is refreshed when:
 
 - a new row is added,
-
 - a row is deleted,
-
 - tested value is changed.
 
 #### Checkboxes
@@ -78,7 +73,7 @@ Transfer the data according to the percentage of passed/failed entries:
 
 Checking causes loading to the Property field on Quality Control Test, a result that is presented the most often on the Record Multiple Test Results form. The option is available for properties with dictionary values only.
 
-![Multiple Results Copied](./media/multiple-results-copied.webp)
+![Multiple Results Copied](./media/multiple-test-result-record/multiple-results-copied.webp)
 
 #### Numeric value property
 

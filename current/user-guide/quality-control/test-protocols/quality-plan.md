@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Quality Plan
 
 The quality Control function reflects the ISO 2859-1 norm (Sampling procedures for inspection by attributes) in ProcessForce and allows to recreate and adjust to the specific business requirements. Therefore, it allows generating Quality Control Test Pool based on the norm's rules (Business Partners' ratings, Pass/Fail rules).
@@ -7,7 +11,7 @@ Agreeing to use the Quality Control function based on the ISO 2859-1 norm can be
 ---
 
 :::info Path
-Administration → Setup → Quality Control → Quality Plans
+    Administration → Setup → Quality Control → Quality Plans
 :::
 
 ## Business Impact
@@ -17,10 +21,10 @@ The ISO 2859-1 norm contains tables with statistical data that define several te
 ## Quality Plan preparation
 
 :::info Path
-You can find a detailed description of the ISO 2859-1 (methodology, terms, etc.) on the [International Organization for Standardization website](https://www.iso.org/obp/ui/#iso:std:iso:2859:-1:ed-2:v1:en).
+    You can find a detailed description of the ISO 2859-1 (methodology, terms, etc.) on the [International Organization for Standardization website](https://www.iso.org/obp/ui/#iso:std:iso:2859:-1:ed-2:v1:en).
 :::
 
-![Quality Plan Main](./media/quality-plan-main.webp)
+![Quality Plan Main](./media/quality-plan/quality-plan-main.webp)
 
 ### Header
 
@@ -65,7 +69,7 @@ The content of this table is a recreation of a specific column (as not often the
 ## Usage
 
 :::info Path
-Quality Control → Test Protocol
+    Quality Control → Test Protocol
 :::
 
 Choose a Quality Plan in the Quality Plan tab.
@@ -74,7 +78,7 @@ To use the option, check the Create QC Tests Pool checkbox and then the Paramete
 
 Then, choose a Quality Plan in the Quality Plan tab.
 
-![Quality Control Plan Tab](./media/quality-plan-qualit-plan-tab.webp)
+![Quality Control Plan Tab](./media/quality-plan/quality-plan-tab.webp)
 
 You can then choose if the Quality Plan is active.
 

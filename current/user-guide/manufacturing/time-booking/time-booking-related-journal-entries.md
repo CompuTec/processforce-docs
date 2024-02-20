@@ -1,10 +1,14 @@
+---
+sidebar_position: 5
+---
+
 # Time Booking related Journal Entries
 
 The main aim of Time Bookings is to record Resource times and related costs. However, in some cases, related Journal Entries may not be created.
 
 To automatically create Journal Entries related to work time of Resources, the following conditions have to be met:
 
-## Post resource confirmation##
+## Post resource confirmation
 
 'Post resource confirmation' checkbox in General Settings has to be checked. Click here to find out more.
 

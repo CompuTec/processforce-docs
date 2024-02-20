@@ -1,4 +1,10 @@
+---
+sidebar_position: 6
+---
+
 # Manual and Backflush Issue type Configuration
+
+## Manual Issue Method
 
 The table below charts the combination between Issue Type and Issue Behavior:
 
@@ -22,42 +28,42 @@ The table below charts the combination between Issue Type and Issue Behavior:
 |                |       No       |                    |      :x:       |                      |                    |                    |
 |                |    Display     |                    |                | :information_source: |                    |                    |
 
-## Locked – Yes
+### Locked – Yes
 
-![Locked - Yes](./media/locked-yes.webp)
+![Locked - Yes](./media/manual-and-backflush-issue-type-configuration/locked-yes.webp)
 
-## Locked – No
+### Locked – No
 
-![Locked - No](./media/locked-no.webp)
+![Locked - No](./media/manual-and-backflush-issue-type-configuration/locked-no.webp)
 
-## Locked – Display
+### Locked – Display
 
-![Locked - Display](./media/locked-display.webp)
+![Locked - Display](./media/manual-and-backflush-issue-type-configuration/locked-display.webp)
 
-## Non-Accessible – Yes
+### Non-Accessible – Yes
 
-![Non-Accessible](./media/non-accessible-yes.webp)
+![Non-Accessible](./media/manual-and-backflush-issue-type-configuration/non-accessible-yes.webp)
 
-## Non-Accessible – No
+### Non-Accessible – No
 
-![Non-Accessible - No](./media/non-accessible-no.webp)
+![Non-Accessible - No](./media/manual-and-backflush-issue-type-configuration/non-accessible-no.webp)
 
-## Non-Accessible Display
+### Non-Accessible Display
 
-![Non-accesswible - Display](./media/non-accessible-display.webp)
+![Non-accesswible - Display](./media/manual-and-backflush-issue-type-configuration/non-accessible-display.webp)
 
-## Both - Yes
+### Both - Yes
 
-![Both - Yes](./media/both-yes.webp)
+![Both - Yes](./media/manual-and-backflush-issue-type-configuration/both-yes.webp)
 
-## Both - No
+### Both - No
 
-![Both - No](./media/both-no.webp)
+![Both - No](./media/manual-and-backflush-issue-type-configuration/both-no.webp)
 
-## Both - Display
+### Both - Display
 
-![Both - Display](./media/both-display.webp)
+![Both - Display](./media/manual-and-backflush-issue-type-configuration/both-display.webp)
 
-# Backflush Issue Method
+## Backflush Issue Method
 
 The same principles apply to Batches back-flushing.

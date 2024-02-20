@@ -21,4 +21,4 @@ This function supports the following elements:
 - UoM,
 - Formulas.
 
-![Chart](./media/bill-of-materials-chart.webp)
+![Chart](./media/overview/bill-of-materials-chart.webp)

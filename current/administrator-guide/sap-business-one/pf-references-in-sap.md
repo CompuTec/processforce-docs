@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # ProcessForce references on SAP Business One documents
 
 ## Receipt from Production
@@ -223,3 +227,19 @@
 | LineMemo     | Manufacturng Order Close- 7253. |                                 |
 
 ## Receipt Correction Price Variance journal
+
+| HEADER -OJDT     | | |
+| :--------------: | :-: | :-: |
+| Reference 2      | ManufacturingOrder DocNum |  |
+| Remarks          | empty |  |
+| Journal Memo     | Goods Receipt Adjustment Sup. |  |
+| U_TransType      | empty | '60' |
+| U_BaseRef        | empty | Goods Issue DocEntry |
+| **CHILDS -JDT1** | | |
+| U_LineNumRef     | empty | Goods Issue LineNum |
+| U_MOREntry       | empty | mor Entry |
+| U_MORDocNum      | empty | mor DocNum |
+| Ref1             | Empty |  |
+| Ref2             | ManufacturingOrder DocNum |  |
+| Ref3             | Empty |  |
+| LineMemo         | Manuf Rec variance 7253. | Mor Doc Num |

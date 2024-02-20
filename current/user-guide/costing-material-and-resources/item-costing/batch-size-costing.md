@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Batch Size Costing
 
 ## Background
@@ -10,13 +14,13 @@ Below is a working example:
 
 ## Master Data Setup
 
-BOM batch size = 1000
-Setup Hourly Rate = 10, Fixed Overhead = 10 and Variable Overhead = 10
-Run Time Hourly Rate = 10, Fixed Overhead = 10 and Variable Overhead = 10
+- BOM batch size = 1000
+- Setup Hourly Rate = 10, Fixed Overhead = 10 and Variable Overhead = 10
+- Run Time Hourly Rate = 10, Fixed Overhead = 10 and Variable Overhead = 10
+- The costs used in cost roll-up for the Item will be:
 
-The costs used in cost roll-up for the Item will be 
-Setup = 2 hours: Hourly rate = 2 x 60 x 10/1000, Fixed Overhead = 2 x 60 x 10/1000 and Variable Overhead = 2 x 60 x 10/1000
-Setup = 30 minutes: Hourly rate = 30/60 x 10/1000, Fixed Overhead = 30/60 x 10/1000 and Variable Overhead = 30/60 x 10/1000
+  - Setup = 2 hours: Hourly rate = 2 x 60 x 10/1000, Fixed Overhead = 2 x 60 x 10/1000 and Variable Overhead = 2 x 60 x 10/1000
+  - Setup = 30 minutes: Hourly rate = 30/60 x 10/1000, Fixed Overhead = 30/60 x 10/1000 and Variable Overhead = 30/60 x 10/1000
 
 ## Run Time
 
@@ -29,11 +33,11 @@ If this is the case, then the time cost will be the Hourly Rate, Fixed and Varia
 
 ## Example
 
-On the resource record, the cycle field is checked
-The cycle capacity = 500
-Run Time = 2 hours @ fixed hours
-Batch Size = 1000
-Setup = 2 hours: Hourly rate = 2 x 60 x 10/1000, Fixed Overhead = 2 x 60 x 10/1000 and Variable Overhead = 2 x 60 x 10/1000
-Run Time = 2 hours: Hourly rate = 2 x 60 x 10/500, Fixed Overhead = 2 x 60 x 10/500 and Variable Overhead = 2 x 60 x 10/500
+- On the resource record, the cycle field is checked
+- The cycle capacity = 500
+- Run Time = 2 hours @ fixed hours
+- Batch Size = 1000
+- Setup = 2 hours: Hourly rate = 2 x 60 x 10/1000, Fixed Overhead = 2 x 60 x 10/1000 and Variable Overhead = 2 x 60 x 10/1000
+- Run Time = 2 hours: Hourly rate = 2 x 60 x 10/500, Fixed Overhead = 2 x 60 x 10/500 and Variable Overhead = 2 x 60 x 10/500
 
 Stock and Queue Time are treated the same as Run Time when the time is configured as Fixed seconds/minutes/hours.

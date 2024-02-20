@@ -1,10 +1,14 @@
+---
+sidebar_position: 12
+---
+
 # Fixed Quantity Backflushing
 
 ## Bill of Material and Manufacturing Order
 
 To backflush the total quantity of an Item based on a partial or a full quantity production receipt, select the "Fixed Backflush" option:
 
-![Fixed Backflush](./media/bill-of-materials-backflush.webp)
+![Fixed Backflush](./media/fixed-quantity-backflushing/bill-of-materials-backflush.webp)
 
 ## Pick Order – Receipt from Production
 

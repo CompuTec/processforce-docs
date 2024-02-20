@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Time Corrections
 
 The Time Corrections document allows correcting already posted Time Bookings document (or a previous Time Corrections).
@@ -5,10 +9,10 @@ The Time Corrections document allows correcting already posted Time Bookings doc
 ---
 
 :::info Path
-Production → Time Bookings → Time Corrections
+    Production → Time Bookings → Time Corrections
 :::
 
-[Time Corrections](./media/time-corrections.webp)
+[Time Corrections](./media/time-corrections/time-corrections.webp)
 
 ## Usage
 
@@ -22,10 +26,10 @@ When a document is added correctly, it is now a current (active) document, and t
 
 ## Time Recording Report
 
-![Time Recording Report](./media/time-recording-report.webp)
+![Time Recording Report](./media/time-corrections/time-recording-report.webp)
 
 You can reach this form from a Resource row on a Manufacturing Order:
 
-![Time Recording Report](./media/time-recording-report-context-menu.webp)
+![Time Recording Report](./media/time-corrections/time-recording-report-context-menu.webp)
 
 This form presents all the lines from the Time Booking and related Time Corrections documents. The Status columns show which document is the final one (Active). All the others are previous versions.

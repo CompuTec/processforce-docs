@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Resource Planning Board
 
 Resource Planning Board allows rescheduling Tasks on the Gantt chart based on several sorting options or by drag & drop method of specific Tasks in a queue.
@@ -6,54 +10,50 @@ Resource Planning Board also gives insight into work being performed on Resource
 
 Resource Planning Board is complementary to Scheduling: it is available as a tab on the Scheduling board. It is also connected to CompuTec PDC, which allows monitoring actions taken through this application.
 
-![Resource Planning Board](./media/resource-planning-board.webp)
+![Resource Planning Board](./media/resource-planning-board/resource-planning-board.webp)
 
 The form in the screenshot above contains three areas:
 
 - choosing resource space,
-
 - Resource panel,
-
 - Scheduling panel.
 
 ## Choosing Resource
 
 Go to the top bar of the Board to choose a specific Resource:
 
-![Top bar](./media/top-bar.webp)
+![Top bar](./media/resource-planning-board/top-bar.webp)
 
 1. Resource Group line: click a name of a Resource Group (in this example: Packing, Mixing, Tooling, or Prep). It displays all of the Resources from this group below. Clicking on the blank space just after the last Resource Group name (in this example: right to Prep) shows Resources not assigned to any groups.
 
-You can choose more than one Resource Group. In this case, all of the Resources from selected Groups are displayed.
+    You can choose more than one Resource Group. In this case, all of the Resources from selected Groups are displayed.
 
-2.Resources line: each of the Resources from the Resource Group(s) chosen in the previous step is represented by a separate tile. Every tile includes a Resource Number, a Resource Name, and a number indicating the number of Operations assigned to a specific Resource (top left corner).
+2. Resources line: each of the Resources from the Resource Group(s) chosen in the previous step is represented by a separate tile. Every tile includes a Resource Number, a Resource Name, and a number indicating the number of Operations assigned to a specific Resource (top left corner).
 
-Data connected to a Resource chosen by clicking the Resource line are displayed in Resource Panel and Scheduling Panel.
+    Data connected to a Resource chosen by clicking the Resource line are displayed in Resource Panel and Scheduling Panel.
 
 After choosing a Resource, both Resource Panel and Scheduling Panel are populated with related data.
 
 ## Resource Panel
 
-![Resource Panel](./media/resource-panel.webp)
+![Resource Panel](./media/resource-planning-board/resource-panel.webp)
 
 1. Resource name (top name), Resource group (in which the Resource is included), and Resource type indicator (it can indicate either Machine, Tool, or Subcontractor type of a Resource).
 2. Time constraints of a period for which Resource occupancy is calculated (for the graph below).
 3. Occupancy graph:
 
-   a. Availability – overall time of Resources being available to work on, aggregated for the given period. It is based on the Resource Calendar: a period of the Resource being available to work on minus Exceptions and Holidays,
+    1. Availability – overall time of Resources being available to work on, aggregated for the given period. It is based on the Resource Calendar: a period of the Resource being available to work on minus Exceptions and Holidays,
 
-   b. Occupied – overall time of a Resource being used and cannot be used in other Operations. It is based on Operations assigned to the Resource,
+    2. Occupied – overall time of a Resource being used and cannot be used in other Operations. It is based on Operations assigned to the Resource,
 
-   c. Free – overall time of a Resource being free to use. Availability - Occupied = Free.
-
+    3. Free – overall time of a Resource being free to use. Availability - Occupied = Free.
 4. Information about the Operation (in the specific Manufacturing Order) connected to the Resource. This information is available after choosing an Operation for the Resource from the Scheduling Panel.
 5. Related Resources.
-
 6. Here you can find a Sales Order connected to the Manufacturing Order for which the current Operation is being worked on.
 
 ## Scheduling Panel
 
-![Tasks Scheduling Board](./media/tasks-scheduling-board.webp)
+![Tasks Scheduling Board](./media/resource-planning-board/tasks-scheduling-board.webp)
 
 ### Data Display
 
@@ -64,33 +64,24 @@ Every row represents a separate Task (four Tasks are displayed in the example ab
 Data displayed on the row:
 
 - red strip (visible on the second and third Task row on the example above) – indicates overlapping with another Task
-
 - Task status indicator – informs the user of the state of the Task - Tasks with any status cannot be rescheduled anymore (on the example about the second and fourth Tasks can be rescheduled):
 
-  play icon - work on a Task in progress (in CompuTec PDC),
+  - play icon - work on a Task in progress (in CompuTec PDC),
+  - pause icon - partially booked: some work has been recorded on a Task, but currently, no work is being done on it,
+  - checked checkbox icon - a Task is closed: work on it has been recorded with the option Close Task in CompuTec PDC
+  - lock icon - this Task is frozen
+  - person icon - this task is assigned
 
-  pause icon - partially booked: some work has been recorded on a Task, but currently, no work is being done on it,
-
-  checked checkbox icon - a Task is closed: work on it has been recorded with the option Close Task in CompuTec PDC
-
-  lock icon - this Task is frozen
-
-  person icon - this task is assigned
+  <br />
 
   :::info
-  Only Tasks with no status yet (blank status indicator field) can be rescheduled (it is only possible to highlight the Task and see its details in the Resource panel).
+      Only Tasks with no status yet (blank status indicator field) can be rescheduled (it is only possible to highlight the Task and see its details in the Resource panel).
   :::
-
 - Manufacturing Order related data – Document Number, Item Code, Priority, Order Quantity, Status,
-
 - CompuTec PDC-related data – Resource Quantity, Duration, Effort,
-
 - Freeze – checking this checkbox and clicking Update fixes a Task to a specific date and time. After changing data and time and clicking Update on the lower part of the panel, a Task with this checkbox checked will not change its date and time.
-
 - Lock MOR – freezes all tasks in a specific Manufacturing Order. (Check the Freeze option described above)
-
 - Red sign – if it is displayed, Required Date from the related Manufacturing Order has been exceeded
-
 - Resource relation indicator (brown strip with a number on the far right of the Task rows on the example above) – if the chosen Resource is a Machine type, a Resource code of a related Tool Resource is displayed here. If the Resource is a Tool type, a Resource code of a related Machine Resource is shown here.
 
 You can define up to 8 columns to be displayed on a Task row related to a specific Resource.
@@ -103,7 +94,7 @@ Click and hold a row. The chosen row is highlighted, and you can drag it up and 
 
 Note that after dropping a Task, there is a blue strip on a Resource box. It indicates that the queue for it has been changed but not updated yet (therefore, it has not been loaded to the Gantt chart yet).
 
-![Drag and Drop](./media/drag-and-drop.webp)
+![Drag and Drop](./media/resource-planning-board/drag-and-drop.webp)
 
 #### Reschedule on Drop
 
@@ -115,17 +106,17 @@ This option is not recommended when many Manufacturing Orders are loaded into th
 
 You can sort the rows by several predefined settings. Click the Sort button on the top part of the form to open the Sort menu in a Resource Panel:
 
-![Sort](./media/sort.webp)
+![Sort](./media/resource-planning-board/sort.webp)
 
 Apart from the default values (displayed in the drop-down list), it is also possible to sort Tasks by Labels.
 
 Creating multilevel sorting patterns and choosing to ascend and descending order is possible. In the example below, rows must be sorted first by Document Number descending. Within records containing the duplicate number, rows are to be sorted by Revision Code ascending (note that the checkbox for a specific sort method has to be checked to be taken under consideration for sorting):
 
-![Multi-level-Sorting](./media/multi-level-sort.webp)
+![Multi-level-Sorting](./media/resource-planning-board/multi-level-sort.webp)
 
 It is possible to sort records at will by checking the Sort Entries option and changing the order by drag & and drop manner:
 
-![Sort Entries](./media/sort-entires.webp)
+![Sort Entries](./media/resource-planning-board/sort-entries.webp)
 
 Click Sort to apply the order to Scheduling Panel and click Update to load it to the Gantt chart.
 
@@ -135,11 +126,11 @@ This option allows you to reschedule Tasks between Alternative Resources.
 
 You can define multiple Resources connected to a specific Operation in Routing on the Production Process of a particular Item (than used on a Manufacturing Order). Click here to find out more.
 
-![Production Process](./media/production-process.webp)
+![Production Process](./media/resource-planning-board/production-process.webp)
 
 Check the Show Alternative Resources (lower left corner of Scheduling Panel) checkbox to activate the option. Now when you highlight a Task that has alternative Resources defined, a new panel with alternative Resources will be displayed:
 
-![Alternative Resource Panel](./media/alternative-resource-panel.webp)
+![Alternative Resource Panel](./media/resource-planning-board/alternative-resource-panel.webp)
 
 The time of work of highlighted Task on another resource is displayed on the alternative resource tile.
 

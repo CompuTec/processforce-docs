@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Yield – Time calculation
 
 Depending on the production process, the yield may impact the production time.
@@ -6,6 +10,6 @@ The yield value from the Bill of Materials header is default included in the pla
 
 The default setting will be copied to the manufacturing order.
 
-![Ignore Yield](./media/production-process-ignore-yield.webp)
+![Ignore Yield](./media/yield-time-calculation/production-process-ignore-yield.webp)
 
-![Yield Checkbox](./media/manufacturing-order-yield-checkbox.webp)
+![Yield Checkbox](./media/yield-time-calculation/manufacturing-order-yield-checkbox.webp)

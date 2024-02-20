@@ -1,7 +1,11 @@
+---
+sidebar_position: 2
+---
+
 # Bill of Materials form header
 
 :::note Path
-Production → Bill Of Materials → Bill of Materials → Header
+    Production → Bill Of Materials → Bill of Materials → Header
 :::
 
 This form allows a user to define a Bill of Materials for a final product or a product to be used as a part of another Bill of Materials.
@@ -22,4 +26,4 @@ MRP Def. field allows the user to confirm if this Bill of Materials is the defau
 
 Batch Size allows the user to define the batch size of production used to determine the cost of a product, where there are fixed times such as setup, fixed runtime, stock, and queue.
 
-![BoM](./media/bill-of-materials.webp)
+![BoM](./media/bom-header/bill-of-materials.webp)

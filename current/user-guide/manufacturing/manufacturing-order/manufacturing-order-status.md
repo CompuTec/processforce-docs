@@ -1,8 +1,12 @@
-# Manufacturing Order statuses
+---
+sidebar_position: 3
+---
+
+# Manufacturing Order Statuses
 
 Manufacturing Order has to have a status assigned. Every status indicates different actions that can be performed on a specific Manufacturing Order. A Manufacturing Status can be assign in a Manufacturing Order header.
 
-![Statuses](./media/statuses.webp)
+![Statuses](./media/manufacturing-order-statuses/statuses.webp)
 
 ---
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # SAP functions not supported by ProcessForce
 
 On this page, you can find SAP functions not supported by ProcessForce, e.g. because of a similar function present in the ProcessForce system.
@@ -15,11 +19,8 @@ ProcessForce Manufacturing Orders can be created directly from Sales Orders (fro
 As only SAP Business One UI API code can run in Browser Access, we removed functionalities based on ActiveX from ProcessForce when it runs in Browser Access mode:
 
 - Stock Management → Item Management → Batch Traceability
-
 - Production → Manufacturing Order → Scheduling, but only scheduling on the Gantt chart as Scheduling Board is available
-
 - Production → Bill of Materials → Production Process → Operation Relation Map from right-click context menu
-
 - Production → Manufacturing Order → Manufacturing Order → Operation Relation Map from right-click context menu
 
 This is only a Browser Access limitation.

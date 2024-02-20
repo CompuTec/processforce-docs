@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Auto Pick Issue and Auto Pick Receipt
 
 You can find information on Auto Pick Issue & Receipt functions here.
@@ -6,7 +10,7 @@ You can find information on Auto Pick Issue & Receipt functions here.
 
 ## Settings
 
-Please check Auto Pick and Auto Receipt options in **ADD LINK** General Settings before proceeding.
+Please check Auto Pick and Auto Receipt options in <!-- TODO: Add Link --> General Settings before proceeding.
 
 ## Pick Issue
 

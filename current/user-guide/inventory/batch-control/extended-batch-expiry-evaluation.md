@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Extended Batch Expiry Evaluation
 
 Extended Batch Expiry Date allows setting expiry dates based on different dates or creating and using an expiry Evaluation Template that allows more complicated ways to calculate Expiry Date.
@@ -7,7 +11,7 @@ Extended Batch Expiry Date allows setting expiry dates based on different dates 
 ## Settings
 
 :::info Path
-Administration → System Initialization → General Settings → ProcessForce tab → Inventory tab
+    Administration → System Initialization → General Settings → ProcessForce tab → Inventory tab
 :::
 
 Expiry Evaluation Type can be chosen from a drop-down list; you can select either the Manufacturing Order related date (Start date of Manufacturing Order) or us Expiry Evaluation Template (for Goods Receipt PO current date is used).
@@ -25,9 +29,7 @@ Expiry Evaluation Type can be chosen from a drop-down list; you can select eithe
 Expiry Evaluation Type, like other Batch settings, can cover three different levels:
 
 - all Batches,
-
 - specific Item Group Batches,
-
 - specific Item Batches.
 
 Click here to check how to assign the Expiry Evaluation method to the specific level.
@@ -35,13 +37,13 @@ Click here to check how to assign the Expiry Evaluation method to the specific l
 ## Creation of Expiry Evaluation Template
 
 :::caution
-Please note that Expiry Evaluation Template works only for Items with Manual Issue type, and the Batches must already be issued to production.
+    Please note that Expiry Evaluation Template works only for Items with Manual Issue type, and the Batches must already be issued to production.
 :::
 
 If the option Expiry Eval Template is chosen in Expiry Eval Type, the Expiry Evaluation Template field is active, and it is possible to select a predefined Expiry Evaluation Template.
 
 :::info Path
-Administration → Setup → Inventory → Expiry Date Evaluation Template
+    Administration → Setup → Inventory → Expiry Date Evaluation Template
 :::
 
 The expiry Evaluation Template allows the definition of advanced Expiry Date Evaluation types. You can use predefined buttons to add a new element to a formula or type it in.
@@ -83,4 +85,4 @@ SELECT IFNULL(MIN(T4."ExpDate"), NOW())
 
 An example of the result of using this formula is presented in a screenshot below:
 
-![Item Child Expiry Date](./media/item-child-expiry-date.webp)
+![Item Child Expiry Date](./media/extended-batch-expiry-evaluation/item-child-expiry-date.webp)

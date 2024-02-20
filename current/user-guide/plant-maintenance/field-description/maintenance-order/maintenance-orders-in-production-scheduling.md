@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Maintenance Orders in Production Scheduling
 
 Maintenance Orders (Status: Scheduled, Released, Started; MI Excluded = Yes) are considered in Production Scheduling and are visible on Gantt Chart as non-available working time.

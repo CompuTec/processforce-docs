@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Pick Order
 
 ## Key Features
@@ -5,9 +9,7 @@
 The Pick Order function is used to manage the activity of picking inventory Items and contains multiple options:
 
 - Created automatically from a Manufacturing Order,
-
 - Created manually, and single or multiple Manufacturing orders copied to the Pick Order,
-
 - An existing Pick Order can be used with multiple Manufacturing Orders.
 
 When creating a Pick Order from a Manufacturing Order, the Items, Planned Quantity, and Source Warehouse are copied from the Manufacturing Order.
@@ -16,7 +18,7 @@ If Distribution Rules or Cost Dimensions and Projects are defined at an Item lin
 
 If blank, they can be manually added.
 
-![Pick Order](./media/pick-order.webp)
+![Pick Order](./media/pick-order/pick-order.webp)
 
 ## Employee field
 

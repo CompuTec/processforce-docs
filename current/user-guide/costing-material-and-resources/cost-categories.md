@@ -1,9 +1,13 @@
+---
+sidebar_position: 7
+---
+
 # Cost Categories
 
 Here you can find information on Cost Categories: sets of costing data used to simulate production costs and apply them to production.
 
 :::info
-Please check the [Configuration section](./configuration/configuration.md) before running the Costing functions.
+    Please check the [Configuration section](./configuration/configuration.md) before running the Costing functions.
 :::
 
 ---
@@ -11,10 +15,10 @@ Please check the [Configuration section](./configuration/configuration.md) befor
 ## General
 
 :::info Path
-Administration → Setup → Financials → Cost Categories
+    Administration → Setup → Financials → Cost Categories
 :::
 
-![Cost Categories](./media/cost-categories.webp)
+![Cost Categories](./media/cost-categories/cost-categories.webp)
 
 Cost Categories are different sets of cost data (Item Costing) for the same Items and Bill of Materials. Similarly, it allows the creation of multiple costing data sets for a specific Resource (Resource Costing).
 
@@ -35,10 +39,10 @@ Any other Cost Category can be used for a costing simulation. Still, to make it 
 ## Cost Roll-Up
 
 :::info Path
-Costing → Cost Roll-Up
+    Costing → Cost Roll-Up
 :::
 
-![Cost Roll-Up](./media/cost-roll-up.webp)
+![Cost Roll-Up](./media/cost-categories/cost-roll-up.webp)
 
 The Cost Roll-Up function calculates or re-calculates the costs of one or several items. These items would be semi-finished or finished products.
 
@@ -53,7 +57,7 @@ The procedure can be applied just to selected cost categories. Note that the pro
 Cost Roll-Up is always performed for every revision.
 
 :::info
-When performing a Cost Roll-Up, all costing forms should be closed; if not, a message will be displayed to close the appropriate forms.
+    When performing a Cost Roll-Up, all costing forms should be closed; if not, a message will be displayed to close the appropriate forms.
 :::
 
 ### Perform the roll-up over the structure
@@ -63,14 +67,13 @@ Perform the roll-up over the structure check box unchecked by default. Roll-up w
 When the "Perform the roll-up over the structure" checkbox is checked, the costs are calculated in the following way:
 First, the structure is built for the Items selected on the Roll-Up form. This structure is generated based on the Bill of Materials data and the relations with other Bill of Materials.
 
-Example
+**Example**:
 
 Let's say that you have the following Final Good product: **FG-01**, which has only one raw material **SG-01**, which is also a Bill of Materials, which has only one raw material: **RM-01**, which is a standard Item:
 
 FG-01:
 
 - SG-01:
-
 - RM-01
 
 **If the checkbox mentioned above is checked**, then:
@@ -113,19 +116,15 @@ All of the Cost Categories apart from the 000 Cost Category are cost simulations
 The Cost Roll-Over function is used in the following:
 
 - To copy costing values into Cost Category 000 to update the SAP Business One Item Cost field (only for Standard Costing).
-
 - To copy values from one Cost Category to another to perform simulation and what-if calculations.
-
 - To update the Cost Category 000 record for Resource Costs.
 
-![Cost Roll-Over](./media/cost-roll-over.webp)
+![Cost Roll-Over](./media/cost-categories/cost-roll-over.webp)
 
 To perform Cost Roll-Over:
 
 - Select an Item or a range of Items in the same manner as on the Cost Roll-Up form.
-
 - Choose Warehouses that will be affected by the process.
-
 - Choose from which Cost Category to which one data will be transferred.
 
 ### Roll-over the costs of resources checkbox
@@ -138,6 +137,6 @@ An Inventory Revaluation transaction is automatically generated if there is a di
 
 Inventory Revaluation is generated only for the revision with the **Default for Costing** checkbox checked:
 
-![Default for Costing](./media/default-for-costing.webp)
+![Default for Costing](./media/cost-categories/default-for-costing.webp)
 
 This applies to Standard Costing valuation only.

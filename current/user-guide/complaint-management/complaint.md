@@ -1,9 +1,13 @@
+---
+sidebar_position: 3
+---
+
 # Complaint
 
 In this form, you can set all the details needed to create a Complaint, among other things, document type (Customer, Supplier, Internal), Contact Person, Warehouse, or action required to be performed as a result of a Complaint.
 
 :::info Path
-Complaints → Complaint
+    Complaints → Complaint
 :::
 
 ---
@@ -13,28 +17,20 @@ Complaints → Complaint
 The form header allows the user to manage the following:
 
 - Select and enter a complaint number using a defined Document Series Number.
-
 - Enter the source of the complaint, Customer, Supplier, or Internal.
-
 - Select and enter the Business Partner Code. Note the lookup table filters the business partners based on Compliant Type. If chosen Complaint Type is Internal, Business Partner Code, Business Partner Name, and Contact Person fields are greyed out.
-
 - Enter the Contact Person. Note the filter is based on the selected Business Partner Code.
-
 - Enter the Warehouse and Project Code.
-
 - To manage the Complaint cycle, the user can select a Status and its corresponding Date. The valid values are Created, Started, On-Hold, and Closed.
-
 - Enter an Originator, i.e., the person who started the Complaint.
-
 - Enter an Owner, i.e., the person responsible for managing the Complaint.
-
 - An Alert can be generated to be sent to the Complaint Manager to allocate the Owner.
 
-![Complaint](./media/complaint-1.webp)
+![Complaint](./media/complaint/complaint-1.webp)
 
 ## Transaction
 
-![Transactions](./media/complaint-transactions.webp)
+![Transactions](./media/complaint/complaint-transactions.webp)
 
 This Tab allows the user to record Item related and Non-Item related Complaints.
 
@@ -50,7 +46,7 @@ Multiple Reason Codes can be added and deleted for recording and analysis purpos
 
 A remark can also be added.
 
-![Complaint](./media/complaint-2.webp)
+![Complaint](./media/complaint/complaint-2.webp)
 
 ## Action
 
@@ -62,11 +58,10 @@ An alert is sent to the Warehouse Managers to inform them that a sample will be 
 
 - The alert is based on the following query, Status = Started, Business Partner Code and Name, Item Number, Batch/Serial Number, Delivery Date, Warehouse Code, and Warehouse manager.
 
-When the sample is received at the warehouse, based on a Return document, an alert is sent to the Complaint Owner.
-
+    When the sample is received at the warehouse, based on a Return document, an alert is sent to the Complaint Owner.
 - The alert is based on the following query, Status = Started, Complaint No, Business Partner Code and Name, Item Number, Batch/Serial Number, Received Date, Warehouse Code, and Complaint Owner.
 
-![Complaint Action](./media/complaint-action.webp)
+![Complaint Action](./media/complaint/complaint-action.webp)
 
 ## Notes
 
@@ -78,20 +73,17 @@ The Attachments Tab allows the user to attach documents relating to the Complain
 
 ## Creating a Quality Control Test
 
-From the Action Tab, the user can check that the Complaint requires a [Quality Control Test](./../quality-control/quality-control-test/quality-control-test.md) and create a Quality Control Test from the You Can Also button.
+From the Action Tab, the user can check that the Complaint requires a [Quality Control Test](../quality-control/quality-control-test/quality-control-test.md) and create a Quality Control Test from the You Can Also button.
 
 The user can also check that this Complaint was the source of a Product Recall activity.
 
 ## Creating an activity for a complaint
 
-The standard SAP Business One activity functionality is available to create and check within the Complaint form. To get more information on the subject, click [here](./../activities-for-processforce-documents.md).
+The standard SAP Business One activity functionality is available to create and check within the Complaint form. To get more information on the subject, click [here](../activities-for-processforce-documents.md).
 
 ## Complaint Status
 
 - **Created** – a document is created but not yet started; create Date can be set up.
-
 - **Started** – a document is started, Started Date can be set up.
-
 - **On-Hold** – a document is on-hold (no action is taken on it), On-Hold Date can be set up.
-
 - **Closed** – a document is closed; **no further editing can be done**.

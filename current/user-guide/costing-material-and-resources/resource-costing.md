@@ -1,22 +1,22 @@
+---
+sidebar_position: 5
+---
+
 # Resource Costing
 
 Resource Costing is a function that evaluates a Resource's work during production. Combined with Item Costing (which holds materials costs), this option assesses the production based on a given Manufacturing Order.
 
 :::warning
-
-Adding UDFs to the Item Costing and Resource Costing form may cause errors and is not recommended.
-
+    Adding UDFs to the Item Costing and Resource Costing form may cause errors and is not recommended.
 :::
 
 Please check [the Configuration section](./configuration/configuration.md) before running the Costing functions.
 
 :::info Path
-
-Costing → Resource Costing
-
+    Costing → Resource Costing
 :::
 
-![Resource Costing](./media/resource-costing.webp)
+![Resource Costing](./media/resource-costing/resource-costing.webp)
 
 ## General information
 
@@ -26,61 +26,50 @@ During the Item Cost Roll-up for a semi-finished or finished product, these fixe
 
 ### Resource Cost Calculation
 
-![Resource Costing](./media/resource-costing-2.webp)
+![Resource Costing](./media/resource-costing/resource-costing-2.webp)
 
 Overall Resource Cost calculation is based on three elements:
 
 1. Resource Cost – in Resource Costing is calculated for 1 hour of work. Resource cost taken under consideration in Item Costing is calculated based on two values: Resource Costing Hourly Rate and Resource Times values (default Resource Times values for a specific Resource are defined in Resource form, but it can be later changed in a particular Operation and specific Production Process):
 
-![Resource to Resource Costing](./media/resource-resource-costing.webp)
+    ![Resource to Resource Costing](./media/resource-costing/resource-resource-costing.webp)
 
-Resource Cost is calculated on the following basis:
+    Resource Cost is calculated on the following basis:
 
-|     |       Unit        |    Pattern     |
-| :-: | :---------------: | :------------: |
-|  1  |   Fixed seconds   |   V(H/36000)   |
-|  2  |   Fixes minutes   |    V(H/60)     |
-|  3  |    Fixed hours    |     V × H      |
-|  4  | Seconds per piece |  V/(3600 × H)  |
-|  5  | Minutes per piece |   V/(60 × H)   |
-|  6  |  Hours per piece  |     V × H      |
-|  7  | Pieces per second | 1/V/(3600 × H) |
-|  8  | Pieces per minute |  1/V/(60 × H)  |
-|  9  |  Pieces per hour  |   1/(T × H)    |
+    |     |       Unit        |    Pattern     |
+    | :-: | :---------------: | :------------: |
+    |  1  |   Fixed seconds   |   V(H/36000)   |
+    |  2  |   Fixes minutes   |    V(H/60)     |
+    |  3  |    Fixed hours    |     V × H      |
+    |  4  | Seconds per piece |  V/(3600 × H)  |
+    |  5  | Minutes per piece |   V/(60 × H)   |
+    |  6  |  Hours per piece  |     V × H      |
+    |  7  | Pieces per second | 1/V/(3600 × H) |
+    |  8  | Pieces per minute |  1/V/(60 × H)  |
+    |  9  |  Pieces per hour  |   1/(T × H)    |
 
-H - Hourly Rate
+    H - Hourly Rate
 
-V - a value for a given time for a Resource, e.g., in the screenshot above Queue Time value is 30
-
+    V - a value for a given time for a Resource, e.g., in the screenshot above Queue Time value is 30
 2. Fixed Overhead Cost – fixed overhead is a set of costs that usually do not change with changes in activity, e.g., factory rent. Three values can define it:
 
-Fixed O/H – main fixed overhead cost
-
-Fixed O/H % – percent value of an Hourly Rate to be added to fixed overhead
-
-Fixed O/H % Cost – value calculated based on Hourly Rate and Fixed O/X %
-
-Fixed O/H Other – it is possible to define other fixed costs
-
-Fixed O/H SubTotal – overall fixed overhead value: Fixed O/H + Fixed O/H % Cost + Fixed O/H Other
-
+    - Fixed O/H – main fixed overhead cost
+    - Fixed O/H % – percent value of an Hourly Rate to be added to fixed overhead
+    - Fixed O/H % Cost – value calculated based on Hourly Rate and Fixed O/X %
+    - Fixed O/H Other – it is possible to define other fixed costs
+    - Fixed O/H SubTotal – overall fixed overhead value: Fixed O/H + Fixed O/H % Cost + Fixed O/H Other
 3. Variable Overhead Cost – costs that may vary significantly in relation to production output changes, e.g., production supplies.
 
-Variable O/H – main variable overhead cost
-
-Variable O/H % – percent value of an Hourly Rate to be added to the variable overhead
-
-Variable O/H % Cost – percent value of an Hourly Rate to be added to the variable overhead
-
-Variable O/H Other – it is possible to define other variable costs
-
-Variable O/H Sub-Total – overall variable overhead value: Variable O/H + Variable O/H % Cost + Variable O/H Other
-
+    - Variable O/H – main variable overhead cost
+    - Variable O/H % – percent value of an Hourly Rate to be added to the variable overhead
+    - Variable O/H % Cost – percent value of an Hourly Rate to be added to the variable overhead
+    - Variable O/H Other – it is possible to define other variable costs
+    - Variable O/H Sub-Total – overall variable overhead value: Variable O/H + Variable O/H % Cost + Variable O/H Other
 4. Total
 
-Added up values from the following fields: Hourly Rate, Fixed O/H SubTotal, Variable O/H SubTotal.
+    Added up values from the following fields: Hourly Rate, Fixed O/H SubTotal, Variable O/H SubTotal.
 
-It is possible to define structured overhead costs. Click [here](./../costing-material-and-resources/item-costing/multistructure-fixed-and-variable-overhead-costs.md) to find out more.
+    It is possible to define structured overhead costs. Click [here](../costing-material-and-resources/item-costing/multistructure-fixed-and-variable-overhead-costs.md) to find out more.
 
 ### Labor
 
@@ -96,7 +85,7 @@ Create a specific resource called Labor and assign its costs and Resource Accoun
 ### Configuration
 
 :::info Path
-Administration → Setup → Financials → Resources Accounting
+    Administration → Setup → Financials → Resources Accounting
 :::
 
 Resource Accounting is a set of connections between specific Resource related costs and Accounts. These accounting rules can be later assigned to one or more Resources.
@@ -108,10 +97,10 @@ Currently, all resource-related variances are posted into a single WIP variance 
 If using different time types, each type can have a separate account code.
 
 :::caution
-Note that each Resource Account (Title column) must have Accounts (Accounts Code) assigned for Resource Costing to work correctly.
+    Note that each Resource Account (Title column) must have Accounts (Accounts Code) assigned for Resource Costing to work correctly.
 :::
 
-![Resource Accounting](./media/resource-accounting-2.webp)
+![Resource Accounting](./media/resource-costing/resource-accounting-2.webp)
 
 ### Resource Account Definition
 
@@ -119,9 +108,9 @@ Predefined Resource Accounting (see the previous paragraph) can be added to a Re
 
 If financial postings are required, a Resource Accounting code has to be chosen. If financial postings are not needed, then select No Posting.
 
-![Resource Accounting](./media/resource-cccounting-3.webp)
+![Resource Accounting](./media/resource-costing/resource-accounting-3.webp)
 
-Click [here](./../routings/resources.md) to find out more about Resources.
+Click [here](../routings/resources.md) to find out more about Resources.
 
 ## Distribution Rules and Cost Dimensions
 

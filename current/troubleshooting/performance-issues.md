@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Performance Issues
 
 On this page, you can check the most common performance problems while working with ProcessForce and ways of resolving these issues.
@@ -12,19 +16,16 @@ If you experience the described issue, please collect the following data, and ra
 
 ### Network bandwidth and Latency
 
-![Hardware Requirements](./media/hardware-requirements.webp)
+![Hardware Requirements](./media/performance-issues/hardware-requirements.webp)
 
-Download: https://www.elifulkerson.com/projects/tcping.php
-Command: tcping -t IP port
+Download: [tcping](https://www.elifulkerson.com/projects/tcping.php)
 
-- Do network latency tests using the tcping -t command and take a screenshot with the results.
+Command: `tcping -t IP port`
 
-- obligatory do a complete set of tests and do separate tests for the cases:
+- Do network latency tests using the `tcping -t` command and take a screenshot with the results.
+- Obligatory do a complete set of tests and do separate tests for the cases:
 
   - from the workstations/server to the SAP HANA database (default port: 30015),
-
   - from the workstations/server to SAP License Server (default port: 40000),
-
   - from the workstations/server to CompuTec License Server (default port: 30002),
-
   - use proper settings IP / Server name, which is currently configured in SAP B1 Client.
