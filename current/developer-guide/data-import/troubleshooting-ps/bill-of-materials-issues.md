@@ -29,22 +29,22 @@ Set the correct Warehouse code in the BOM_Items.csv file for itemCode LM4029MC o
 
 ![Warehouse not defined for an Item](./media/bill-of-materials-issues/warehouse-not-defined-for-item-2.webp)
 
-### Diagnose steps (for the example): {### reason-2}
+### Diagnose steps (for the example)
 
 - Does the Warehouse code exist in SAP B1?
   - If no, go to Example 1
   - If yes, check the name of the Item in the file to import BOM_Items.csv and compare it with the Item name in SAP B1
 
-### Solution {### solution-2}
+### Solution
 
 - Item in BOM_Items.csv needs to have the same names as in Item Master Data in SAP
 - Cannot be any differences with lower/upper in the item name, for example, LM4029Mc and LM4029MC.
 
-## Exception: At Least one Non-stock item must be set as Subcontracting Item
+## Exception: At Least one Non-stock item must be set as Subcontracting Item {#exception-1}
 
 ![Subcontracting Item](./media/bill-of-materials-issues/non-stock-item-subcontracting.webp)
 
-### Diagnose steps: {### steps2}
+### Diagnose steps
 
 - In file BOM_Items.csv, find the BOM Items for Item SubFG & revision code00
 
@@ -54,16 +54,16 @@ Set the correct Warehouse code in the BOM_Items.csv file for itemCode LM4029MC o
 
 None of the Items in BOM of type external is marked as Subcontracting Item
 
-## Exception: At Least one Non-stock item must be set as Subcontracting Item. {### Exception}
+## Exception: At Least one Non-stock item must be set as Subcontracting Item {#exception-2}
 
 ![Subcontracting Item](./media/bill-of-materials-issues/non-stock-item-subcontracting-item-2.webp)
 
-### Diagnose steps {### steps3}
+### Diagnose steps
 
 - In file BOM_Items.csv, find the BOM items for item SubFG & revision code00
 - Check which items are marked as SubcontractingItem = Y
 - go to SAP B1 Client and open Item Master Data for each subcontracting item to check that the Stock Item field is unchecked
 
-### Resolution {### resolution-2}
+### Resolution
 
 During importing BOM of type external, one of the items marked as a subcontracting item can have the Stock Item field unchecked.

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-Production Process allows assigning a specific [Routing](../../routings/routings-overview.md) to a production Item and Routing to production Item and binding specific Items to Operations on a Routing.
+Production Process allows assigning a specific [Routing](../../routings/overview.md) to a production Item and Routing to production Item and binding specific Items to Operations on a Routing.
 
 ---
 

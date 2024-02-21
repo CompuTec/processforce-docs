@@ -61,7 +61,7 @@ Checked the Ignore Yield check box not to increase the operation/resource total 
 
 ## Planned vs. Actual Yield
 
-Based on the [Yield Formula](./../production-process/yield-time-calculation.md), the Actual Yield is calculated when materials receipts and issues are created.
+Based on the [Yield Formula](../production-process/yield-time-calculation.md), the Actual Yield is calculated when materials receipts and issues are created.
 
 ![Others Tab](./media/bom-planned-yield/manufacturing-order-others-yield.webp)
 

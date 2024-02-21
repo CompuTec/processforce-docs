@@ -20,6 +20,6 @@ With an older version of SAP Business One Cloud / Cloud Control Center, you may 
 
 There is a known defect causing the closure of the SAP Business One client without any message when performing activities in ProcessForce in the SAP Business One Cloud environment. It may cover several aspects, including:
 
-- Trying to assign a user a ProcessForce license – please visit [the Licensing Issues page for more information](./../../troubleshooting/licensing-issues.md).
+- Trying to assign a user a ProcessForce license – please visit [the Licensing Issues page for more information](../../troubleshooting/licensing-issues.md).
 
-- Opening a ProcessForce window after at least 15 minutes of inactivity or after re-logging into the company database – please visit [the General Functions page](./../../troubleshooting/general-functions.md) for more information.
+- Opening a ProcessForce window after at least 15 minutes of inactivity or after re-logging into the company database – please visit [the General Functions page](../../troubleshooting/general-functions.md) for more information.

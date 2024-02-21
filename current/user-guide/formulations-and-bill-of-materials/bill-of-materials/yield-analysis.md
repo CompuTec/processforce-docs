@@ -34,7 +34,7 @@ Below is a table illustrating some yield analysis examples:
 ## Yield Formulas
 
 :::info
-    Please check the [Yield settings](./../) for default formulas.
+    Please check the [Yield settings](../overview.md) for default formulas.
 :::
 
 Within the General Settings form → ProcessForce tab → Bill of Materials and Manufacturing Orders tab, four additional default formulas have been added:

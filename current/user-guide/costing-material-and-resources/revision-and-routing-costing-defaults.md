@@ -12,7 +12,7 @@ ProcessForce can cost a product at a revision level.
 
 Within the Item Details form, select the Revision for cost calculation and check the field "Is Costing Default."
 
-Click [here](../item-details/) to find out more about Item Details.
+Click [here](../item-details/overview.md) to find out more about Item Details.
 
 ## Production Process
 
@@ -20,4 +20,4 @@ Click [here](../item-details/) to find out more about Item Details.
 - To include the costs of the resources defined within the route, select and check which routing is the default for cost calculation.
 - If there is a single route, it is still required to check the field.
 
-Click [here](../formulations-and-bill-of-materials/production-process/prodcution.process.md) to find out more about Production Process.
+Click [here](../formulations-and-bill-of-materials/production-process/overview.md) to find out more about Production Process.

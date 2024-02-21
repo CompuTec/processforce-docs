@@ -7,7 +7,7 @@ sidebar_position: 7
 Here you can find information on Cost Categories: sets of costing data used to simulate production costs and apply them to production.
 
 :::info
-    Please check the [Configuration section](./configuration/configuration.md) before running the Costing functions.
+    Please check the [Configuration section](./configuration.md) before running the Costing functions.
 :::
 
 ---
@@ -90,7 +90,7 @@ FG-01:
 
 ### Use final goods batch size value for semi-goods calculations
 
-This option defines if the final goods' Batch size also covers semi-goods calculations. Click [here](./../costing-material-and-resources/item-costing/batch-size-costing.md) to find out more.
+This option defines if the final goods' Batch size also covers semi-goods calculations. Click [here](../costing-material-and-resources/item-costing/batch-size-costing.md) to find out more.
 
 **Example**
 

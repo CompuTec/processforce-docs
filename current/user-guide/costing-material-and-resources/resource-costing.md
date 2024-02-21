@@ -10,7 +10,7 @@ Resource Costing is a function that evaluates a Resource's work during productio
     Adding UDFs to the Item Costing and Resource Costing form may cause errors and is not recommended.
 :::
 
-Please check [the Configuration section](./configuration/configuration.md) before running the Costing functions.
+Please check [the Configuration section](./configuration.md) before running the Costing functions.
 
 :::info Path
     Costing → Resource Costing

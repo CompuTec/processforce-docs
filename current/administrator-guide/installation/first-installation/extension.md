@@ -54,7 +54,7 @@ On this page, you can find a step-by-step guide on how to install the ProcessFor
         <p>When a new ProcessForce database is created by using Copy Express, or with the option Copy User-Defined Fields and Tables/Copy User-Defined Objects in the Create New Company wizard, the SAP Business One mechanism does not set a proper value for EditType fields in Processforce structures (it is set to NULL). It is a result of an SAP Business One bug: new fields with DateTime type are not properly created in a new database.</p>
     </details>
 
-    To avoid this situation, it is possible to create a new database, install ProcessForce and move the required data through ProcessForce API with [PowerShell scripts](../../../developer-guide/data-import/data-import.md).
+    To avoid this situation, it is possible to create a new database, install ProcessForce and move the required data through ProcessForce API with [PowerShell scripts](../../../developer-guide/data-import/overview.md).
 :::
 
 ### Installation
@@ -122,12 +122,12 @@ ProcessForce for SAP Business One 10.0 is a lightweight deployment extension. As
     This step may be skipped in case of making the extension upgrade only.
 :::
 
-You can find the License Import and Assignment guide [here](./../../licensing/license-import-assignment.md)
+You can find the License Import and Assignment guide [here](../../licensing/license-import-assignment.md)
 
 ### Data preparation
 
 :::note
-    Before running restore procedures please decide if [the Manage Item Cost per Warehouse](./../../../user-guide/costing-material-and-resources/configuration/configuration.md) setting is used – if you change it after the restore, you need to remove all Item Costing Details and restore them again.
+    Before running restore procedures please decide if [the Manage Item Cost per Warehouse](../../../user-guide/costing-material-and-resources/configuration.md) setting is used – if you change it after the restore, you need to remove all Item Costing Details and restore them again.
 :::
 
 If ProcessForce is installed on a database with existing data (Item Master Data entries) for the first time, it is necessary to run the data restoring procedures:
@@ -140,4 +140,4 @@ If ProcessForce is installed on a database with existing data (Item Master Data 
 
 ![Restore](./media/extension/restore.webp)
 
-Click [here](./../../../user-guide/system-initialzation/data-restore.md) to find out more about the Restore function.
+Click [here](../../../user-guide/system-initialzation/data-restore.md) to find out more about the Restore function.

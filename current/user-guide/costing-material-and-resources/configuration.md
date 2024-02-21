@@ -46,7 +46,7 @@ The standard production configuration is to check Parent Item WIP Accounts.
 
 ### Costing Price Determination
 
-Click [here](./costing-material-and-resources.md) to get more information.
+Click [here](./costing-price-determination.md) to get more information.
 
 ### Restore Functions
 

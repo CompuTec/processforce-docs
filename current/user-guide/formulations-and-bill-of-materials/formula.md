@@ -91,7 +91,7 @@ The following functions can be used within formulas:
 
 ## Using User-Defined Fields in Formulas
 
-It is possible to incorporate [User-Defined Fields (UDFs)](./../../administrator-guide/udfs.md) into formulas.
+It is possible to incorporate [User-Defined Fields (UDFs)](../../administrator-guide/udfs.md) into formulas.
 
 We can use either header or row UDFs in formulas.
 

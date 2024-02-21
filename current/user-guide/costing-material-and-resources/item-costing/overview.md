@@ -14,7 +14,7 @@ Each Item Master, a part of a Bill of Materials, needs to be defined to calculat
 - Cost Category Code: if there are multiple cost categories, a unique item costing record will be created.
 
 :::info
-    Please check [the Configuration section](../configuration/configuration.md) before running the Costing functions.
+    Please check [the Configuration section](../configuration.md) before running the Costing functions.
 :::
 
 :::warning

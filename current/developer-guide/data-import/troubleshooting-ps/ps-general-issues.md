@@ -24,7 +24,7 @@ Please also use this SAP Note to diagnose the problem with the connection:
 
 ## Exception: Unable to find type [CompuTec.ProcessForce.API.ProcessForceCompanyInitializator]: make sure that the assembly that contains this type is loaded
 
-### Reason {###reason-1}
+### Reason
 
 You are probably using PowerShell 2.0 with CLRVersion 2.0.
 
@@ -42,7 +42,7 @@ $PSVersionTable
 
 - Change CLRVersion to 4.0 (need installed .NET Framework 4.5/4.6 Full) by adding a configuration file to PowerShell ISE
 
-- see **the Configuration files** section in [the PowerShell application configuration](./../../data-import/ps-app-configuration.md).
+- see **the Configuration files** section in [the PowerShell application configuration](../../data-import/ps-app-configuration.md).
 
     ![Version compare](./media/ps-general-issues/clr-version-compare.webp)
 
@@ -54,17 +54,17 @@ $PSVersionTable
 
 - use PowerShell 5.1
 
-- [Check the installation part of the documentation](./../ps-app-configuration.md#installation)
+- [Check the installation part of the documentation](../ps-app-configuration.md#installation)
 
 ## Exception: PF Database Version is not supported. Please update the Database or Reinstall API.Setup
 
 ![Incorrect Version](./media/ps-general-issues/database-version-not-supported.webp)
 
-### Reason {#reason-2}
+### Reason
 
 ProcessForce, PowerShell ISE, and PF.API versions vary.
 
-## Diagnose actions {##diagnose-actions-2}
+## Diagnose actions
 
 ![Different Version](./media/ps-general-issues/ps-bit-versions.webp)
 
@@ -97,7 +97,7 @@ Use PowerShell ISE 32-bit if ProcessForce add-on x86 is installed on your databa
 
 ![Database Mismatch](./media/ps-general-issues/ps-db-mismatch.webp)
 
-### Reason {#reason-3}
+### Reason
 
 Mismatch of DBServerType.
 
@@ -114,7 +114,7 @@ Mismatch of DBServerType.
 1. ![Resource Name](./media/ps-general-issues/ps-resource-name-1.webp)
 2. ![Resource Name 2](./media/ps-general-issues/ps-resource-name-2.webp)
 
-### Solution {##solution-2}
+### Solution
 
 Check SQL/HANA server name in the credentials configuration. Sometimes, a database server can be visible only by its name or IP address.
 
@@ -124,7 +124,7 @@ It should be the same as in the SAP Client Choose Company form/window.
 
 ![Incorrect Port Number](./media/ps-general-issues/ps-incorrect-port-number.webp)
 
-### Solution {##solution-3}
+### Solution
 
 - Check SQLServer & LicenceServer IP address or name.
 - Check SQLServer & LicenceServer port numbers (they should be used only for HANA connection).

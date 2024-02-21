@@ -7,7 +7,7 @@ sidebar_position: 3
 ## ProcessForce 10.0 upgrade
 
 :::info
-    If you install ProcessForce on your database for the first time, follow [the ProcessForce Installation Guide](./first-installation/).
+    If you install ProcessForce on your database for the first time, follow [the ProcessForce Installation Guide](./first-installation/license-server.md).
 :::
 
 :::danger

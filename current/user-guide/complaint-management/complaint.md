@@ -73,7 +73,7 @@ The Attachments Tab allows the user to attach documents relating to the Complain
 
 ## Creating a Quality Control Test
 
-From the Action Tab, the user can check that the Complaint requires a [Quality Control Test](../quality-control/quality-control-test/quality-control-test.md) and create a Quality Control Test from the You Can Also button.
+From the Action Tab, the user can check that the Complaint requires a [Quality Control Test](../quality-control/quality-control-test/overview.md) and create a Quality Control Test from the You Can Also button.
 
 The user can also check that this Complaint was the source of a Product Recall activity.
 

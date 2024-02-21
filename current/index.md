@@ -16,8 +16,8 @@ To start using ProcessForce add-on you must:
 
 1. Adjust system which ProcessForce will be working on to the add-on requirements. You can find it [here](./administrator-guide/system-requirements.md).
 2. Download files required for installation of CompuTec License Server and Add-on components. You can download it from [here](./processforce-releases/downloads.md).
-3. Install both components. You can find detailed information on how to do this [here](./administrator-guide/installation/first-installation/index.md). ProcessForce will work in trial mode for 14 days since the first installation of CompuTec License Server.
-4. After the expiration of the trial mode, ProcessForce requires a valid license file to be used. You can obtain it from your ProcessForce provider – check [here](./administrator-guide/licensing/license-request.md) how to do this. Find out more about licensing [here](./administrator-guide/licensing/).
+3. Install both components. You can find detailed information on how to do this [here](./administrator-guide/installation/first-installation/license-server.md). ProcessForce will work in trial mode for 14 days since the first installation of CompuTec License Server.
+4. After the expiration of the trial mode, ProcessForce requires a valid license file to be used. You can obtain it from your ProcessForce provider – check [here](./administrator-guide/licensing/license-request.md) how to do this.
 5. ProcessForce is up and ready to work with. You can manage it, e.g. turn off, upgrade, by a standard SAP Business One add-on administration functionality: `Main Menu → Administration → Add-ons`.
 
 ## Main Menu and Functions
@@ -46,7 +46,7 @@ To find out more about every tab and options on it, click [here](./user-guide/sy
 
 Extended Item definition allows assigning much more information to an item. In the menu you can assign revision, classifications, phrases, groups, texts, and attachments to a specific item.
 
-Click [here](./user-guide/item-details/) to find out more.
+Click [here](./user-guide/item-details/overview.md) to find out more.
 
 ![Item details](./media/index/item-details.webp)
 
@@ -58,7 +58,7 @@ Click [here](./user-guide/item-details/) to find out more.
 
 ProcessForce provides an extension to product master data. Nutrient and ingredient information can be used to create complex ingredient listings and declaration statements, thus are useful in the creation of product labels.
 
-Click [here](./user-guide/ingredient-declarations/) to find out more.
+Click [here](./user-guide/ingredient-declarations/overview.md) to find out more.
 
 ![Ingredient Declaration](./media/index/ingredient-master-data.webp)
 
@@ -70,7 +70,7 @@ Click [here](./user-guide/ingredient-declarations/) to find out more.
 
 Batches are groups of the same products. Batch Master Data functionality allows to define of many values for a whole group of the same products.
 
-Click [here](./user-guide/inventory/batch-control/) to find out more.
+Click [here](./user-guide/inventory/batch-control/overview.md) to find out more.
 
 ![Batch management](./media/index/batch-management.webp)
 
@@ -94,7 +94,7 @@ Click [here](./user-guide/inventory/batch-control/batch-traceability.md) to find
 
 Bill of Materials (BOM) represents a product structure that is a list of raw materials or sub-components that together creates a specific product. BOM is the main concept of process manufacturing. It allows defined values like co-products, scrap, yield, and many more things crucial for production.
 
-Click [here](./user-guide/formulations-and-bill-of-materials/bill-of-materials/) to find out more.
+Click [here](./user-guide/formulations-and-bill-of-materials/bill-of-materials/overview.md) to find out more.
 
 ![Bill of materials](./media/index/bill-of-materials.webp)
 
@@ -106,7 +106,7 @@ Click [here](./user-guide/formulations-and-bill-of-materials/bill-of-materials/)
 
 Routing determines the steps that are performed in the manufacturing process for a specific product. Resources required for production and Operations performed on it can be defined within Routing. ProcessForce solution allows defining of many settings for Routing, Operation, and Resource.
 
-Click [here](./user-guide/routings/) to find out more.
+Click [here](./user-guide/routings/overview.md) to find out more.
 
 ![Routing](./media/index/routing.webp)
 
@@ -118,7 +118,7 @@ Click [here](./user-guide/routings/) to find out more.
 
 ProcessForce Manufacturing Orders are used to plan, execute and record production activities.
 
-Click [here](./user-guide/manufacturing/manufacturing-order/) to find out more.
+Click [here](./user-guide/manufacturing/manufacturing-order/overview.md) to find out more.
 
 ![Manufacturing order](./media/index/manufacturing-order.webp)
 
@@ -130,7 +130,7 @@ Click [here](./user-guide/manufacturing/manufacturing-order/) to find out more.
 
 Based upon many resources and time constraints, ProcessForce provides a simple but powerful scheduling solution to manage the Manufacturing Orders within the plant and to manually re-schedule via "drag and drop" means.
 
-Click [here](./user-guide/scheduling/) to find out more.
+Click [here](./user-guide/scheduling/overview.md) to find out more.
 
 ![Scheduling](./media/index/scheduling.webp)
 
@@ -142,7 +142,7 @@ Click [here](./user-guide/scheduling/) to find out more.
 
 ProcessForce Product Costing has been built to take advantage of all the costing methods provided by SAP Business One. Thus providing a solution that supports the costing, analysis, and finance controlling operations.
 
-Click [here](./user-guide/costing-material-and-resources/item-costing/) to find out more.
+Click [here](./user-guide/costing-material-and-resources/item-costing/overview.md) to find out more.
 
 ![Item Costing](./media/index/item-costing.webp)
 
@@ -154,7 +154,7 @@ Click [here](./user-guide/costing-material-and-resources/item-costing/) to find 
 
 A Quality Control Test can be generated using predefined test protocols, from Goods Receipt PO, Complaint, Manufacturing Order. A request for it can also be set up by an SAP B1 Business Alert. QC functionality allows to set a wide range of details for a quality test, e.g. test protocol templates, Resources and Items used to conduct a test, assigned Inspector, frequency of a test, defects, reasons along with additional instructions and attachments, and more.
 
-Click [here](./user-guide/quality-control/) to find out more.
+Click [here](./user-guide/quality-control/overview.md) to find out more.
 
 ![Quality control test](./media/index/quality-control-test.webp)
 

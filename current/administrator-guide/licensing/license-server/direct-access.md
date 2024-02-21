@@ -93,7 +93,7 @@ You can also specify a logging level and see a disk location where logs are kept
     ![Caution](./media/direct-access/license-server-settings_2_db-connection_5.webp)
 
     :::info
-        After this step, the message: `Direct Data Access mode is disabled.` will not appear anymore while starting ProcessForce provided that the connection to CompuTec License Server is configured correctly in ProcessForce License Administration (see [Extension → License assignment section](./../../installation/first-installation/extension)).
+        After this step, the message: `Direct Data Access mode is disabled.` will not appear anymore while starting ProcessForce provided that the connection to CompuTec License Server is configured correctly in ProcessForce License Administration (see [Extension → License assignment section](../../installation/first-installation/extension)).
     :::
 
 6. You can also expand the list of existing company databases to make sure that a particular SAP Business One company uses Direct Data Access:

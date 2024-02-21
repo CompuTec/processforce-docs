@@ -12,6 +12,6 @@ On this tab, you can set details about Batch dates, e.g., date of admission, exp
 
 **Vendor Manufacturing Date** – date of manufacturing used for purchased Items.
 
-**Expiry Date, Consume by Date, Inspection Dates** – click [here](./../extended-batch-expiry-evaluation.md) to learn more about these dates and their calculation method.
+**Expiry Date, Consume by Date, Inspection Dates** – click [here](../extended-batch-expiry-evaluation.md) to learn more about these dates and their calculation method.
 
 **Best Before Date** – the date before the product still keeps its highest quality. This data is often used in food distribution industries. The date in this field is set up manually.
