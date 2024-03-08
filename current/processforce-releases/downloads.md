@@ -31,17 +31,17 @@ Here you can download all CompuTec ProcessForce versions for SAP Business One 10
 <table>
   <tr>
     <th>Extension Version</th>
-    <th>Supported CompuTec License Server Version</th>
+    <th>Supported CompuTec<br />License Server Version</th>
     <th>Build</th>
     <th>Release Date</th>
-    <th>Installer for Lightweight Deployment</th>
+    <th>Installer for<br />Lightweight Deployment</th>
   </tr>
   {Releases.map((data) => (
     <tr>
       <td>{data.release_name}</td>
       <td>{data.supported_license_server_version}</td>
       <td>{data.build}</td>
-      <td>{data.release_date}</td>
+      <td style={{ whiteSpace: "nowrap" }}>{data.release_date}</td>
       <td><a href={data.download_url}>Download</a></td>
     </tr>
   ))}
@@ -67,7 +67,7 @@ Here you can download CompuTec ProcessForce API installers.
   <tr>
     <th>CompuTec ProcessForce API Version</th>
     <th>Build</th>
-    <th>Version number in Windows Apps & Features list</th>
+    <th>Version number in<br />Windows Apps and<br />Features list</th>
     <th>Installer</th>
   </tr>
   {ApiReleases.map((data) => (
