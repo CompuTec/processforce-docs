@@ -6,6 +6,8 @@ sidebar_position: 2
 
 Here you can check how to perform Bin Locations and Allocations on Pick Order for Non-Batch Controlled Items.
 
+---
+
 ## Pick Order
 
 ### Issue to Production Process

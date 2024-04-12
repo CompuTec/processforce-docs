@@ -10,7 +10,7 @@ In this section, you can find examples of Plant Maintenance usage.
 
 ## Maintainable Item definition schema
 
-Please see <!-- TODO: Add Link --> here.
+Please see [here](../field-description/maintainable-item.md).
 
 ## Assigning an existing object to MI
 
@@ -22,9 +22,9 @@ When you define a new MI, please check the Assigned Object checkbox:
 
 Please select a Resource code from the list:
 
-![Maintenance Item](./media/overview/maintenance-item.webp)
+![Maintenance Item](./media/overview/image2020-2-19-12-14-10.png)
 
-![Resource List](./media/overview/resource-list.webp)
+![Resource List](./media/overview/image2020-2-19-12-14-36.png)
 
 :::note
     It is impossible to assign the same Resource more than once.
@@ -46,7 +46,9 @@ Select Equipment Card (first, you must define EC for SN) – not obligatory.
 
 ![Assigned Object](./media/overview/assigned-object-cfl.webp)
 
-Note: The application of Equipment Card allows using standard EC functionality for MI.
+:::note
+    The application of Equipment Card allows using standard EC functionality for MI.
+:::
 
 #### Assigning Physical Meter
 
@@ -70,7 +72,9 @@ A meter Reading window appears. Please enter the Reading and Number of Turn Over
 
 ![Reading](./media/overview/meter-readings-values.webp)
 
-To save values, select buttons: Calculate → Add → Propagate → Close Document.
+:::info To save values, select buttons:
+Calculate → Add → Propagate → Close Document.
+:::
 
 ![Reading](./media/overview/meter-charasteristic-2.webp)
 
@@ -90,62 +94,67 @@ To define the above MI structure with Effective Meters and linked Physical Meter
 
 1. MI hierarchy:
 
-    - Define MI Object 001,
-    - Define MI Object 002 and indicate Object 001 as a Parent MI,
-    - Define MI Object 003 and indicate Object 001 as a Parent MI,
+    - Define MI Object 001.
+    - Define MI Object 002 and indicate Object 001 as a Parent MI.
+    - Define MI Object 003 and indicate Object 001 as a Parent MI.
 
-    Note: You can check the MI hierarchy, please see <!-- TODO: Add Link --> here.
-2. Define Meter Units (Main Menu/Administration/Setup/Stock Management/Units of Measure):
+    - **Note**: You can check the MI hierarchy, please see <!-- TODO: Add Link --> here.
 
-    - Hours,
-    - Pieces,
+2. Define Meter Units *(Main Menu/Administration/Setup/Stock Management/Units of Measure*):
+
+    - Hours.
+    - Pieces.
     - Meters.
+
 3. Define EM Types. Please check here:
 
-    - Hours_01 (UoM=Hours, Entry Type=Reading),
-    - Pieces_01 (UoM=Pieces, Entry Type=Difference),
-    - Meters_01 (UoM=Meters, Entry Type=Reading).
-4. Define MIs (Physical Meters), Apparatus Type=Meter. Please see here:
+    - Hours_01 (UoM=Hours, Entry Type=Reading)
+    - Pieces_01 (UoM=Pieces, Entry Type=Difference)
+    - Meters_01 (UoM=Meters, Entry Type=Reading)
 
-    - Counter 01 (UoM=Hours),
+4. Define MIs (Physical Meters), Apparatus Type=Meter. Please see [here](../examples/overview.md):
+
+    - Counter 01 (UoM=Hours)
     - Counter 02 (UoM=Meters).
+
 5. Define Effective Meters (here) and link Physical Meter for Object 001:
 
     - Add in tab Effective Meters:
 
-      - EM Type=Hours_01, Inherited=No, Entry Type=Difference,
-      - EM Type=Pieces_01, Inherited=No, Entry Type=Difference,
+      - EM Type=Hours_01, Inherited=No, Entry Type=Difference
+      - EM Type=Pieces_01, Inherited=No, Entry Type=Difference
       - Save data.
     - To EM Type Hours_01 link Physical Meter: Counter 01:
 
-      - Select the EM Type line and use the RMBM option Physical Meter Connection; a window with Physical Meters appears,
-      - Select Physical Meter Counter 01 from the list (only not linked Physical Meters are visible with the same UoM like EM type),
-      - Meter Reading window is opened. Please select the button Add,
+      - Select the EM Type line and use the RMBM option Physical Meter Connection; a window with Physical Meters appears.
+      - Select Physical Meter Counter 01 from the list (only not linked Physical Meters are visible with the same UoM like EM type).
+      - Meter Reading window is opened. Please select the button Add.
       - Linking of Physical Meter is documented by Meter Reading document (accurate description is visible in Remarks, and a checkbox Correction is checked by default). You can check that in Physical Meter Reading History (here) or Physical Meter's MI record in the Details tab, fields: Assigned to MI, Assigned to EM.
-      - For EM Type Hours_01, change Entry Type to Reading,
+      - For EM Type Hours_01, change Entry Type to Reading.
       - Save data.
+
 6. Define Effective Meters for Object 002:
 
     - Add it in the Effective tab Meters:
 
-      - EM Type=Hours_01, Inherited=Yes, Entry Type = Difference,
-      - EM Type=Pieces_01, Inherited=Yes, Entry Type = Difference,
+      - EM Type=Hours_01, Inherited=Yes, Entry Type = Difference
+      - EM Type=Pieces_01, Inherited=Yes, Entry Type = Difference
       - Save data.
 7. Define Effective Meters and Physical Meters for Object 003.
 
     - Add it in the Effective tab Meters:
 
-      - EM Type=Hours_01, Inherited=Yes, Entry Type = Difference,
-      - EM Type=Pieces_01, Inherited=Yes, Entry Type = Difference,
-      - EM Type=Meters_02, Inherited=No, Entry Type = Difference,
-      - Save data.
+      - EM Type=Hours_01, Inherited=Yes, Entry Type = Difference
+      - EM Type=Pieces_01, Inherited=Yes, Entry Type = Difference
+      - EM Type=Meters_02, Inherited=No, Entry Type = Difference
+      - Save data
     - To EM Type Meters link Physical Meter: Counter 02:
 
-      - Select the EM Type line and use the RMBM option Physical Meter Connection; a window with Physical Meters appears,
+      - Select the EM Type line and use the RMBM option Physical Meter Connection; a window with Physical Meters appears.
       - Select Physical Meter Counter 02 from the list (only not linked Physical meters are visible with the same UoM, like EM type).
-      - Meter Reading window is opened. Please select the button Add,
+      - Meter Reading window is opened. Please select the button Add.
       - Linking of Physical Meter is documented by Meter Reading document (accurate description is visible in Remarks, and a checkbox Correction is checked by default). You can check that in Physical Meter Reading History (here) or Physical Meter's MI record in tab Details, fields: Assigned to MI, Assigned to EM.
-      - For EM Type, change Entry Type to Reading,
+      - For EM Type, change Entry Type to Reading.
       - Save data.
 
 :::note
@@ -157,7 +166,7 @@ To define the above MI structure with Effective Meters and linked Physical Meter
 Let's assume you want to record pressure in bars in your car's right and left front tires, and if the pressure is too low, you want to generate Maintenance Order.
 
 1. Define MI: My Car.
-2. Define UoM (Main Menu/Administration/Setup/Stock Management/Units of Measure): Bar.
+2. Define UoM *(Main Menu/Administration/Setup/Stock Management/Units of Measure*): Bar.
 3. Define Point Type (check here): Tire.
 4. Define Aspect Type (see here): Pressure with UoM=Bar.
 5. For object My Car:
@@ -173,8 +182,8 @@ Let's assume you want to record pressure in bars in your car's right and left fr
       - Min. Std. MO = Pump air (Maintenance Order Template).
     - In the tab Inspection Points/Aspect Points (here), define Aspect Point using Points and Aspect:
 
-      - Pressure in Tire - Front Right,
-      - Pressure in Tire - Front Left.
+      - Pressure in Tire - Front Right
+      - Pressure in Tire - Front Left
     - Save data.
 
 ## Findings Usage
@@ -216,7 +225,7 @@ Select checkpoint in Checklist and select RMBM option Inspection Reading for che
 
 Or RMBM option Meter Reading for checkpoint with Type=Meter Reading:
 
-![Meter Reading](./media/overview/meter-reading-2.webp)
+![Screenshot](./media/overview/image2020-1-30-13-14-50.png)
 
 You can create many Inspection Reading/Meter Reading Documents for each checkpoint line. The last document is visible in the checkpoint line (column: Meter Reading or Inspection Reading). You can create the following document if the previous one is closed. You can review documents – Records History (RMBM option).
 

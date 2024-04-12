@@ -6,6 +6,8 @@ sidebar_position: 9
 
 ProcessForce Batch traceability function allows one to trace Item Batches throughout all their life in a company: from production (or purchase), being a part of a production process of another item, to delivery to a client. Instant access to Batch records is handy, e.g., in complaint management or recall process.
 
+---
+
 :::info Path
     Inventory → Item Management → Batches → Batch Traceability
 :::

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
 ---
 
 # Faster Costing Calculation and Restoration Engine
@@ -18,7 +18,7 @@ Faster Costing is an option that accelerates Costing calculations significantly.
 
 ## Standard Costing
 
-How does it work?
+### How does it work?
 
 1. Loading Item Costing UDO data for RM-01,  
     Calculating the actual cost of RM-01,  
@@ -52,10 +52,7 @@ In the latest ProcessForce version, a new costing mechanism has been implemented
 
 ### How does it work?
 
-How does it work?
-
 1. The following data are being loaded to RAM:
-
     - Items
     - Revisions
     - Bill of Materials (header, Raw Materials, Coproducts, Scraps, Technology)
@@ -73,6 +70,8 @@ The overall time of Cost Roll-Up is significantly shorter thanks to the reorgani
 ### How to activate it?
 
 To activate the option check the checkbox in General Settings > ProcessForce tab > Costing tab > Enable faster costing calculation and restoration engine:
+
+![Screenshot](./media/faster-costing-calculation-and-restoration-engine/enable-faster-costing.png)
 
 Unchecking the checkbox causes Costing calculations to be performed according to Standard Costing.
 

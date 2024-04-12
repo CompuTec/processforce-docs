@@ -233,3 +233,17 @@ The result of the formula has to be a text value (NVARCHAR type, 36 characters; 
 ## Defining Serial Template
 
 Serial Template defining process looks the same as the Batch Template defining process shown in the examples above.
+
+### Generate serial numbers using custom procedure
+
+#### <u>Requirements</u>
+
+**Fields (order and types are important)**:
+
+@NumberOfSerials int, @Counter int, @Date nvarchar(30), @Classification nvarchar(10), @ItemCode nvarchar(50), @MORNumber nvarchar(10), @PickNumber nvarchar(10)
+
+**Procedure must generate 3 columns**
+
+"SerialNumber" nvarchar(36) , "LotNumber" nvarchar(36), "ManufacturingSerialNumber" nvarchar(36)
+
+![Screenshot](./media/batch-serial-template-definition/serial-template.png)

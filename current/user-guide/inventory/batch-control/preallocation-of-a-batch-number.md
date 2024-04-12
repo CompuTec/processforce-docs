@@ -6,6 +6,8 @@ sidebar_position: 7
 
 A Batch number can be allocated on creation of a manufacturing order or on its status change.
 
+---
+
 ## Configuration
 
 - This is a general setting; therefore, all items that are batch traced within production will be managed this way.

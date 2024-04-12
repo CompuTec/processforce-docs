@@ -10,11 +10,12 @@ sidebar_position: 2
     Main Menu → Plant Maintenance → Maintainable Item
 :::
 
-[Diagram](./media/maintainable-item/diagram-mi.webp)
+![Screenshot](./media/maintainable-item/image2020-3-11-12-31-54.png)
+*Fig. Maintainable Item – definition schema*
 
 You can define MI as a stand-alone or associated object. In the second case, you have to link existing object in the system.
 
-[Maintainable Item](./media/maintainable-item/maintainable-item-checkbox-2.webp)
+![Screenshot](./media/maintainable-item/mi-01.png)
 
 ### Header
 
@@ -24,25 +25,28 @@ You can define MI as a stand-alone or associated object. In the second case, you
 
 **MI Type** – a hierarchical type of object
 
-- Location – locations are physical locations of systems, positions, and assets. A location is a place. Hierarchy rules:
+- **Location** – locations are physical locations of systems, positions, and assets. A location is a place. Hierarchy rules:
 
   - An asset CAN NOT be a parent for a location
   - A position CAN NOT be a parent for a location
   - A system CAN NOT be a parent for a location
   - A location can only have one location as a parent
-- System – a collection of positions and/or assets that work together so that all parts are affected when one part goes down. Hierarchy rules:
+
+- **System** – a collection of positions and/or assets that work together so that all parts are affected when one part goes down. Hierarchy rules:
 
   - An asset CAN NOT be a parent for a system
   - A position CAN NOT be a parent for a system
   - A system can have only one system as a parent
   - A system can have only one location as a parent
-- Position – functional positions for assets. Used for tracking maintenance to specific positions within a structure. Hierarchy rules:
+
+- **Position** – functional positions for assets. Used for tracking maintenance to specific positions within a structure. Hierarchy rules:
 
   - A position can have only one parent that is an asset
   - A position can have only one parent that is a position
   - A position can have only one parent that is a system
   - A position can have only one location as a parent
-- Asset – equipment is entities where you store data and create work orders. An asset is a base unit of equipment. They are the smallest tracking unit. Hierarchy rules:
+
+- **Asset** – equipment is entities where you store data and create work orders. An asset is a base unit of equipment. They are the smallest tracking unit. Hierarchy rules:
 
   - An asset can have only one parent that is an asset
   - An asset can have only one parent that is in a position

@@ -6,6 +6,8 @@ sidebar_position: 5
 
 On this tab, all document connected to returns for a specific Batch is displayed.
 
+---
+
 ![Batch Master Data](./media/returns-tab/batch-master-data.webp)
 
 ---

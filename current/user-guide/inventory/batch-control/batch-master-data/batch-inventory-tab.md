@@ -6,6 +6,8 @@ sidebar_position: 6
 
 The presence of Items of this Batch across Warehouses is presented on this tab.
 
+---
+
 ![Batch Master Data](./media/batch-inventory-tab/batch-master-data.webp)
 
 ---

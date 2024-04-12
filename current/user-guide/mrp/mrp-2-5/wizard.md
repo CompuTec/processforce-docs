@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Wizard
+# MRP 2.5 Wizard
 
 You can select MRP 2.5 - Wizard from the SAP B1 menu.
 
@@ -10,7 +10,7 @@ You can select MRP 2.5 - Wizard from the SAP B1 menu.
 
 Or, if you log in directly to AppEngine, the following tiles are visible.
 
-:::note
+:::caution
     If you are logged in directly to AppEngine, the yellow arrows don't work.
 :::
 
@@ -54,7 +54,7 @@ Scenario's data settings.
 
 **Internal Lead Time** – ILT is added to documents/recommendations. Please see the description for the Item's Planning Data (Internal Lead Time and Internal Lead Time Scope).
 
-### Display Properties
+<u>**Display Properties**</u>
 
 **Sort By** - Select the sort criteria for the MRP report:
 
@@ -94,17 +94,16 @@ This tab is designated to add items to the scenario. For added items, it is poss
 
 **Active/Deactivate All** – Active or deactivate all the items displayed in the table.
 
-**Notes:**
+  **Notes:**
+    1. If you have added an item and then deactivated it in an MRP run, the next time you run this scenario, you can still see the deactivated item displayed in the table. You can include this item in the MRP run by activating it. If you removed this item from an MRP run, the next time you run this scenario, you cannot view it in the table of the selected items. If you want to include it in the MRP run, you must add it again.
+    2. It is possible to edit planning parameters for the Item. To do this, please select the checkbox by the parameter. The edited value is valid only for the scenario.
+    3. To plan primary demands for coproducts and scraps, they must have Procurement Method = Make (without BOM) and be listed and active on the item list. MOR recommendations for the produced item will be proposed to cover demands for coproducts and scraps. If there is more than one BOM with the coproduct or scrap, a more effective BOM will be chosen.
 
-1. If you have added an item and then deactivated it in an MRP run, the next time you run this scenario, you can still see the deactivated item displayed in the table. You can include this item in the MRP run by activating it. If you removed this item from an MRP run, the next time you run this scenario, you cannot view it in the table of the selected items. If you want to include it in the MRP run, you must add it again.
-2. It is possible to edit planning parameters for the Item. To do this, please select the checkbox by the parameter. The edited value is valid only for the scenario.
-3. To plan primary demands for coproducts and scraps, they must have Procurement Method = Make (without BOM) and be listed and active on the item list. MOR recommendations for the produced item will be proposed to cover demands for coproducts and scraps. If there is more than one BOM with the coproduct or scrap, a more effective BOM will be chosen.
+**Default Vendor** - click [here](/docs/processforce/user-guide/mrp/mrp-2-5/vendors-lead-times/) to find out more.
 
-**Default Vendor** - click here to find out more. <!-- TODO: Link -->
+**Custom Vendor Lead Time** - click [here](/docs/processforce/user-guide/mrp/mrp-2-5/vendors-lead-times/) to find out more.
 
-**Custom Vendor Lead Time** - click here to find out more. <!-- TODO: Link -->
-
-**Custom Vendor Internal Lead Time** - click here to find out more. <!-- TODO: Link -->
+**Custom Vendor Internal Lead Time** - click [here](/docs/processforce/user-guide/mrp/mrp-2-5/vendors-lead-times/) to find out more.
 
 **Vendor Selection Strategy** - now the Default Vendor strategy is implemented. When a recommendation is preparing all planned quantities are assigned to the default vendor. Also, seeking rules for Lead Time is performed according to the default Vendor selected in the Preferred Vendors list (Item Master Data/Purchasing Data tab).
 
@@ -128,14 +127,14 @@ Your definition here may affect MRP calculations for inventory level and demands
 
 **Include Existing Inventory**: To consider the existing inventory quantities of this warehouse in MRP calculation, select this checkbox.
 
-**Include Demand**: Select the checkbox to consider all sources of demand from this warehouse, including requirements from the inventory level in the MRP calculation.
+<u>**Include Demand**</u>: Select the checkbox to consider all sources of demand from this warehouse, including requirements from the inventory level in the MRP calculation.
 
 **Note:**
 
 - Supplies with negative quantities are regarded as demands. For example, a purchase order is typically a source of supply. However, if the purchase order has a line with a negative quantity, then this line is included as a demand.
 - If you deselect the checkbox, the MRP does not consider inventory level requirements for this warehouse, regardless of your inventory level definition in MRP Wizard.
 
-**Include Supply**: To consider all sources of supply in the MRP calculation, select the checkbox.
+<u>**Include Supply**</u>: To consider all sources of supply in the MRP calculation, select the checkbox.
 
 **Note**: Demands with negative quantities are regarded as supplies. For example, a sales order is typically a source of demand. However, if the sales order has a line with a negative quantity, then this line is included as supply.
 
@@ -287,8 +286,8 @@ Items with the Procurement Method of Buy are recommended with purchase documents
 
 In Tab Inventory Data, if you have selected Run by Warehouse, you have the following warehouse options:
 
-- To generate purchase orders to the default warehouse of the item, select Generate to Default Warehouse.
-- To generate purchase orders to the warehouse that demands inventory supplies, select Generate to Warehouse with the Demand.
+- To generate purchase orders to the default warehouse of the item, select **Generate to Default Warehouse**.
+- To generate purchase orders to the warehouse that demands inventory supplies, select **Generate to Warehouse with the Demand**.
 
 **Production Orders**
 
@@ -341,7 +340,7 @@ The main elements of this Tab are described in the screenshot below.
 
 **Document Date** – Posting date for supply/demand documents. Creating dates for MORs. For recommendation, it is the date when the document should be released.
 
-## Consumed Forecasts tab
+### Consumed Forecasts tab
 
 This tab presents
 
@@ -351,7 +350,7 @@ You can call Consumed Forecast information from Pegging Information.
 
 ![MRP Wizard](./media/wizard/mrp-wizard-16.webp)
 
-## Recommendations tab
+### Recommendations tab
 
 The main elements of this Tab are described in the screenshot below.
 
