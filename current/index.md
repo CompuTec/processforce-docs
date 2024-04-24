@@ -15,7 +15,7 @@ Welcome to the ProcessForce 10.0 Documentation. On this page you can find a quic
 To start using ProcessForce add-on you must:
 
 1. Adjust system which ProcessForce will be working on to the add-on requirements. You can find it [here](./administrator-guide/system-requirements.md).
-2. Download files required for installation of CompuTec License Server and Add-on components. You can download it from [here](./processforce-releases/downloads.md).
+2. Download files required for installation of CompuTec License Server and Add-on components. You can download it from [here](./releases/download.md).
 3. Install both components. You can find detailed information on how to do this [here](./administrator-guide/installation/first-installation/license-server.md). ProcessForce will work in trial mode for 14 days since the first installation of CompuTec License Server.
 4. After the expiration of the trial mode, ProcessForce requires a valid license file to be used. You can obtain it from your ProcessForce provider – check [here](./administrator-guide/licensing/license-request.md) how to do this.
 5. ProcessForce is up and ready to work with. You can manage it, e.g. turn off, upgrade, by a standard SAP Business One add-on administration functionality: `Main Menu → Administration → Add-ons`.

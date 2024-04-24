@@ -63,7 +63,7 @@ On this page, you can find a step-by-step guide on how to install the ProcessFor
     Please note that ProcessForce in 10 version is provided as a **Lightweight Deployment Extension only**. Please use **SAP Business One Extension Manager** to install it.
 :::
 
-Download installation files for it [here](../../../processforce-releases/downloads.md).
+Download installation files for it [here](../../../releases/download.md).
 
 ProcessForce for SAP Business One 10.0 is a lightweight deployment extension. As such to install it, log in to your SLD Extension service and import and assign the ProcessForce extension from there.
 
