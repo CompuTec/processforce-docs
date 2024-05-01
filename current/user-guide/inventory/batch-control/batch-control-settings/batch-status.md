@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Batch status
+# Batch Status
 
 ## Batch Record Colors
 

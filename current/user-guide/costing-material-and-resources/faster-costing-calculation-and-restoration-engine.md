@@ -71,7 +71,7 @@ The overall time of Cost Roll-Up is significantly shorter thanks to the reorgani
 
 To activate the option check the checkbox in General Settings > ProcessForce tab > Costing tab > Enable faster costing calculation and restoration engine:
 
-![Screenshot](./media/faster-costing-calculation-and-restoration-engine/enable-faster-costing.png)
+![Faster Costing](./media/faster-costing-calculation-and-restoration-engine/enable-faster-costing.png)
 
 Unchecking the checkbox causes Costing calculations to be performed according to Standard Costing.
 

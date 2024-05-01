@@ -98,7 +98,7 @@ To define the above MI structure with Effective Meters and linked Physical Meter
     - Define MI Object 002 and indicate Object 001 as a Parent MI.
     - Define MI Object 003 and indicate Object 001 as a Parent MI.
 
-    - **Note**: You can check the MI hierarchy, please see <!-- TODO: Add Link --> here.
+    - **Note**: You can check the MI hierarchy, please see [here](/docs/processforce/user-guide/plant-maintenance/field-description/reports#mis-structure-report/).
 
 2. Define Meter Units *(Main Menu/Administration/Setup/Stock Management/Units of Measure*):
 
@@ -106,7 +106,7 @@ To define the above MI structure with Effective Meters and linked Physical Meter
     - Pieces.
     - Meters.
 
-3. Define EM Types. Please check here:
+3. Define EM Types. Please check [here](/docs/processforce/user-guide/plant-maintenance/field-description/maintainable-item#definition-of-em-type-and-physical-meter/):
 
     - Hours_01 (UoM=Hours, Entry Type=Reading)
     - Pieces_01 (UoM=Pieces, Entry Type=Difference)
@@ -230,5 +230,5 @@ Or RMBM option Meter Reading for checkpoint with Type=Meter Reading:
 You can create many Inspection Reading/Meter Reading Documents for each checkpoint line. The last document is visible in the checkpoint line (column: Meter Reading or Inspection Reading). You can create the following document if the previous one is closed. You can review documents – Records History (RMBM option).
 
 :::note
-    Recording of different Types of Checkpoints is described here
+    Recording of different Types of Checkpoints is described [here]
 :::

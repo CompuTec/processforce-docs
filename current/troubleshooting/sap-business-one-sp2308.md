@@ -14,8 +14,8 @@ There are two known issues with the SAP Business One FP 2308 that are planned to
 2. Open the following file: C:\Program Files\sap\SAP Business One DI API\Conf\b1-local-machine.xml.
 3. Replace the localhost to SLD address from:
 
-    ![Screenshot](./media/sap-business-one-sp2308/screenshot-02.png)
-    ![Screenshot](./media/sap-business-one-sp2308/screenshot-03.png)
+    ![SAP Business One SP2308](./media/sap-business-one-sp2308/screenshot-02.png)
+    ![SAP Business One SP2308](./media/sap-business-one-sp2308/screenshot-03.png)
 
 ## Direct Access
 

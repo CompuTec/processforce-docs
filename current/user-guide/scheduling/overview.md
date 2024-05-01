@@ -12,12 +12,18 @@ ProcessForce scheduling solution allows to manage of Manufacturing Orders within
 
 ### Resources
 
-Click here<!-- TODO: Add Link --> to find out more about resources and how to set them.
+Click [here](/docs/processforce/user-guide/routings/resources/) to find out more about resources and how to set them.
+
+![Resources](./media/overview/resource-main.png)
 
 ### Calendars
 
-Click here<!-- TODO: Add Link --> to find out more about setting up Resource Calendars.
+Click [here](/docs/processforce/user-guide/scheduling/resource-calendar/) to find out more about setting up Resource Calendars.
+
+![Resource Calendar](./media/overview/resource-calendar.png)
 
 ### Tooling
 
-To view additional documentation, click here<!-- TODO: Add Link -->.
+To view additional documentation, click [here](/docs/processforce/user-guide/routings/resources/).
+
+![Resource Tooling](./media/overview/resource-tool.png)

@@ -12,7 +12,7 @@ Batch settings cover different batch-related functions, e.g., default batch stat
 
 Click [here](/docs/processforce/user-guide/system-initialzation/general-settings/inventory-tab/) to check detailed information about Batch configuration (based on the example of General Settings).
 
-![Screenshot](./media/batch-control-general-settings/general-settings-batches.png)
+![General Settings](./media/batch-control-general-settings/general-settings-batches.png)
 
 ---
 

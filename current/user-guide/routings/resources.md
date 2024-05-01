@@ -6,11 +6,11 @@ sidebar_position: 2
 
 These forms allow users to define Resources, Properties, and Groups, that will be used to create Operations.
 
----
-
 :::info Path
     Production → Routings → Resources
 :::
+
+---
 
 ## Resources
 
@@ -77,7 +77,7 @@ It is possible to set up either Active or Inactive status for a Resource.
 
 A Resource with Inactive status cannot be added to the Manufacturing Order or Bill of Materials.
 
-Example usage: the option can be used to set Inactive status to mark Resources that were used in the company's production processes but currently are not (e.g., were sold or scraped).
+**Example usage**: the option can be used to set Inactive status to mark Resources that were used in the company's production processes but currently are not (e.g., were sold or scraped).
 
 ### Properties
 
@@ -87,13 +87,15 @@ Example usage: the option can be used to set Inactive status to mark Resources t
 - You can set a Reference Code, e.g., Property Colour = White.
 - You can add Remarks.
 
+Click [here](/docs/processforce/user-guide/routings/resources#resource-properties/) to find out more about Resource Properties.
+
 ![Resource Properties](./media/resources/resource-properties.webp)
 
 ### Linked Tools Tab
 
 ![Linked Tools](./media/resources/resource-linked-tools.webp)
 
-A Linked Tool is a Resource with a Tool type assigned to the header Resource. The Linked Tools are taken under consideration during production if the parent Resource is included in the related Production Process (as an alternative Resource). The default Resource of the Operation (in the Production Process) is replaced by a Resource with a Linked Tool on Manufacturing Order based on the Resource Balancing option (it has to be checked).
+A Linked Tool is a Resource with a Tool type assigned to the header Resource. The Linked Tools are taken under consideration during production if the parent Resource is included in the related Production Process (as an alternative Resource). The default Resource of the Operation (in the Production Process) is replaced by a Resource with a Linked Tool on Manufacturing Order based on the [Resource Balancing option](/docs/processforce/user-guide/scheduling/resource-balancing/) (it has to be checked).
 
 Linked Tools are also on the Gantt chart (under the parent Resource).
 
@@ -107,7 +109,7 @@ Linked Tools are also on the Gantt chart (under the parent Resource).
 
 ![Resource Planning Data](./media/resources/resource-planning-data.webp)
 
-Here you can define columns displayed on Scheduling Board → Resource Planning Board on Task rows for a specific Resource.
+Here you can define columns displayed on Scheduling Board → [Resource Planning Board](/docs/processforce/user-guide/scheduling/gantt-chart/resource-planning-board/) on Task rows for a specific Resource.
 
 You can define:
 
@@ -116,7 +118,7 @@ You can define:
   - **Object**: (Enable SQL? checkbox unchecked): choose a field from three kinds of Objects (Manufacturing Order, Operation, Resource - values are taken at the start of Gantt chart) and Dynamic option (times connected to specific Operation or Resources, e.g., Operation Duration - these options are updated dynamically; they change on changes made to Gantt Chart),
 
     <details>
-    <summary>Example</summary>
+    <summary>Example of a Label added to a specific Resource</summary>
         <div>
             We want a Revision of a Manufacturing Order displayed on Tasks of Prep Resource.
 
@@ -163,7 +165,7 @@ You can define:
 
 If the settings here return any result, a warning icon will appear on Scheduling → Resource Planning Board for the specified Resource.
 
-## Resource Details Tab
+### Resource Details Tab
 
 ### Accounting Panel
 
@@ -173,7 +175,7 @@ If the settings here return any result, a warning icon will appear on Scheduling
 
 ### Additional Details Panel
 
-Issue Whs Code and Receipt Whs Code are CompuTec PDC-related fields. CompuTec PDC Production Issue/Receipt options are not available if Issue/Receipt Warehouses are not assigned to a specific Resource. For a Production Issue, a Bin Location is not required (just a Warehouse has to be assigned) but **for a Production Issue, it is mandatory to choose a Bin Location**.
+Issue Whs Code and Receipt Whs Code are CompuTec PDC-related fields. [CompuTec PDC Production Issue/Receipt](/docs/pdc/user-guide/task-activities/overview#resource-properties/) options are not available if Issue/Receipt Warehouses are not assigned to a specific Resource. For a Production Issue, a Bin Location is not required (just a Warehouse has to be assigned) but **for a Production Issue, it is mandatory to choose a Bin Location**.
 
 <details>
     <summary>Click here to find out how to enable Bin Locations</summary>
@@ -186,11 +188,11 @@ Issue Whs Code and Receipt Whs Code are CompuTec PDC-related fields. CompuTec P
     </div>
 </details>
 
-## Resource Calendar
+### Resource Calendar
 
 - Resource Calendar is created automatically when Resource is added
 - The yellow arrow next to the Resource Calendar field leads to its definition
-- Click here to find out more about Calendars.
+- Click [here](/docs/processforce/user-guide/scheduling/resource-calendar/) to find out more about Calendars.
 
 ![Resource Calendar](./media/resources/resource-resource-calendar.webp)
 
@@ -214,7 +216,7 @@ This form allows the user to define properties for a Resource, for example, pres
 
 ![Resource Properties](./media/resources/resource-property.webp)
 
-## Property Reference Library
+### Property Reference Library
 
 :::info Path
     Administration → Setup → Item Details → Property Reference Library
@@ -252,7 +254,7 @@ Further, for every resource time type, you can select accounts for the type of t
 - Variable Overhead
 
 :::caution Time Variance Accounts
-    Please note that all Time Variance Accounts cannot be configured.
+    Please note that all **Time Variance Accounts** cannot be configured.
 
     We plan to provide functionality that will leverage them during the posting of Manufacturing Order closure in future versions.
 :::
@@ -261,7 +263,7 @@ The Work In Progress Account can be added here or is based on the WIP account de
 
 ![Resource Accounting](./media/resources/resource-accounting.webp)
 
-## Resource Calendar {#resource-calendar-2}
+## Resource Calendar
 
 :::info Path
     Production → Routings → Resource Calendar
@@ -274,8 +276,11 @@ Resource Calendar is used to define the availability of a Resource for productio
 
   ![Resource Calendar Working Hours](./media/resources/resource-calendar-working-hours.webp)
 - The Exceptions tab is used to mark additional capacity of Resources for a specified date and time.
-  
+
+- The Exceptions tab is used to mark additional capacity of Resources for a specified date and time.
+
   ![Exceptions](./media/resources/resource-calendar-exceptions.webp)
+  
 - In the Holidays tab you can define days on which resource is not available.
 
   ![Holidays](./media/resources/resource-calendar-holidays.webp)
@@ -294,4 +299,4 @@ Resource Calendar is used to define the availability of a Resource for productio
 
 ## Alternative Resource
 
-A Resource can have assigned a number of other Resources, to which a Manufacturing Order task can be switched, e.g. in case of downtime of an original Resource. Click here to find out more.
+A Resource can have assigned a number of other Resources, to which a Manufacturing Order task can be switched, e.g. in case of downtime of an original Resource. Click [here](/docs/processforce/user-guide/scheduling/gantt-chart/alternative-resources/) to find out more.

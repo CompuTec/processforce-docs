@@ -51,7 +51,7 @@ Result: Operation 04 starts when Operation 02 is finished.
 
 **Is Starting Operation** – choosing this option for a specific Operation makes it start operation. This creates two parallel sequences.
 
-Example: for Operation 03 Is Starting Operation checkbox is checked:
+Example: for Operation 03 **Is Starting Operation** checkbox is checked:
 
 ![Is Starting Operation](./media/advanced-operation-relations/is-starting-operation.webp)
 

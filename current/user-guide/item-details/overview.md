@@ -40,9 +40,9 @@ In the header, you can find the Item Code, Item Name, Unit of Measurement, and Y
 
 **Accept Lower Qty** – if it is checked on Manufacturing Order Items and this Item has issue type set to backflush, and there are not enough Items on stock, it will issue less than required without any error. On the next issue, the system will issue all previously missing quantities if there is enough in stock.
 
-Please also check the following option to use it: Issue Residual Quantity on the following Goods Receipt when possible <!-- TODO: Add Link -->.
+Please also check the following option to use it: [Issue Residual Quantity on the following Goods Receipt when possible](/docs/processforce/user-guide/system-initialzation/general-settings/inventory-tab/)
 
-**Ignore Yield** – click here to find out more.
+**Ignore Yield** – click [here](/docs/processforce/user-guide/item-details/yield-master-data/) to find out more.
 
 ## Revisions
 
@@ -87,7 +87,7 @@ Four different statuses may be assigned to one revision:
 
 ### Default for Costing
 
-This setting is relevant only for Items with the Standard Valuation method and is used for Cost Roll-Over. When you perform Cost Roll-Over on an Item with the Standard Valuation method on Revision that has the 'Default for Costing' checkbox checked, Inventory Revaluation is created on a price change.
+This setting is relevant only for Items with the Standard Valuation method and is used for Cost Roll-Over. When you perform Cost Roll-Over on an Item with the Standard Valuation method on Revision that has the 'Default for Costing' checkbox checked, [Inventory Revaluation](http://localhost:3000/docs/processforce/user-guide/costing-material-and-resources/cost-categories#inventory-revaluation--standard-costing/) is created on a price change.
 
 This field applies only to items with the Standard valuation method. For these Items, Inventory Items Cost is synchronized with the Item Costing of the selected Revision. If multiple Routings are defined for this Revision, then Routing selected as "Roll-up default" in Production Process will be selected for synchronization.
 
@@ -102,9 +102,9 @@ The yellow arrow leads to:
 - Administration → Setup → Inventory → Batch Template Definition
 - Administration → Setup → Inventory → Serial Template Definition
 
-This form allows the user to choose a batch or serial template for an item <!-- TODO: Add Link -->. Users can select a template from the list or inherit it from the Item Group.
+This form allows the user to choose [a batch or serial template for an item](/docs/processforce/user-guide/item-details/batch-serial-template-definition/). Users can select a template from the list or inherit it from the Item Group.
 
-The user can also define the expiry date or consume by date (or inherit from the item group) <!-- TODO: Add Link -->. If a user establishes an expiry date or consume-by date, it can specify the number of days prior warning. This initial warning data is used within an Alert query to notify those batches arriving at their expiry date.
+The user can also define the [expiry date or consume by date (or inherit from the item group)](/docs/processforce/user-guide/inventory/batch-control/batch-control-settings/extended-batch-expiry-evaluation/). If a user establishes an expiry date or consume-by date, it can specify the number of days prior warning. This initial warning data is used within an Alert query to notify those batches arriving at their expiry date.
 
 When creating a batch record, the expiry date is auto-calculated based on the shelf life interval.
 
@@ -116,7 +116,7 @@ The Inspection date is also auto-calculated for the batch and is displayed withi
 
 ![Batch Master Data](./media/overview/batch-master-data.webp)
 
-To get more information on this subject, click here <!-- TODO: Add Link -->.
+To get more information on this subject, click [here](/docs/processforce/user-guide/quality-control/quality-control-test/creating-qc-test-from-batch/).
 
 ## Properties
 
@@ -154,7 +154,7 @@ The yellow arrow leads to:
 
 Country of Origin is the country of manufacture, production, or growth where the product comes from and is used extensively to support Country of Origin labeling (COOL), traceability, and specific ingredients in a Customers' recipe.
 
-Click here <!-- TODO: Add Link --> to find out more.
+Click [here](/docs/processforce/user-guide/item-details/country-of-origin)to find out more.
 
 ![Origins](./media/overview/item-details-origins.webp)
 

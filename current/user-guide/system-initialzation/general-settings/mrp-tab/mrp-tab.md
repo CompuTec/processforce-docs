@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 ---
 
 # MRP tab
@@ -23,4 +23,3 @@ The ProcessForce price recommendation works only down to the Special Prices for 
 **Include internal lead time for inventory transfer** - Internal lead time is similar to additional time (for example for quality control or preparing to dispatch)
 
 **Consolidate Recommendations** - When this option is activated, and if multiple recommendations exist for the same product, they will be merged into a single recommendation.
-

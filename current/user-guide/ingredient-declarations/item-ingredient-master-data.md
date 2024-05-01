@@ -10,7 +10,7 @@ The user can define ingredient and nutrient details for a specific Item in this 
         Inventory → Ingredients → Item Ingredient Master Data
 :::
 
-![Screenshot](./media/item-ingredient-master-data/item-ingredient-master-data.png)
+![Item Ingredient Master Data](./media/item-ingredient-master-data/item-ingredient-master-data.png)
 
 ## Form Header
 
@@ -30,13 +30,13 @@ Here the following information can be defined:
 
 ### Ingredients
 
-![Screenshot](./media/item-ingredient-master-data/ingredients.png)
+![Item Ingredient Master Data - Ingredients](./media/item-ingredient-master-data/ingredients.png)
 
 In this tab, predefined ingredients can be chosen. To get more information on defining ingredient details, click [here](../ingredient-declarations/ingredient-master-data.md).
 
 ### Nutrients
 
-![Screenshot](./media/item-ingredient-master-data/item-ingredient-master-data-nutrients.png)
+![Item Ingredient Master Data - Nutrients](./media/item-ingredient-master-data/item-ingredient-master-data-nutrients.png)
 
 In this tab, predefined nutrients can be defined. To get more information on defining nutrients, click [here](../ingredient-declarations/nutrient-master-data.md).
 
@@ -44,7 +44,7 @@ Daily Intake template can be added by choosing a desired Daily Intake Code. To g
 
 ### Allergens
 
-![Screenshot](./media/item-ingredient-master-data/item-ingredient-master-data-allergens.png)
+![Item Ingredient Master Data - Allergens](./media/item-ingredient-master-data/item-ingredient-master-data-allergens.png)
 
 In this tab, you can set a list of allergens assigned to a specific item. To get more information on defining allergens, click [here](../ingredient-declarations/ingredient-settings/allergen.md).
 
@@ -52,7 +52,7 @@ If cross-contamination is possible for a specific allergen, it can be checked in
 
 ### Classification/Certificates
 
-![Screenshot](./media/item-ingredient-master-data/item-ingredient-master-data-classification.png)
+![Item Ingredient Master Data - Classification](./media/item-ingredient-master-data/item-ingredient-master-data-classification.png)
 
 In this tab, information on related certificates can be set.
 
@@ -72,7 +72,7 @@ Certificates can be assigned to a specific classification. The certificate is a 
 
 ### Specifications
 
-![Screenshot](./media/item-ingredient-master-data/item-ingredient-master-data-specifications.png)
+![Item Ingredient Master Data - Specifications](./media/item-ingredient-master-data/item-ingredient-master-data-specifications.png)
 
 A possibility to create and modify a vendor or industry specification for an ingredient. The following information can be set:
 

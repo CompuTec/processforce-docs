@@ -63,6 +63,8 @@ You can also reach the for from the Order Recommendation form:
 
 ## Scheduling Board / Semi-finished Product Scheduling
 
+![Screenshot](./media/scheduling-board/scheduling-main-form.png)
+
 Semi-finished product scheduling is a tool for production planning, considering a product structure.
 
 ### Schedule tab
@@ -77,7 +79,7 @@ This checkbox determines whether a Manufacturing Order for this Item will be sch
 
 #### Level
 
-Levels in a production tree. If a Manufacturing Order has Semi-finished Items, a position in the structure will be indicated here. Click here to find out more.
+Levels in a production tree. If a Manufacturing Order has Semi-finished Items, a position in the structure will be indicated here. Click [here](/docs/processforce/user-guide/formulations-and-bill-of-materials/bill-of-materials/multi-level-bill-of-materials/semi-finished-items/) to find out more.
 
 #### Quantity
 
@@ -130,7 +132,11 @@ Clicking this option opens a visual representation of relations between Manufact
 
 You can copy a row or multiple rows. The option is available from the context menu in the first column.
 
-To use Copy multiple rows option, highlight more than one row (by using Shift+left click or Ctrl+left click) and right-click on any column apart from the first one to reach the option (otherwise, the highlight is lost).
+![Copy Rows](./media/scheduling-board/copy-rows.png)
+
+To use Copy multiple rows option, highlight more than one row (by using Shift+left click or Ctrl+left click) and right-click on <u>any column apart from the first one</u> to reach the option (otherwise, the highlight is lost).
+
+![Copy Rows](./media/scheduling-board/copy-multiple-rows.png)
 
 ### Load report tab
 
@@ -144,20 +150,26 @@ Values in the time columns (proper from the Resource Type column), e.g., 1:25 / 
 
 Filtering options:
 
-- MO number – Manufacturing Orders to consider
-- Item – Final Good Items to consider
-- Resource – Resources that are used in Manufacturing Orders
-- Resource Group – filters Manufacturing Orders where at least one Resource from the selected group is used
-- Planned Start, Planned End, Required Date – Manufacturing Order dates
-- Released, Scheduled, Started – Manufacturing Order statuses
-- Periods - aggregate data either in days, weeks, or months (in the columns right from the Resource Type column)
-- By Resource/ By Group - displays either a list of Resources (the screenshot above) or Resources grouped by the Resource Group, with a total for each group:
+- **MO number** – Manufacturing Orders to consider
+- **Item** – Final Good Items to consider
+- **Resource** – Resources that are used in Manufacturing Orders
+- **Resource Group** – filters Manufacturing Orders where at least one Resource from the selected group is used
+- **Planned Start, Planned End, Required Date** – Manufacturing Order dates
+- **Released, Scheduled, Started** – Manufacturing Order statuses
+- **Periods** - aggregate data either in days, weeks, or months (in the columns right from the Resource Type column)
+- **By Resource/ By Group** - displays either a list of Resources (the screenshot above) or Resources grouped by the Resource Group, with a total for each group:
 
 ![Load Report](./media/scheduling-board/scheduling-load-report-by-group.webp)
 
 ## Example
 
 Create a Sales Order and determine its Delivery date (in its header).
+
+:::path
+Sales A/R > Sales Order
+:::
+
+![Scheduling Board](./media/scheduling-board/sales-order-delivery-date.png)
 
 To check the possibilities to produce the Item, right-click on it and choose to Create Manufacturing Orders.
 
