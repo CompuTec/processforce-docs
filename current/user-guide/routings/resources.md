@@ -87,7 +87,7 @@ A Resource with Inactive status cannot be added to the Manufacturing Order or Bi
 - You can set a Reference Code, e.g., Property Colour = White.
 - You can add Remarks.
 
-Click [here](/docs/processforce/user-guide/routings/resources#resource-properties/) to find out more about Resource Properties.
+Click [here](/docs/processforce/user-guide/routings/resources#resource-properties) to find out more about Resource Properties.
 
 ![Resource Properties](./media/resources/resource-properties.webp)
 
@@ -175,7 +175,7 @@ If the settings here return any result, a warning icon will appear on Scheduling
 
 ### Additional Details Panel
 
-Issue Whs Code and Receipt Whs Code are CompuTec PDC-related fields. [CompuTec PDC Production Issue/Receipt](/docs/pdc/user-guide/task-activities/overview#resource-properties/) options are not available if Issue/Receipt Warehouses are not assigned to a specific Resource. For a Production Issue, a Bin Location is not required (just a Warehouse has to be assigned) but **for a Production Issue, it is mandatory to choose a Bin Location**.
+Issue Whs Code and Receipt Whs Code are CompuTec PDC-related fields. [CompuTec PDC Production Issue/Receipt](/docs/pdc/user-guide/task-activities/overview#resource-properties) options are not available if Issue/Receipt Warehouses are not assigned to a specific Resource. For a Production Issue, a Bin Location is not required (just a Warehouse has to be assigned) but **for a Production Issue, it is mandatory to choose a Bin Location**.
 
 <details>
     <summary>Click here to find out how to enable Bin Locations</summary>

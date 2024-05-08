@@ -11,7 +11,7 @@ Within Pick Order, the Batch records are displayed in different colors to provid
 - Red – Expiry date has passed.
 - Blue – Warning Expiry Date has passed.
 - Black – both the Expiry date and Warning Date have not been reached.
-- Grey – Locked and Non Accessible Batch set to DISPLAY based on [configuration settings](/docs/processforce/user-guide/inventory/batch-control/manual-and-backflush-issue-type-configuration/); Batch records are displayed but cannot be picked.
+- Grey – Locked and Non Accessible Batch set to DISPLAY based on [configuration settings](./manual-and-backflush-issue-type-configuration.md); Batch records are displayed but cannot be picked.
 
 ![Available Batches](./media/batch-status/available-batches.webp)
 
