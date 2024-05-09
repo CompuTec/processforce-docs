@@ -225,7 +225,7 @@ Select checkpoint in Checklist and select RMBM option Inspection Reading for che
 
 Or RMBM option Meter Reading for checkpoint with Type=Meter Reading:
 
-![Screenshot](./media/overview/image2020-1-30-13-14-50.png)
+![Type=Meter Reading](./media/overview/image2020-1-30-13-14-50.png)
 
 You can create many Inspection Reading/Meter Reading Documents for each checkpoint line. The last document is visible in the checkpoint line (column: Meter Reading or Inspection Reading). You can create the following document if the previous one is closed. You can review documents – Records History (RMBM option).
 

@@ -8,14 +8,14 @@ sidebar_position: 3
 - According to how many Cost Centers are enabled within SAP Business One General Settings one or more dimensions fields are displayed
 - Note the Resource Accounting combo-box, has been moved to this tab.
 
-    ![Screenshot](./media/resources-distribution-and-cost-dimensions/resource-details.png)
+    ![Distribution and Cost Dimensions](./media/resources-distribution-and-cost-dimensions/resource-details.png)
 
 ## Operation form
 
 - On the Operation form in Resources tab the Cost Centers and Project are displayed for each resource
 - Values are defaulting from the Resource form and can be changed if required
 
-    ![Screenshot](./media/resources-distribution-and-cost-dimensions/operation.png)
+    ![Distribution and Cost Dimensions](./media/resources-distribution-and-cost-dimensions/operation.png)
 
 ## Routing form
 
@@ -24,7 +24,7 @@ sidebar_position: 3
 - When the operation is selected the default values are copied from the Operation definition, and can be changed if required
 - When the resource is selected the default values are copied from the Resource definition, and can be changed if required
 
-    ![Screenshot](./media/resources-distribution-and-cost-dimensions/routing.png)
+    ![Distribution and Cost Dimensions](./media/resources-distribution-and-cost-dimensions/routing.png)
 
 ## Production Process Form
 
@@ -33,7 +33,7 @@ sidebar_position: 3
 - When the operation is selected the default values are copied from the Operation definition, and can be changed if required
 - When the resource is selected the default values are copied from the Resource definition, and can be changed if required
 
-    ![Screenshot](./media/resources-distribution-and-cost-dimensions/production-process.png)
+    ![Distribution and Cost Dimensions](./media/resources-distribution-and-cost-dimensions/production-process.png)
 
 ## Manufacturing Order Form
 
@@ -42,21 +42,21 @@ sidebar_position: 3
 - When an operation is selected and added to the Manufacturing Order, the default values are copied, and can be changed if required
 - When a resource is selected and added to the Manufacturing Order, the default values are copied, and can be changed if required
 
-    ![Screenshot](./media/resources-distribution-and-cost-dimensions/manufacturing-order-project.png)
+    ![Manufacturing Order Form](./media/resources-distribution-and-cost-dimensions/manufacturing-order-project.png)
 
 ## Time Bookings Form
 
 - On Time Bookings form the cost centers and resources are displayed
 - According to Manufacturing Order definition the default values are copied, and can be changed if required
 
-    ![Screenshot](./media/resources-distribution-and-cost-dimensions/time-bookings.png)
+    ![Time Bookings Form](./media/resources-distribution-and-cost-dimensions/time-bookings.png)
 
 ## Time Corrections Form
 
 - On Time Corrections form  the cost centers and resources are displayed
 - According to Time Booking record the default values are copied, and can be changed if required
 
-    ![Screenshot](./media/resources-distribution-and-cost-dimensions/time-corrections.png)
+    ![Time Corrections Form](./media/resources-distribution-and-cost-dimensions/time-corrections.png)
 
 ## Postings
 
@@ -65,4 +65,4 @@ sidebar_position: 3
 - Cost centers are only saved for Sales and Expenditure type accounts
 - Project is saved for every type account
 
-![Screenshot](./media/resources-distribution-and-cost-dimensions/chart-of-accounts.png)
+![Distribution and Cost Dimensions](./media/resources-distribution-and-cost-dimensions/chart-of-accounts.png)

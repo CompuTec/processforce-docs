@@ -16,8 +16,8 @@ It represents the current planned quantity following the latest replanning sessi
 
 **Example**
 
-![Screenshot](./media/manufacturing-order-scheduling/resource-quantity.png)
+![Resource Quantity](./media/manufacturing-order-scheduling/resource-quantity.png)
 
 After Time Booking for first resource (booked 1 qty)
 
-![Screenshot](./media/manufacturing-order-scheduling/resource-quantity-1.png)
+![Resource Quantity](./media/manufacturing-order-scheduling/resource-quantity-1.png)

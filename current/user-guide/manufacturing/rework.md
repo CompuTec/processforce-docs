@@ -17,6 +17,8 @@ To roll back the document, go to the Documents tab, select the line with the doc
 This method allows the creation of Goods Issue documents using the same ItemCode as the related produced Item. It is used most often with a new Manufacturing Order when the finished product needs to be returned to the production line and repacked or mixed with fresh raw materials to create the same product.
 To use this method, right-click the empty place in Manufacturing Order and select 'Issue and Receipts' \ 'Issue Rework to Production.' ProcessForce will create Pick Order with Finished Good ItemCode where you need to update quantity and Batch numbers (if required).
 
+![Rework](./media/rework/rework-order-1.PNG)
+
 ## Bill of Materials Revision with special ItemCode (different from Finished Good Item) selected as Coproduct and Raw Material in the Items list
 
 Use this setup if you know your produced Item needs to be reworked at some point with the current or new Manufacturing Order.

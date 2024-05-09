@@ -12,7 +12,7 @@ Schedule parameters from the header are copied to the added grid lines, where th
 
 For clarity of the schedules you define, we recommend that you group your schedules according to the characteristics defined in the header.
 
-![Screenshot](./media/preventive-maintenance.png)
+![Preventive Maintenance](./media/preventive-maintenance.png)
 
 ## Header
 
@@ -31,7 +31,7 @@ New MO can be generate if previous MO is finished. It is not valid for Fixed(Dup
 <details>
     <summary>Fixed/Variable</summary>
 <div>
-    ![Screenshot](./media/Fixed_Variable.jpg)
+    ![Fixed-Variable](./media/Fixed_Variable.jpg)
 </div>
 </details>
 

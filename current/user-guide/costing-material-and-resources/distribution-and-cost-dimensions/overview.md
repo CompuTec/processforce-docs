@@ -31,6 +31,4 @@ Distribution Rules and Cost Centers have been also added to Resources and are av
 
 - The configuration is the same for Items and Resources
 
-![Screenshot](./media/overview/general-settings-dimension.png)
-
-
+![Configuration](./media/overview/general-settings-dimension.png)

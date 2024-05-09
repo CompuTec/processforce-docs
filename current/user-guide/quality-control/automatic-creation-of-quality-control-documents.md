@@ -16,7 +16,7 @@ Check the related checkbox in General Settings:
         Administration → System Initialization → General Settings → ProcessForce tab → QC tab → Auto Create QC Test Documents checkbox
 :::
 
-![Screenshot](./media/automatic-creation-of-quality-control-documents/auto-create-checkbox.jpg)
+![Automatic Creation of Quality Control Documents](./media/automatic-creation-of-quality-control-documents/auto-create-checkbox.jpg)
 
 Create a Counter Scheme:
 

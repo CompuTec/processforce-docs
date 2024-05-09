@@ -15,6 +15,6 @@ The conditions for generating an order can be based on the passage of time or me
 
 In the Fixed type, we have a constant interval in which MOs are generated. In the Variable type, the interval is variable.
 
-![Screenshot](./media/fixed-variable.png)
+![Fixed-Variable](./media/fixed-variable.png)
 
 In the Fixed type, we have a constant interval in which MOs are generated. In the Variable type, the interval is variable.

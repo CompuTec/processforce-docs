@@ -246,4 +246,4 @@ Serial Template defining process looks the same as the Batch Template defining p
 
 "SerialNumber" nvarchar(36) , "LotNumber" nvarchar(36), "ManufacturingSerialNumber" nvarchar(36)
 
-![Screenshot](./media/batch-serial-template-definition/serial-template.png)
+![Serial Template](./media/batch-serial-template-definition/serial-template.png)

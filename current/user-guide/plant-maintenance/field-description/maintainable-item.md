@@ -10,12 +10,12 @@ sidebar_position: 2
     Main Menu → Plant Maintenance → Maintainable Item
 :::
 
-![Screenshot](./media/maintainable-item/image2020-3-11-12-31-54.png)
+![Maintainable Item](./media/maintainable-item/image2020-3-11-12-31-54.png)
 *Fig. Maintainable Item – definition schema*
 
 You can define MI as a stand-alone or associated object. In the second case, you have to link existing object in the system.
 
-![Screenshot](./media/maintainable-item/mi-01.png)
+![Maintainable Item](./media/maintainable-item/mi-01.png)
 
 ### Header
 

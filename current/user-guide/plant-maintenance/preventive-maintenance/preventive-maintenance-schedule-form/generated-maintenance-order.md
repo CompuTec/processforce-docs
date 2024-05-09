@@ -6,4 +6,4 @@ sidebar_position: 2
 
 In each generated MO from PM Schedule, the Details tab holds the primary information about the MO's conditions.
 
-![Screenshot](./media/preventive-maintenance-schedule.png)
+![Generated Maintenance Order](./media/preventive-maintenance-schedule.png)

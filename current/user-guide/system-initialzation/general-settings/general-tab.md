@@ -64,7 +64,7 @@ sidebar_position: 2
 <details>
     <summary>Click here to find out more</summary>
     <div>
-        ![Screenshot](./media/general-tab/scheduling-board-auto-create.webp)
+        ![General Tab](./media/general-tab/scheduling-board-auto-create.webp)
     </div>
 </details>
 

@@ -63,7 +63,7 @@ You can also reach the for from the Order Recommendation form:
 
 ## Scheduling Board / Semi-finished Product Scheduling
 
-![Screenshot](./media/scheduling-board/scheduling-main-form.png)
+![Scheduling Board](./media/scheduling-board/scheduling-main-form.png)
 
 Semi-finished product scheduling is a tool for production planning, considering a product structure.
 
