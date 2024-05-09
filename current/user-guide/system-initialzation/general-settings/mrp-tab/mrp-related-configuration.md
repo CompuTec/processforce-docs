@@ -57,7 +57,7 @@ The following form will be displayed:
 
 In this form you can assign predefined Production Order document series to specific Manufacturing Order document series.
 
-Click [here](../document-numbering) to check how to create a document series.
+Click [here](../../document-numbering.md) to check how to create a document series.
 
 ## Transactions
 
@@ -97,7 +97,7 @@ You can mark a warehouse as default by clicking the first column of its row and 
 
 Item set up as a Default Final Component is excluded from MRP runs.
 
-This option is available from [General Settings > ProcessForce tab > MRP tab](./mrp-tab):
+This option is available from [General Settings > ProcessForce tab > MRP tab](./mrp-tab.md):
 
 ![Default Final Component](./media/mrp-related-configuration/default-final-component.webp)
 

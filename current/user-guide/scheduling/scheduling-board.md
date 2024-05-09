@@ -165,8 +165,8 @@ Filtering options:
 
 Create a Sales Order and determine its Delivery date (in its header).
 
-:::path
-Sales A/R > Sales Order
+:::info Path
+    Sales A/R > Sales Order
 :::
 
 ![Scheduling Board](./media/scheduling-board/sales-order-delivery-date.png)

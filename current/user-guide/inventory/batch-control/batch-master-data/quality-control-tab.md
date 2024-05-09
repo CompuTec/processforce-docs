@@ -10,13 +10,13 @@ Within the Additional Details Form, a tab has been added called Quality Control,
 
 ## Status
 
-The Status field in the header of the form is the SAP Business One Status field, and the default status, based on the [configuration settings](../configuration-batch-and-quality-control-status.md).
+The Status field in the header of the form is the SAP Business One Status field, and the default status, based on the [configuration settings](../batch-control-settings/configuration-batch-and-quality-control-status.md).
 
 ![Status](./media/quality-control-tab/status.webp)
 
 ## QC Status
 
-The QC Status field in the Quality Control tab displays the quality status of the batch, and the default status, based on the [configuration settings](../configuration-batch-and-quality-control-status.md).
+The QC Status field in the Quality Control tab displays the quality status of the batch, and the default status, based on the [configuration settings](../batch-control-settings/configuration-batch-and-quality-control-status.md).
 
 ![QC Status](./media/quality-control-tab/qc-status.webp)
 

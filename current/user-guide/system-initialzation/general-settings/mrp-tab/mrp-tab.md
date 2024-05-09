@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ![General MRP Settings](./media/mrp-tab/general-settings-mrp.webp)
 
-**Default Component** – click [here](/docs/processforce/user-guide/system-initialzation/general-settings/mrp-related-configuration#default-component) to find out more
+**Default Component** – click [here](./mrp-related-configuration.md#default-component) to find out more
 
 **Default Final Component** – default Final Component is a dummy Item used in the synchronization mechanism (between ProcessForce Manufacturing Order and SAP Business OneProduction Order). This dummy Item is used in SAP Production Order (header) when synchronization of Manufacturing Order's Final Good is zero: (Planned - Actual)>=0. Specifying this Item in General Settings allows the synchronization to work properly. Item set up as a Default Final Component is excluded from MRP runs.
 

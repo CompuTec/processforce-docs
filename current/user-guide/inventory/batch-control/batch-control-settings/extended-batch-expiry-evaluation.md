@@ -32,7 +32,7 @@ Expiry Evaluation Type, like other Batch settings, can cover three different lev
 - specific Item Group Batches,
 - specific Item Batches.
 
-Click [here](/docs/processforce/user-guide/inventory/batch-control/batch-control-general-settings/) to check how to assign the Expiry Evaluation method to the specific level.
+Click [here](./batch-control-general-settings.md) to check how to assign the Expiry Evaluation method to the specific level.
 
 ## Creation of Expiry Evaluation Template
 
