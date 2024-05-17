@@ -8,7 +8,7 @@ On this page, all PowerShell Resource data import-related issues will be describ
 
 ---
 
-## How to diagnose resources incorrect data import case that generates Form - Bad Value error
+**How to troubleshoot a case of incorrect data import for resources that triggers a "Form - Bad Value" error**
 
 No error message on PowerShell scripts upload does not guarantee that the data values are correctly imported, as we do not have validation in API for every case.
 
@@ -16,19 +16,19 @@ The following description shows an example reproduction of an incorrect data upl
 
 Please follow the instructions on the following screenshots:
 
-### Step 1
+- **Step 1**:
 
 ![Incorrect Data](./media/ps-resource-issues/ps-resource-incorrect-data-1.webp)
 
-### Step 2
+- **Step 2**:
 
 ![Incorrect Data](./media/ps-resource-issues/ps-resource-incorrect-data-2.webp)
 
-### Step 3
+- **Step 3**:
 
 ![Incorrect Data](./media/ps-resource-issues/ps-resource-incorrect-data-3.webp)
 
-### Step 4
+- **Step 4**:
 
 ![Incorrect Data](./media/ps-resource-issues/ps-resource-incorrect-data-4.webp)
 

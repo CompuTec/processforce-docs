@@ -1,4 +1,4 @@
-# Transaction Notification Example
+# Transaction Notification Examples
 
 Here you can find an example usage of Transaction Notification.
 
@@ -6,7 +6,7 @@ Here you can find an example usage of Transaction Notification.
 
 ## Manufacturing Order
 
-### Scenario 01 - Manufacturing Order's Status blocking
+### Scenario 01 - Manufacturing Order's Status Blocking
 
 It is required to block the Manufacturing Order status change to Scheduled or Not Scheduled when the current Manufacturing Order status is in the Released status.
 

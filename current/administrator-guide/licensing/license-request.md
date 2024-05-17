@@ -2,11 +2,13 @@
 sidebar_position: 3
 ---
 
-# Request for a license
+# Request for a License
 
-To obtain a license file, please create a support ticket at [the CompuTec support portal](https://support.computec.pl) (Type: Information, Component: License request) and provide the following information:
+To obtain a license file, please create a support ticket at the [CompuTec Support Portal](https://support.computec.pl) (Type: Information, Component: License request) and provide the following information:
 
-## License type
+---
+
+## License Type
 
 The destined environment:
 
@@ -22,19 +24,19 @@ and the license purpose:
     We generate demo/test licenses for 1 Professional user by default.
 :::
 
-## System information
+## System Information
 
 The information needed for generating the license placed on:
 
 - About CompuTec ProcessForce form
 
-    :::info
+    :::info **Location**
         The SAP Business One application (with CompuTec ProcessForce installed) → upper menu → Help → About CompuTec ProcessForce.
     :::
 
-  - **SAP Business One major version** (9.3, 10.0, etc.)
+  - **SAP Business One Major version** (9.3, 10.0, etc.)
 
-        :::note
+        :::caution
             Please note that each ProcessForce license is issued for a specific major SAP Business One version. Therefore, requesting a new file on the planned upgrade between these versions is required.
         :::
 
@@ -42,7 +44,7 @@ The information needed for generating the license placed on:
 
   - **CompuTec Key** (40 signs)
 
-        :::note
+        :::caution
             Please copy CompuTec Key using the Copy function available in a field context menu and paste it into the support issue.
 
             Alternatively please use the buttons on the lower right corner of the form: Copy to Clipboard / Copy to File.
@@ -50,16 +52,16 @@ The information needed for generating the license placed on:
 
     ![About ProcessForce](./media/license-request/about-processforce.webp)
 
-- License Administration form
+- **License Administration Form**
 
     :::info Location
         SAP Business One application → upper menu → Modules → Administration → License → License Administration (Components tab)
     :::
 
-  - SAP Business One license localization
+  - **SAP Business One License Localization**
 
         ![Localization](./media/license-request/localization.webp)
 
         :::info
-            Click [here](../licensing/license-import-assignment.md) to check how to load a license file after getting it from the CompuTec support.
+            Click [**here**](../licensing/license-import-assignment.md) to check how to load a license file after getting it from the CompuTec support.
         :::

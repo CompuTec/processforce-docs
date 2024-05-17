@@ -4,14 +4,14 @@ sidebar_position: 8
 
 # Print Layouts
 
-On this page, you can find corrected ProcessForce print layout files.
+In this page, you can find corrected ProcessForce print layout files.
 
 ---
 
 Apart from bug fixes and visual adjustment of the files, versions destined for SAP Business One HANA have been added too.
 
 :::info
-    Subsequent print layout files and updates of the current ones will be posted on this page until they are incorporated into the ProcessForce installer.
+    Subsequent print layout files and updates of the current ones will be posted in this page until they are incorporated into the ProcessForce installer.
 :::
 
 :::info
@@ -26,50 +26,10 @@ All reports are in the English version.
 
 ## Routing
 
-- Name: **Routing**
-- Type: Print Layout
-- File Version: 2.43
-- Content:
-  - Routing:
-    - header details
-    - Operation details
-    - Operation Properties (table)
-    - Operation Resource details
-    - Operation Resource times (table)
-    - Operation Resource Properties (table)
-- Example: Preview <!-- TODO: Add Link -->
-- Remarks:
-  - Values:
-    - Value, To Value (Operations Properties table),
-    - Queue Time, Setup Time, Run Time, and Stock Time (Resource Times table)
-  - must have a limited length for displaying them correctly on the report.
-- Version for Microsoft SQL Server: Download <!-- TODO: Add Link -->
-- Version for SAP HANA: Download <!-- TODO: Add Link -->
-
-## Bill of Materials
-
-- Name: **Bill of Materials**
-- Type: Print Layout
-- File Version: 2.13
-- Content:
-  - Bill of Materials:
-    - header details
-    - Revision details
-    - Items (table)
-    - Coproducts (table)
-    - Scraps (table)
-    - WIP Items (table)
-    - Routing details
-    - Routing Operation details
-    - Routing Operation Properties (table)
-    - Routing Operation Resource details
-    - Routing Operation Resource times (table)
-    - Routing Operation Resource Properties (table)
-- Remarks:
-  - Displaying / not displaying inactive Routings (parameter)
-  - Displaying / not displaying not default Resources (parameter)
-- Version for Microsoft SQL Server: Download <!-- TODO: Add Link -->
-- Version for SAP HANA: Download <!-- TODO: Add Link -->
+| Name | Type | File Version | Content | Example | Remarks | Version for Microsoft SQL Server | Version for SAP HANA |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Routing | Print Layout | 2.43 | Routing <li>header details</li> <li>Operation details</li> <li>Operation Properties (table)</li> <li>Operation Resource details</li> <li>Operation Resource times (table)</li> <li>Operation Resource Properties (table)</li> | Preview | Values: <li>*Value, To Value* (Operations Properties table)</li>, <li>*Queue Time, Setup Time, Run Time, and Stock* Time (Resource Times table)</li> <br/>must have a limited length for displaying them correctly on the report. | Download | Download |
+| Bill of Materials | Print Layout | 2.13 | Bill of Materials: <li>header details</li> <li>Revision details</li> <li>Items (table)</li> <li>Coproducts (table)</li> <li>Scraps (table)</li> <li>WIP Items (table)</li> <li>Routing details</li> <li>Routing Operation details</li> <li>Routing Operation Properties (table)</li> <li>Routing Operation Resource details</li> <li>Routing Operation Resource times (table)</li> <li>Routing Operation Resource Properties (table)</li> | - | <li>Displaying / not displaying inactive Routings (parameter) </li> <li>Displaying / not displaying not default Resources (parameter)</li> | Download | Download|
 
 :::warning Reports in version for SAP HANA
     To run a report in SAP Business One, a version for SAP HANA, there is a need to execute the attached SQL procedure/s on the applicable database.

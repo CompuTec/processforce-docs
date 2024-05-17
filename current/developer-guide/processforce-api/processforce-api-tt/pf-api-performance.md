@@ -1,25 +1,25 @@
 # ProcessForce API Performance Tips & Tricks
 
-Since objects like Manufacturing Orders or Bill of Materials can be massive, keeping smooth performance when operating on them can be challenging. Here you can find several recommendations regarding improving performance when working with ProcessForce API.
+Since objects like Manufacturing Orders or Bill of Materials can be massive, keeping smooth performance when operating on them can be challenging. Here, you'll find several recommendations for enhancing performance when utilizing the ProcessForce API.
 
 ## Class QueryManager
 
-Try to use our class QueryManager instead of the one provided by SAP. If there is no transaction in the proceeding, then using our QueryManager should be faster to get information from a database. If there is a transaction in the background at the moment of calling the QueryManager function, then it will call the SAP version of QueryManager, which would very often speed up the process a bit, and you do not risk anything.
+Consider utilizing our QueryManager class instead of the one offered by SAP. When there's no ongoing transaction, employing our QueryManager should yield faster retrieval of information from the database. In cases where a transaction is active during the QueryManager function call, it will automatically revert to the SAP version, often expediting the process without any associated risks.
 
-## Manufacturing Order and Bill of Materials synchronization
+## Manufacturing Order and Bill of Materials Synchronization
 
 A synchronization mechanism is implemented for objects like Manufacturing Order or Bill Of Materials. When you create or update our Manufacturing Order object, the Production Order object (SAP) is created with the same data. In the same way, when you add or update our Bill of Materials object, the SAP Business One version of this object is created. This synchronization plays a vital role in the proceeding of our objects, so you might consider turning this option off. You can find the settings responsible for that in General Settings.
 
 But first, please try to determine if the mechanism is needed in business logic in your case.
 
-## Direct data access
+## Direct Data Access
 
-For now, it works only for reading data from the database. You must configure your license server properly to use direct data access. A detailed description of how to use it is available here. This should boost performance. If you cannot see the mentioned website, contact your CompuTec solutions provider.
+For now, direct data access works only for reading data from the database. You must configure your license server properly to use direct data access. Refer to the detailed instructions available here for guidance on its usage. Implementing this should boost performance. If you cannot access the mentioned website, please reach out to your CompuTec solutions provider for assistance.
 
-## Bulk functionality
+## Bulk Functionality
 
-If you are reading many objects in a scenario, then you should consider using the Bulk functionality. This speeds up things in the case of using many objects (like tens or hundreds). But noticeable performance benefits can be observed even for 3 objects.
-An example of how to use the Bulk functionality is below. It is required to set up a direct data access connection for this.
+If you are reading many objects in a scenario, then you should consider using the Bulk functionality. This speeds up things in the case of using many objects (like tens or hundreds). But noticeable performance benefits can be observed even for three objects.
+An example of how to use the Bulk functionality is below. Please note that setting up a direct data access connection is necessary for this.
 
 The following example creates a list of ManufacturingOrderItems objects that have a BillOfMaterial object from the IManufacturingOrder collection and then takes the whole list of such BOM objects at once.
 
@@ -79,4 +79,4 @@ for (int i = 0; i < howManyRows; i++)
 
 As you can see above, there is no need to set U_itemCode or U_Revision field. Because setting U_ItemCode is slow, we want to avoid it by setting up BOMCode and ReferenceDictionary.
 
-Be aware that this issue is not as stable as the standard way, so it is a good idea to surround this code with the try catch and also check if there is such a BOMCode in the builded list. If there is not, then set U_ItemCode. If there is, then set BomCode.
+Please note that this issue is not as stable as the standard way. It's advisable to wrap this code in a try-catch block and also verify if there's a BOMCode in the generated list. If BOMCode is absent, then set U_ItemCode. If BOMCode is present, then set BOMCode.

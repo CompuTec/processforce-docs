@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Tutorial: Manufacturing Order Status Update
 
-Here you can find a complete description of the Manufacturing Order status update script.
+Here you can find a complete description of the Manufacturing Order Status Update script.
 
 ---
 
@@ -139,7 +139,7 @@ Starting a try block:
 try {
 ```
 
-This is an SQL query command that is executed to get information from a database. Here you can specify any query you like. Please make sure that this query  returns the following columns "DocEntry", "DocNum", "StatusCode" as these are expected by the script:
+This is an SQL query command that is executed to get information from a database. Here you can specify any query you like. Please make sure that this query returns the following columns "DocEntry", "DocNum", "StatusCode" as these are expected by the script:
 
 ```powershell
 $SQLQuery = "SELECT ""DocEntry"", ""DocNum"", 'CL' AS ""StatusCode"" FROM ""@CT_PF_OMOR"" WHERE ""U_RequiredDate"" < '2018-07-01' AND ""U_Status"" = 'FI' ";

@@ -147,4 +147,6 @@ Click here <!-- TODO: Add Link --> to find out more.
 
 ## Automatically Calculate Ratio on Operations
 
-Click here <!-- TODO: Add Link --> to find out more.
+You have the option to enable the "Automatically Calculate Ratio on Operations" feature in the General Settings, under the ProcessForce, Bill of Materials, and Manufacturing Orders tab. When activated, this feature automatically computes the Ratio (and Quantity). For instance, if you add an Item to two Operations, the ratio will be set to 0.5, and the Binding Quantity will be calculated based on the balance and the corresponding Bill of Materials quantity.
+
+For more details, click [here](../../formulations-and-bill-of-materials/production-process/overview.md#operation-bind-ratio)

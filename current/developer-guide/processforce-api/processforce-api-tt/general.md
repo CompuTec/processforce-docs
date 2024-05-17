@@ -128,12 +128,12 @@
 11. User-defined fields on an issue and receipt from productions.
 
     If you want to add extra information on Goods Receipt or Goods Issues from production lines, you can achieve it by adding User Defined Fields.
-    Add UDF on PickOrderRequiredItems or PickReceiptRequiredItems table with the same code, name, and type as on SAP document lines. Then all information will be automatically copied to the production Inventory transaction.
+    Add User Defined Field on PickOrderRequiredItems or PickReceiptRequiredItems table with the same code, name, and type as on SAP document lines. Then all information will be automatically copied to the production Inventory transaction.
 
 12. Own FIFO LIFO or another type of selecting batches or serials in production transactions (Item backflush).
 
-    To achieve another type of material selection in back-flush Items, you have to manually edit SQL functions CT_PF_GetFreeSerials and|or CT_PF_GetFreeBatches. You have to amend Order By in this SQL code.
+    To achieve another type of material selection in back-flush Items, you have to manually edit SQL functions CT_PF_GetFreeSerials and/or CT_PF_GetFreeBatches. You have to amend Order By in this SQL code.
 
-    :::note
+    :::caution
         Remember that you have to edit this function after each ProcessForce upgrade, as our installer overrides these functions automatically.
     :::

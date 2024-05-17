@@ -4,11 +4,11 @@ sidebar_position: 6
 
 # Implementation Notes
 
-On this page, information vital for the implementation process will be published.
+In this page, information vital for the implementation process will be published.
 
 ---
 
-## Adding User Define Field to ProcessForce object
+## Adding User Define Field to ProcessForce Object
 
 If a partner decides to add a User Defined Field during an implementation phase to any of ProcessForce objects, a prefix should be added to the field name, e.g., a shortcut from the partner's company name.
 

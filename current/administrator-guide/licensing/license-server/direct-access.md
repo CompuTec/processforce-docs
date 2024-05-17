@@ -2,17 +2,19 @@
 sidebar_position: 3
 ---
 
-# Using CompuTec Service Manager and configuring Direct Data Access mode
+# Configure CompuTec Service Manager
 
 This document provides a step-by-step guide on how to use and configure CompuTec Service Manager.
 
 :::info
-    CompuTec Service Manager is a part of CompuTec License Server, which installation guide you can find on [the CompuTec License Server Installation page](./license-server-installation.md).
+    CompuTec Service Manager is a part of CompuTec License Server, and you can locate its installation guide at [the CompuTec License Server Installation page](./license-server-installation.md).
 :::
+
+---
 
 ## Starting CompuTec Service Manager
 
-After the CompuTec License Server installation in the system, the CompuTec Service Manager shortcut is available on the Windows program list.
+After the CompuTec License Server installation in the system, you'll find the CompuTec Service Manager shortcut in the Windows program list.
 
 After clicking it, the CT icon appears in the Windows notification area:
 
@@ -26,7 +28,7 @@ Configuring the settings of a selected service is possible after clicking the Se
 
 Terminal Licensing is a section for managing the license of CompuTec PDC / CompuTec WMS products.
 
-## CompuTec License Server settings
+## CompuTec License Server Settings
 
 You can change Server Name and Port Number in the Server Settings tab. You do not have to change the default values:
 
@@ -34,7 +36,7 @@ You can change Server Name and Port Number in the Server Settings tab. You do no
 
 You can also specify a logging level and see a disk location where logs are kept.
 
-## Configuring CompuTec License Server database connection – enabling Direct Data Access mode
+## Configuring CompuTec License Server Database Connection
 
 1. In the COMPUTEC LICENSE SERVER SETTINGS window, switch to the Database Connection tab:
 
@@ -80,7 +82,7 @@ You can also specify a logging level and see a disk location where logs are kept
   
     ![License Server](./media/direct-access/license-server-settings_2_db-connection_3.webp)
 
-4. Specify a database user name the password, and click Save:
+4. Specify a database user name and password, and click Save:
 
     ![License Server](./media/direct-access/license-server-settings_2_db-connection_4.webp)
 
@@ -106,12 +108,16 @@ You can also specify a logging level and see a disk location where logs are kept
         ![Refresh](./media/direct-access/license-server-settings_2_db-connection_7.webp)
     :::
 
-7. On a highlight of the added database server position, you will not see inserted database user name and actual password length anymore due to a created mask:
+7. Upon highlighting the added database server position, you will no longer see the inserted database username and the actual password length, as they are now masked.
 
     ![Mask](./media/direct-access/license-server-settings_2_db-connection_8.webp)
 
     :::info
         It is possible to set up more than one database server:
-
+        <details>
+        <summary>Click here to expand</summary>
+        <div>
         ![Multiple databases](./media/direct-access/license-server-settings_2_db-connection_9.webp)
+        </div>
+        </details>
     :::

@@ -2,13 +2,13 @@
 sidebar_position: 4
 ---
 
-# Example 3 Working with technology
+# Example 3 Working with Technology
 
 How to add a hierarchical object such as Operation Routing or Bill Of Material using ProcessForce API
 
 ---
 
-## Short information about Hierarchical data in PF Technology
+**Short Information about Hierarchical Data in ProcessForce Technology**
 
 When adding Operations to a Resource, you have to:
 
@@ -28,7 +28,7 @@ When adding Operations to a Resource, you have to:
     rtg.Operations.U_OprCode = "Planing";
     ```
 
-3. when you want to add something on a second or more level (for example, Routing-Operation-Resources), you have to set the parent information first:
+3. when you want to add something at a second or more level (for example, Routing-Operation-Resources), you must first set the parent information:
 
     ```csharp
     rtg.OperationResources.U_RtgOprCode = 1;
@@ -40,9 +40,9 @@ When adding Operations to a Resource, you have to:
     rtg.OperationResources.U_RscCode = "plane01";
     ```
 
-4. When you want to replace any Resources, you can simply change only its U_RscCode, and API will remove all previous data and fill it with a new one.
+4. When you want to replace any Resources, you only need to change its U_RscCode. The API will then remove all previous data and update it with the new information.
 
-    - Creating new Routing
+    - **Creating New Routing**
 
         - Create a routing object using the CreatePFObject method
         - Set Mandatory header Information
@@ -75,7 +75,7 @@ When adding Operations to a Resource, you have to:
             rtg.Add();
             ```
 
-    - Updating BillOfMaterial setting previously creating Routing
+    - **Updating BillOfMaterial setting**
 
         - Create BillOfMaterialObject
         - Load data from the database using the GetByItemCodeAndRevision method

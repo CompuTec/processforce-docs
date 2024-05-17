@@ -19,16 +19,29 @@ This document provides a step-by-step guide on how to install and configure Comp
 :::
 
 :::caution
-    CompuTec License Server can be installed in a Windows environment only.
+    CompuTec License Server can be installed in a **Windows environment** only.
 :::
 
-1. Download CompuTec License Server from here<!-- TODO: Add link -->.
+1. Download CompuTec License Server from [here](../../../releases/download.md)
 
 2. Extract the ZIP file.
 
-3. Run the `CompuTec.LicenseServer.Setup.msi` file.
+3. Run the `CompuTec.LicenseServer.Setup.msi` file and click the Next button:
 
-4. Click the Next button and go through the installation process.
+    ![CompuTec License Server Setup](./media/license-server-installation/CTLicenseServerInstallerA.png)
+
+4. Specify the installation folder (leaving a default folder path is recommended) and click Next:
+
+    ![CompuTec License Server Setup](./media/license-server-installation/CTLicenseServerInstallerB.png)
+
+5. Confirm installation – click the Install button:
+
+    ![CompuTec License Server Setup](./media/license-server-installation/CTLicenseServerInstallerC.png)
+    ![CompuTec License Server Setup](./media/license-server-installation/CTLicenseServerInstallerC.png)
+
+6. And if the installation is completed without any errors, click the Finish button:
+
+    ![CompuTec License Server Setup](./media/license-server-installation/CTLicenseServerInstallerD.png)
 
 ## Setting Windows Firewall rule
 
@@ -64,6 +77,6 @@ This document provides a step-by-step guide on how to install and configure Comp
 
     ![Rule name](./media/license-server-installation/rule-name.webp)
 
-## Using CompuTec Service Manager and configuring Direct Data Access mode
+## Using CompuTec Service Manager and Configuring Direct Data Access mode
 
 You can find the guide [here](./direct-access.md).

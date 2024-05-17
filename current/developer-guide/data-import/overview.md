@@ -5,22 +5,22 @@ sidebar_position: 1
 # Overview
 
 :::caution
-    On the 4th of March 2022, PFI (ProcessForce Import) plugin for AppEngine was released. PFI allows importing/updating data to ProcessForce objects. The idea behind this plugin is to be a simplified, swifter, and more adjustable alternative for PowerShell updates.
+    On the 4th of March 2022, PFI (ProcessForce Import) plugin for AppEngine was released. PFI facilitates the import and updating of data to ProcessForce objects, providing a streamlined, faster, and more flexible alternative to PowerShell updates.
 :::
 
-This section provides information on executing PowerShell scripts to import or update data in databases. On related pages, you can find all the necessary information on PowerShell configuration, predefined scripts, and how to modify them.
+This section provides information on running PowerShell scripts for importing or updating data in databases. On related pages, you can find all the necessary information on PowerShell configuration, predefined scripts, and how to modify them.
 
 :::danger Please Note
-    If you take our scripts and modify them, which then causes an issue of any sort which requires our team to spend time reviewing your scripts etc., we will charge you for the time spent in fixing these issues on a time and material basis at an hourly rate of 150 EUR/USD, plus expenses if applicable. Before any work is started, an email confirmation is required between both parties that these charges will be applied and accepted.
+   Should you modify our scripts and encounter any resulting issues necessitating our team's review and resolution, we will apply charges for the time spent at an hourly rate of 150 EUR/USD, plus applicable expenses. Prior to commencing any work, mutual confirmation via email is required to acknowledge and accept these charges.
 :::
 
 :::info
-    Please note that 22.10.2018 updated and standardized scripts have been released. Also, with this update, connection parameters have been moved to a separate file: configuration.xml (which can be found in a zip file of a specific script).
+    Please note that updated and standardized scripts were released on October 22, 2018. Additionally, as part of this update, connection parameters have been relocated to a separate file named "configuration.xml (which can be found in a zip file of a specific script).
 :::
 
-## Required files
+## Required Files
 
-You can use predefined PowerShell scripts. The latest versions are available from [our public git repository](https://github.com/CompuTec/processforce-powershell).
+You can use predefined PowerShell scripts. The latest versions are available from our [public git repository](https://github.com/CompuTec/processforce-powershell).
 
 Download:
 
@@ -32,15 +32,15 @@ In the following example, Ingredient Master Data scripts are used. Go to the dow
 
 Each folder contains three types of files:
 
-- configuration file – a file that holds information on a database access
+- **Configuration file** – a file that holds information on a database access
 
-- PowerShell script – for executing import or update of the data
+- **PowerShell script** – for executing import or update of the data
 
-- comma-separated values (CSV) files – files to be filled in with data to be imported or updated
+- **Comma-Separated Values (CSV) files** – files to be filled in with data to be imported or updated
 
 ## Procedure
 
-### Configuration file
+### Configuration File
 
 Open the file in the edition mode using any app suitable for editing XML files:
 
@@ -76,7 +76,7 @@ Edit the parameters in the connection element based on the comment in the file a
 
 The filled-in file can now be used with any of the predefined PowerShell scripts to update/import data to the database defined in the file – copy it to any of the scrip folders and replace the configuration file that is already there.
 
-### CSV files
+### CSV Files
 
 Set required values in the CSV files (in this example Ingredient Classification Certificates) using a suitable application (e.g., Microsoft Excel). In this example, the second and the third lines are filled with data (the first line holds the fields' names. This line is provided in the CSV file.
 
@@ -95,7 +95,7 @@ After saving changes, open it in a text editor (e.g., Notepad) and check if valu
 
 ```
 
-### Executing script
+### Executing Script
 
 Open the required script in a suitable application ( PowerShell ISE in this example). Remember to keep all the files related to one kind of data (configuration file, CSV files, script) in one folder (like in the screenshot in the required files section).
 

@@ -2,7 +2,11 @@
 sidebar_position: 4
 ---
 
-# License import and assignment
+# License Import and Assignment
+
+:::info
+    Performing the following steps are required when you install ProcessForce for the first time on a server and may be skipped in case of making the add-on upgrade only.
+:::
 
 :::info
     Assigning the ProcessForce license works similarly to the SAP Business One license assignment.
@@ -15,7 +19,7 @@ sidebar_position: 4
 2. Ask your ProcessForce provider for a license file.
 
     :::info
-        All information required for generating a license key is described on [the Request for a license page](./license-request.md).
+        All information required for generating a license key is described on the [Request for a license](./license-request.md) page.
     :::
 
 3. Open the ProcessForce License Administration form:

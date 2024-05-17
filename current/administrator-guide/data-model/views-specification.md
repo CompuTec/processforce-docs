@@ -8,7 +8,9 @@ The model contains 17 calculation views, 8 of which are views that can be a dire
 
 A specific view can be also used in a standard SQL query.
 
-## The views list
+---
+
+## The Views List
 
 |Name|Description|Type|Data category|
 |:----|:----|:----|:----|
@@ -53,7 +55,7 @@ A specific view can be also used in a standard SQL query.
 |Resource|Resource dictionary|Reuse Views|dimension|
 |Warehouse|Warehouse dictionary|Reuse Views|dimension|
 
-## Measures and dimensions for Query views
+## Measures and Dimensions for Query Views
 
 ### ActualMaterialCostOnMorQuery
 

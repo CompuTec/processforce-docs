@@ -2,18 +2,18 @@
 sidebar_position: 6
 ---
 
-# Example 5 Creating actions
+# Example 5 Creating Actions
 
-How to work with Actions using ProcessForce API.
+## How to work with Actions using ProcessForce API
 
 An action is an object which gives you the possibility to:
 
-- create Pick Orders for one or more Manufacturing Orders
+- Create Pick Orders for one or more Manufacturing Orders
 - Create Pick Receipts for one or more Manufacturing Orders
 - Create Production Receipts/Issues on assigned Pick Order
 - Create Correction of Production Issues/Receipts.
 
-1. Create Pick Receipt for Manufacturing Order:
+1. **Create Pick Receipt for Manufacturing Order**:
 
     ```csharp
     ICreatePickReceiptForProductionReceipt prAction = company.CreatePFAction(CompuTec.ProcessForce.API.Core.ActionType.CreatePickReceiptForProductionReceipt);
@@ -29,7 +29,7 @@ An action is an object which gives you the possibility to:
     }
     ```
 
-2. Create Pick Order for Manufacturing Order:
+2. **Create Pick Order for Manufacturing Order**:
 
     ```csharp
     ICreatePickOrderForProductionIssue poAction = company.CreatePFAction(CompuTec.ProcessForce.API.Core.ActionType.CreatePickOrderForProductionIssue);
@@ -43,7 +43,7 @@ An action is an object which gives you the possibility to:
     }
     ```
 
-3. Create Production Goods Issue:
+3. **Create Production Goods Issue**:
 
     ```csharp
     ICreateGoodsIssueFromPickOrderBasedOnProductionIssue prodissue = company.CreatePFAction(CompuTec.ProcessForce.API.Core.ActionType.CreateGoodsIssueFromPickOrderBasedOnProductionIssue);
@@ -54,7 +54,7 @@ An action is an object which gives you the possibility to:
     prodissue.DoAction(out goodsIssueDocEntry);
     ```
 
-4. Create Production Goods Receipt:
+4. **Create Production Goods Receipt**:
 
     ```csharp
     ICreateGoodsReceiptFromPickReceiptBasedOnProductionReceipt prodeceipt = company.CreatePFAction(CompuTec.ProcessForce.API.Core.ActionType.CreateGoodsReceiptFromPickReceiptBasedOnProductionReceipt);

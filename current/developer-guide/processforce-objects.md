@@ -4,11 +4,11 @@ sidebar_position: 4
 
 # ProcessForce objects (User-Defined Objects)
 
-Here you can find SQL queries that return information on all of the objects (tables, fields) of the ProcessForce solution.
+Here, you will find SQL queries that retrieve information on all objects (tables and fields) within the ProcessForce solution.
 
 ---
 
-To display all header fields of Master Data / Document of ProcessForce, use the following SQL query:
+To display all header fields of Master Data / Document in ProcessForce, use the following SQL query:
 
 ```sql
 -- Object title (header) fields
@@ -22,7 +22,7 @@ WHERE UTB."TableName" LIKE 'CT_PF_%'
 ORDER BY U."Code", F."FieldID";
 ```
 
-To display all fields of matrix rows of ProcessForce, use the following SQL query:
+To display all fields of matrix rows in ProcessForce, use the following SQL query:
 
 ```sql
 -- Object row fields

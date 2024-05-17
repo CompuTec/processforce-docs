@@ -8,11 +8,11 @@ A possibility to add User-Defined Fields (UDFs) is an SAP Business One option th
 
 Supplementary fields are often added to master data and documents to meet specific customers’ business process requirements.
 
-In this section working on UDFs with ProcessForce is described. Please check the respective SAP Business One documentation [the respective SAP Business One documentation entry](https://help.sap.com/viewer/68a2e87fb29941b5bf959a184d9c6727/10.0/en-US/4510ff7bcf465d7be10000000a11466f.html), to find out more about the SAP Business One UDF option.
+In this section working on UDFs with ProcessForce is described. Please check the respective SAP Business One documentation the respective [SAP Business One documentation entry](https://help.sap.com/viewer/68a2e87fb29941b5bf959a184d9c6727/10.0/en-US/4510ff7bcf465d7be10000000a11466f.html), to find out more about the SAP Business One UDF option.
 
 ---
 
-## Adding UDFs
+## Adding User Defined Fields
 
 :::danger
     It is impossible to add UDFs to the Costed Bill of Materials form.
@@ -23,16 +23,17 @@ In this section working on UDFs with ProcessForce is described. Please check the
 :::
 
 :::caution
-    Only users with the following SAP Business One authorization assigned can add UDFs: `Customization Tools → User-Defined Fields - Management`.
+    Only users with the following SAP Business One authorization assigned can add UDFs: *Customization Tools → User-Defined Fields - Management*.
 
-    You can reach this option in the Authorizations form: `Administration → System Initialization → Authorizations → General Authorizations`.
+    You can reach this option in the Authorizations form:
+    *Administration → System Initialization → Authorizations → General Authorizations*.
 :::
 
 :::info
     In the examples used in this section, adding UDF to the Bill of Materials is used.
 :::
 
-- To add a UDF, go to the upper menu `Tools → Customization Tools → User-Defined Fields - Management`. You can reach ProcessForce tables in User Tables:
+- To add a UDF, go to the upper menu *Tools → Customization Tools → User-Defined Fields - Management*. You can reach ProcessForce tables in User Tables:
 
     ![User Tables](./media/udfs/udf-tables.webp)
 
@@ -65,21 +66,21 @@ In this section working on UDFs with ProcessForce is described. Please check the
 
 - Restart SAP Business One client.
 
-### Header UDFs
+### Header User Defined Fields
 
-UDFs added to a header are not displayed on it. You can check it on a side panel (you can reach it by using the View → User-Defined Fields menu or pressing Ctrl+Shift+U):
+UDFs added to a header are not displayed on it. You can check it on a side panel (you can reach it by using the *View → User-Defined Fields* menu or pressing Ctrl+Shift+U):
 
 ![Header UDFs](./media/udfs/udfs-header.webp)
 
-### Row UDFs
+### Row User Defined Fields
 
-UDFs added to a row are displayed as another column in the row table:
+User Defined Fields added to a row are displayed as another column in the row table:
 
 ![Row UDF](./media/udfs/udf-row-test.webp)
 
-### _Flat_ forms
+### Flat Forms
 
-Some forms do not have tables (rows), e.g., Downtime Reason. In this case, you can add UDF only in the same manner as header UDFs: it will not be available on a form. It will be available on a side panel:
+Some forms do not have tables (rows), e.g., Downtime Reason. In this case, you can add UDF only in the same manner as [header UDFs](#header-user-defined-fields): it will not be available on a form. It will be available on a side panel:
 
 ![Downtime Reson UDFs](./media/udfs/udfs-downtime-reason.webp)
 
@@ -91,10 +92,10 @@ Note that only row UDFs are available in Form Settings.
 
 ![Form Settings](./media/udfs/udfs-form-settings.webp)
 
-## ProcessForce UDFs on SAP Business One forms: recommended Form Settings
+## Recommended Form Settings
 
 Installing ProcessForce causes adding ProcessForce UDFs to some of the SAP Business One forms, e.g., Revision on Sales Order:
 
 ![Sales Order UDF](./media/udfs/udfs-sales-order.webp)
 
-Keeping ProcessForce UDFs placed on SAP B1 forms visible in Form Settings is recommended. Turning off the option leads to a blockage of the fields update during transactions and may lead to data inconsistency.
+Keeping ProcessForce UDFs placed on SAP Business One Forms visible in Form Settings is recommended. Turning off the option leads to a blockage of the fields update during transactions and may lead to data inconsistency.

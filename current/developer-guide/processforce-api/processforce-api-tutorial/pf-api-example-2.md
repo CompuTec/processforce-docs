@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Example 2: Creating simple objects
+# Example 2: Creating Simple Objects
 
 How to add a simple object using the ProcessForce API
 

@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # SAP functions not supported by ProcessForce
 
-On this page, you can find SAP functions not supported by ProcessForce, e.g. because of a similar function present in the ProcessForce system.
+In this page, you can find SAP functions not supported by ProcessForce, e.g. because of a similar function present in the ProcessForce system.
 
 ---
 

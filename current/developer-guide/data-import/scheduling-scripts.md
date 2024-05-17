@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Scheduling PowerShell scripts
+# Scheduling PowerShell Scripts
 
 You can use Windows Task Scheduler to run your script automatically.
 

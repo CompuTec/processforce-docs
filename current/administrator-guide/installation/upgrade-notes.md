@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+toc_max_heading_level: 2
 ---
 
 # Upgrade Notes
@@ -45,7 +46,7 @@ It has been fixed by SAP in **FP2208 HF1.**
 
 ### [Updated on 8th of May, 2023]
 
-We are pleased to announce that **<u>SAP Business One FP2208 HF01</u>** is now officially supported. We have completed testing and can confirm that CompuTec solutions can be used with this version. For more information, please read our previous communications below.
+We are pleased to announce that **<u>SAP Business One FP2208 HF01</u>** is now officially supported. We have completed testing and confirm that CompuTec solutions can be used with this version. For more information, please read our previous communications below.
 
 Thank you for your patience.
 
@@ -64,5 +65,3 @@ They are all linked to backward compatibility with previous versions of SAP Busi
 We are in contact with SAP to analyze these issues, find the root cause, and find a way to resolve them.
 
 If you have any questions regarding this topic, please don't hesitate to contact our Support Team.
-
-I appreciate your understanding.

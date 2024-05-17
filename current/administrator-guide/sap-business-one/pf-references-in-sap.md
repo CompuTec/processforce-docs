@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# ProcessForce references on SAP Business One documents
+# ProcessForce References on SAP Business One Documents
 
 ## Receipt from Production
 
@@ -226,7 +226,7 @@ sidebar_position: 3
 | Ref3         | Empty                           |                                 |
 | LineMemo     | Manufacturng Order Close- 7253. |                                 |
 
-## Receipt Correction Price Variance journal
+## Receipt Correction Price Variance Journal
 
 | HEADER -OJDT     | | |
 | :--------------: | :-: | :-: |
